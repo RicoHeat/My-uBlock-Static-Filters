@@ -1,0 +1,199 @@
+fapster.xxx##div.bottomNav:nth-child(6)
+pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
+||syndication.exoclick.com^$popup,important
+fapster.xxx##div.bottomNav:nth-child(7)
+pornhegemon.com###post-80996 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
+
+
+! 2021-10-20 https://www.tabootube.xxx
+www.tabootube.xxx##.webcam_widget
+www.tabootube.xxx##.false.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
+www.tabootube.xxx##.bottom-adv.box
+www.tabootube.xxx##.mobile-links
+www.tabootube.xxx##div.col:nth-of-type(3)
+www.tabootube.xxx##div.col:nth-of-type(4)
+www.tabootube.xxx##.true.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
+www.tabootube.xxx##.brs.second.spot-primary > [href="#"]
+www.tabootube.xxx##[src="https://www.tabootube.xxx/player/html.php?aid=start_html&video_id=1218&cs_id=3794&category_ids=&referer=https%3A%2F%2Fwww.tabootube.xxx%2Fmy%2Ffavorites%2Fvideos%2F&rnd=1634782534132"]
+www.tabootube.xxx##[src="https://www.tabootube.xxx/player/html.php?aid=pause_html&video_id=1218&cs_id=3794&category_ids=&referer=https%3A%2F%2Fwww.tabootube.xxx%2Fmy%2Ffavorites%2Fvideos%2F&rnd=1634782815512"]
+www.tabootube.xxx##.fp-ui > div:nth-of-type(3)
+www.tabootube.xxx##.fade.top.text.fp-logo
+www.tabootube.xxx##.content > .headline
+
+! 2021-07-23 https://pornwild.to
+pornwild.to##.bottomNav
+pornwild.to##.footer-margin
+
+! 2021-07-24 https://www.pornktube.vip
+@@||cdn60741912.ahacdn.me^$image,domain=pornktube.vip
+
+! 2021-07-24 https://hardcoreincest.net
+hardcoreincest.net##div.headline:nth-of-type(2)
+
+! 2021-07-24 https://passwords.google.com
+@@||passwords.google.com^$document,1p
+
+! 2021-07-24 https://android-zone.ws
+android-zone.ws##li.ipsDataItem:nth-of-type(2)
+
+! 2021-07-24 https://www.tabootube.xxx
+||a.realsrv.com/popunder1000.js$script,domain=tabootube.xxx,important
+! 2021-07-24 https://onlycestporn.com
+onlycestporn.com##.entry-header > .button
+
+! 2021-07-24 https://taboodaddy.com
+taboodaddy.com##.happy-header-mobile
+taboodaddy.com##.happy-under-player
+
+! 2021-07-25 https://www.pornhub.com
+@@||ei.phncdn.com/www-static/css/*$stylesheet,domain=pornhub.com
+@@||di.phncdn.com/www-static/css/*$stylesheet,domain=pornhub.com
+
+! 2021-07-25 https://m.hqporner.com
+@@||cdn30851191.ahacdn.me^$script,domain=hqporner.com
+@@||cdn10157286.ahacdn.me^$image,domain=hqporner.com
+m.hqporner.com##span.altPlayerButton:nth-of-type(1)
+
+! 2021-07-25 https://hqporner.com
+hqporner.com##.hide_ad_marker.button
+
+! 2021-07-27 https://pornwild.to
+@@||pornwild.to^$image,1p
+
+! 2021-08-01 https://hdsex.org
+hdsex.org##.player-section__promo
+hdsex.org##.second-navigation
+
+
+! 2021-08-04 https://en.xhdporno.porn
+en.xhdporno.porn##div#preview:nth-of-type(9) > .innercont
+
+! 2021-08-17 https://txxx.com
+txxx.com##.cookie-notify
+
+! 2021-08-18 https://taboohome.com
+taboohome.com##.col-xl-4.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
+taboohome.com##.video-sidebar.col-md-3.col-12
+
+! 2021-08-20 https://pornone.com
+pornone.com##.player-wrapper > div.row > .center-col.col-12.banner
+pornone.com##.container.main > div.video-wrapper
+pornone.com##div.loadmore.pages:nth-of-type(7)
+pornone.com##.center-col.col-10.main-menu > ul
+
+! 2021-08-24 https://taboohome.com
+taboohome.com##.video-comments
+taboohome.com##div.video-wrapper:nth-of-type(3)
+
+! 2021-08-24 https://pornwild.to
+pornwild.to##ul.nav:nth-of-type(2)
+pornwild.to##.network
+
+
+! 2021-08-29 https://www.erome.com
+www.erome.com##.hidden-lg.hidden-md.hidden-sm.sp-mob
+www.erome.com##div.sp:nth-of-type(1)
+
+! 2021-08-29 https://www.porn00.tv
+www.porn00.tv##[href="https://www.porn00.org/brazzers/low-price"]
+
+
+m.hqporner.com###showifad
+m.hqporner.com###showifad_span
+
+
+! 2021-07-31 https://www.pornhub.com
+www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
+
+! 2021-09-02 https://pornwild.to
+pornwild.to##p.seotext
+pornwild.to##.header > .content > .box
+
+! 2021-09-02 https://daftsex.com
+daftsex.com##.now
+daftsex.com##.font-weight-bold.twitter
+@@||daxab.com/player/*$domain=daftsex.com
+
+! 2021-09-02 https://stepmomsx.com
+@@||dood.so^$domain=stepmomsx.com
+
+! 2021-09-03 https://stepmomsx.com
+stepmomsx.com##.happy-sidebar
+stepmomsx.com##.one-column-footer > .widget_text.widget
+stepmomsx.com##.lazyloading
+
+! 2021-09-04 https://www.porndig.com
+www.porndig.com##.mob_yes.clearfix.header_wrapper > .co_sponsor
+www.porndig.com##.webcams_grid_wrapper.js_content_bottom_webcams.js_entity_container
+www.porndig.com##.main_menu_item_number_5.dynamic_menu_item_snap.main_menu_item
+www.porndig.com##li.main_menu_item_number_5.main_menu_item:nth-of-type(2)
+
+! 2021-09-08 https://m.sextvx.com
+m.sextvx.com###video_hor_bot_ads
+m.sextvx.com##div.clearfix.video_block:nth-of-type(4)
+m.sextvx.com##.top-menu > li:nth-of-type(4)
+
+! 2021-09-20 https://www.eporner.com
+www.eporner.com###admobilefoot
+www.eporner.com##div.mb:nth-of-type(44)
+
+! 2021-09-20 https://mtouch.facebook.com
+mtouch.facebook.com###mJewelNav > div._4g34:nth-of-type(3)
+
+! 2021-09-30 https://xhamster3.com
+xhamster3.com##.group_d_six.wio-xspot-container--top.wio-xspot-container
+xhamster3.com##.thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-D.thumb-list-mobile-item > .mobile-video-thumb.wio-xcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
+xhamster3.com##.livesex > [href^="https://xhamsterlive.com/"]
+xhamster3.com##.livesex > [href^="https://xhamster3.com/stripchat/out"]
+xhamster3.com##.wio-xspot-container--bottom.wio-xspot-container
+xhamster3.com##.external-links
+
+! 2021-10-01 https://m.spankbang.com
+m.spankbang.com##.lv_cm_cl_mx_why
+m.spankbang.com##.tabs
+
+! 2021-10-05 https://adguard.com
+@@||local.adguard.org^
+
+! 2021-10-05 https://fapster.xxx
+fapster.xxx##.bottomNav
+
+! 2021-10-20 https://www.xozilla.com
+www.xozilla.com###item11
+
+! 2021-10-27 https://pornez.net
+pornez.net##.header-title.d-md-none.d-block
+pornez.net###cb00
+pornez.net###cb01 > .video-with-trailer.video-block
+pornez.net###wrapper-footer > .container
+pornez.net##.fa-user.fa
+
+! 2021-11-13 https://www.xe.com
+www.xe.com##.ctapkr.button__BaseButton-sc-1qpsalo-0
+
+! 2021-11-24 https://www.apkmirror.com
+www.apkmirror.com##.ai-track.ains-apkm_thankyou_page_top.ains-19.ains
+www.apkmirror.com##.ai-track.ai-viewport-6.ai-viewport-5.ains-apkm_thankyou_page_above_other_downloads.ains-21.ains
+www.apkmirror.com##.ai-track.ains-apkm_sidebar_top.ains-2.ains
+www.apkmirror.com##.ai-track.ains-apkm_billboard_top.ains-45.ains
+www.apkmirror.com##.ai-track.ains-apkm_apk_page_top.ains-13.ains
+www.apkmirror.com##.ai-track.ains-apkm_apk_page_downloadtab.ains-15.ains
+www.apkmirror.com##.ai-track.ains-apkm_apk_page_belowdownloadbox.ains-14.ains
+www.apkmirror.com##.ains-apkm_index_top.ains-1.ains
+www.apkmirror.com##.ai-track.ains-apkm_uploads_page_top.ains-40.ains
+www.apkmirror.com##.ai-track.ains-apkm_search_page_top.ains-43.ains
+www.apkmirror.com##.ai-track.ains-apkm_search_page_bottom.ains-44.ains
+www.apkmirror.com##.ai-track.ains-apkm_app_page_bottom.ains-33.ains
+www.apkmirror.com##.ai-track.ains-apkm_app_page_top.ains-32.ains
+www.apkmirror.com##.ai-track.ains-apkm_dev_page_top.ains-10.ains
+www.apkmirror.com##.ai-track.ains-apkm_dev_page_bottom.ains-9.ains
+
+! 2021-11-30 https://letsjerk.org
+letsjerk.org##.visible-mobile.hspot.spots.widget_text
+letsjerk.org##.main > center
+letsjerk.org##.wrapper_content > .visible-mobile.spots.widget_text
+letsjerk.org##div.visible-mobile.spots.widget_text:nth-of-type(8)
+
+! 2021-12-27 https://m.hqporner.com
+m.hqporner.com##.black_friday_wrapper
+
