@@ -1,3 +1,7 @@
+!
+! Title: My uBlock Static Filters
+! Last Modified: 16:54 2021-12-28
+
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 ||syndication.exoclick.com^$popup,important
@@ -196,4 +200,3 @@ letsjerk.org##div.visible-mobile.spots.widget_text:nth-of-type(8)
 
 ! 2021-12-27 https://m.hqporner.com
 m.hqporner.com##.black_friday_wrapper
-
