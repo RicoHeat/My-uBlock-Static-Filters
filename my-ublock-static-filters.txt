@@ -68,7 +68,6 @@ hqporner.com##.hide_ad_marker.button
 hdsex.org##.player-section__promo
 hdsex.org##.second-navigation
 
-
 ! 2021-08-04 https://en.xhdporno.porn
 en.xhdporno.porn##div#preview:nth-of-type(9) > .innercont
 
@@ -93,18 +92,12 @@ taboohome.com##div.video-wrapper:nth-of-type(3)
 pornwild.to##ul.nav:nth-of-type(2)
 pornwild.to##.network
 
-
 ! 2021-08-29 https://www.erome.com
 www.erome.com##.hidden-lg.hidden-md.hidden-sm.sp-mob
 www.erome.com##div.sp:nth-of-type(1)
 
 ! 2021-08-29 https://www.porn00.tv
 www.porn00.tv##[href="https://www.porn00.org/brazzers/low-price"]
-
-
-m.hqporner.com###showifad
-m.hqporner.com###showifad_span
-
 
 ! 2021-07-31 https://www.pornhub.com
 www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
@@ -143,6 +136,9 @@ www.eporner.com##div.mb:nth-of-type(44)
 
 ! 2021-09-20 https://mtouch.facebook.com
 mtouch.facebook.com###mJewelNav > div._4g34:nth-of-type(3)
+
+! 2021-09-20 https://m.facebook.com
+m.facebook.com###mJewelNav > div._4g34:nth-of-type(3)
 
 ! 2021-09-30 https://xhamster3.com
 xhamster3.com##.group_d_six.wio-xspot-container--top.wio-xspot-container
@@ -200,3 +196,5 @@ letsjerk.org##div.visible-mobile.spots.widget_text:nth-of-type(8)
 
 ! 2021-12-27 https://m.hqporner.com
 m.hqporner.com##.black_friday_wrapper
+m.hqporner.com###showifad
+m.hqporner.com###showifad_span
