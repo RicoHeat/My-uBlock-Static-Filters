@@ -198,3 +198,67 @@ letsjerk.org##div.visible-mobile.spots.widget_text:nth-of-type(8)
 m.hqporner.com##.black_friday_wrapper
 m.hqporner.com###showifad
 m.hqporner.com###showifad_span
+
+! 2022-01-23 anti-allow list by Yuki2718
+! uBlock - Unbreak
+@@||scdn.co/cdn/js/gtag.$script,domain=spotify.com,badfilter
+@@||spclient.wg.spotify.com/$xhr,domain=spotify.com,badfilter
+
+! EL
+/prebid1.$important,domain=9to5google.com|9to5mac.com|9to5toys.com|electrek.co|dronedj.com
+||accuweather.com/bundles/prebid.$important
+! May cause sign-in trouble for US IP
+||eventcom.api.np.km.playstation.net/event^$important
+||g.doubleclick.net/tag/js/gpt.js$important,domain=accuweather.com
+||networkworld.com/www/js/ads/$important
+@@||cdnjs.cloudflare.com/ajax/libs/$script,domain=gounlimited.to,badfilter
+@@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtu,badfilter
+
+! EP
+||omtrdc.net/rest/$important
+||play.google.com/log$important,domain=~myaccount.google.com
+||smetrics.aem.playstation.com^$important
+||walmart.com^*/logger^$xhr,important
+@@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com,badfilter
+
+! AG Base
+! Too broad and the bait was removed from EL
+@@/js/ads.js|$script,1p,domain=~internethaber.com|~knaqu.tv,badfilter
+@@||2mdn.net/instream/$badfilter
+@@||9anime.to/assets^$badfilter
+@@||ads.exoclick.com/ads.js$domain=sss.xxx|hdzog.com|hclips.com,badfilter
+@@||amazon-adsystem.com^$domain=weather.com,badfilter
+! No breakage on my end but if you get, add speedtest.net##+js(set, apstag.init, noopFunc)
+@@||b.cdnst.net/javascript/amazon.js$domain=speedtest.net,badfilter
+@@||dev.visualwebsiteoptimizer.com/j.php$badfilter
+@@||dmmzkfd82wayn.cloudfront.net^$domain=manga1001.com,badfilter
+@@||imasdk.googleapis.com/js/core/bridge*.html$domain=~spotify.com,badfilter
+@@||krebsonsecurity.com$badfilter
+@@||kts.visitstats.com/in^$domain=txxx.com,badfilter
+@@||livezombymil.com/*/tghr.js$domain=manga1001.com,badfilter
+@@||reutersmedia.net/resources^$badfilter
+@@||s1.wp.com^$badfilter
+@@||segment-data.zqtk.net^$domain=wsj.com,badfilter
+@@||syndication.exosrv.com/splash.php$domain=kissjav.com|russkoepornotube.com,badfilter
+@@||wp.com/p/jetpack^$badfilter
+
+! AG TPL
+@@||google-analytics.com/analytics.js$domain=flaticon.com,badfilter
+@@||google-analytics.com/analytics.js$domain=manga-zero.com,badfilter
+@@||google-analytics.com/analytics.js$domain=reuters.com,badfilter
+@@||google-analytics.com/gtm/js?id=$domain=reuters.com,badfilter
+@@||google-analytics.com/plugins/ua/linkid.js$domain=reuters.com,badfilter
+@@||googletagmanager.com/gtm.js$domain=reuters.com,badfilter
+@@||cdn.tt.omtrdc.net/cdn/target.js$badfilter
+!@@||dev.visualwebsiteoptimizer.com/j.php$badfilter
+
+! Fanboy's ET
+! These allow too many ad-scripts not related to blocker detection.
+@@.com/ads.js$script,1p,badfilter
+@@/js/advertisement.$script,badfilter
+@@/js/ads.js$script,badfilter
+@@/wp-content/*/adve*.js$script,badfilter
+@@||cloudfront.net/assets/$script,3p,badfilter
+@@||i-mobile.co.jp/script/ad$script,badfilter
+
+@@||client-event-reporter.twitch.tv^$xhr,domain=twitch.tv,badfilter
