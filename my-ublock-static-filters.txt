@@ -1,6 +1,6 @@
 !
 ! Title: My uBlock Static Filters
-! Last Modified: 17:15 2022-01-16
+! Last Modified: 03:00 2022-01-23
 
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
