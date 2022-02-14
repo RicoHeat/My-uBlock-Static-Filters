@@ -196,3 +196,6 @@ letsjerk.org##div.visible-mobile.spots.widget_text:nth-of-type(8)
 ! 2021-12-27 https://m.hqporner.com
 m.hqporner.com##.black_friday_wrapper
 m.hqporner.com###showifad
+
+! 2022-02-13 https://www.pornhits.com
+www.pornhits.com##.header__bn--mobile.header__bn
