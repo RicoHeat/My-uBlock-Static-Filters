@@ -210,3 +210,11 @@ familypornhd.com##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter > .
 
 ! 2022-02-27 https://onetvplus.xyz
 @@||stream-star.xyz^
+
+! 2022-02-28 https://mtouch.facebook.com
+mtouch.facebook.com###mJewelNav > ._52we._7om2 > div._4g34:nth-of-type(3)
+mtouch.facebook.com##li._53_-:nth-of-type(3)
+
+! 2022-02-28 https://m.facebook.com
+m.facebook.com###mJewelNav > ._52we._7om2 > div._4g34:nth-of-type(3)
+m.facebook.com##li._53_-:nth-of-type(3)
