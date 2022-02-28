@@ -1,6 +1,6 @@
 !
 ! Title: My uBlock Static Filters
-! Last Modified: 22:24 2022-02-05
+! Last Modified: 14:45 2022-02-28
 
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
@@ -199,3 +199,14 @@ m.hqporner.com###showifad
 
 ! 2022-02-13 https://www.pornhits.com
 www.pornhits.com##.header__bn--mobile.header__bn
+
+! 2022-02-27 https://fapster.xxx
+fapster.xxx##.top-spot > div > span
+fapster.xxx##.pause-ad-pullup.pause-ad-desktop.popup
+fapster.xxx##.bottom-adv.box
+
+! 2022-02-27 https://familypornhd.com
+familypornhd.com##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter > .g1-row-inner
+
+! 2022-02-27 https://onetvplus.xyz
+@@||stream-star.xyz^
