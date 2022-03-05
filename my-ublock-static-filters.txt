@@ -24,7 +24,6 @@ www.tabootube.xxx##.fade.top.text.fp-logo
 www.tabootube.xxx##.content > .headline
 
 ! 2021-07-23 https://pornwild.to
-pornwild.to##.bottomNav
 pornwild.to##.footer-margin
 
 ! 2021-07-24 https://www.pornktube.vip
@@ -226,3 +225,6 @@ mtouch.facebook.com##li._53_-:nth-of-type(7)
 ! 2022-03-02 https://m.facebook.com
 m.facebook.com##._1j-g._2rgt._9_7._a5o
 m.facebook.com##li._53_-:nth-of-type(7)
+
+! 2022-03-05 https://pornwild.to
+pornwild.to##.bottomNav
