@@ -33,19 +33,19 @@ apkmirror.com#?#.promotedApp
 apkmirror.com#?##sidebar .listWidget:has-text(/Follow APK Mirror/)
 
 ! 3P domains block
-||amazon-adsystem.com^$domain=apkmirror.com,important
-||consensu.org^$domain=apkmirror.com,important
-||crsspxl.com^$domain=apkmirror.com,important
-||google-analytics.com^$domain=apkmirror.com,important
-||googlesyndication.com^$domain=apkmirror.com,important
-||instant.page^$domain=apkmirror.com,important
-||outbrain.com^$domain=apkmirror.com,important
-||pagefair.*^$domain=apkmirror.com,important
-||pro-market.net^$domain=apkmirror.com,important
-||quantserve.com^$domain=apkmirror.com,important
-||referrer.disqus.com^$domain=apkmirror.com,important
-||scorecardresearch.com^$domain=apkmirror.com,important
-||fundingchoicesmessages.google.com^$domain=apkmirror.com,important
+||amazon-adsystem.com^
+||consensu.org^
+||crsspxl.com^
+||google-analytics.com^
+||googlesyndication.com^
+||instant.page^
+||outbrain.com^
+||pagefair.*^
+||pro-market.net^
+||quantserve.com^
+||referrer.disqus.com^
+||scorecardresearch.com^
+||fundingchoicesmessages.google.com^
 
 ! Scriptlets
 apkmirror.com#?#+js(aopr, visibleAds)
