@@ -21,16 +21,18 @@ www.apkmirror.com##.ai-track.ains-apkm_dev_page_bottom.ains-9.ains
 ||apkmirror.com/wp-content/themes/APKMirror/images/sadkitten.png^$important
 
 ! DOM
-apkmirror.com#?#.OUTBRAIN
-apkmirror.com#?#.appRow:if(.gooWidget)
-apkmirror.com#?#.advertisement-text
-apkmirror.com#?#.amazon-ad
-apkmirror.com#?#.downloadCountdown
-apkmirror.com#?#.gooWidget
-apkmirror.com#?#.google-ad-leaderboard
-apkmirror.com#?#.google-ad-square-sidebar
-apkmirror.com#?#.promotedApp
-apkmirror.com#?##sidebar .listWidget:has-text(/Follow APK Mirror/)
+apkmirror.com##+js(remove-class, disabled, a.downloadButton.disabled)
+apkmirror.com##+js(abort-current-script, jQuery, downloadCountdown)
+apkmirror.com##+js(abort-on-stack-trace, document.querySelector, /(?=(stackDepth:3\s|stackDepth:2\s))(?=^(?!.*(Object|HTMLInputElement|https|Search|HTMLDocument)))/)
+apkmirror.com##.ains
+apkmirror.com##.gooWidget:style(display:block!important; position: absolute!important; left: -3000px!important;)
+apkmirror.com##.gooWidget:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px)
+apkmirror.com##.google-ad-leaderboard
+apkmirror.com##.google-ad-leaderboard-injected
+apkmirror.com##.listWidget > .promotedApp
+apkmirror.com##.listWidget > div[style="padding-top: 12px;"][class="appRow"]
+apkmirror.com##body .google-ad-square-sidebar:style(position: absolute!important; left: -4000px!important; display:block!important;)
+com##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! 3P domains block
 ||amazon-adsystem.com^
@@ -46,6 +48,8 @@ apkmirror.com#?##sidebar .listWidget:has-text(/Follow APK Mirror/)
 ||referrer.disqus.com^
 ||scorecardresearch.com^
 ||fundingchoicesmessages.google.com^
+||www.apkmirror.com^$generichide,domain=www.apkmirror.com
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=www.apkmirror.com
 
 ! Scriptlets
 apkmirror.com#?#+js(aopr, visibleAds)
