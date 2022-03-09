@@ -1,0 +1,21 @@
+! Title: APKmirror PlaceHolder Hider
+
+! 2022-03-08 https://www.apkmirror.com
+www.apkmirror.com##.ai-track.ains-apkm_thankyou_page_top.ains-19.ains
+www.apkmirror.com##.ai-track.ai-viewport-6.ai-viewport-5.ains-apkm_thankyou_page_above_other_downloads.ains-21.ains
+www.apkmirror.com##.ai-track.ains-apkm_sidebar_top.ains-2.ains
+www.apkmirror.com##.ai-track.ains-apkm_billboard_top.ains-45.ains
+www.apkmirror.com##.ai-track.ains-apkm_apk_page_top.ains-13.ains
+www.apkmirror.com##.ai-track.ains-apkm_apk_page_downloadtab.ains-15.ains
+www.apkmirror.com##.ai-track.ains-apkm_apk_page_belowdownloadbox.ains-14.ains
+www.apkmirror.com##.ains-apkm_index_top.ains-1.ains
+www.apkmirror.com##.ai-track.ains-apkm_uploads_page_top.ains-40.ains
+www.apkmirror.com##.ai-track.ains-apkm_search_page_top.ains-43.ains
+www.apkmirror.com##.ai-track.ains-apkm_search_page_bottom.ains-44.ains
+www.apkmirror.com##.ai-track.ains-apkm_app_page_bottom.ains-33.ains
+www.apkmirror.com##.ai-track.ains-apkm_app_page_top.ains-32.ains
+www.apkmirror.com##.ai-track.ains-apkm_dev_page_top.ains-10.ains
+www.apkmirror.com##.ai-track.ains-apkm_dev_page_bottom.ains-9.ains
+
+! Stop making some tears!
+||apkmirror.com/wp-content/themes/APKMirror/images/sadkitten.png^$important
