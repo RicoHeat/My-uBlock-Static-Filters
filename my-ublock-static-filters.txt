@@ -228,3 +228,7 @@ m.facebook.com##li._53_-:nth-of-type(7)
 
 ! 2022-03-05 https://pornwild.to
 pornwild.to##.bottomNav
+
+! 2022-03-09 https://www.wankoz.com
+www.wankoz.com##.top-holder > .top-spot
+www.wankoz.com##.nav-mobile > ul > li
