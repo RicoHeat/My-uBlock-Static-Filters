@@ -15,10 +15,10 @@ apkmirror.com#?#.google-ad-leaderboard
 apkmirror.com#?#.google-ad-square-sidebar
 apkmirror.com#?#.promotedApp
 apkmirror.com#?##sidebar .listWidget:has-text(/Follow APK Mirror/)
-apkmirror.com##.promotedApp.appRow
-apkmirror.com##div.appRow:nth-of-type(8)
-apkmirror.com##div.appRow:nth-of-type(16)
-apkmirror.com##div.appRow:nth-of-type(24)
+www.apkmirror.com##.promotedApp.appRow
+www.apkmirror.com##div.appRow:nth-of-type(8)
+www.apkmirror.com##div.appRow:nth-of-type(16)
+www.apkmirror.com##div.appRow:nth-of-type(24)
 
 ! 3P domains block
 ||amazon-adsystem.com$domain=apkmirror.com,important
