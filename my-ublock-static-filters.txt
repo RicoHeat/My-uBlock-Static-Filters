@@ -250,3 +250,31 @@ www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
 
 ! 2022-03-14 https://www.porntrex.com
 www.porntrex.com##.bottomNav
+
+! 2022-03-16 https://mtouch.facebook.com
+mtouch.facebook.com###mJewelNav > ._52we._7om2 > div._4g34:nth-of-type(3)
+mtouch.facebook.com##._1j-g._2rgt._9_7._a5o
+mtouch.facebook.com##li._53_-:nth-of-type(3)
+mtouch.facebook.com##li._53_-:nth-of-type(7)
+mtouch.facebook.com##li._53_-:nth-of-type(12)
+mtouch.facebook.com##li._53_-:nth-of-type(8)
+mtouch.facebook.com##li._53_-:nth-of-type(13)
+mtouch.facebook.com##li._53_-:nth-of-type(9)
+mtouch.facebook.com##li._53_-:nth-of-type(14)
+mtouch.facebook.com##li._53_-:nth-of-type(2) > .touchable._52x6
+mtouch.facebook.com##h3._52x1:nth-of-type(1)
+mtouch.facebook.com##li._53_-:nth-of-type(4)
+
+! 2022-03-16 https://m.facebook.com
+m.facebook.com###mJewelNav > ._52we._7om2 > div._4g34:nth-of-type(3)
+m.facebook.com##._1j-g._2rgt._9_7._a5o
+m.facebook.com##li._53_-:nth-of-type(3)
+m.facebook.com##li._53_-:nth-of-type(7)
+m.facebook.com##li._53_-:nth-of-type(12)
+m.facebook.com##li._53_-:nth-of-type(8)
+m.facebook.com##li._53_-:nth-of-type(13)
+m.facebook.com##li._53_-:nth-of-type(9)
+m.facebook.com##li._53_-:nth-of-type(14)
+m.facebook.com##li._53_-:nth-of-type(2) > .touchable._52x6
+m.facebook.com##h3._52x1:nth-of-type(1)
+m.facebook.com##li._53_-:nth-of-type(4)
