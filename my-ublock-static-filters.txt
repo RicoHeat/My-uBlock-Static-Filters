@@ -1,4 +1,3 @@
-!
 ! Title: My uBlock Static Filters
 ! Last Modified: 14:45 2022-03-02
 
@@ -232,3 +231,22 @@ pornwild.to##.bottomNav
 ! 2022-03-09 https://www.wankoz.com
 www.wankoz.com##.top-holder > .top-spot
 www.wankoz.com##.nav-mobile > ul > li
+
+! 2022-03-14 https://www.apkmirror.com
+www.apkmirror.com##.promotedApp.appRow
+www.apkmirror.com##div.appRow:nth-of-type(8)
+www.apkmirror.com##div.appRow:nth-of-type(16)
+www.apkmirror.com##div.appRow:nth-of-type(24)
+
+! 2022-03-14 https://pornwild.to
+pornwild.to##.bottomNav
+pornwild.to##.header > .content > .box
+pornwild.to##li:nth-of-type(7)
+pornwild.to##li:nth-of-type(8)
+pornwild.to##.footer-margin
+
+! 2022-03-14 https://www.pornhub.com
+www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
+
+! 2022-03-14 https://www.porntrex.com
+www.porntrex.com##.bottomNav
