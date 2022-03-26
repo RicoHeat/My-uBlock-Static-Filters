@@ -1,5 +1,5 @@
 ! Title: My uBlock Static Filters
-! Last Modified: 14:45 2022-03-25
+! Last Modified: 14:45 2022-03-26
 
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
@@ -279,8 +279,19 @@ m.facebook.com##li._53_-:nth-of-type(2) > .touchable._52x6
 m.facebook.com##h3._52x1:nth-of-type(1)
 m.facebook.com##li._53_-:nth-of-type(4)
 
+! 2022-03-17 https://mixdrop.co
+@@||s-delivery27.mxcontent.net^$media
+
+! 2022-03-22 https://player.tabooporns.com
+||player.tabooporns.com^$popup
+
 ! 2022-03-22 https://player.tabooporns.com
 ||player.tabooporns.com^$popup
 
 ! 2022-03-24 https://porn-app.com
 ||sefsdvc.com/en/us/media/dynamic/id$subdocument
+
+! 2022-03-24 https://xfantasy.su
+xfantasy.su###listing-ba
+xfantasy.su###heading > ._320.ba
+xfantasy.su##._320._320x.ba
