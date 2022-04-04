@@ -1,5 +1,5 @@
 ! Title: My uBlock Static Filters
-! Last Modified: 14:45 2022-03-26
+! Last Modified: 14:45 2022-04-05
 
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
@@ -107,6 +107,7 @@ pornwild.to##.header > .content > .box
 daftsex.com##.now
 daftsex.com##.font-weight-bold.twitter
 @@||daxab.com/player/*$domain=daftsex.com
+daftsex.com##iframe[src^="https://a.adtng.com/"]
 
 ! 2021-09-02 https://stepmomsx.com
 @@||dood.so^$domain=stepmomsx.com
