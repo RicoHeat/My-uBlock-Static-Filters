@@ -22,9 +22,6 @@ www.tabootube.xxx##.fp-ui > div:nth-of-type(3)
 www.tabootube.xxx##.fade.top.text.fp-logo
 www.tabootube.xxx##.content > .headline
 
-! 2021-07-23 https://pornwild.to
-pornwild.to##.footer-margin
-
 ! 2021-07-24 https://www.pornktube.vip
 @@||cdn60741912.ahacdn.me^$image,domain=pornktube.vip
 
@@ -58,9 +55,6 @@ m.hqporner.com##span.altPlayerButton:nth-of-type(1)
 ! 2021-07-25 https://hqporner.com
 hqporner.com##.hide_ad_marker.button
 
-! 2021-07-27 https://pornwild.to
-@@||pornwild.to^$image,1p
-
 ! 2021-08-01 https://hdsex.org
 hdsex.org##.player-section__promo
 hdsex.org##.second-navigation
@@ -85,10 +79,6 @@ pornone.com##.center-col.col-10.main-menu > ul
 taboohome.com##.video-comments
 taboohome.com##div.video-wrapper:nth-of-type(3)
 
-! 2021-08-24 https://pornwild.to
-pornwild.to##ul.nav:nth-of-type(2)
-pornwild.to##.network
-
 ! 2021-08-29 https://www.erome.com
 www.erome.com##.hidden-lg.hidden-md.hidden-sm.sp-mob
 www.erome.com##div.sp:nth-of-type(1)
@@ -98,10 +88,6 @@ www.porn00.tv##[href="https://www.porn00.org/brazzers/low-price"]
 
 ! 2021-07-31 https://www.pornhub.com
 www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
-
-! 2021-09-02 https://pornwild.to
-pornwild.to##p.seotext
-pornwild.to##.header > .content > .box
 
 ! 2021-09-02 https://daftsex.com
 daftsex.com##.now
@@ -226,9 +212,6 @@ mtouch.facebook.com##li._53_-:nth-of-type(7)
 m.facebook.com##._1j-g._2rgt._9_7._a5o
 m.facebook.com##li._53_-:nth-of-type(7)
 
-! 2022-03-05 https://pornwild.to
-pornwild.to##.bottomNav
-
 ! 2022-03-09 https://www.wankoz.com
 www.wankoz.com##.top-holder > .top-spot
 www.wankoz.com##.nav-mobile > ul > li
@@ -238,13 +221,6 @@ www.apkmirror.com##.promotedApp.appRow
 www.apkmirror.com##div.appRow:nth-of-type(8)
 www.apkmirror.com##div.appRow:nth-of-type(16)
 www.apkmirror.com##div.appRow:nth-of-type(24)
-
-! 2022-03-14 https://pornwild.to
-pornwild.to##.bottomNav
-pornwild.to##.header > .content > .box
-pornwild.to##li:nth-of-type(7)
-pornwild.to##li:nth-of-type(8)
-pornwild.to##.footer-margin
 
 ! 2022-03-14 https://www.pornhub.com
 www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
@@ -286,9 +262,6 @@ m.facebook.com##li._53_-:nth-of-type(4)
 ! 2022-03-22 https://player.tabooporns.com
 ||player.tabooporns.com^$popup
 
-! 2022-03-22 https://player.tabooporns.com
-||player.tabooporns.com^$popup
-
 ! 2022-03-24 https://porn-app.com
 ||sefsdvc.com/en/us/media/dynamic/id$subdocument
 
@@ -296,3 +269,10 @@ m.facebook.com##li._53_-:nth-of-type(4)
 xfantasy.su###listing-ba
 xfantasy.su###heading > ._320.ba
 xfantasy.su##._320._320x.ba
+
+! 2022-04-09 https://pornwild.to
+pornwild.to##a[href^="https://www.rabbits.webcam/?id="]
+pornwild.to##.bottom-adv
+pornwild.to##div.container:last-child > div.header:first-child > nav:nth-child(2) > div.navigation > div.bottomNav:nth-child(2)
+pornwild.to#%#//scriptlet("abort-current-inline-script", "window.onload")
+pornwild.to##p:empty
