@@ -276,3 +276,8 @@ pornwild.to##.bottom-adv
 pornwild.to##div.container:last-child > div.header:first-child > nav:nth-child(2) > div.navigation > div.bottomNav:nth-child(2)
 pornwild.to#%#//scriptlet("abort-current-inline-script", "window.onload")
 pornwild.to##p:empty
+
+! 2022-04-10 https://player.tabooporns.com
+||player.tabooporns.com/out.php$popup,important
+||player.tabooporns.com^$popup,important
+|about:$popup,domain=player.tabooporns.com,important
