@@ -222,3 +222,5 @@ pornwild.to#%#//scriptlet("abort-current-inline-script", "window.onload")
 pornwild.to##p:empty
 ! 2022-04-10 https://player.tabooporns.com
 |about:$popup,domain=player.tabooporns.com,important
+! 2022-04-12 https://watchporn.to
+watchporn.to##.player-related-videos
