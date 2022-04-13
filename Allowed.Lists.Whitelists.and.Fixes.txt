@@ -1,7 +1,7 @@
 [Adblock]
 ! Title: Allowed.Lists.Whitelists.and.Fixes
 ! Compitalion of Fixes
-! Updated: Apr 12 2022 0651
+! Updated: Apr 13 2022 0651
 ! This section contains the list of domain-specific rules that block cookie notifications.
 !
 ! Good: example.org###cookie
