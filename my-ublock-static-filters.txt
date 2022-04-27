@@ -990,3 +990,5 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 youporn.com#?#aside:-abp-has(a.ad-remove)
 ! 2022-04-27 https://josporn.com
 josporn.com##.preview_screen > .preview_title
+! 2022-04-27 https://familyporn.tv
+||familyporn.tv/images/mtsban.jpg$image
