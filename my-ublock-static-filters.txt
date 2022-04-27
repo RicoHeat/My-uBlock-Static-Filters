@@ -1,4 +1,4 @@
-[Adblock 2.0]
+![Adblock Plus 2.0]
 ! Title: My uBlock Static Filters
 ! Last Modified: 14:45 2022-04-13
 fapster.xxx##div.bottomNav:nth-child(6)
