@@ -992,3 +992,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 josporn.com##.preview_screen > .preview_title
 ! 2022-04-27 https://familyporn.tv
 ||familyporn.tv/images/mtsban.jpg$image
+! 2022-04-30 https://m.facebook.com
+m.facebook.com###u_5r_5_73 > ._6ra0._5909
+! 2022-04-30 https://mtouch.facebook.com
+mtouch.facebook.com###u_5r_5_73 > ._6ra0._5909
