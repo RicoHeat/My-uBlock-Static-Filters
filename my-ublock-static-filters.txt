@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: My uBlock Static Filters
-! Last Modified: 14:45 2022-04-30
+! Last Modified: 14:45 2022-05-02
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 ||syndication.exoclick.com^$popup,important
@@ -996,3 +996,17 @@ josporn.com##.preview_screen > .preview_title
 m.facebook.com###u_5r_5_73 > ._6ra0._5909
 ! 2022-04-30 https://mtouch.facebook.com
 mtouch.facebook.com###u_5r_5_73 > ._6ra0._5909
+! 2022-05-01 https://pornbaker.com
+pornbaker.com##.before-list-boxes-mobile-singl
+pornbaker.com##.inside-video-boxes-mobile
+pornbaker.com##.inside-video-boxes-mobile2
+pornbaker.com##.textovka_mobile > .g-1.g > .a-3.g-single > [href^="https://find-my-girl.com/"] > .single.alrt
+pornbaker.com##.footer-video-boxes-mobile
+pornbaker.com##.before-list-boxes-mobile
+pornbaker.com##.inside-list-boxes-mobile
+pornbaker.com##.after-boxes-mobile
+pornbaker.com##.footer-boxes-mobile
+pornbaker.com##.related-video-box
+! 2022-05-01 https://pornwild.com
+pornwild.com##.bottomNav
+pornwild.com##.footer-margin
