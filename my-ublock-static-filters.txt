@@ -1012,6 +1012,6 @@ pornwild.com##.bottomNav
 pornwild.com##.footer-margin
 ! 2022-05-05 https://player.tabooporns.com
 ||auction.bingo^$popup
-player.tabooporns.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-player.tabooporns.*##a[onclick="openAuc();"]
-player.tabooporns.*##+js(popads-dummy)
+player.tabooporns.com##+js(aopr, BetterJsPop)
+player.tabooporns.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+player.tabooporns.com##a[onclick="openAuc();"]
