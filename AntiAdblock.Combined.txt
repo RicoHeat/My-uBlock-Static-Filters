@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Anti-Adblock Source List
-! Updated: 2022 05 10 14:20
-! Sources: Adblock Warning Removal list + Adguard Anti-Adblock Annoyances
+! Updated: 2022 05 11 02:20
+! Sources: Adblock Warning Removal list + Adguard Anti-Adblock Annoyances + Anti-Circumvent ABP
 otvet.mail.ru##.wrapper_columns > div.column_right
 love.mail.ru#?##app-wrapper > div:has(> div[class] > div[class] > div[class] > a[href*="/tips/?tip=DisableAdblock"])
 love.mail.ru###adblock-in-browser
@@ -1814,7 +1814,7 @@ d3.ru##section[data-uid="extraAd"]
 ph4.ru##table[width][height="90"][style]
 bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
-! Anti-Circumvent
+! Anti-Circumvent ABP
 etsy.com##ul[data-results-grid-container] > li[class] > div:not([class="wt-height-full"]):not([data-is-autosuggest])
 tube8.com##.gridBanner_
 tube8.com##.footerBanner
