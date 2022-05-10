@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
+[Adblock Plus 3.1]
 ! Title: Anti-Adblock Source List
-! Updated: 2022 05 11 02:20
+! Updated: 2022 05 11 07:20
 ! Sources: Adblock Warning Removal list + Adguard Anti-Adblock Annoyances + Anti-Circumvent ABP
 otvet.mail.ru##.wrapper_columns > div.column_right
 love.mail.ru#?##app-wrapper > div:has(> div[class] > div[class] > div[class] > a[href*="/tips/?tip=DisableAdblock"])
