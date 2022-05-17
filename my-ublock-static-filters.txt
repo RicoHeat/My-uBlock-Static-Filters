@@ -1,6 +1,6 @@
-[Adblock Plus 3.1]
+[Adblock Plus 2.0]
 ! Title: My uBlock Static Filters
-! Last Modified: 15:20 2022-05-13
+! Last Modified: 21:20 2022-05-17
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 ||syndication.exoclick.com^$popup,important
