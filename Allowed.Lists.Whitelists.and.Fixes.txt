@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Allowed.Lists.Whitelists.and.Fixes
 ! Compilation of Fixes by Adguard
-! Updated: MAY 19 2022 19:15
+! Updated: MAY 20 2022 01:15
 
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
