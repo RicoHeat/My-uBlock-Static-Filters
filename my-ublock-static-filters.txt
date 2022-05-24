@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: My uBlock Static Filters
-! Last Modified: 21:20 2022-05-17
+! Last Modified: 01:00 2022-05-25
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 ||syndication.exoclick.com^$popup,important
@@ -1035,3 +1035,11 @@ mtouch.facebook.com###u_0_5_qN > ._6ra0._5909
 www.xxxfiles.com##.header_spot > .mobile-device
 www.xxxfiles.com##.spot_footer > .mobile-device > .spot_title.video-side__adv_title
 www.xxxfiles.com##.spot_title.video-side__adv_titl
+! 2022-05-18 https://en.xhdporno.porn
+en.xhdporno.porn##div#preview:nth-of-type(10)
+! 2022-05-18 https://www.trendyporn.com
+www.trendyporn.com##.video-player.col-sm-8 > span
+www.trendyporn.com##div.row > .well-filters.well
+www.trendyporn.com##div.row:nth-of-type(6) > .col-sm-12 > .row
+www.trendyporn.com##center:nth-of-type(1)
+www.trendyporn.com##center:nth-of-type(2)
