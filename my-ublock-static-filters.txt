@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: My uBlock Static Filters
-! Last Modified: 19:00 2022-05-25
+! Last Modified: 19:10 2022-05-25
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 ||syndication.exoclick.com^$popup,important
@@ -1044,7 +1044,7 @@ www.trendyporn.com##div.row:nth-of-type(6) > .col-sm-12 > .row
 www.trendyporn.com##center:nth-of-type(1)
 www.trendyporn.com##center:nth-of-type(2)
 ! 2022-05-25 https://tabooporns.com
-hqq.*##+js(aopr, BetterJsPop)
-hqq.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-hqq.*##a[onclick="openAuc();"]
-hqq.*##+js(popads-dummy)
+hqq.to##+js(aopr, BetterJsPop)
+hqq.to##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+hqq.to##a[onclick="openAuc();"]
+hqq.to##+js(popads-dummy)
