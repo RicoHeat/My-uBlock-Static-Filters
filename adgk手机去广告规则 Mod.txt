@@ -1,7 +1,28 @@
 [Adblock Plus 2.0]
-! Version: 20220515160629 Mod
+! Version: 202205260800
 ! Title: adgk手机去广告规则 Mod
 ! Source: https://github.com/banbendalao/ADgk
+
+/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
+/^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?[_.-]/
+/^(.+[_.-])?beacons?([\d]+)?[_.-]/
+/^(.+[_.-])?moviead(s|[0-9]{2})\.ru$/
+/^(.+[_.-])?vast([\d]+)?[_.-]/
+/^(.+[_.-]?)?aj[0-9]{4}\.online$/
+/^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
+/^(.+[_.-]?)?counter([\d]+)?[_.-]/
+/^(.+[_.-]?)?easyads[0-9]{2}\.(mobi|pro|info)$/
+/^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
+/^(.+[_.-]?)?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
+/^(.+[_.-]?)?telemetr(y|ics?)([\d]+)?[_.-]/
+/^a\.[a-f0-9]{30,60}\.com$/
+/^logs?([\d]+)?[_.-]/
+/^m[sr]ad[sx]\.net$/
+/^n[0-9]{2,4}adserv\.\w+$/
+/^pixel([\d]+)?[_.-]/
+/^r0?\.mradx\.net$/
+/^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
+/^[rt]s?[0-3]?\.mail\.ru$/
 
 m.qidian.com##.read-author-say.jsAuthorSay
 m.qidian.com##div[id*="chapterEndModule_"]
