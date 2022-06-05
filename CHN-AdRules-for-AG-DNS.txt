@@ -1,30 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: CHN AdRules for AG DNS
 ! Source: https://github.com/Cats-Team/AdRules
-! Version: 20220606T0700
+! Version: 20220606T0730
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/35526
-://m.*.cn/*.xmtl?$third-party
-://m.*.cn/*/*.js?ssid=_
-://m.*.top/*.js?ssid=_
-://m.*.pw/*.js?ssid=_
-://m.*.pw/*/*.js?$third-party
-! e66mobi ads
-/vs.aspx?action=c&vs1=$third-party
-! https://github.com/AdguardTeam/AdguardFilters/issues/75538
-! https://c.acgshenshicha.cn/ConTypEv8IJtv-1_click940878MoBile.3921hm_1(com?1614788172719
-! '(com?$script' does not work in apps, because content type is detected as HTML
-_click*(com?
-/CoNTent*(com?
-! https://github.com/AdguardTeam/AdguardFilters/issues/44973
-/js/profit.js$~third-party
-/db.js?_dc=
-!
-.com/m.aspx?action=$third-party,script
-=AdCode_sjdb
-/js/bdgg/*
-.cn/v/*.xmtl?$third-party
-/source/plugin/drk_ledadv/*
 
 *.91ivr.
 *.91wan.
