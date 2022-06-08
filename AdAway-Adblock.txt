@@ -1,8 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker
 ! Blocking mobile ad providers and some analytics providers
-! Version: 20220608T0402
+! Version: 20220608T0802
 ! Source: https://adaway.org/hosts.txt
+
+/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 
 ||analytics.163.com^
 ||crash.163.com^
