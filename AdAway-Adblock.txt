@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker
 ! Blocking mobile ad providers and some analytics providers
-! Version: 20220608T0802
+! Version: 20220609T1500
 ! Source: https://adaway.org/hosts.txt
 
 ! ---- Regex Filter Test List ---- !
