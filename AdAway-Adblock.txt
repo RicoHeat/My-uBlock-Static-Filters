@@ -1,11 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker [Optimized]
 ! Blocking mobile ad providers and some analytics providers
-! Version: 20220609T2300
+! Version: 202206010T0300
 ! Source: https://adaway.org/hosts.txt
 
-! ---- Regex Filter Test List ---- !
-
+! ---- Regex Filter List Test ---- !
 ^(page|m)?ad[sx]?[0-9]*\.
 ^adim(age|g)s?[0-9]*\.
 ^adservers?[0-9]*\.
@@ -74,8 +73,97 @@ porn*.com/bees.js|
 ! amazonaws (ad-fix)
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
 
-! ---- Ads and Analytics ----
+! ---- d3hosts ---- !
+||googleadservices.com^
+||media.net^
+||doubleclick.net^
+||fastclick.com^
+||fastclick.net^
+||adtago.s3.amazonaws.com^
+||affiliationjs.s3.amazonaws.com^
+||amazonaax.com^
+||amazonclix.com^
+||assoc-amazon.com^
+||adspecs.yahoo.com^
+||comet.yahoo.com^
+||ganon.yahoo.com^
+||gemini.yahoo.com^
+||geo.yahoo.com^
+||marketingsolutions.yahoo.com^
+||pclick.yahoo.com^
+||geo.query.yahoo.com^
+||onepush.query.yahoo.com^
+||bats.video.yahoo.com^
+||visit.webhosting.yahoo.com^
+||m.yap.yahoo.com^
+||partnerads.ysm.yahoo.com^
+||extmaps-api.yandex.net^
+||banners.mobile.yandex.net^
+||banners-slb.mobile.yandex.net^
+||startup.mobile.yandex.net^
+||offerwall.yandex.net^
+||adfox.yandex.ru^
+||adsdk.yandex.ru^
+||an.yandex.ru^
+||awaps.yandex.ru^
+||awsync.yandex.ru^
+||bs.yandex.ru^
+||bs-meta.yandex.ru^
+||clck.yandex.ru^
+||informer.yandex.ru^
+||kiks.yandex.ru^
+||grade.market.yandex.ru^
+||mc.yandex.ru^
+||click.sender.yandex.ru^
+||share.yandex.ru^
+||yandexadexchange.net^
+||api-hotjar.com^
+||hotjar.com^
+||mouseflow.com^
+||freshmarketer.com^
+||luckyorange.com^
+||luckyorange.net^
+||stats.wp.com^
+||notify.bugsnag.com^
+||sessions.bugsnag.com^
+||api.bugsnag.com^
+||app.bugsnag.com^
+||browser.sentry-cdn.com^
+||app.getsentry.com^
+||pixel.facebook.com^
+||an.facebook.com^
+||log.pinterest.com^
+||trk.pinterest.com^
+||trk2.pinterest.com^
+||widgets.pinterest.com^
+||rereddit.com^
+||events.redditmedia.com^
+||d.reddit.com^
+||youtube.cleverads.vn^
+||adsfs.oppomobile.com^
+||app.chat.xiaomi.net^
+||data.mistat.xiaomi.com^
+||data.mistat.intl.xiaomi.com^
+||data.mistat.india.xiaomi.com^
+||data.mistat.rus.xiaomi.com^
+||tracking.miui.com^
+||sa.api.intl.miui.com^
+||tracking.intl.miui.com^
+||tracking.india.miui.com^
+||tracking.rus.miui.com^
+||click.oneplus.cn^
+||click.oneplus.com^
+||open.oneplus.net^
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
+||logbak.hicloud.com^
+||samsungadhub.com^
+||samsungads.com^
+||samsung-com.112.2o7.net^
+||business.samsungusa.com^
+||bigdata.ssp.samsung.com^
 
+! ---- AdAway ---- !
 ||crash.163.com^
 ||crashlytics.163.com^
 ||iad.g.163.com^
@@ -1270,7 +1358,6 @@ porn*.com/bees.js|
 ||ti.domainforlite.com^
 ||t.domdex.com^
 ||collector.doordash.com^
-||doubleclick.net^
 ||doubleverify.com^
 ||api.doumob.com^
 ||bjfesdk.douyucdn.cn^
@@ -1446,8 +1533,6 @@ porn*.com/bees.js|
 ||filter.ezmob.com^
 ||xml.ezmob.com^
 ||fabric.io^
-||an.facebook.com^
-||pixel.facebook.com^
 ||fastapi.net^
 ||mparticle.map.fastly.net^
 ||confiant-integrations.global.ssl.fastly.net^
@@ -1593,7 +1678,6 @@ porn*.com/bees.js|
 ||owb101.goo.ne.jp^
 ||secure.gooddata.com^
 ||s0-2mdn-net.l.google.com^
-||googleadservices.com^
 ||static.googleadsserving.cn^
 ||googlesyndication.com^
 ||displayads-formats.googleusercontent.com^
@@ -1653,9 +1737,6 @@ porn*.com/bees.js|
 ||holder.com.ua^
 ||homify.com.mx^
 ||hot-mob.com^
-||script.hotjar.com^
-||static.hotjar.com^
-||vars.hotjar.com^
 ||vc.hotjar.io^
 ||howdoesin.net^
 ||hrzn-nxt.com^
@@ -2293,25 +2374,6 @@ porn*.com/bees.js|
 ||measuread.com^
 ||mobile.measurelib.com^
 ||measurementapi.com^
-||abd.media.net^
-||adservetx.media.net^
-||adservex.media.net^
-||amprtc.media.net^
-||cdnaimg-ra.media.net^
-||contextual.media.net^
-||cs.media.net^
-||forbes.media.net^
-||hblg.media.net^
-||hbx.media.net^
-||lg3.media.net^
-||mycdn.media.net^
-||prebid.media.net^
-||qsearch.media.net^
-||recommends.media.net^
-||res.media.net^
-||search.media.net^
-||static.media.net^
-||whitelabel.media.net^
 ||idpix.media6degrees.com^
 ||mediaforge.com^
 ||mediaiqdigital.com^
@@ -2366,12 +2428,7 @@ porn*.com/bees.js|
 ||snippet.minute.ly^
 ||assets.minutemediacdn.com^
 ||images2.minutemediacdn.com^
-||tracking.india.miui.com^
-||sa.api.intl.miui.com^
-||tracking.intl.miui.com^
-||tracking.rus.miui.com^
 ||logupdate.avlyun.sec.miui.com^
-||tracking.miui.com^
 ||miva.com^
 ||mixadvert.com^
 ||mixmarket.biz^
@@ -2656,7 +2713,6 @@ porn*.com/bees.js|
 ||advrts.onelouder.com^
 ||apicosdk.onemt.co^
 ||apicssdk.onemt.co^
-||click.oneplus.com^
 ||onetag-sys.com^
 ||geolocation.onetrust.com^
 ||online-metrix.net^
@@ -2674,7 +2730,6 @@ porn*.com/bees.js|
 ||rtb.openx.net^
 ||us-u.openx.net^
 ||api-a.op-mobile.opera.com^
-||adsfs.oppomobile.com^
 ||cdn1.opstag.com^
 ||optad360.io^
 ||optaim.com^
@@ -2800,8 +2855,6 @@ porn*.com/bees.js|
 ||topapps-func.pinsightmedia.com^
 ||trackdat.pinsightmedia.com^
 ||ct.pinterest.com^
-||log.pinterest.com^
-||trk.pinterest.com^
 ||pippio.com^
 ||pixel.watch^
 ||placed.com^
@@ -2981,7 +3034,6 @@ porn*.com/bees.js|
 ||ac.realvu.net^
 ||cdn.rebel.ai^
 ||recreativ.ru^
-||events.redditmedia.com^
 ||redfast.com^
 ||redintelligence.net^
 ||go.redirectingat.com^
@@ -3104,7 +3156,6 @@ porn*.com/bees.js|
 ||samba.tv^
 ||tracker.samplicio.us^
 ||insights.samsung.com^
-||samsungads.com^
 ||etl.xlmc.sandai.net^
 ||execution-use.ci360.sas.com^
 ||ak-ns.sascdn.com^
@@ -3893,7 +3944,6 @@ porn*.com/bees.js|
 ||ftpcontent.worldnow.com^
 ||kake.images.worldnow.com^
 ||pixel.wp.com^
-||stats.wp.com^
 ||usersegment.wpdigital.net^
 ||wrating.com^
 ||wsod.com^
@@ -3915,24 +3965,10 @@ porn*.com/bees.js|
 ||sdk8.ibm.xtify.com^
 ||3p-geo.yahoo.com^
 ||3p-udc.yahoo.com^
-||adspecs.yahoo.com^
 ||beap-bc.yahoo.com^
-||comet.yahoo.com^
 ||fc.yahoo.com^
-||ganon.yahoo.com^
-||gemini.yahoo.com^
-||geo.yahoo.com^
-||marketingsolutions.yahoo.com^
-||pclick.yahoo.com^
-||geo.query.yahoo.com^
-||onepush.query.yahoo.com^
 ||app.ssp.yahoo.com^
-||bats.video.yahoo.com^
-||visit.webhosting.yahoo.com^
-||m.yap.yahoo.com^
 ||pr-bh.ybp.yahoo.com^
-||partnerads.ysm.yahoo.com^
-||yandexadexchange.net^
 ||yemonisoni.com^
 ||bi.yeshen.com^
 ||yicha.jp^
