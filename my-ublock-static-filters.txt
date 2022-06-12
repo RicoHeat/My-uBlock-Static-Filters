@@ -1,6 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: My uBlock Static Filters
-! Last Modified: 19:10 2022-05-25
+! Version: 20220613T0700
+!
 fapster.xxx##div.bottomNav:nth-child(6)
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 ||syndication.exoclick.com^$popup,important
@@ -1048,3 +1049,32 @@ hqq.to##+js(aopr, BetterJsPop)
 hqq.to##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 hqq.to##a[onclick="openAuc();"]
 hqq.to##+js(popads-dummy)
+! 2022-05-24 https://stepmomsx.com
+stepmomsx.com##.happy-header-mobile > .lazyloaded
+stepmomsx.com##.happy-under-player-mobile
+stepmomsx.com##.entry-header > .button
+
+! 2022-06-01 https://chrif8kdstie.com
+||chrif8kdstie.com^
+
+! 2022-06-01 https://watchporn.to
+||watchporn.to^$popup,1p
+
+! 2022-06-01 https://fuckamouth.com
+fuckamouth.com##body > div:nth-of-type(3)
+fuckamouth.com##.alert
+||fuckamouth.com^$popup
+
+! 2022-06-02 https://tabooporns.com
+||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
+
+! 2022-06-09 https://m.hqporner.com
+m.hqporner.com##.color5
+m.hqporner.com##li.color1:nth-of-type(9)
+m.hqporner.com##.color4
+
+! 2022-06-10 https://watchporn.to
+||watchporn.to^$popup,important
+
+! 2022-06-12 https://daftsex.com
+@@||userapi.com^$image,domain=daftsex.com
