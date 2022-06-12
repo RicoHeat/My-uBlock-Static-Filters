@@ -1,12 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: AntiPopAds + Antiadblock [Optimized]
-! Version: 20220613T0000
+! Version: 20220613T0020
 ! Notes: This is for personal use only - The proper sources are identified
 
 ! Fuck Fuckadblock
 ! Description: Filters for blocking pop-ups and anti-adblock bypass
 ! Author: Bogachenko Vyacheslav
-! Homepage: https://github.com/bogachenko/fuckfuckadblock
 ! Licence: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md
 ! RAW: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
 ! CDN: https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists
