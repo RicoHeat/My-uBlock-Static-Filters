@@ -833,7 +833,6 @@ pink.my.id,gea.my.id##+js(no-setTimeout-if.js, location.href)
 okrzone.com##+js(addEventListener-defuser.js, click, _blank)
 
 ! Anti Anti-adblock Enhancer for AdGuard
-! Homepage: https://github.com/Yuki2718/adblock
 ! Licence: GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
 ! Version: 20220612
 &crc=1|$xmlhttprequest,third-party
