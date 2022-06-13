@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: My uBlock Static Filters
-! Version: 20220614T0100
+! Version: 20220614T0500
 !
 ! 2021-10-20 https://www.tabootube.xxx
 www.tabootube.xxx##.webcam_widget
@@ -1029,6 +1029,8 @@ onlycestporn.com##.happy-header-mobile
 familyporn.tv##[href^="https://brattymilf.com/"]
 familyporn.tv##[href^="https://brattysis.com/"]
 familyporn.tv##[href^="https://myfamilypies.com/"]
+familyporn.tv##.textlink
+familyporn.tv##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 
 ! 2022-05-11 https://taboodaddy.com
 taboodaddy.com##.chp_ads_block_modal_content
