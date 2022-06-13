@@ -1,12 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: My uBlock Static Filters
-! Version: 20220613T0700
+! Version: 20220614T0100
 !
-fapster.xxx##div.bottomNav:nth-child(6)
-pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
-||syndication.exoclick.com^$popup,important
-fapster.xxx##div.bottomNav:nth-child(7)
-pornhegemon.com###post-80996 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 ! 2021-10-20 https://www.tabootube.xxx
 www.tabootube.xxx##.webcam_widget
 www.tabootube.xxx##.false.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
@@ -21,82 +16,109 @@ www.tabootube.xxx##[src="https://www.tabootube.xxx/player/html.php?aid=pause_htm
 www.tabootube.xxx##.fp-ui > div:nth-of-type(3)
 www.tabootube.xxx##.fade.top.text.fp-logo
 www.tabootube.xxx##.content > .headline
+
 ! 2021-07-24 https://www.pornktube.vip
 @@||cdn60741912.ahacdn.me^$image,domain=pornktube.vip
+
 ! 2021-07-24 https://hardcoreincest.net
 hardcoreincest.net##div.headline:nth-of-type(2)
+
 ! 2021-07-24 https://passwords.google.com
 @@||passwords.google.com^$document,1p
+
 ! 2021-07-24 https://android-zone.ws
 android-zone.ws##li.ipsDataItem:nth-of-type(2)
+
 ! 2021-07-24 https://www.tabootube.xxx
 ||a.realsrv.com/popunder1000.js$script,domain=tabootube.xxx,important
+
 ! 2021-07-24 https://onlycestporn.com
 onlycestporn.com##.entry-header > .button
+
 ! 2021-07-24 https://taboodaddy.com
 taboodaddy.com##.happy-header-mobile
 taboodaddy.com##.happy-under-player
+
 ! 2021-07-25 https://www.pornhub.com
 @@||ei.phncdn.com/www-static/css/*$stylesheet,domain=pornhub.com
 @@||di.phncdn.com/www-static/css/*$stylesheet,domain=pornhub.com
+
 ! 2021-07-25 https://m.hqporner.com
 @@||cdn30851191.ahacdn.me^$script,domain=hqporner.com
 @@||cdn10157286.ahacdn.me^$image,domain=hqporner.com
 m.hqporner.com##span.altPlayerButton:nth-of-type(1)
+
 ! 2021-07-25 https://hqporner.com
 hqporner.com##.hide_ad_marker.button
 ! 2021-08-01 https://hdsex.org
 hdsex.org##.player-section__promo
 hdsex.org##.second-navigation
+
 ! 2021-08-04 https://en.xhdporno.porn
 en.xhdporno.porn##div#preview:nth-of-type(9) > .innercont
+
 ! 2021-08-17 https://txxx.com
 txxx.com##.cookie-notify
+
 ! 2021-08-18 https://taboohome.com
 taboohome.com##.col-xl-4.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
 taboohome.com##.video-sidebar.col-md-3.col-12
+
 ! 2021-08-20 https://pornone.com
 pornone.com##.player-wrapper > div.row > .center-col.col-12.banner
 pornone.com##.container.main > div.video-wrapper
 pornone.com##div.loadmore.pages:nth-of-type(7)
 pornone.com##.center-col.col-10.main-menu > ul
+
 ! 2021-08-24 https://taboohome.com
 taboohome.com##.video-comments
 taboohome.com##div.video-wrapper:nth-of-type(3)
+
 ! 2021-08-29 https://www.erome.com
 www.erome.com##.hidden-lg.hidden-md.hidden-sm.sp-mob
 www.erome.com##div.sp:nth-of-type(1)
+
 ! 2021-08-29 https://www.porn00.tv
 www.porn00.tv##[href="https://www.porn00.org/brazzers/low-price"]
+
 ! 2021-07-31 https://www.pornhub.com
 www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
+
 ! 2021-09-02 https://daftsex.com
 daftsex.com##.now
 daftsex.com##.font-weight-bold.twitter
 @@||daxab.com/player/*$domain=daftsex.com
 daftsex.com##iframe[src^="https://a.adtng.com/"]
+
 ! 2021-09-02 https://stepmomsx.com
 @@||dood.so^$domain=stepmomsx.com
+
 ! 2021-09-03 https://stepmomsx.com
 stepmomsx.com##.happy-sidebar
 stepmomsx.com##.one-column-footer > .widget_text.widget
 stepmomsx.com##.lazyloading
+
 ! 2021-09-04 https://www.porndig.com
 www.porndig.com##.mob_yes.clearfix.header_wrapper > .co_sponsor
 www.porndig.com##.webcams_grid_wrapper.js_content_bottom_webcams.js_entity_container
 www.porndig.com##.main_menu_item_number_5.dynamic_menu_item_snap.main_menu_item
 www.porndig.com##li.main_menu_item_number_5.main_menu_item:nth-of-type(2)
+
 ! 2021-09-08 https://m.sextvx.com
 m.sextvx.com###video_hor_bot_ads
 m.sextvx.com##div.clearfix.video_block:nth-of-type(4)
 m.sextvx.com##.top-menu > li:nth-of-type(4)
+
 ! 2021-09-20 https://www.eporner.com
 www.eporner.com###admobilefoot
 www.eporner.com##div.mb:nth-of-type(44)
+
 ! 2021-09-20 https://mtouch.facebook.com
 mtouch.facebook.com###mJewelNav > div._4g34:nth-of-type(3)
+
 ! 2021-09-20 https://m.facebook.com
 m.facebook.com###mJewelNav > div._4g34:nth-of-type(3)
+
 ! 2021-09-30 https://xhamster3.com
 xhamster3.com##.group_d_six.wio-xspot-container--top.wio-xspot-container
 xhamster3.com##.thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-D.thumb-list-mobile-item > .mobile-video-thumb.wio-xcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
@@ -104,23 +126,32 @@ xhamster3.com##.livesex > [href^="https://xhamsterlive.com/"]
 xhamster3.com##.livesex > [href^="https://xhamster3.com/stripchat/out"]
 xhamster3.com##.wio-xspot-container--bottom.wio-xspot-container
 xhamster3.com##.external-links
+
 ! 2021-10-01 https://m.spankbang.com
 m.spankbang.com##.lv_cm_cl_mx_why
 m.spankbang.com##.tabs
+
 ! 2021-10-05 https://adguard.com
 @@||local.adguard.org^
+
 ! 2021-10-05 https://fapster.xxx
 fapster.xxx##.bottomNav
+fapster.xxx##div.bottomNav:nth-child(7)
+fapster.xxx##div.bottomNav:nth-child(6)
+
 ! 2021-10-20 https://www.xozilla.com
 www.xozilla.com###item11
+
 ! 2021-10-27 https://pornez.net
 pornez.net##.header-title.d-md-none.d-block
 pornez.net###cb00
 pornez.net###cb01 > .video-with-trailer.video-block
 pornez.net###wrapper-footer > .container
 pornez.net##.fa-user.fa
+
 ! 2021-11-13 https://www.xe.com
 www.xe.com##.ctapkr.button__BaseButton-sc-1qpsalo-0
+
 ! 2021-11-24 https://www.apkmirror.com
 www.apkmirror.com##.ai-track.ains-apkm_thankyou_page_top.ains-19.ains
 www.apkmirror.com##.ai-track.ai-viewport-6.ai-viewport-5.ains-apkm_thankyou_page_above_other_downloads.ains-21.ains
@@ -137,48 +168,63 @@ www.apkmirror.com##.ai-track.ains-apkm_app_page_bottom.ains-33.ains
 www.apkmirror.com##.ai-track.ains-apkm_app_page_top.ains-32.ains
 www.apkmirror.com##.ai-track.ains-apkm_dev_page_top.ains-10.ains
 www.apkmirror.com##.ai-track.ains-apkm_dev_page_bottom.ains-9.ains
+
 ! 2021-11-30 https://letsjerk.org
 letsjerk.org##.visible-mobile.hspot.spots.widget_text
 letsjerk.org##.main > center
 letsjerk.org##.wrapper_content > .visible-mobile.spots.widget_text
 letsjerk.org##div.visible-mobile.spots.widget_text:nth-of-type(8)
+
 ! 2021-12-27 https://m.hqporner.com
 m.hqporner.com##.black_friday_wrapper
 m.hqporner.com###showifad
+
 ! 2022-02-13 https://www.pornhits.com
 www.pornhits.com##.header__bn--mobile.header__bn
+
 ! 2022-02-27 https://fapster.xxx
 fapster.xxx##.top-spot > div > span
 fapster.xxx##.pause-ad-pullup.pause-ad-desktop.popup
 fapster.xxx##.bottom-adv.box
+
 ! 2022-02-27 https://familypornhd.com
 familypornhd.com##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter > .g1-row-inner
+
 ! 2022-02-27 https://onetvplus.xyz
 @@||stream-star.xyz^
+
 ! 2022-02-28 https://mtouch.facebook.com
 mtouch.facebook.com###mJewelNav > ._52we._7om2 > div._4g34:nth-of-type(3)
 mtouch.facebook.com##li._53_-:nth-of-type(3)
+
 ! 2022-02-28 https://m.facebook.com
 m.facebook.com###mJewelNav > ._52we._7om2 > div._4g34:nth-of-type(3)
 m.facebook.com##li._53_-:nth-of-type(3)
+
 ! 2022-03-02 https://mtouch.facebook.com
 mtouch.facebook.com##._1j-g._2rgt._9_7._a5o
 mtouch.facebook.com##li._53_-:nth-of-type(7)
+
 ! 2022-03-02 https://m.facebook.com
 m.facebook.com##._1j-g._2rgt._9_7._a5o
 m.facebook.com##li._53_-:nth-of-type(7)
+
 ! 2022-03-09 https://www.wankoz.com
 www.wankoz.com##.top-holder > .top-spot
 www.wankoz.com##.nav-mobile > ul > li
+
 ! 2022-03-14 https://www.apkmirror.com
 www.apkmirror.com##.promotedApp.appRow
 www.apkmirror.com##div.appRow:nth-of-type(8)
 www.apkmirror.com##div.appRow:nth-of-type(16)
 www.apkmirror.com##div.appRow:nth-of-type(24)
+
 ! 2022-03-14 https://www.pornhub.com
 www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
+
 ! 2022-03-14 https://www.porntrex.com
 www.porntrex.com##.bottomNav
+
 ! 2022-03-16 https://mtouch.facebook.com
 mtouch.facebook.com###mJewelNav > ._52we._7om2 > div._4g34:nth-of-type(3)
 mtouch.facebook.com##._1j-g._2rgt._9_7._a5o
@@ -192,6 +238,7 @@ mtouch.facebook.com##li._53_-:nth-of-type(14)
 mtouch.facebook.com##li._53_-:nth-of-type(2) > .touchable._52x6
 mtouch.facebook.com##h3._52x1:nth-of-type(1)
 mtouch.facebook.com##li._53_-:nth-of-type(4)
+
 ! 2022-03-16 https://m.facebook.com
 m.facebook.com###mJewelNav > ._52we._7om2 > div._4g34:nth-of-type(3)
 m.facebook.com##._1j-g._2rgt._9_7._a5o
@@ -205,88 +252,34 @@ m.facebook.com##li._53_-:nth-of-type(14)
 m.facebook.com##li._53_-:nth-of-type(2) > .touchable._52x6
 m.facebook.com##h3._52x1:nth-of-type(1)
 m.facebook.com##li._53_-:nth-of-type(4)
+
 ! 2022-03-17 https://mixdrop.co
 @@||s-delivery27.mxcontent.net^$media
+
 ! 2022-03-22 https://player.tabooporns.com
 ||player.tabooporns.com^$popup
+
 ! 2022-03-24 https://porn-app.com
 ||sefsdvc.com/en/us/media/dynamic/id$subdocument
+
 ! 2022-03-24 https://xfantasy.su
 xfantasy.su###listing-ba
 xfantasy.su###heading > ._320.ba
 xfantasy.su##._320._320x.ba
+
 ! 2022-04-09 https://pornwild.to
 pornwild.to##a[href^="https://www.rabbits.webcam/?id="]
 pornwild.to##.bottom-adv
 pornwild.to##div.container:last-child > div.header:first-child > nav:nth-child(2) > div.navigation > div.bottomNav:nth-child(2)
 pornwild.to#%#//scriptlet("abort-current-inline-script", "window.onload")
 pornwild.to##p:empty
+
 ! 2022-04-10 https://player.tabooporns.com
 |about:$popup,domain=player.tabooporns.com,important
+
 ! 2022-04-12 https://watchporn.to
 watchporn.to##.player-related-videos
-nasa.gov#@##BackToTop
-autotrader.com,brydge.com,controllergear.com,enbridgegas.com,liputan6.com,rejuvenation.com#@##back-to-top
-archeda.eu,arredamento.it#@##back-top
-rmf24.pl#@##backTop:not(html):not(body)
-zdorovodeti.ru#@##back_to_top:not(html):not(body)
-bookaacruises.com,united.com#@##backtoTop:not(html):not(body)
-aqa-shop.ru,megalight18.net,mk-78.ru,stp-shop.ru#@##backtop
-guildwars2.com#@##backtotop:not(html):not(body)
-arma3.com,dayz.com#@##go-top
-mercopress.com#@##goToTop
-lecyclo.com#@##goto-top
-cnn.com#@##outbrain_widget_0
-onecallinsurance.co.uk#@##scroll-to-top
-aval.ua,easytcd.com,finanzen100.de,hostiq.ua#@##scroll-top:not(body)
-diego.hu,microsoft.com,sarkor.uz#@##scrollToTop
-catchconnect.com.au#@##scrollTop
-catchconnect.com.au,hotel.de#@##scrollTop:not(body):not(html)
-temaretik.com#@##scroll_to_top
-wedevs.com#@##scrolltotop
-polcol.ru,vamk33.ru#@##to_top:not(body)
-uservoice.com#@##uservoice-feedback
-cnn.com#@#.OUTBRAIN
-hackmd.io,japantimes.co.jp#@#.back-to-top
-cyber-tank.org,cyber-tank.ru,forum.qscservice.com,forums.mozillazine.org,kvraudio.com,minetest.net#@#.back2top
-hepsiburada.com#@#.backToTopVisible
-realme.com#@#.btn-back-to-top
-azcentral.com#@#.close-wrap > .close-overlay
-facebook.com#@#.connect_widget
-ffmovies.ru,fmovies.world#@#.fa-rss
-electnext.com,youtube.com#@#.feed-icon
-battle.net,squareup.com,yandex.by,yandex.com,yandex.com.tr,yandex.kz,yandex.ru,yandex.ua#@#.feedback-button
-ludopedia.com.br#@#.follow-text
-ixbt.com#@#.glyphicon-arrow-up
-stackcommerce.com,zalando.com#@#.grecaptcha-badge
-aegeanair.com#@#.js-scroll-top:not(html):not(body)
-outbrain.com#@#.outbrain
-harkavagrant.com#@#.rss-content
-seznam.cz,startpagina.nl#@#.rss-feed
-wired.com#@#.rss-widget
-mozillamessaging.com#@#.rss.icon
-newinhomes.com#@#.rssFeed
-google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws,youtube.com#@#.rss_icon
-scribol.com#@#.scribol
-advids.co,cbdoilreview.org,fashiola.fr,galerieslafayette.com,mortgageguy.com.au,paperless-insurance.com,thepage.com.ua,thepage.ua#@#.scroll-to-top:not(body)
-bwell-swiss.ru,channelnewsasia.com,dreamhost.com,kitacon.org,lampade.it,polskikoszyk.pl,posti.fi,redislabs.com#@#.scroll-top:not(body):not(html)
-aklinizikesfedin.com,bancobpm.it,channelnewsasia.com,ew.com,indiatimes.com,letyshops.com,msn.com,people.com,southernliving.com,steptohealth.com,tele2.ru,wiemy.to#@#.scroll-up:not(body):not(html)
-tandfonline.com#@#.scrollToTop
-krasnodar.ru#@#.scrollTop
-nove.eu#@#.scrollTop:not(body):not(html)
-readmng.com#@#.scroll_to_top
-dualshockers.com#@#.socialfooter
-blackboat.com#@#.sqs-announcement-bar
-ctpost.com#@#.taboola-frame
-theonion.com#@#.taboola-inbetweener
-ctpost.com#@#.taboolaloader
-dj-extensions.com,greensboroday.org,thadenschool.org#@#.top-of-page
-assisieventi.it#@#.totop
-99bitcoins.com,healthyhandyman.com#@#.tve-leads-lightbox
-getuikit.com#@#.uk-alert
-kosmonautix.cz#@#.widget_rss
-twellow.com#@#a[href="http://www.twellow.com/"]
-reddit.com#@#img[alt="submit to reddit"]
+
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
 swfchan.com###aaaa
@@ -979,6 +972,7 @@ motherless.com##table[style*="max-width:"]
 exoav.com##td > a[href]
 foxhq.com##video
 redtube.com,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com##video[playinline][loop]
+
 ! Advanced element hiding rules for Adblock Plus
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
@@ -989,14 +983,19 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 youporn.com#?#aside:-abp-has(a.ad-remove)
+
 ! 2022-04-27 https://josporn.com
 josporn.com##.preview_screen > .preview_title
+
 ! 2022-04-27 https://familyporn.tv
 ||familyporn.tv/images/mtsban.jpg$image
+
 ! 2022-04-30 https://m.facebook.com
 m.facebook.com###u_5r_5_73 > ._6ra0._5909
+
 ! 2022-04-30 https://mtouch.facebook.com
 mtouch.facebook.com###u_5r_5_73 > ._6ra0._5909
+
 ! 2022-05-01 https://pornbaker.com
 pornbaker.com##.before-list-boxes-mobile-singl
 pornbaker.com##.inside-video-boxes-mobile
@@ -1008,47 +1007,60 @@ pornbaker.com##.inside-list-boxes-mobile
 pornbaker.com##.after-boxes-mobile
 pornbaker.com##.footer-boxes-mobile
 pornbaker.com##.related-video-box
+
 ! 2022-05-01 https://pornwild.com
 pornwild.com##.bottomNav
 pornwild.com##.footer-margin
+
 ! 2022-05-05 https://player.tabooporns.com
 ||auction.bingo^$popup
 player.tabooporns.com##+js(aopr, BetterJsPop)
 player.tabooporns.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 player.tabooporns.com##a[onclick="openAuc();"]
+
 ! 2022-05-09 https://www.pornhits.com
 www.pornhits.com##.header__bn
 www.pornhits.com##.partial-header > .s-container > .s-list
+
 ! 2022-05-09 https://onlycestporn.com
 onlycestporn.com##.happy-header-mobile
+
 ! 2022-05-09 https://familyporn.tv
 familyporn.tv##[href^="https://brattymilf.com/"]
 familyporn.tv##[href^="https://brattysis.com/"]
 familyporn.tv##[href^="https://myfamilypies.com/"]
+
 ! 2022-05-11 https://taboodaddy.com
 taboodaddy.com##.chp_ads_block_modal_content
 taboodaddy.com###chp_ads_block_modal_newUMMGSZrlP3Tm3txqYcXr0kik2vvMAs
+
 ! 2022-05-11 https://m.facebook.com
 m.facebook.com###u_17_5_xY > ._6ra0._5909
+
 ! 2022-05-11 https://mtouch.facebook.com
 mtouch.facebook.com###u_0_5_qN > ._6ra0._5909
+
 ! 2022-05-12 https://www.xxxfiles.com
 www.xxxfiles.com##.header_spot > .mobile-device
 www.xxxfiles.com##.spot_footer > .mobile-device > .spot_title.video-side__adv_title
 www.xxxfiles.com##.spot_title.video-side__adv_titl
+
 ! 2022-05-18 https://en.xhdporno.porn
 en.xhdporno.porn##div#preview:nth-of-type(10)
+
 ! 2022-05-18 https://www.trendyporn.com
 www.trendyporn.com##.video-player.col-sm-8 > span
 www.trendyporn.com##div.row > .well-filters.well
 www.trendyporn.com##div.row:nth-of-type(6) > .col-sm-12 > .row
 www.trendyporn.com##center:nth-of-type(1)
 www.trendyporn.com##center:nth-of-type(2)
+
 ! 2022-05-25 https://tabooporns.com
 hqq.to##+js(aopr, BetterJsPop)
 hqq.to##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 hqq.to##a[onclick="openAuc();"]
 hqq.to##+js(popads-dummy)
+
 ! 2022-05-24 https://stepmomsx.com
 stepmomsx.com##.happy-header-mobile > .lazyloaded
 stepmomsx.com##.happy-under-player-mobile
@@ -1073,8 +1085,8 @@ m.hqporner.com##.color5
 m.hqporner.com##li.color1:nth-of-type(9)
 m.hqporner.com##.color4
 
-! 2022-06-10 https://watchporn.to
-||watchporn.to^$popup,important
-
 ! 2022-06-12 https://daftsex.com
 @@||userapi.com^$image,domain=daftsex.com
+
+pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
+pornhegemon.com###post-80996 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
