@@ -1,6 +1,6 @@
-[Adblock]
+[Adblock Plus 2.0]
 ! Title: The Anti-BS List
-! Version: 20220614T1900
+! Version: 20220614T2000
 !
 ! ---- Anti Anti-adblock Enhancer for AdGuard ---- !
 ! https://github.com/Yuki2718/adblock
