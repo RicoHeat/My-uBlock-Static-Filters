@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker [Optimized]
 ! Blocking mobile ad providers and some analytics providers
-! Version: 202206011T1500
+! Version: 202206014T1100
 ! Source: https://adaway.org/hosts.txt
 
 ! ---- Regex Filter List Test ---- !
@@ -12681,3 +12681,8 @@ joyreactor.cc,pornreactor.cc,reactor.cc##div[style="background:none!important"]
 rt02.ru##img[alt*="реклам"]
 onliner.by##img[src="https://content.onliner.by/news/1100x5616/eb7d2f564b229c0da9f39ec11eb7d529.png"]
 !#infiload.bookmark
+
+! 2022-06-13 https://mtouch.facebook.com
+@@||mtouch.facebook.com/watch/*$xhr,1p
+! 2022-06-13 https://m.facebook.com
+@@||m.facebook.com/watch/*$xhr,1p
