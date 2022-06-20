@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Adult Easylist [Optimized]
-! Version: 20220620T2200
+! Version: 20220621T0400
 ! Description: Easylist Adult Optimized with ABP Web Tools
-
+!
 ! third-party servers
 /^https?:\/\/.*\.(club|news|live|online|store|tech|guru|cloud|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|photos|re|casa|top|today|space|network|live|work|systems|ml|world|life)\/.*/$domain=1vag.com|4tube.com|asianpornmovies.com|getsex.xxx|glam0ur.com|hclips.com|hdzog.com|homemadevids.org|hotmovs.com|milfzr.com|porn555.com|pornforrelax.com|pornj.com|pornl.com|puporn.com|see.xxx|shemalez.com|sss.xxx|streanplay.cc|thegay.com|thegay.porn|tits-guru.com|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|upornia.com|vjav.com|voyeurhit.com|xozilla.com
 ! motherless
@@ -792,6 +792,291 @@ exoav.com##td > a[href]
 foxhq.com,xxxcomics.org##video
 redtube.com,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com##video[playinline][loop]
 !
-! ---- Adguard English Adservers ---- !
+! ---- Yuki2718 Mobile jp ---- !
 !
-@@||amgload.net/z|$domain=sinoptik.ua|gismeteo.ua
+! AMP
+47news.jp##.width_300
+biz-journal.jp,gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,sankei.com,techradar.com,tomsguide.com,tomshardware.com,toptenreviews.com##amp-embed[type="taboola"]
+businessinsider.jp##.ad-wrapper
+mainichi.jp##.mb-28
+nippon.com##div[placeholder=""][style="background-color: rgb(255, 255, 255);"]
+yomiuri.co.jp##.p-ad-news-txt
+! ---------- Cosmetic specific - adult ----------
+4545comics.com,bishobisho-manga.com,chinshiko-outfit.com,d-read.com,ddd-smart.net,dhufufu-manga.com,dirty-comics.com,doeromanga.com,ecchi-island.com,ecchimanga-jpn.com,echi-echi-manga.com,ero-cluster.com,erokawaiibooks.com,eromanga-land.net,eromanga-park.net,eromanga-pon.com,excite-doujin.com,gekishiko-land.com,h-library.com,hentai-goddess.com,henti-night.com,hentai-no1.com,m-manga.net,mas-dr.com,nuki-dou.com,nukinukicomic.com,onaninpic.com,paio-hazard.com,pako-para.com,xx-comic.com,z-hentai.net###ad_inview_area
+5chan.jp###advertise_main_header
+5chan.jp##.threadlist_adv_more
+adacomi.com##div[style$="width:300px; height:250px;"]
+adult-machiko.com##div[class^="ad_"]
+aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"]
+aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ br
+bakufu.jp###blogRoll
+bakufu.jp##.banner > br
+beemtube.com##div[class^="ad-"]
+bestjavporn.com##.happy-header-mobile
+bestjavporn.com##.happy-under-player-mobile
+cartoonpornvideos.com##.ads
+cartoonpornvideos.com##div[id^="adn-"]
+catmiimi.com##footer .execphpwidget > center
+chat.smaero.jp###ad_mask
+chat.smaero.jp###adsense
+cityheaven.net##.astl
+cuebic.biz##.shelf-text script[src^="https://img.ad-nex.com/"]:upward(.shelf-text)
+cumlouder.com##.banner-300x100
+cumlouder.com##.banner-frame
+cumlouder.com##.sticky-banner
+darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##div[class*="-boxes-mobile"]
+dojin-pandemic.com,dojinwatch.com,doujincafe.com,ero-comic-hunter.net,ero-manga-platinum.net,ero-mangalife.com,ero-mangasokuhou.com,erodoujinjohoukan.com,erodoujinshi-world.com,eromanga-cafe.com,eromanga-castle.com,eromanga-sevendays.net,moeero-library.com,nukerumannga.com##.cntiframe
+doujin-dolci.com###enhancedtextwidget-10
+doujin-night.com,eromanga-select.com##.sp_adwidget
+elog-ch.net##.sp_banner
+enuchi.jp##.mobile-ad
+enuchi.jp##.related-li[style="height:96px;vertical-align:middle;"]
+ero-gazou.jp,eroiro.info##.widget_mobile_text
+ero-nuki.net###header_adnex2
+ero-nuki.net##.afbnr_fam_index
+ero-nuki.net##.movie_bottom
+ero-nuki.net##div[id$="_adnex"]
+ero-tube.jp##.header-ad
+erobanach.com##.shiny-btn1
+erodouga-s.com##.rectangle
+erodougameijin.com##.sidebar-style > .s2:has-text(オススメ記事)
+erogazo-ngo.com###text-36
+erogazopple.com###ad06
+erogazopple.com###text-45
+erogazopple.com##.book_ad
+erogazoufactory.com##.index_top > br
+eroita.net##.spadv
+eromanga-kishin.com###spwrapper
+eromanga-kishin.com##.ad_morelow
+eromanga-kishin.com##.picad2row
+eromanga-kong.com##.out_single_under > div.img > a[href=""]:upward(2)
+eromanga-mainichi.com##.adadtitle
+eromanga-school.com##.ad-top-sp
+eromanga-pon.com##.ad_big
+eromanga-yoru.com###enhancedtextwidget-2
+eromanga-yoru.com###enhancedtextwidget-3
+eromanga-yoru.com###enhancedtextwidget-4
+eromanga-yoru.com###enhancedtextwidget-5
+eromanga-yoru.com###enhancedtextwidget-6
+eromanga-yoru.com###enhancedtextwidget-11
+eromanga-yoru.com###enhancedtextwidget-18
+eromanga-yoru.com###enhancedtextwidget-19
+eromoji.com##.fam_sp_rec
+eromon.net##.promoTopSpace
+eroterest.net##.adNativeMgs
+fatede-go.com##.bnArea
+fatede-go.com##div[id^="ovl_"]
+fetishshrine.com,pornicom.com,vikiporn.com##.top-spot
+fyptt.to##.bottom-post-ad-space
+fyptt.to##.top-post-ad
+gaytail.com##.happy-before-list
+gaytail.com##.happy-before-video
+gelbooru.com##div[style$="width: 300px;"]
+gelbooru.com##div[style="text-align: center; padding: 10px; border: 1px dotted #aaaaaa; margin: 10px;"]
+goodav17.com##.ads_mobile
+h-taikendan.net##div[style="height:250px;"]
+hanime.tv##.htvad[style^="width: 300px; display: block"]
+hentai-books.com##.sp-mieru
+hentai-cosplays.com,hentai-gif-anime.com,hentai-img.com,porn-images-xxx.com###adsense_center
+hentaidude.com###ft-trig.ft-home, .vip-c
+hobonichielog.com##.banabox
+hobonichielog.com##.hoboboxb
+hobonichielog.com##.textwidget2
+hotscope.tv##div[style="height: 100px;"]
+inporn.com##.video__wrapper > div.header__item
+itest.bbspink.com###float-bnr
+itest.bbspink.com###instant_ad
+itest.bbspink.com###js-bottom-ad-300x250
+itest.bbspink.com###js-imageview-ad
+itest.bbspink.com##.ad-native-comment
+itest.bbspink.com##.js-cardview_ad-320x50 > div
+itest.bbspink.com##.res_ad
+itest.bbspink.com##div[class^=sproutad_]
+itest.bbspink.com##div[style^="height: 250px"]
+itest.bbspink.com##[class*=js-ads-content-top_]
+itest.bbspink.com,newpuru.doorblog.jp##.ad
+jav.direct,javfan.one,openloadpro.com,re-hentai.com,shikotch.net###is_w_area
+jav.direct,momon-ga.com,re-hentai.com,shikotch.net##div[style^="width: 300px; height: 250px"]
+javbangers.com,porntrex.com##.pop-adv
+javbangers.com,porntrex.com##.pop-fade
+javfan.one##div[style^="width: 300px;"][style*="height: 250px;"]
+javfan.one##html:style(overflow: visible!important;)
+javhdporn.net##.header-ad-mobile
+javhdporn.net##.sidebar-ads
+javhdporn.net##.under-player-ad-mobile
+javsubtitle.co###mimpanel
+javsubtitle.co##.mid-ads
+kimootoko.net###custom_html-23
+koe-koe.com###ad1
+koe-koe.com###chumoku_ad
+koe-koe.com###third_ad
+koe-koe.com##.ad_list
+koe-koe.com##div[style$="width:300px;min-height:260px;"]
+leaked.jp##.age-sp
+m.bravotube.net###BTm-Native-Big
+m.bravotube.net###block-ffb
+m.bravotube.net##.banner-bottom
+m.bravotube.net##.goldttl
+m.bravotube.net##.good
+m.hd21.com##.mercantile_title
+m.idol-blog.com###wrapper > .pickup-post
+m.idol-blog.com##.dheadline:has-text(PR)
+m.mylust.com##.topb-100
+m.mylust.com##.topb-250
+m.sextvx.com###home_hor_bot_ads
+m.sextvx.com###home_hor_top_ads
+m.sunporno.com##.spot
+m.xcum.com##.mob_ntv_a
+matomecup.com##.ad-body
+matomecup.com##.ad-header
+melty-novel.com##.sp[style^="width:336px; height:280px"]
+megaxh.com,openxh.com,openxh1.com,openxh2.com,xhamster.com,xhamster.desi,xhamster.one,xhamster1.desi,xhamster10.com,xhamster11.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster2.com,xhamster2.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,xhamster3.desi,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster39.com,xhamster4.com,xhamster4.desi,xhamster40.com,xhamster5.desi,xhamster500.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamsterpremium.com,xhday.com,xhopen.com,xhplanet1.com,xhtab2.com,xhwide1.com,stripchat.com##div[class*="banner-container"]
+missav.com##div[style="width: 300px; height: 100px;"]
+moeeroheaven.blog.2nt.com###main_contents > br
+moeeroheaven.blog.2nt.com##.wrapper > font > center br
+moeeroheaven.blog.2nt.com##center > div[style^="background:#"]
+moeimg.net##div[class^="sp_ad"]
+momoniji.com###content-bottom > #mobile_text-11:upward(1)
+momoniji.com###mobile_text-3
+msn.com###taboola-mobile-article-thumbnails
+nan-net.com##div[style*="height:250px;"]
+nan-net.com##div[style="height:100px;"]
+nan-net.com##div[style^="background-color:#f5f5f5; margin-top:0px"] > div[style$="height:40px;"]
+niji-gazo.com###dmm-recommend
+niji-gazo.com##.partner-rotate-block
+nukemanga.com##.enhanced-text-widget
+okinilove.com###fixed_footer
+otona.howcollect.jp##.article-line:has(p.writer:has-text(Sponsored))
+pakosen.com##.hentry > .widget_custom_html
+panchirarism.blog.fc2.com##.nav-wrap > br
+pantiragasuki.com##.ninja-recommend-block
+pinkpanfan.com###custom_html-11
+pinkpanfan.com###mobile_text-3
+pinkpanfan.com###mobile_text-5
+porndoe.com##.-up-mobile
+pornhub.com,redtube.com,redtube.net##.adContainer
+shanxivideo.com,video.fc2.com##.ad_area_bottom
+shikotch.net##.sp-ads-01
+sugoren.com##.ad:not(.t-center + .ad)
+tabootube.xxx##.webcam_widget
+tabootube.xxx##.wrap-spot
+theporngod.com##.bottom-adv
+tnaflix.com##.bannerBlock
+transit.yahoo.co.jp###posNM
+urapic.com##header + center
+video.fc2.com##.list-spCont > li[style="line-height: 0; margin: 0; padding: 0; height: 110px;"]
+video.fc2.com##center[style$="opacity: 1;"]
+video.fc2.com##div[style^="height:30px;text-align:center;background-color:black;"]
+vipcle2.com##body > div[id^="text-"] > div.textwidget:has(> div[class^="ad300"])
+volstar-official.jp###bfb_content_sp
+weather.goo.ne.jp##.ads_h250
+workingnews.blog117.fc2.com##.im_headerad
+xhwide1.com##.video-view-ads--full-page
+xhwide1.com##.wio-xspl-adshare
+xhamster.com##main a[href^="https://xhamsterlive.com/api/external"]
+xn--r8jwklh769h2mc880dk1o431a.com##.clear_balloon + .spadtitle
+xn--r8jwklh769h2mc880dk1o431a.com##.etpickup
+xnxx.com###content-ad-top-zone-contener
+xnxx.com,xvideos.com###ad-header-mobile
+youjizz.com###underPlayerPr
+youjizz.com##.bottom_pr
+youjizz.com##.top_pr
+zeiri4.com##div[class^="adContainer"]
+! ---------- Extension ----------
+blog.goo.ne.jp###app > div.page[style="padding-top: 11rem"]:style(padding-top: 4.9rem !important;)
+brandkagu-outlet.net##div.uniqset div#Header:style(padding-top: 0 !important;)
+eigo.plus###global-header:style(margin-top: 0!important;)
+ff14angler.com##.ads_banner:style(height:1px!important;margin:0!important)
+games.app-liv.jp##body.jack:style(padding-top: 12% !important;)
+gigafile.nu###main_panel:style(height: 0!important)
+gigafile.nu###sp_container > div#main_panel.container[style^="height:"]:style(height: 0!important;)
+hentaidude.com##.mobile-il:style(visibility: hidden !important; height: 1px !important)
+itest.5ch.net###js-forms:style(height: auto!important)
+itest.5ch.net##.bbsmenu-with-ad:style(padding-bottom: 0!important)
+jav.direct,openloadpro.com,re-hentai.com,shikotch.net##.inv_scroll_cancel:style(overflow: auto !important; height: auto !important;)
+mapion.co.jp###result_nav:style(bottom: 0 !important;)
+matomedane.jp###AdvHeader:style(height: 0 !important;)
+mudainodocument.com##.fixed:style(overflow: auto!important; position: static!important;)
+news.goo.ne.jp###NR-wrapper-in.cx:style(min-height: auto !important;)
+news.mynavi.jp##.articleList-along:style(min-height: 0 !important;)
+news.mynavi.jp##.articleList-attention:style(min-height: 0 !important;)
+news.mynavi.jp##.articleList-related-article:style(min-height: 0 !important;)
+news.mynavi.jp##[style="overflow: hidden;"]:style(overflow: auto !important;)
+news.owata-net.com##html[style="overflow: hidden;"]:style(overflow: auto!important;)
+olympics.com##.b2p-main:style(margin-top: 0 !important;)
+openers.jp##body:style(overflow: auto !important;)
+phileweb.com###sp_article_header:style(height: auto !important;)
+phileweb.com##body:style(padding-top: 100px !important;)
+phileweb.com##header.has-topbanner .header-in:style(height: auto !important;)
+w3schools.com###tryitLeaderboard ~ #container:style(top: 48px!important;)
+w3schools.com##.trytopnav:style(top: 0!important;)
+!
+golfsapuri.com##div[id^="sp_top_infeed"]:remove()
+m.proporn.com###banner_overlay-postitial-video:remove()
+!
+1geki.jp##^.ad_sp_top_banner
+4travel.jp##^.u_floatingBanner
+aaieba.livedoor.biz##^div[align="center"] > table:has(a[href*="amazon.co.jp/"])
+appmedia.jp##^.sp_ad_next_menu
+aya0205.smart-douga.mobi##^.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ div[style="text-align: center;"]
+bakufu.jp##^.adList
+bakufu.jp##^table[width="100%"][cellspacing="0"][cellpadding="3"][border="0"]
+blog.goo.ne.jp##^.banner--marchel:upward(#msg-box-app-recommend)
+blog.livedoor.jp##^#article-contents > [href^="https://affiliate.suruga-"]
+brandkagu-outlet.net##^.flo_ban
+diamond.jp##^.spdisplay
+eiga.com##^#video_ad
+eiga.com##^.header-pure-banner
+erobanach.com##^.apad
+erodaizensyu.com##^.sp_head_box
+erodougameijin.com##^div[class^=flexbox]:not(.flexbox3)
+erogazou-pinkline.com##^#adnex-text-widget
+erogazooo.club##^.spad
+fandom.com##^#article-featured-video-container
+fuzoku-move.net##^.nativead_widget
+hensachiterrace.com##^.footer_overlay
+leaked.jp##^.dfad
+moeimg.net##^#overlay_frame
+rank-king.jp##^.banner
+taikenki.zexybaby.zexy.net##^.bnr_btm
+tsutaya.tsite.jp##^.adfunnel_sp
+tvjapan.net##^#bg-ad-mob
+weloma.net##^a[href="https://2048.biz/mobile/"]
+xn--w8jtkjf8c570x.com##^div[id$="mobile_banner_top"]
+zai.diamond.jp##^.sp-floating-banner
+!
+erobanach.com##+js(aopw, hidden)
+erobanach.com,openloadpro.com##+js(aeld, , returnAd)
+h-ken.net##+js(acis, onload, ad)
+javmix.tv##+js(acis, addEventListener, style.display)
+m.hd21.com,m.nuvid.com##+js(set, player.postitialTimeout, 0)
+m.hd21.com,m.nuvid.com##+js(aopr, mobileAdvPop)
+m.sextvx.com##+js(acis, document.querySelectorAll, popMagic)
+m.sunporno.com##+js(acis, $, exoMobilePop)
+mudainodocument.com##+js(aeld, /^(?:mousewheel|touchmove)$/)
+news.mynavi.jp##+js(aeld, /^(?:scroll|touchmove|wheel)$/, preventDefault)
+smt.docomo.ne.jp##+js(acis, document.write, WrpAd)
+supleks.jp##+js(acis, document.getElementsByClassName, adBlocked)
+! ---------- Exception - blocking ----------
+@@||adcdn.goo.ne.jp/images/pix/2dwkwwau99.js$domain=news.goo.ne.jp
+@@||asahicom.jp/ad/js/sp/default_top.js
+@@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
+@@||g.doubleclick.net/tag/js/gpt.js$domain=koigaku.machicon.jp
+@@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
+@@||g.doubleclick.net/gampad/ads?$xhr,domain=koigaku.machicon.jp
+@@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|sankei.com|watch.impress.co.jp|www.asahi.com
+@@||googletagservices.com/tag/js/gpt.js$domain=koigaku.machicon.jp
+@@||log000.goo.ne.jp/js/VLTraceDMD.js$domain=news.goo.ne.jp
+@@||lupicia.com/sp/img/ad/$image,1p
+@@||res.ads.nicovideo.jp/assets/js/ads2.js$domain=sp.seiga.nicovideo.jp
+@@||suumo.jp/sp/js/beacon.js$script,1p
+@@||thumbnail.thench.net/thumb/$image,domain=itest.5ch.net
+@@||tpc.googlesyndication.com^$script,1p
+@@||worldvision.jp/img/topSP/topFootBana_ad.gif|
+@@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
+@@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp
+! ---------- Scam & Redirect ----------
+/^http:\/\/[a-z]{10}\.duckdns/$doc,domain=duckdns.org
+/^http:\/\/[a-z]{5}\.[a-z]{5}\.com\/[a-z]{10}\.apk$/$doc,match-case,domain=com
+/^http:\/\/[a-z]{9,10}\.ddns/$doc,domain=ddns.net
+/^https:\/\/[-a-z]{20,}\.cyou\/[-0-9a-f]{36}\/\?btd=/$doc,domain=cyou
