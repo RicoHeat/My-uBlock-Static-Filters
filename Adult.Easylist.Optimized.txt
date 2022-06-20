@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Adult Easylist [Optimized]
-! Version: 20220619T0800
+! Version: 20220620T2200
 ! Description: Easylist Adult Optimized with ABP Web Tools
 
 ! third-party servers
@@ -791,3 +791,7 @@ motherless.com##table[style*="max-width:"]
 exoav.com##td > a[href]
 foxhq.com,xxxcomics.org##video
 redtube.com,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com##video[playinline][loop]
+!
+! ---- Adguard English Adservers ---- !
+!
+@@||amgload.net/z|$domain=sinoptik.ua|gismeteo.ua
