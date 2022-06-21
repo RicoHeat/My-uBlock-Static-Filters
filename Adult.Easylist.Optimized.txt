@@ -1,6 +1,6 @@
-[Adblock Plus 2.0][Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Adult Easylist [Optimized]
-! Version: 20220621T1200
+! Version: 20220621T1201
 ! Description: Easylist Adult Optimized with ABP Web Tools
 !
 porndr.com###PD-Under-player
