@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: The Anti-BS List
-! Version: 20220623T1400
+! Version: 20220623T1700
 !
 ! --- Regex ----
 !
@@ -56,7 +56,6 @@
 /((^)|(.))analytic./
 /((^)|(.))adchoice./
 /((^)|(.))adsdk./
-/((^)|(.))adserv./
 /((^)|(.))tracking./
 /(^|\.)buffpanel\.com$/
 /(^|\.)bugsnag\.com$/
