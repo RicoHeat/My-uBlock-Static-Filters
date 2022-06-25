@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker [Extended]
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics providers
-! Version: 202206231T0700
+! Version: 20220626T0200
 
 ! ---- Regex Filter List Test ----
 ^(page|m)?ad[sx]?[0-9]*\.
@@ -12860,6 +12860,10 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 /optimizely-
 @@||github.com^$generichide
 @@||github.githubassets.com^$script
+||id.google.com/verify/
+@@||gstatic.com^$third-party
+/gen_204?$image,other,ping,script
+@@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 !
 ! ---- Crap from graph.facebook.com and web.facebook.com with app specific  ----
 ||graph.facebook.com^$app=com.geumson.nookslist
