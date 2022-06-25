@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker [Extended]
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics providers
-! Version: 20220626T0200
+! Version: 20220626T0400
 
 ! ---- Regex Filter List Test ----
 ^(page|m)?ad[sx]?[0-9]*\.
@@ -12800,7 +12800,6 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv##+js(set-constant, flashvar
 !
 ! ---- Personal User Rules from Adguard for Android ----
 @@/favicon.ico
-@@||gstatic.com^$third-party
 @@||google.com/recaptcha/api2/$document
 @@||google.com/recaptcha/$frame,script
 ||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
@@ -12810,7 +12809,6 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv##+js(set-constant, flashvar
 ||commentsengine.com^$3p,script,redirect=noopjs
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
 @@/js/adv/fuckadblock.js?$script,~third-party
-||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
 @@||tabooporns.com^$ghide
 /video.counters.
 ://ads2.
@@ -12818,7 +12816,7 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv##+js(set-constant, flashvar
 ://ads.$domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.finance|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.*|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ||trafficjunky.com^$third-party
 ||m2.nsimg.net^
-pornhub.*$$script[tag-content="getCookieAdvanced"][max-length="262144"]
+pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
 @@||raw.githubusercontent.com^
 @@||.github.com/RicoHeat^$important
 @@||watchporn.to^$domain=watchporn.to
@@ -12839,7 +12837,6 @@ pornhub.*$$script[tag-content="getCookieAdvanced"][max-length="262144"]
 @@||raw.githubusercontent.com/RicoHeat^$important
 @@||api.nextdns.io^
 @@||unpkg.com^
-@@||unpkg.com^$app=idm.internet.download.manager.plus
 @@||player.tabooporns.com^$app=idm.internet.download.manager.plus
 ||static-hw.xvideos-cdn.com/xvgames^
 @@||gitlab.com^
@@ -12847,7 +12844,6 @@ pornhub.*$$script[tag-content="getCookieAdvanced"][max-length="262144"]
 @@||pgl.yoyo.org/adservers^
 172.67.178.5$network,app=com.streamdev.aiostreamer
 realsrv.com##iframe[src^="https://a.adtng.com/"]
-||ads.mopub.col^$app=com.playit.videoplayer,important
 @@||objects.githubusercontent.com^
 @@||linkip.adguard-dns.com^
 @@||github.com/upload^$domain=github.com,important
@@ -12855,7 +12851,8 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 ||firebaseinstallations.googleapis.com^$app=com.playit.videoplayer,important
 @@||adguard-dns.io^$important
 @@||api.adguard-dns.io^$important
-*.cn^$important
+.cn^$important
+.col^$app=com.playit.videoplayer,important
 ||gtm.oasisfeng.com^
 /optimizely-
 @@||github.com^$generichide
