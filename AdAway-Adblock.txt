@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker [Extended]
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics providers
-! Version: 20220628T0500
+! Version: 20220701T1900
 !
 ! ---- Regex Filter List Test ----
 ^(page|m)?ad[sx]?[0-9]*\.
@@ -55054,6 +55054,8 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv##+js(set-constant, flashvar
 ! END: Popular clickunders
 !
 ! ---- Personal User Rules from Adguard for Android ----
+.doublepimp.com^$third-party
+||itspsmup.com^
 @@/favicon.ico
 @@||google.com/recaptcha/api2/$document
 @@||google.com/recaptcha/$frame,script
