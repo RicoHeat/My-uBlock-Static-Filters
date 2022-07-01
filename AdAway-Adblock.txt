@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker [Extended]
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics providers
-! Version: 20220701T1900
+! Version: 20220702T0700
 !
 ! ---- Regex Filter List Test ----
 ^(page|m)?ad[sx]?[0-9]*\.
@@ -2653,7 +2653,6 @@ porn*.com/bees.js|
 /adserverdata.
 /adServerDfp.
 /adserverpub?
-/adservers-
 /adserversolutions/*
 /adserverstore.
 /adservervastvideovizu.
