@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker [Extended]
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics providers
-! Version: 20220703T1700
+! Version: 20220704T0200
 !
 ! ---- Regex Filter List Test ----
 ^(page|m)?ad[sx]?[0-9]*\.
@@ -54656,7 +54656,6 @@ _atblockdetector/
 ||log.mobpowertech.com^
 !
 ! ---- Whitelist + Allowlist ----
-$popup,third-party,domain=dood.ws,badfilter
 @@||ditu.baidu.com^$elemhide
 @@||cloud.189.cn^$xmlhttprequest,elemhide,jsinject,extension
 @@||oneprovider.com^$elemhide,jsinject,extension
@@ -54721,7 +54720,6 @@ bing.com##.ins_exp.vsp
 @@||time.adp.com^$document
 @@||header-footer-service.live.rea-asia.com/header?$jsinject,elemhide,extension
 @@||redactor.creatium.io^$document
-@@$webrtc,domain=britannica.com
 @@||my.westfieldinsurance.com^$document
 @@||nid.naver.com^$document
 @@||odc.officeapps.live.com/odc/$elemhide,jsinject,extension
@@ -54929,7 +54927,7 @@ reshuege.ru,reshuoge.ru,reshuvpr.ru##div[class$="-BlockDetect"]
 pronetblog.by##div[class^="adsensepost"]
 hitsovet.ru,mod-wot.ru##div[class^="chp_ads_block"]
 joyreactor.cc,pornreactor.cc,reactor.cc##div[style="background:none!important"]
-rt02.ru##img[alt*="реклам"]
+rt02.ru##img[alt*="Ñ€ÐµÐºÐ»Ð°Ð¼"]
 onliner.by##img[src="https://content.onliner.by/news/1100x5616/eb7d2f564b229c0da9f39ec11eb7d529.png"]
 !#infiload.bookmark
 !
@@ -55056,7 +55054,6 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv##+js(set-constant, flashvar
 .doublepimp.com^$third-party
 ||itspsmup.com^
 @@/favicon.ico
-@@||google.com/recaptcha/api2/$document
 @@||google.com/recaptcha/$frame,script
 ||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$important,script,third-party
@@ -55064,7 +55061,6 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv##+js(set-constant, flashvar
 @@/js/adv/fuckadblock.js?$script,~third-party
 ||commentsengine.com^$3p,script,redirect=noopjs
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
-@@/js/adv/fuckadblock.js?$script,~third-party
 @@||tabooporns.com^$ghide
 /video.counters.
 ://ads2.
@@ -55074,23 +55070,17 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv##+js(set-constant, flashvar
 ||m2.nsimg.net^
 pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
 @@||raw.githubusercontent.com^
-@@||.github.com/RicoHeat^$important
 @@||watchporn.to^$domain=watchporn.to
 ||qrlsx.com^
 ||adsessionserv.com^
 ||impactserving.com^
 @@||hqq.*^$script,xhr,1p
-@@||raw.githubusercontent.com/Kees1958^
 @@||kb.adguard.com^
 @@||mtouch.facebook.com/watch^$domain=mtouch.facebook.com
-@@||google.com/recaptcha/$frame,script
 @@||d283001a7d.4415f05492.com^$app=com.mycompany.app.soulbrowser,important
 @@||static-*.com^
-@@||static-ss.xvideos-cdn.com^
-@@||static-cdn77.xvideos-cdn.com^
 @@||infinitedata-pa.googleapis.com^$app=com.google.android.gms
 ||239.255.255.250:1900^$app=com.playit.videoplayer
-@@||raw.githubusercontent.com/RicoHeat^$important
 @@||api.nextdns.io^
 @@||unpkg.com^
 ||static-hw.xvideos-cdn.com/xvgames^
@@ -55101,11 +55091,9 @@ pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
 realsrv.com##iframe[src^="https://a.adtng.com/"]
 @@||objects.githubusercontent.com^
 @@||linkip.adguard-dns.com^
-@@||github.com/upload^$domain=github.com,important
 ||sefsdvc.com/en/us/media/dynamic/id$subdocument,app=com.streamdev.aiostreamer
 ||firebaseinstallations.googleapis.com^$app=com.playit.videoplayer,important
 @@||adguard-dns.io^$important
-@@||api.adguard-dns.io^$important
 .cn^$important
 .col^$app=com.playit.videoplayer,important
 ||gtm.oasisfeng.com^
@@ -55119,6 +55107,12 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 @@||anti-ad.net^
 @@||ahcdn.com^$media
 @@||apkmirror.com^$generichide
+||i.mxplayer.j2inter.com^
+/^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|chikiporn.com|daftsex.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|hog.tv|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
+||daftsex.com/js/app.$script
+@@||daxab.com/player/*$domain=daftsex.com
+||daxab.com/logger^
+$$script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="25000"]
 !
 ! ---- Crap from graph.facebook.com and web.facebook.com with app specific  ----
 ||graph.facebook.com^$app=com.geumson.nookslist
