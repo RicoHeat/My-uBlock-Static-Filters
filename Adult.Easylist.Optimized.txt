@@ -1,8 +1,85 @@
 [Adblock Plus 2.0]
 ! Title: Adult Easylist [Optimized]
-! Version: 20220623T2200
+! Version: 20220708T0300
 ! Description: Easylist Adult and ABPVN Adult Optimized with ABP Web Tools
 !
+/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
+/^(.+[_.-])?telemetry[_.-]/
+/^adim(age|g)s?[0-9]*[_.-]/
+/^adtrack(er|ing)?[0-9]*[_.-]/
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/
+/^aff(iliat(es?|ion))?[_.-]/
+/^analytics?[_.-]/
+/^banners?[_.-]/
+/^beacons?[0-9]*[_.-]/
+/^count(ers?)?[0-9]*[_.-]/
+/^mads\./
+/^pixels?[-.]/
+/^stat(s|istics)?[0-9]*[_.-]/
+/(ads|logs|cloudservices).roku.com$/
+/^([a-z0-9]+[.])*(ads|captive|cloudservices|logs)\.roku\.co/
+/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?secure\.footprint\.net/
+/([A-Za-z0-9.-]*\.)?match\.com/
+/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2 ,4})/
+/([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?appnexus(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?s\.yimg\.com/cv/ae/us/audience/
+/([A-Za-z0-9.-]*\.)?clicks\.beap/
+/([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?yieldmanager(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?w55c(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?advertising\.com/
+/([A-Za-z0-9.-]*\.)?evidon\.com/
+/([A-Za-z0-9.-]*\.)?scorecardresearch\.com/
+/([A-Za-z0-9.-]*\.)?flashtalking\.com/
+/([A-Za-z0-9.-]*\.)?turn\.com/
+/([A-Za-z0-9.-]*\.)?mathtag\.com/
+/([A-Za-z0-9.-]*\.)?surveylink/
+/([A-Za-z0-9.-]*\.)?info\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?global\.ard\.yahoo\.com/
+/((^)|(.))metric./
+/((^)|(.))telemetry./
+/((^)|(.))analytic./
+/((^)|(.))adchoice./
+/((^)|(.))adsdk./
+/((^)|(.))adserv./
+/((^)|(.))tracking./
+/(^|\.)buffpanel\.com$/
+/(^|\.)bugsnag\.com$/
+/(^|\.)redshell\.io$/
+/(^|\.)treasuredata\.com$/
+/(^|\.)unityads(|\.co)\.com$/
+/((^)|(.))trkmenowapptwtree((^)|(.))/
+/((^)|(.))events./
+/((^)|(.))smaato./
+/((^)|(.))mopub./
+/((^)|(.))app-measurement((^)|(.))/
+/((^)|(.))nexage((^)|(.))/
+/((^)|(.))crashlytics((^)|(.))/
+/((^)|(.))scorecardresearch((^)|(.))/
+/((^)|(.))trackmenowsitn((^)|(.))/
+/((^)|(.))trackmenow*/
+/((^)|(.))trkmenow*/
+/((^)|(.))insightexpressai((^)|(.))/
+/((^)|(.))adnxs./
+/((^)|(.))svr-algorix./
+/((^)|(.))imrworldwide((^)|(.))/
+/((^)|(.))doubleclick((^)|(.))/
+/((^)|(.))trackscale./
+/(\.?)redfast\./
 ! ---- Adult Adservers ----
 ||18naked.com^$third-party
 ||4link.it^$third-party
@@ -18,7 +95,6 @@
 ||ads4xxx.com^$third-party
 ||adsession.com^$third-party
 ||adsgangsta.com^$third-party
-||adsturn.com^$third-party
 ||adult3dcomics.com^$third-party
 ||adultforce.com^$third-party
 ||adultnetworksc.com^$third-party
@@ -85,7 +161,6 @@
 ||easyflirt.com^$third-party
 ||ebdr2.com^$third-party
 ||elekted.com^$third-party
-||eroadvertising.com^$third-party
 ||erosadv.com^$third-party
 ||erotikdating.com^$third-party
 ||erotizer.info^$third-party
@@ -118,7 +193,6 @@
 ||freewebfonts.org^$third-party
 ||frestacero.com^$third-party
 ||frestime.com^$third-party
-||frivol-ads.com^$third-party
 ||frtyh.com^$third-party
 ||frutrun.com^$third-party
 ||fuckbook.cm^$third-party
@@ -298,7 +372,6 @@
 ||pennynetwork.com^$third-party
 ||pepipo.com^$third-party
 ||philstraffic.com^$third-party
-||pictureturn.com^$third-party
 ||pkeeper3.ru^$third-party
 ||plantaosexy.com^$third-party
 ||plugrush.com^$third-party
@@ -378,10 +451,8 @@
 ||rubanners.com^$third-party
 ||rukplaza.com^$third-party
 ||runetki.com^$third-party
-||russianlovematch.com^$third-party
 ||safelinktracker.com^$third-party
 ||sancdn.net^$third-party
-||sbs-ad.com^$third-party
 ||scund.com^$third-party
 ||searchpeack.com^$third-party
 ||searchx.eu^$third-party
@@ -536,8 +607,6 @@
 ||axp9.net.^$popup
 ||axp9.org.^$popup
 ||bxgjpocfz1g1jiwb.pro^$popup
-||c4tracking01.com^$popup
-||cam4tracking.com^$popup
 ||checkmy.cam^$popup
 ||chokertraffic.com^$popup
 ||chystechagre.pro^$popup
@@ -570,7 +639,6 @@
 ||dynsrvcab.com^$popup
 ||ebocornac.com^$popup
 ||ekod.info^$popup
-||ero-advertising.com^$popup
 ||eroge.com^$popup
 ||ertya.com^$popup
 ||ezofferz.com^$popup
@@ -658,12 +726,10 @@
 ||vlexokrako.com^$popup
 ||watchmygf.com^$popup
 ||xdtraffic.com^$popup
-||xmatch.com^$popup
 ||xpeeps.com^$popup,third-party
 ||xvika.com^$popup
 ||xxlargepop.com^$popup
 ||xxxjmp.com^$popup
-||xxxmatch.com^$popup
 ||xxxrevpushclcdu.com^$popup
 ||zononi.com^$popup,third-party
 !
@@ -1854,7 +1920,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
-youporn.com#?#aside:-abp-has(a.ad-remove)
 !
 ! ---- Adult Third-Party ----
 ||18onlygirls.tv/wp-content/banners/
@@ -1938,7 +2003,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ||gateway-banner.eravage.com^
 ||geobanner.adultfriendfinder.com^
 ||geobanner.alt.com^
-||geobanner.blacksexmatch.com^$third-party
 ||geobanner.fuckbookhookups.com^$third-party
 ||geobanner.hornywife.com^
 ||geobanner.sexfinder.com^$third-party
@@ -2161,7 +2225,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ||tuoi69.live/balloon$script
 ||upsieutoc.com^*.gif$image,domain=thiendia88.org
 ||vl3x.cc/ads/$script
-||vlxx.sex/ads/desktop/desktop-ads.js$script
 ||websex.me/top/$script
 !
 ! ---- ABPVN Adult Element Hide ----
