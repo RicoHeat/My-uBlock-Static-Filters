@@ -1,5 +1,5 @@
 ! Title: Adguard DNS Extended
-! Version: 20220709T0300
+! Version: 20220709T0400
 ! Sources: 1Hosts Pro + OISD Basic + AntiPopAds:re + Peter Lowe's ABP + Adguard DNS Optimized + BogachenkoBL.DNS - Hosts + anti-AD AGH
 
 ||gnn01wl.cn^
@@ -66947,7 +66947,7 @@
 ||deobp.com^
 ||lendos-com.preview-domain.com^
 ||log.uniconsent.mgr.consensu.org^
-||.col^$important
+.col^$important
 ||findmyancestry1tab.com^
 ||2smt6mfgo.de^
 ||update.privdog.com^
@@ -128173,7 +128173,7 @@ vkcdnservice.appspot.com^
 ||adlink.shopsafe.co.nz^
 ||b1.etrality.com^
 ||plexop.com^
-||.cn^$important
+.cn^$important
 ||proxad.net^
 ||saks.evergage.com^
 ||www.freeeprize.com^
