@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdAway for Adblocker [Extended]
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics for additional security.
-! Version: 20220704T1800
+! Version: 20220708T1500
 !
 ! ---- Regex Filter List Test ----
 ^(page|m)?ad[sx]?[0-9]*\.
@@ -55115,6 +55115,8 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 $$script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="25000"]
 /^https?:\/\/[a-z]{6,14}\.com?\/[acd][-\.\/_A-Za-z][DHWm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6wyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xhr,3p,match-case
 @@||sentry.adguard.com^
+*/api/spots/$frame
+@@||ssl.p.jwpcdn.com/player/v/*$script
 !
 ! ---- Crap from graph.facebook.com and web.facebook.com with app specific  ----
 ||graph.facebook.com^$app=com.geumson.nookslist
