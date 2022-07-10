@@ -121,6 +121,5 @@
 ||tns-counter.ru^
 ||www.tns-counter.ru^
 ||gtm.oasisfeng.com^
-@@||player.tabooporns.com^
 .cn^$important
 .col^$important
