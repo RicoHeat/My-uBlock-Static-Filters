@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Title: AdAway for Adblocker [Extended]
+! Title: 🛑 AdAway-Adblocker
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics for additional security.
-! Version: 20220716T0200
+! Version: 20220716T0500
 !
 ! ---- Regex Multiple Block ----
 !
