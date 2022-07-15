@@ -24,6 +24,7 @@
 ||www.googleadservices.com^
 ||footprints-pa.googleapis.com^
 ||www.googletagmanager.com^
+||firebaselogging.googleapis.com^
 ||dit.whatsapp.net^
 ||ic3.events.data.microsoft.com^
 ||in.appcenter.ms^
@@ -56,6 +57,12 @@
 ||tracking.rus.miui.com^
 ||www.cdn.ad.xiaomi.com^
 ||flash.sec.intl.miui.com^
+||data.sec.miui.com^
+||data.sec.intl.miui.com^
+||mitv.tracking.rus.miui.com^
+||mitv.tracking.intl.miui.com^
+||mitv.tracking.miui.com^
+||mitv.tracking.india.miui.com^
 ||incoming.telemetry.mozilla.org^
 ||probes.telemetry.mozilla.org^
 ||telemetry.mozilla.org^
@@ -87,6 +94,7 @@
 ||browser.sentry-cdn.com^
 ||sentry-cdn.com^
 ||sentry.io^
+||ingest.sentry.io^
 ||adj.st^
 ||adjust.com^
 ||adjust.net.in^
@@ -120,6 +128,21 @@
 ||sb.scorecardresearch.com^
 ||tns-counter.ru^
 ||www.tns-counter.ru^
+||ms.applovin.com^
+||rt.applovin.com^
+||applovin.com^
+||applvn.com^
+||ms.applvn.com^
+||rt.applvn.com^
+||sdk.appbrain.com^
+||appbrain.com^
+||sdk-b.apptornado.com^
+||apptornado.com^
+||xs.instreamatic.com^
+||x.instreamatic.com^
+||instreamatic.com^
+||advisor.api.2gis.ru^
+||api2.amplitude.com^
 
 ! Source: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt ----
 ! ---- NoCoin ----
