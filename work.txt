@@ -143,6 +143,8 @@
 ||instreamatic.com^
 ||advisor.api.2gis.ru^
 ||api2.amplitude.com^
+||safe.mt2.cn^
+||gtm.oasisfeng.com^
 
 ! Source: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt ----
 ! ---- NoCoin ----
