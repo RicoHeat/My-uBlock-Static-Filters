@@ -145,6 +145,7 @@
 ||api2.amplitude.com^
 ||safe.mt2.cn^
 ||gtm.oasisfeng.com^
+.col^$important
 
 ! Source: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt ----
 ! ---- NoCoin ----
