@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: 🛑 AdAway-Adblocker
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics for additional security.
-! Version: 20220716T0500
+! Version: 20220717T1800
 !
-! ---- Regex Multiple Block ----
+! ---- Regex Multi-Block ----
 !
 ^(page|m)?ad[sx]?[0-9]*\.
 ^adim(age|g)s?[0-9]*\.
@@ -20189,8 +20189,12 @@ $$script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="2500
 @@||ssl.p.jwpcdn.com/player/v/*$script
 ||goaserv.com^
 ||a.adtng.com/get/
+||eporner.com/event.php
+@@||apis.google.com^$third-party
+/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
+||eporner.com/dot/
 !
-! ---- Crap from graph.facebook.com and web.facebook.com with app specific  ----
+! ---- Crap from graph.facebook.com and web.facebook.com (app specific)  ----
 ||graph.facebook.com^$app=com.geumson.nookslist
 ||graph.facebook.com^$app=com.pixelpoint
 ||graph.facebook.com^$app=com.oddlyspaced.burnermedia.burnerguard|com.techburner.freshwalls|com.techburner.wallpaper|com.techburner.scanner.pdfeditor.android|com.techburner.burnerbits
