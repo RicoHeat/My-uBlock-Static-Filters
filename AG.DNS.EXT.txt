@@ -1,5 +1,5 @@
 # Title: Adguard DNS Extended
-# Version: 20220718T0400
+# Version: 20220718T0800
 # Sources: 1Hosts Pro + OISD Basic + AntiPopAds:re + Peter Lowe's ABP + Adguard DNS Optimized + BogachenkoBL.DNS & Hosts + anti-AD AGH
 
 ||gnn01wl.cn^
@@ -2554,6 +2554,7 @@
 ||psugeglapha.com^
 ||xrdatsuclxrvpx.com^
 ||landing.sexkiste.com^
+||analytics.localytics.com^
 ||auspiceguidance.com^
 ||peeping-wiki.com^
 ||ads.sumotorrent.com^
@@ -2916,7 +2917,6 @@
 ||aboardlevel.com^
 ||w88.go.com^
 ||analytics.imagetrendlicense.com^
-||zatythygre.pro^
 ||tesla.nproghgxi.site^
 ||analytics.sweep.net^
 ||slot888.com^
@@ -9524,6 +9524,7 @@
 ||steam-awards.ru^
 ||seniorliving.maryswoods.org^
 ||sowhoz.ru^
+||click.aliexpress.com^$image,script
 ||pixel-api.socialhead.io^
 ||youzhizi.com^
 ||mtgroup.kr^
@@ -30066,6 +30067,7 @@
 ||dc-api-log-us-1.clktec.com^
 ||ifnaunfsanidmsaidnsafsa.bar^
 ||pg-ad-b2.ws.126.net^
+||vebo-vast.pages.dev^
 ||appealsfini.com^
 ||je8fn.com^
 ||halytigla.com^
@@ -33751,6 +33753,7 @@
 ||yakutia.io^
 ||fracs.xyz^
 ||down2.9apps.com^
+||track.websiteceo.com^
 ||www.lokhlp.com^
 ||twnb.xyz^
 ||backla2z8han09.com^
@@ -34899,6 +34902,7 @@
 ||movienet.pl^
 ||qjjjdnbne.xyz^
 ||m.amtmobi.com^
+||stats.visistat.com^
 ||m.pwjhg.com^
 ||w.oix.net^
 ||thrilledaliasoil.com^
@@ -45158,6 +45162,7 @@
 ||asgclickpp.com^
 ||click.gospect.com^
 ||i2.29g.net^
+||t.hulu.com/beacon/
 ||altmetric.com^
 ||preseshopes.com^
 ||analytics.wittyfeed.com^
@@ -54223,6 +54228,7 @@
 ||mkt10419.com^
 ||haoshengtoys.com^
 ||mftmyrzoxtfx.com^
+||collector.statowl.com^
 ||b.iheart.southwest.com^
 ||frog.wix.com^
 ||trucs.eu^
@@ -55619,7 +55625,6 @@
 ||get-hot-girls.com^
 ||tracking.lg.com^
 ||pvlog.hd.baofeng.com^
-||dingibley.pro^
 ||easyad.com^
 ||ps2.camcaps.to^
 ||vconf.f.360.cn^
@@ -59389,6 +59394,7 @@
 ||stats.ultimaker.com^
 ||fessoovy.com^
 ||porncaine.com^
+||autoranplususeremailprocessingupdate.pages.dev^
 ||dualsale2.xyz^
 ||trafficjoint.com^
 ||stopstopone.today^
@@ -71001,6 +71007,7 @@
 ||ns1.vicp.net^
 ||smetrics.traction.com^
 ||pdodtlrbrcebgit.xyz^
+||new-adtest.pages.dev^
 ||jourlacy.com^
 ||42837932b3d.com^
 ||tali.iad-03.braze.com^
@@ -73250,6 +73257,7 @@
 ||hf.hushenqiquan.com^
 ||go.pheasant.com^
 ||jfsdiwmnbsk009.top^
+||analytics.omgpop.com/log
 ||bigrourg.net^
 ||id.google.is^
 ||track.avxid.com^
@@ -99364,6 +99372,7 @@
 ||www.happnpy.com^
 ||napolilovemark.com^
 ||m.ecenf.com^
+||pixazza.com/track/
 ||azither.com^
 ||osutrainingtoyou.com^
 ||thetradedesk-ads-video.s3.amazonaws.com^
@@ -113283,6 +113292,7 @@
 ||analytics.oyohotels.top^
 ||crossinstall.com^
 ||swqleb.adidas.ru^
+||log.player.cntv.cn/stat.html?
 ||c16cp358.com^
 ||zhufushuo.com^
 ||static.smi2.net^
@@ -120894,6 +120904,7 @@
 ||app-clicks-corporate.firstrepublic.com^
 ||pointeretards.com^
 ||sneakyboy.com^
+||e6.pages.dev^
 ||senxiaopang.top^
 ||intake-logging.wikimedia.org^
 ||smetrics.myoccu.org^
@@ -125666,6 +125677,7 @@
 ||poisk.am^
 ||0xxd.com^
 ||2f60062f0c.akstat.io^
+||adtest.pages.dev^
 ||sdk.open.talk.gepush.com^
 ||embluemail.com^
 ||websitealive6.com^
@@ -138869,6 +138881,7 @@
 ||bob4915.com^
 ||8sghnct.xyz^
 ||hunterkaloszeoutlet.pl^
+||tracking.gfycat.com/viewCount/
 ||inpost-pl.tilted-reset-72829.xyz^
 ||mixervanga.ru^
 ||vtxjoult.xyz^
@@ -141498,6 +141511,7 @@
 ||zf678.com^
 ||gx-corner.route*.opera.com^
 ||nataeuc.xyz^
+||userinformationstoreupdatesmail.pages.dev^
 ||download-spybot.com^
 ||quizzitch.net^
 ||obhxvb.tmktools.ru^
@@ -156399,6 +156413,7 @@
 ||weberotic.net^
 ||najsiejfnc.win^
 ||modasum.com^
+||clicks.traffictrader.net^
 ||pihafi.com^
 ||crashnoodle.com^
 ||nojazz.eu^
