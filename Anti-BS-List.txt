@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: 🆎️ The Anti-BS List
-! Version: 20220716T1400
+! Version: 20220718T1900
 ! Description: The anti bullshit list
 
-# ☆ ---- Regex ---- ☆
+! ☆ ---- Regex ---- ☆
 
 /^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
 /^(.+[_.-])?telemetry[_.-]/
@@ -81,9 +81,9 @@
 /((^)|(.))trackscale./
 /(\.?)redfast\./
 
-# ☆ ---- Anti Anti-adblock Enhancer ---- ☆
-# ☆ Homepage: https://github.com/Yuki2718/adblock
-# ☆ Licence: GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
+! ☆ ---- Anti Anti-adblock Enhancer ---- ☆
+! ☆ Homepage: https://github.com/Yuki2718/adblock
+! ☆ Licence: GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
 
 &crc=1|$xmlhttprequest,third-party
 &dev=r&adb=y|$document
@@ -457,9 +457,9 @@ _spot_id=*&zone_id=$script,~third-party
 #@#[class^="div-gpt-ad"]
 #@#[id^="div-gpt-ad"]
 
-# ☆ ---- Fuck Fuckadblock ---- ☆
-# ☆ https://github.com/bogachenko/fuckfuckadblock
-# ☆ Licence: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md
+! ☆ ---- Fuck Fuckadblock ---- ☆
+! ☆ https://github.com/bogachenko/fuckfuckadblock
+! ☆ Licence: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md
 
 ###AdBlockDialog
 ###ab--notification-ribbon
