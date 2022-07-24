@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20220712T1300
+! Version: 20220724T0800
 
 www.tabootube.xxx##.webcam_widget
 www.tabootube.xxx##.false.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
@@ -897,10 +897,14 @@ www.trendyporn.com##div.row > .well-filters.well
 www.trendyporn.com##div.row:nth-of-type(6) > .col-sm-12 > .row
 www.trendyporn.com##center:nth-of-type(1)
 www.trendyporn.com##center:nth-of-type(2)
-hqq.to##+js(aopr, BetterJsPop)
-hqq.to##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-hqq.to##a[onclick="openAuc();"]
-hqq.to##+js(popads-dummy)
+hqq.*##+js(aopr, BetterJsPop)
+hqq.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+hqq.*##a[onclick="openAuc();"]
+hqq.*##+js(popads-dummy)
+hqq.*##a[title="Free money easy"]
+hqq.*##+js(set-constant, adBlockDetected, noopFunc)
+hqq.*##+js(set-constant, adblockcheck, false)
+hqq.*##+js(nofab)
 stepmomsx.com##.happy-header-mobile > .lazyloaded
 stepmomsx.com##.happy-under-player-mobile
 stepmomsx.com##.entry-header > .button
@@ -913,3 +917,11 @@ m.hqporner.com##.color4
 @@||userapi.com^$image,domain=daftsex.com
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 pornhegemon.com###post-80996 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
+yandexcdn.*##+js(set-constant, adBlockDetected, noopFunc)
+yandexcdn.*##+js(set-constant, adblockcheck, false)
+yandexcdn.*##+js(nofab)
+yandexcdn.*##a[onclick="openAuc();"]
+yandexcdn.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+yandexcdn.*##+js(popads-dummy)
+yandexcdn.*##a[title="Free money easy"]
+yandexcdn.*##+js(aopr, BetterJsPop)
