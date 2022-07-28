@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🛑 AdAway-Adblocker
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics for additional security.
-! Version: 20220720T1200
+! Version: 20220729T0700
 !
 ! CONDITIONS START
 !#if !ext_ublock
@@ -635,7 +635,8 @@ sexlist.tv,mangovideo.club,cwtvembeds.com,vidbull.tv##+js(set-constant, flashvar
 ! ---- cloned app ----
 @@||graph.facebook.com^$app=com.facebook.orka
 @@||b-graph.facebook.com^$app=com.facebook.orka
-! ---- Personal User Rules from Adguard for Android ----
+
+! ☆ ---- Personal User Rules from Adguard for Android ---- ☆
 .doublepimp.com^$third-party
 ||itspsmup.com^
 @@/favicon.ico
@@ -709,6 +710,7 @@ $$script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="2500
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 ||eporner.com/dot/
 &action=js_stats&
+||hqq.*/cdn-cgi/trace$xhr,1p,important
 
 ! Title: AdGuard Popups filter (Optimized)
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation.
@@ -14370,6 +14372,7 @@ m.hqporner.com##.color4
 @@||userapi.com^$image,domain=daftsex.com
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 pornhegemon.com###post-80996 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
+
 ! ☆ ---- Adguard Whitelist ---- ☆
 @@||leboncoin.fr^$content
 @@||out.pladform.ru/getVideo^
