@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Chromium Ads Detection
-! Version: 20220716V9.37.0
+! Version: 20220731V9.37.2
 ! Source: https://github.com/chromium/chromium-ads-detection
 
 @@||icloud.com^$generichide
