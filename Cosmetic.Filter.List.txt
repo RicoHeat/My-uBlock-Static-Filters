@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20220724T0800
+! Version: 20220803T0500
 
 www.tabootube.xxx##.webcam_widget
 www.tabootube.xxx##.false.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
@@ -68,8 +68,8 @@ xhamster3.com##.livesex > [href^="https://xhamsterlive.com/"]
 xhamster3.com##.livesex > [href^="https://xhamster3.com/stripchat/out"]
 xhamster3.com##.wio-xspot-container--bottom.wio-xspot-container
 xhamster3.com##.external-links
-m.spankbang.com##.lv_cm_cl_mx_why
-m.spankbang.com##.tabs
+spankbang.*##.lv_cm_cl_mx_why
+spankbang.*##.tabs
 fapster.xxx##.bottomNav
 fapster.xxx##div.bottomNav:nth-child(7)
 fapster.xxx##div.bottomNav:nth-child(6)
@@ -516,9 +516,9 @@ xxxpicss.com,xxxpicz.com##.left-banners
 xxxporntalk.com##.leftsidenav
 xxxvogue.net##.link-adv
 totsantcugat.info##.live > a[href="http://totsantcugat.info/wp-content/video.php"]
-spankbang.com##.live-rotate
+spankbang.*##.live-rotate
 alloldpics.com,sexygirlspics.com##.live-spot
-spankbang.com##.livecam-rotate
+spankbang.*##.livecam-rotate
 proporn.com,vivatube.com##.livecams
 peekvids.com##.mediaPlayerSponsored
 empflix.com,tnaflix.com##.mewBlock
@@ -576,7 +576,7 @@ cam4.com##.presentation
 perfectgirls.net,xnostars.com##.promo
 viptube.com##.promotion
 3dtube.xxx,milf.dk,nakedtube.com,pornmaki.com##.promotionbox
-spankbang.com##.ptgncdn_holder
+spankbang.*##.ptgncdn_holder
 watchmygf.me##.publicity
 freemovies.tv,pornjam.com##.publis-bottom
 gaymovievids.com,ts-tube.net,verygayboys.com##.random-td
@@ -764,7 +764,7 @@ pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
 porn.com##a[href*="&ref="]
-asspoint.com,babepedia.com,babesandstars.com,blackhaloadultreviews.com,dbnaked.com,freeones.com,gfycatporn.com,javfor.me,mansurfer.com,newpornstarblogs.com,ok.porn,porn-star.com,porn.com,porndoe.com,pornhubpremium.com,pornstarchive.com,rogreviews.com,sexyandfunny.com,shemaletubevideos.com,spankbang.com,str8upgayporn.com,the-new-lagoon.com,tube8.com,wcareviews.com,xxxonxxx.com,youporn.com##a[href*=".com/track/"]
+asspoint.com,babepedia.com,babesandstars.com,blackhaloadultreviews.com,dbnaked.com,freeones.com,gfycatporn.com,javfor.me,mansurfer.com,newpornstarblogs.com,ok.porn,porn-star.com,porn.com,porndoe.com,pornhubpremium.com,pornstarchive.com,rogreviews.com,sexyandfunny.com,shemaletubevideos.com,spankbang.*,str8upgayporn.com,the-new-lagoon.com,tube8.com,wcareviews.com,xxxonxxx.com,youporn.com##a[href*=".com/track/"]
 badjojo.com,boysfood.com,definebabe.com,efukt.com,fantasti.cc,girlsofdesire.org,imagepix.org,javfor.me,pornxs.com,shemaletubevideos.com,therealpornwikileaks.com,yea.xxx##a[href*=".php"]
 blackhaloadultreviews.com,javjunkies.com,porn-w.org,yespornplease.porn##a[href*="//bit.ly/"]
 celeb.gate.cc##a[href*="//goo.gl/"]
@@ -776,7 +776,7 @@ pornlib.com##a[href*="/linkout/"]
 mansurfer.com##a[href*="/out/"]
 avgle.com##a[href*="/redirect"]
 4tube.com,fux.com,pornerbros.com,porntube.com##a[href*="/redirect-channel/"]
-daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
+daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.*,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
 adultdvdempire.com##a[href*="?partner_id="][href*="&utm_"]
 taxidrivermovie.com##a[href*="mrskin.com/"]
 adultfilmdatabase.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,cutscenes.net,daftsex.com,devporn.net,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,motherless.com,myporn.club,pandamovies.pw,planetsuzy.org,pussyspace.com,redgifs.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,thefappeningblog.com,vintage-erotica-forum.com,vipergirls.to,waxtube.com,xfantazy.com,yeapornpls.com##a[href*="theporndude.com"]
@@ -784,7 +784,7 @@ bravotube.net##a[href^="/cs/"]
 sexhd.pics##a[href^="/direct/"]
 analpornpix.com##a[href^="/go/"]
 drtuber.com##a[href^="/partner/"]
-pornhub.com,pornhubthbh7ap3u.onion,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
+pornhub.com,pornhubthbh7ap3u.onion,spankbang.*##a[href^="http://ads.trafficjunky.net/"]
 babesandstars.com##a[href^="http://rabbits.webcam/"]
 babeshows.co.uk,boobieblog.com,fapnado.com,foxhq.com,iseekgirls.com,small-breasted-teens.com,the-new-lagoon.com##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
 hentai-imperia.org##a[href^="http://www.adult-empire.com/rs.php?"]
