@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🛑 AdAway-Adblocker
 ! Blocking Ad providers, Popups, Popunders, and some tracking-analytics for additional security.
-! Version: 20220803T0300
+! Version: 20220804T0600
 !
 !
 ! ☆ ---- bogachenko's Personal Filters ---- ☆
@@ -103301,3 +103301,5 @@ $$script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="2500
 ||eporner.com/dot/
 &action=js_stats&
 ||hqq.*/cdn-cgi/trace$xhr,1p,important
+@@||static.spankbang.com^$image,domain=spankbang.party
+spankbang.party##div.scroll_list:nth-of-type(1)
