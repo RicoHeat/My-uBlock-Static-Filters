@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 🛑 AdAway-Adblock (Alpha-Test)
-! Version: 20220805T0800
+! Version: 20220805T1100
 
 ! ☆ ---- uBlock filters
 ! Description: Filters optimized for uBlock, to be used along EasyList
@@ -12209,10 +12209,8 @@ techdracula.com##.adsbygoogle
 /v2/a/push/js/*$script,3p
 /sdk/push_web/?zid=$script,3p
 /code/native.js?h=
-! As of 2020-04-09, new filters will be added to year-based sublists
-!#include filters-2020.txt
-!#include filters-2021.txt
-!#include filters-2022.txt
+!
+!
 ! ☆ ---- uBlock filters – Resource abuse
 ! Description: To foil sites potentially abusing CPU/bandwidth resources without informed
 !              consent. Any such resource-abuse scripts MUST be opt-in, with complete
