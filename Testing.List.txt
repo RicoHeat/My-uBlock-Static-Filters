@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 🛑 AdAway-Adblock (Alpha-Test)
-! Version: 20220807T0800
+! Version: 20220807T0900
 !
 ! ☆ ---- uBlock filters 2020 ---- ☆
 ! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -17976,7 +17976,6 @@ $csp=worker-src	'none',domain=torlock.com|alltube.pl|alltube.tv|centrum-dramy.pl
 ||optimizely.com^$3p
 ||tipstour.net/wp-content/uploads/KindleUnlimited_
 ||2nt.com/p/i/c/pickupgirl/TokyoHot_$domain=pickupgirl.blog.2nt.com
-*.jpg
 ||coninemelior.com^
 /flr.js$domain=8boobs.com|angelgals.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|pleasuregirl.net|rabbitsfun.com|sexybabes.club|silkengirl.*
 ||redventures.io^$3p
@@ -19326,7 +19325,6 @@ $popup,third-party,domain=webkaka.com
 ||omyutech.com/image/dns_ads/
 ||vliplatform.com^$3p
 ||secure.hp-ww.com/cma/metrics/
-*.png
 ||gahapule.pro^
 ||dyh1wzegu1j6z.cloudfront.net^
 ||123hrs.web.fc2.com/banner/dq4-related-items.html
@@ -20306,7 +20304,6 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=flashx.to|flashx.tv
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|flashx.tv|imagefap.com|keepvid.com|megaup.net|merriam-webster.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
 -prebid/
 /teaser2.
-*.svg
 ||q777.sfchronicle.com^
 ||spotsniper.ru^$third-party
 *$script,redirect-rule=noop.js,domain=aternos.org
