@@ -309,7 +309,6 @@
 ||ww2951.smartadserver.com^
 ||fvalid.appsflyer.com.akamaized.net^
 ||bjuser.jpush.cn^
-||aj1907.online^
 ||eu.cfcnet.top^
 ||lftracker.leadfeeder.com^
 ||adimages.omroepzeeland.nl^
@@ -431,6 +430,7 @@
 ||iadsdk.apple.com^
 ||bid.contextweb.com^
 ||pronetadvertising.com^
+||trustaproiam.de^
 ||ssp.tadseeker.com^
 ||enviousthread.com^
 ||dacdn.vwo.com^
@@ -1235,7 +1235,6 @@
 ||show.3.mediav.com^
 ||i.connatix.com^
 ||cdn.microad.jp^
-||aj1090.online^
 ||qring-tms.qq.com^
 ||telemetry.api.swiftkey.com^
 ||tkbo.com^
@@ -1887,7 +1886,6 @@
 ||banner.orb.net^
 ||moatpixel1.edgekey.net^
 ||be.durationmedia.net^
-||ads-sg.tiktok.com^
 ||scadxrtb.lfstmedia.com^
 ||swrve.com^
 ||emodoinc.com^
@@ -2083,6 +2081,7 @@
 ||cws-iad1.conviva.com^
 ||mgid.com^
 ||open.talk.igexin.com^
+||eth-pocket.eu^
 ||greyinstrument.com^
 ||banners.clubseventeen.com^
 ||cdn.dynamicyield.com^
@@ -2133,6 +2132,7 @@
 ||api.bee7.com^
 ||api.appodealx.com^
 ||gdn.socdm.com^
+||bitcoin-cashcard.com^
 ||g.cn.miaozhen.com^
 ||receptivereaction.com^
 ||img.ads.taptapnetworks.com^
@@ -2396,6 +2396,7 @@
 ||baidu-mipdx.cn.miaozhen.com^
 ||trafficshop.com^
 ||topbucks.com^
+||bestsrv.de^
 ||api.wootric.com.herokudns.com^
 ||ua-myfitnesspal.adsbynimbus.com^
 ||businessinsider.amp.permutive.com^
@@ -2830,6 +2831,7 @@
 ||www.wjxcdn.com^
 ||rock.reauthenticator.com^
 ||unwieldyhealth.com^
+||evilsbedont.de^
 ||oei1.gq^
 ||bam.eu01.nr-data.net^
 ||adzmobi.com^
@@ -2865,6 +2867,7 @@
 ||service.sponsorpay.com^
 ||authbe.sec.intl.miui.com^
 ||apperr.log.mgtv.com^
+||trusteverything.de^
 ||q.azcentral.com^
 ||antenna-apse.ayads.co^
 ||q.myvisualiq.net^
@@ -2880,7 +2883,6 @@
 ||intelligence-head.pinsightmedia.com^
 ||depttake.ga^
 ||analytics.ooyala.com^
-||aj1432.online^
 ||pg-ad-b2.ws.126.net^
 ||ad-thd-east.tagdelivery.com^
 ||ad.greedland.net^
@@ -4639,6 +4641,7 @@
 ||6491480h9-capi.taplytics.com^
 ||gklfs-0vg08.ads.tremorhub.com^
 ||newsletter-link.com^
+||ethereum-cashcard.com^
 ||l.sharethis.com^
 ||758.api.swrve.com^
 ||fidelity-media.com^
@@ -4880,6 +4883,7 @@
 ||conde.adsame.com^
 ||c212.net^
 ||nl.notice.iqiyi.com^
+||ethereum-pocket.com^
 ||www.doumob.com^
 ||lb3d.tj.ijinshan.com^
 ||gce-sc.bidswitch.net^
@@ -5135,6 +5139,7 @@
 ||adserver.o2.pl^
 ||x.skimresources.com^
 ||z.cdp-dev.cnn.com^
+||ethereum-pocket.eu^
 ||jqmt.qq.com^
 ||clicks.equantum.com^
 ||grtb-nj.lfstmedia.com^
@@ -5143,6 +5148,7 @@
 ||epp.bih.net.ba^
 ||mighbest.host^
 ||tw.as.y.atwola.com^
+||ethereum-pocket.de^
 ||intellitxt.com^
 ||as.innity.com^
 ||adsfac.us^
@@ -6768,7 +6774,6 @@
 ||ag.innovid.com.akadns.net^
 ||adlegend.com^
 ||placed.com^
-||aj1052.online^
 ||app-tj.adinall.com^
 ||cxense.com^
 ||adnetwork.admicro.vn^
@@ -6976,6 +6981,7 @@
 ||ads.gradfinder.com^
 ||tag.mtrcs.samba.tv^
 ||analytics.twitter.com^
+||bidease.com^
 ||m.trb.com^
 ||offshoreanglehost.com^
 ||ee.j5s9b.cn^
@@ -7161,7 +7167,6 @@
 ||topstats.com^
 ||aimatch.com^
 ||m.admedia.com^
-||analytics-sg.tiktok.com^
 ||be-gmtdmp.mookie1.com^
 ||adserver.videohub.tv^
 ||abtesting.perfectcorp.com^
@@ -7230,6 +7235,7 @@
 ||adopt-sdk.xg.tagtic.cn^
 ||cache.send.microadinc.com^
 ||cloudiq.com^
+||donttbeevils.de^
 ||gearwom.de^
 ||ulink.adjust.com^
 ||partner.knorex.com^
@@ -7726,7 +7732,6 @@
 ||pingfore.qq.com^
 ||adservices.brandcdn.com^
 ||go.skimresources.com^
-||aj2275.online^
 ||csm.eu.criteo.net^
 ||yj-a.p.adnxs.com^
 ||cm.lianmeng.360.cn^
@@ -9033,6 +9038,7 @@
 ||spotxcdn.com.edgekey.net^
 ||oxcash.com^
 ||flowplayer.space^
+||bitcoin-pocket.de^
 ||monitor-uu.play.aiseet.atianqi.com^
 ||m.anyfiles.ovh^
 ||tracker.adotmob.com^
@@ -9055,6 +9061,7 @@
 ||inmobi.com^
 ||cj.com^
 ||reauthenticator.com^
+||bitcoin-pocket.eu^
 ||kake.images.worldnow.com^
 ||ww264.smartadserver.com^
 ||seed-15.nimiq.com^
@@ -9600,7 +9607,6 @@
 ||loopme.me^
 ||api.popin.cc^
 ||ads.tapdaq.com^
-||aj2208.online^
 ||media.mydas.mobi^
 ||js07.adlooxtracking.com^
 ||evt.bfmio.com^
@@ -9874,6 +9880,7 @@
 ||strikeadcdn.s3.amazonaws.com^
 ||youradexchange.com^
 ||front-logs.voodoo-ads.io^
+||bitcoin-cashcard.eu^
 ||2o7.net^
 ||jogger.zdbb.net^
 ||loopme.com^
@@ -9885,6 +9892,7 @@
 ||synchroscript.deliveryengine.adswizz.com^
 ||banner.cotedazurpalace.com^
 ||topsite.lv^
+||bitcoin-cashcard.de^
 ||pg-prebid-server.rubiconproject.com^
 ||previousplayground.com^
 ||origami.secure.ownlocal.com^
@@ -10091,7 +10099,6 @@
 ||admedia.com^
 ||nondescriptnote.com^
 ||monitoring-sdk.experimentation.intuit.com^
-||log16-normal-alisg.tiktokv.com^
 ||ma562-r.analytics.edgekey.net^
 ||cloudflareinsights.com^
 ||ads.ad4game.com^
@@ -10571,8 +10578,10 @@
 ||cdp.in.treasuredata.com^
 ||openx.skinet.cz^
 ||engine.sponsorpay.com^
+||ethereum-cashcard.de^
 ||flimsycircle.com^
 ||stat.lianmeng.360.cn^
+||ethereum-cashcard.eu^
 ||media-active.contextweb.com^
 ||ginf.adfurikun.jp^
 ||stc.adtima.vn^
@@ -10710,7 +10719,6 @@
 ||marketo.net.edgekey.net^
 ||msga.cupid.iqiyi.com^
 ||truehits1.gits.net.th^
-||aj1602.online^
 ||g1.163.com^
 ||rtb.adcolony.com^
 ||e-9660.adzerk.net^
@@ -11045,7 +11053,6 @@
 ||ads.thestar.com^
 ||api.optmnstr.com^
 ||exapi-us-west.rubiconproject.com^
-||aj1574.online^
 ||api.ts.feedback.71.am^
 ||prod-m-node-1112.nexage.com^
 ||bttrack.com^
@@ -12530,7 +12537,6 @@
 ||seed-gbr-2.inf.nimiq.network^
 ||audible.demdex.net^
 ||s2.flowplayer.space^
-||aj1913.online^
 ||adstats.tencentmusic.com^
 ||creative-analytics.crossinstall.io^
 ||banner.inyourpocket.com^
