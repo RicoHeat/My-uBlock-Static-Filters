@@ -1,7 +1,7 @@
 !
 [Adblock Plus 2.0]
 ! Title: 🧷 Easy-Assets
-! Version: 20220813T1300
+! Version: 20220813T1500
 !
 /phpads/*
 ||gnn01wl.cn^
@@ -60080,7 +60080,6 @@ _ad_integration.
 ||hashnest.com^
 ||reklam.bahisanaliz.com^
 ||inflationbreedinghoax.com^
-::1	localhost
 ||analytics.slashdotmedia.com^
 ||slideff.com^$popup
 ||jiedaibao120.cn^
