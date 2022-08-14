@@ -1,3 +1,7 @@
+!
+! Title: ⚓ Work Base List
+! Version: 20220815T0100
+!
 ||rmads.msn.com^
 ||adjust.world^
 ||gi.getui.net^
