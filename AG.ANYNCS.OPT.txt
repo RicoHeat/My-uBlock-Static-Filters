@@ -1,5 +1,6 @@
-!! Title: AG Annoyances (Optimized)
-! Version: 20220816T2300
+![Adblock Plus 2.0]
+! Title: AG Annoyances (Optimized)
+! Version: 20220817T1200
 !
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
