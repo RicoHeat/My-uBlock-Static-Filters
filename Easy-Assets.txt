@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 🧷 Easy-Assets
-! Version: 20220822T1900
+! Version: 20220823T0400
 !
 ||pikadu.info^$third-party
 ||qdb6gd3nth.ru^$third-party
@@ -9306,7 +9306,6 @@ _longad_
 /plugins/simple-share-buttons-adder/*
 ||conative.de^$domain=spiegel.de
 _affiliate_ad.
-*.gif
 ||knc.lv^$third-party
 ||xveenk.com^$third-party
 ||crmbuyer.com/images/sda/
@@ -10650,7 +10649,6 @@ $csp=worker-src	'none',domain=torlock.com|alltube.pl|alltube.tv|centrum-dramy.pl
 ||z7yru.com^
 ||777partner.com^$script,third-party
 ||331855bf9a7343.com^$third-party
-*.jpg
 ||coninemelior.com^
 ||8s8.eu^*fa.js$script,redirect=fuckadblock.js-3.2.0
 ||smart-redirecting.com^$third-party
@@ -12540,7 +12538,6 @@ _fullscreen_ad.
 ||linkupper.ru^
 ||pamphletrating.com^
 ||feature.fm^$third-party
-*.png
 ||dyh1wzegu1j6z.cloudfront.net^
 ||gahapule.pro^
 ||yeahmobi.com^$third-party
@@ -13938,7 +13935,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /webads_
 -prebid/
 -contrib-ads.$script,redirect=noopjs,domain=news18.com
-*.svg
 ||radiancethedevice.com^
 ||q777.sfchronicle.com^
 /remove-ads.
@@ -44026,7 +44022,6 @@ _ad_actron.
 ||swelen.com^
 ||pseptegoti.com^
 ||imp.pvnsolutions.com^
-[Adblock	Plus	2.0]
 ||zscript.site^$third-party
 ||iamcdn.net/players/player*.*mins.js$script,domain=freeplayervideo.com|hydracdn.*|junihd.com|nazarickol.com|player-cdn.com
 ||brocardcored.com^
