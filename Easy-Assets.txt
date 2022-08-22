@@ -1,7 +1,7 @@
 !
-[Adblock Plus 2.0]
+![Adblock Plus 2.0]
 ! Title: 🧷 Easy-Assets
-! Version: 20220822T1800
+! Version: 20220822T1900
 !
 ||pikadu.info^$third-party
 ||qdb6gd3nth.ru^$third-party
