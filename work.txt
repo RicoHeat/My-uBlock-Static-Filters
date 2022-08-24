@@ -38559,3 +38559,4 @@
 ||t.apkpure.net^
 ||franecki.net^
 ||franeski.ne^
+!
