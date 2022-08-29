@@ -1,11 +1,10 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 🆎️ The Anti-BS List
-! Version: 20220825T0200
+! Version: 20220829T1900
 ! Description: The Anti-Bullshit list
 
 ! ☆ ---- Anti Anti-adblock Enhancer ---- ☆
-! Licence: GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
 
 &crc=1|$xmlhttprequest,third-party
 &dev=r&adb=y|$document
@@ -289,7 +288,6 @@ _spot_id=*&zone_id=$script,~third-party
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.js?adzone=$script,~third-party
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest,~third-party
 @@/ads-prebid.js$script,~third-party
-@@/ads/pop.js|$script,~third-party
 @@/adsense.js?adsdata=$script,~third-party
 @@/adv/ads/popunder.js?$script,~third-party
 @@/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js|$script,~third-party
@@ -400,9 +398,8 @@ _spot_id=*&zone_id=$script,~third-party
 #@#div[id^="div-gpt-"]
 #@#[class^="div-gpt-ad"]
 #@#[id^="div-gpt-ad"]
-
+!
 ! ☆ ---- Fuck Fuckadblock ---- ☆
-! Licence: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md
 
 ###AdBlockDialog
 ###ab--notification-ribbon
