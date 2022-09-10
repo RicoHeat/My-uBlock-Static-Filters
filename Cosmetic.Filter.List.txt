@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20220909T1900
+! Version: 20220910T1900
 !
 ! ☆ ---- Generichide Rules ---- ☆
 !
@@ -1048,3 +1048,7 @@ yandexcdn.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 yandexcdn.*##+js(popads-dummy)
 yandexcdn.*##a[title="Free money easy"]
 yandexcdn.*##+js(aopr, BetterJsPop)
+m.hqporner.com##li.color1:nth-of-type(9)
+m.hqporner.com##.color4
+m.hqporner.com##.color5
+m.hqporner.com##[href^="https://landing.brazzersnetwork.com/"]
