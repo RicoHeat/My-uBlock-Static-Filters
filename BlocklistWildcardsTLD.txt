@@ -1,8 +1,245 @@
 # Title: Blocklist with Wildcards and TLD
-# Version: 20220907T0600
+# Version: 20220913T0700
+
+! ☆ ---- General JS API ---- ☆
+! JS API START
+#%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
+#%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
+#%#var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
+#%#var AG_each = function(selector, fn) { if (!document.querySelectorAll) return; var elements = document.querySelectorAll(selector); for (var i = 0; i < elements.length; i++) { fn(elements[i]); }; };
+#%#var AG_removeParent = function(el, fn) { while (el && el.parentNode) { if (fn(el)) { el.parentNode.removeChild(el); return; } el = el.parentNode; } };
+!
+! AG_removeCookie
+! Examples: AG_removeCookie('/REGEX/') or AG_removeCookie('part of the cookie name')
+!
+#%#var AG_removeCookie=function(a){var e=/./;/^\/.+\/$/.test(a)?e=new RegExp(a.slice(1,-1)):""!==a&&(e=new RegExp(a.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")));a=function(){for(var a=document.cookie.split(";"),g=a.length;g--;){cookieStr=a[g];var d=cookieStr.indexOf("=");if(-1!==d&&(d=cookieStr.slice(0,d).trim(),e.test(d)))for(var h=document.location.hostname.split("."),f=0;f<h.length-1;f++){var b=h.slice(f).join(".");if(b){var c=d+"=",k="; domain="+b;b="; domain=."+b;document.cookie=c+"; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+k+"; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+b+"; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+"; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+k+"; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+b+"; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT"}}}};a();window.addEventListener("beforeunload",a)};
+!
+! AG_defineProperty
+! See https://github.com/AdguardTeam/deep-override
+!
+#%#var AG_defineProperty=function(){var p,q=Object.defineProperty;if("function"==typeof WeakMap)p=WeakMap;else{var r=0,t=function(){this.a=(r+=Math.random()).toString()};t.prototype.set=function(a,b){var d=a[this.a];d&&d[0]===a?d[1]=b:q(a,this.a,{value:[a,b],writable:!0});return this};t.prototype.get=function(a){var b;return(b=a[this.a])&&b[0]===a?b[1]:void 0};t.prototype.has=function(a){var b=a[this.a];return b?b[0]===a:!1};p=t}function u(a){this.b=a;this.h=Object.create(null)}function v(a,b,d,e){this.a=a;this.i=b;this.c=d;this.f=e}function w(){this.g=/^([^\\\.]|\\.)*?\./;this.j=/\\(.)/g;this.a=new p}function x(a,b){var d=b.f;if(d&&!("beforeGet"in d||"beforeSet"in d))return z(d);var e={get:function(){var c=b.f;c&&c.beforeGet&&c.beforeGet.call(this,b.a.b);a:if(c=b.g)c=A(c)?c.value:c.get?c.get.call(this):void 0;else{c=b.a.b;if(b.i in c&&(c=B(c),null!==c)){var d=C.call(c,b.i);c=d?d.call(this):c[b.i];break a}c=void 0}(this===b.a.b||D.call(b.a.b,this))&&E(a,c,b.c);return c},set:function(c){if(this===b.a.b||D.call(b.a.b,this)){b.f&&b.f.beforeSet&&(c=b.f.beforeSet.call(this,c,this));var d=b.g;d&&A(d)&&d.value===c?c=!0:(d=F(b,c,this),G(c)&&(c=H(a,c),I(a,c,b.c)),c=d)}else c=F(b,c,this);return c}};d&&J(d,e,K);return e}function I(a,b,d){for(var e in d.h){var c=d.h[e];if(b.h[e]){var h=a,g=b.h[e],k=c;!k.f||g.f||"undefined"===typeof g.a.b||g.g||(g.g=z(k.f));g.c&&k.c&&g.c!==k.c&&I(h,g.c,k.c)}else{g=h=void 0;k=a;var f=b,l=c.i,m="undefined"!==typeof f.b,y=!1;m&&(g=L(f.b,l))&&!g.configurable&&(y=!0,h=f.b[l]);var n=y?H(k,h):new u(c.c.b);I(k,n,c.c);n=new v(f,l,n,c.f);f.h[l]=n;m&&(n.g=g,m=x(k,n),y?E(k,h,c.c):(q(f.b,l,m),g&&A(g)&&(M(m,g.value,f.b),E(k,g.value,c.c))))}}}function E(a,b,d){G(b)&&(b=H(a,b),I(a,b,d))}function F(a,b,d){var e=a.g;if(!e){e=B(a.a.b);if(null!==e&&(e=N.call(e,a.i)))return e.call(d,b);if(!O(a.a.b))return!1;a.g={value:b,configurable:!0,writable:!0,enumerable:!0};return!0}return M(e,b,d)}function H(a,b){var d=a.a.get(b);d||(d=new u(b),a.a.set(b,d));return d}function A(a){return"undefined"!==typeof a.writable}function J(a,b,d){for(var e=0,c=d.length;e<c;e++){var h=d[e];h in a&&(b[h]=a[h])}}function z(a){if(a){var b={};J(a,b,P);return b}}function M(a,b,d){if(A(a))return a.writable?(a.value=b,!0):!1;if(!a.set)return!1;a.set.call(d,b);return!0}var P="configurable enumerable value get set writable".split(" "),K=P.slice(0,2),L=Object.getOwnPropertyDescriptor,O=Object.isExtensible,B=Object.getPrototypeOf,D=Object.prototype.isPrototypeOf,C=Object.prototype.__lookupGetter__||function(a){return(a=Q(this,a))&&a.get?a.get:void 0},N=Object.prototype.__lookupSetter__||function(a){return(a=Q(this,a))&&a.set?a.set:void 0};function Q(a,b){if(b in a){for(;!w.hasOwnProperty.call(a,b);)a=B(a);return L(a,b)}}function G(a){var b=typeof a;return"function"===b||"object"===b&&null!==a?!0:!1}var R;return function(a,b,d){R||(R=new w);var e=R;d=d||window;var c=new u;a+=".";var h=c||new u;for(var g=e.g,k=e.j,f,l,m;a;){f=g.exec(a);if(null===f)throw 1;f=f[0].length;l=a.slice(0,f-1).replace(k,"$1");a=a.slice(f);(f=h.h[l])?m=f.c:(m=new u,f=new v(h,l,m),h.h[l]=f);h=m}if(!f)throw 1;a=f;a.f=b;E(e,d,c)};}();
+!
+! AG_abortOnPropertyWrite(property, debug)
+! Aborts execution of a script when it attempts to write the specified property.
+! Based on AG_defineProperty (https://github.com/AdguardTeam/deep-override)
+!
+! Examples:
+! AG_abortOnPropertyWrite('String.fromCharCode');
+!
+! @param property property or properties chain
+! @param debug optional, if true - we will print warning when script is aborted.
+!
+#%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
+!
+! AG_abortOnPropertyRead(property, debug)
+! Aborts execution of a script when it attempts to read the specified property.
+! Based on AG_defineProperty (https://github.com/AdguardTeam/deep-override)
+!
+! Examples:
+! AG_abortOnPropertyRead('String.fromCharCode');
+!
+! @param property property or properties chain
+! @param debug optional, if true - we will print warning when script is aborted.
+!
+#%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
+!
+! AG_abortInlineScript(regex, property, debug)
+! Aborts execution of an inline script when it attempts to access the specified property
+! AND content of the <script> element matches specified regular expression.
+! Based on AG_defineProperty (https://github.com/AdguardTeam/deep-override)
+!
+! Examples:
+! AG_abortInlineScript(/zfgloadedpopup|zfgloadedpushopt/, 'String.fromCharCode');
+!
+! @param regex regular expression that the inline script contents must match
+! @param property property or properties chain
+! @param debug optional, if true - we will print warning when script is aborted.
+!
+#%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
+!
+! AG_setConstant('property.chain', 'true') // defines boolean (true), same for false;
+! AG_setConstant('property.chain', '123') // defines Number 123;
+! AG_setConstant('property.chain', 'noopFunc') // defines function(){};
+! AG_setConstant('property.chain', 'trueFunc') // defines function(){return true};
+! AG_setConstant('property.chain', 'falseFunc') // defines function(){return false};
+!
+#%#var AG_setConstant=function(e,a){if("undefined"===a)a=void 0;else if("false"===a)a=!1;else if("true"===a)a=!0;else if("noopFunc"===a)a=function(){};else if("trueFunc"===a)a=function(){return!0};else if("falseFunc"===a)a=function(){return!1};else if(/^\d+$/.test(a)){if(a=parseFloat(a),isNaN(a)||32767<Math.abs(a))return}else return;var b=!1;AG_defineProperty(e,{get:function(){return a},set:function(c){if(b)var d=!0;else void 0!==c&&void 0!==a&&typeof c!==typeof a&&(b=!0),d=b;d&&(a=c)}})};
+! JS API FINISH
+
+! Content Security Policy (CSP) START
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net;
+! Content Security Policy (CSP) END
+
+! OTHER START
+/\?advert((ising)|\_page)?\_id=/
+/^https?:\/\/bann?ers?([\d]+)?\./
+/^https?:\/\/ad[svbxo]?([\d]+)?\./
+/^https?:\/\/ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?([\d]+)?\./
+/^https?:\/\/analy([\W\w]+)?([\d]+)?\./$domain=~google.com|~google.ru
+/^https?:\/\/geo([\d]+)?\./$domain=~google.com|~google.ru|~office.com|~sberbank.ru|~ritm.ru
+/^https?:\/\/me?tr[ie]?[ck][asx]?([\d]+)?\./$domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
+/^https?:\/\/telemetr(y|ics?)?([\d]+)?\./
+/[-._?]beacon[\d\D]?/
+/[-._?]me?tr[ie]?[ck][asx]?[\d\D]?/$domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv|~dropbox.com|~twitter.com|~github.com|~tc.mobile.yandex.net|~support.google.com
+/[-._?]preroll[\d\D]/$domain=~mail.ru|~ttvnw.net|~twitch.tv
+/\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$domain=~yandex.ru|~yandex.com
+/\_shutdown\?token\=[a-zA-Z0-9]{10,}$/$important
+|http*:*$important,beacon
+|http*:*$important,ping
+|http*:*$important,webrtc
+|http*:*/log/$domain=~aliexpress.com|~sberbank.ru
+|http*:*/log?
+|http*:*.com/pagead/
+||geo.opera.com/geolocation/$important
+||meta^
+||mobilemaps-pa.googleapis.com/*.ads.$important
+||null^
+||undefined^
+||yandex.*/clck/$important
+||yandex.*/geohelper/$important
+||yandex.net/get-direct$important
+||youtube.com/ptracking?$important
+||operacdn.com/*/partnerrules/$important
+||operacdn.com/*/servicefiles/$important
+||opera.com/*/assistserv/$important
+||spotify.com/ad-logic/$important
+||spotify.com/ads/$important
+||spotify.com/facebook/$important
+||spotify.com/social-connect/$important
+||spotify.com/socialgraph/$important
+||spotify.com/sponsored$important
+||spotify.com/*/showSponsors/$important
+||yandex.*/clck/$important
+||yandex.*/count/$important
+||yandex.*/ads/$important
+||yandex-net.ru/analytics$important
+||translate.yandex.net/experiments$important
+|http*:*/ads-tracking|
+|http*:*/request-ad|
+|http*:*/billboards?
+|http*:*/?sentry_key=
+|http*:*&monetized=
+|http*:*/experiments?uuid=
+|http*:*/show-ads?
+|http*:*/vpaid/
+|http*:*/vast/
+|http*:*/getad?
+|http*:*/adfox/
+||discord.com/api/*/experiments|$important
+||discord.com/api/*/science|$important
+||google.*/velog/$important
+||cloudfront.net/hostsetting?open=
+||rocket.ivi.ru/event/
+||rocket.ivi.ru/playback/event/
+! OTHER END
+
+! SCRIPT START
+|http*:*/endscreen.js$important,script,domain=youtube.com|youtu.be|youtube-nocookie.com
+||youtube.com/*/player/*/ad.js$script,important
+|http*:*/vast-im.js|$important,script,third-party
+||yastatic.net/awaps-ad-sdk-js/$important,script
+||google.com/adsense/domains/caf.js|$important,script
+|http*:*.cloudfront.net/registrar/$important,script,third-party
+|http*:*/js/premium/premium-modals.js$script,domain=pornhub.com
+|http*:*/js/ph-footer.js$script,domain=pornhub.com
+|http*:*/js/htmlpauseroll/pb_block.js$script,domain=pornhub.com
+|http*:*/player/assets/devtools-detector/$script,third-party,important
+||twitchcdn.net/*.video-ads.*$script,important
+||twitchcdn.net/*/sentry-$script,important
+||twitchcdn.net/config/settings.$script,important
+||github.io/actualize.js|$script,important
+||yastatic.net/nearest.js|$script,important
+||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script,important
+||yandex.ru/search/touchcache.js|$script,important
+||yastatic.net/*/zen-lib/$script,important
+! SCRIPT END
+
+! XMLHTTPREQUEST START
+/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv|~telegram.org
+|http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
+||addons.opera.com/themes/$important,xmlhttprequest
+||google.com^*/viewerimpressions?$important,xmlhttprequest
+||music.yandex.*/handlers/experiment.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/gdpr-welcome.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/promo-feedback.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/variabel.jsx$important,xmlhttprequest
+||video.google.com/api/stats/$important,xmlhttprequest
+||youtube.com/get_endscreen?$important,xmlhttprequest
+||youtube.com/get_midroll_info?$important,xmlhttprequest
+/^https?:\/\/[^\s]+\.(com|net|xyz)\/[a-z0-9]{10,11}\.php$/$xmlhttprequest,important,third-party
+/\.com\/custom$/$xmlhttprequest,third-party
+||yandex.ru/ick/$xmlhttprequest
+! XMLHTTPREQUEST END
+
+! SUBDOCUMENT START
+||video.sibnet.ru/my/settings/$subdocument
+! SUBDOCUMENT END
+
+! IMAGE START
+|http*:*/image/px?$image
+! IMAGE END
+
+! COMBINED START
+/\/afs\/ads[?/]/$subdocument,script,important
+/^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
+/[-._?/](event|stat)logs?(ging|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest
+/[-._?/](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,other,script,xmlhttprequest
+/[-._?/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?]?204[-._?]?/$image,other,xmlhttprequest
+/[-._?/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com|~github.com
+/[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru
+/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru
+/[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru
+/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com|~yoomoney.ru
+/[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
+||youtube.com/api/stats/$image,important,other,xmlhttprequest
+/^https?:\/\/[^\s]+\/sw\.js/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/sw(\d+)?\.js\?[^\s]+$/$important,script,xmlhttprequest
+/\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/sw[-_]\w+\.js/$important,script,xmlhttprequest
+|http*:*.php?sw/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/service[-_]worker\.js/$important,script,xmlhttprequest
+|http*:*/serviceworker?$important,script,xmlhttprequest
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
+||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
+! COMBINED END
+
+! TRASH START
+infourok.ru##div#aa-popup
+|http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
+||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~baza.bz|~bdnewszh.com|~cdnmovies.be|~cdnmovies.cc|~cdnmovies.nl|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~fyshare.info|~getvi.tv|~github.io|~gsmware.com|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~live94today.com|~lookbase.xyz|~magicfilm.net|~mail.google.com|~mangahere.fit|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~playm4u.xyz|~playmuvi.com|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk-apps.com|~vk.com|~vmeste.tv|~web.app|~webflow.io,badfilter
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vulpecula.host,badfilter
+@@||s.youtube.com^|$badfilter
+@@||redirect.appmetrica.yandex.com^|$badfilter
+@@||imasdk.googleapis.com^|$badfilter
+@@||pagead.l.doubleclick.net^|$badfilter
+@@||www.googleadservices.com^|$badfilter
+@@||googleadapis.l.google.com^|$badfilter
+@@||launches.appsflyer.com^|$badfilter
+@@||app.adjust.com^|$badfilter
+||wl.spotify.com^$badfilter
+||click.redditmail.com^$badfilter
+/^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
+@@/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.dublgis.dgismobile
+@@||usher.ttvnw.net^$xmlhttprequest,other,app=tv.twitch.android.app
+@@/^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.yandex.taxi
+@@/[-._?]bann?ers?[-.0-9_?]/$image,xmlhttprequest,app=ru.mts.mtstv
+@@/^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/$xmlhttprequest,app=ru.mts.mtstv
+@@/\?advert((ising)|\_page)?\_id=/$other,app=ru.yandex.yandexmaps
+||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
+noodlemagazine.com#@#.verify
+pay.google.com#@#iframe[src="about:blank"]
+geo.ritm.ru###audio-playback-firefox
+||checkadblock.ru^$document,csp=script-src 'self',badfilter
+@@||api.browser.yandex.*^$badfilter
+/templates/*/images/like.gif$image
+@@||gstatic.com/*/firebase-analytics.js$script
+! TRASH END
 
 /^(.+[_.-])?advast([\d]+)?[_.-]/
-/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?[_.-]/
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
 /^(.+[_.-])?moviead(s|[0-9]{2})\.ru$/
@@ -24,7 +261,7 @@
 /^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
 /^[rt]s?[0-3]?\.mail\.ru$/
 
-! ☆ ---- TLD Spam ---- ☆
+! ☆ ---- TLDs and Wildcards ---- ☆
 ||surf^$all
 ||rest^$all
 ||monster^$all
@@ -52,8 +289,7 @@
 ||su^$all
 ||cm^~hill.cm,~nyer.cm
 ||2o7.net^$all
-
-! ☆ ---- Wildcards ---- ☆
+||.daraz.^
 ||*.irs01.com^
 ||*.irs01.net^
 ||*.irs03.com^
