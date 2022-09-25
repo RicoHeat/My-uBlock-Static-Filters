@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 💉 Filter Fixes
-! Version: 20220924T2000
+! Version: 20220925T1600
 !
 ! ☆ ---- Easylist Allowlist and Unbreak Fixes ---- ☆
 @@||www.facebook.com/ajax/ads/$xmlhttprequest,domain=facebookcorewwwi.onion|www.facebook.com
@@ -2143,7 +2143,6 @@
 @@||static.lci.fr/assets/scripts/common/user-agent-analyzer.js$script,~third-party
 @@||media.ethicalads.io/media/client/ethicalads.min.js$script,domain=iconer.app
 @@||playview.io^*/showads.js
-@@.png
 @@||generatorlinkpremium.com/ads/$script,~third-party
 ||go.usa.gov^$badfilter
 @@||ms-mt--api-web.*/ads/*$xhr,domain=coches.net
@@ -2427,7 +2426,6 @@
 @@||drive.google.com^$generichide
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 @@||gakushuin.ac.jp/ad/common/$~third-party
-@@.gif
 @@||googletagservices.com/tag/js/gpt.js$script,domain=epaper.timesgroup.com
 @@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com|wowebook.org|animes-mangas-ddl.net|pipocas.tv
 @@||coinpayu.com^$ghide
@@ -2534,7 +2532,6 @@
 @@||googletagmanager.com/gtm.js$script,domain=wipliz.com
 *$script,1p,domain=unblocktheship.org,badfilter
 @@/adverts/*$image,domain=emily-blunt.com|isla-fisher.net|islafisher.net|reese-witherspoon.org|reesewitherspoon.org
-@@.jpg
 @@||canale.live/player-tv/$css,1p
 ||vendigamus.com^$3p
 @@||providesupport.com^$third-party
