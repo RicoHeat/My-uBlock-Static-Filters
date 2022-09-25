@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 🧷 Easy-Assets
-! Version: 20220925T1800
+! Version: 20220926T0700
 !
 ||*.surf^
 ||*.rest^
@@ -70056,7 +70056,6 @@ $removeparam=__hstc
 ||t.wowanalytics.co.uk^
 ||conative.de^$domain=spiegel.de
 ||grobsoap.net^
-*.gif
 ||niceshops.com/disco/build/shop/tracking_consent.*.js
 ||stickyadstv.com.akadns.net^
 ||49.159.92.189^
@@ -71489,7 +71488,6 @@ $removeparam=utm_campaign
 ||smetrics.ltdcommodities.com^
 ||mkt4612.com^
 ||aayushakti.com^
-*.jpg
 ||pikbest.com/?m=Stats&
 ||coninemelior.com^
 ||qq.com/tousu/img/20210511/8966052_1620746143.jpg
@@ -73601,7 +73599,6 @@ _id=*&nads=
 ||ams-pageview-public.s3.amazonaws.com^
 ||mkt3819.com^
 ||mkt5864.com^
-*.png
 ||heltur.com.br^
 ||awhilemiracleeraser.com^
 ||medialabs.es$third-party
@@ -75145,7 +75142,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ||80.15.174.119^
 ||mkt1154.com^
 ||download.caihong.com^
-*.svg
 ||xinmin.cn/framepage/foot1.htm
 ||vmware.tt.omtrdc.net^
 ||smart-flash.jp/wp-content/themes/original/embed/FoneH
