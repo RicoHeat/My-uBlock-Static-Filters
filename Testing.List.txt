@@ -1,7 +1,9 @@
 ![Adblock Plus 2.0]
 ! Title: 🛑 AdAway-Adblock (Beta-Test)
-! Version: 20220926T0600
+! Version: 20220926T0800
 !
+! ☆ ---- General JS API ---- ☆
+!#include AG.General.JS.Api.txt
 ! ☆ ---- Easy-Assets ---- ☆
 !#include Easy-Assets.txt
 ! ☆ ---- Fixes ---- ☆
