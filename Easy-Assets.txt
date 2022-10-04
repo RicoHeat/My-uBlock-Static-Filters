@@ -1,8 +1,9 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 🧷 Easy-Assets
-! Version: 20221004T0600
+! Version: 20221004T0800
 !
+@@||.$image
 *.surf^
 *.rest^
 *.monster^
