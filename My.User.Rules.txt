@@ -1,23 +1,13 @@
-[Adblock Plus 2.0]
+!
+![Adblock Plus 2.0]
 ! Title: My User Rules (Adguard and uBlock)
-! Version: 20221023T1600
-
+! Version: 20221023T1620
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
 ||flat-ads.com^
 ||war.ukraine.ua^
-||ms.applvn.col^
-||d.applvn.col^
 ||bongacams10.com^
 ||safe.mt2.cn^
-||rt.applvn.col^
-||firebase-settings.crashlytics.col^
-||rt.applovin.col^
-||ms.applovin.col^
-||d.applovin.col^
-||adr.api.vungle.col^
-||telemetry.sdk.inmobi.col^
-||config.inmobi.col^
 ||gtm.oasisfeng.com^
 ||graph.facebook.com^
 ||amp.cloudflare.com^
@@ -96,7 +86,6 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 ||firebaseinstallations.googleapis.com^$app=com.playit.videoplayer,important
 @@||adguard-dns.io^$important
 .col^$app=com.playit.videoplayer,important
-||gtm.oasisfeng.com^
 /optimizely-
 @@||github.com^$generichide
 @@||github.githubassets.com^$script
