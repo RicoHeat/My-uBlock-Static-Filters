@@ -1,5 +1,5 @@
 # Title: 🛡Adguard DNS Extended
-# Version: 20221101T0000
+# Version: 20221101T0400
 
 ||top^$important
 ||icu^$important
@@ -23,7 +23,7 @@
 ||ms.applvn.col^
 ||d.applvn.col^
 ||bongacams10.com^
-||safe.mt2.cn^
+||mt2.cn^
 ||rt.applvn.col^
 ||firebase-settings.crashlytics.col^
 ||rt.applovin.col^
