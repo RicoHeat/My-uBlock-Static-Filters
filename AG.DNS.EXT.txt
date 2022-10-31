@@ -1,23 +1,24 @@
 # Title: 🛡Adguard DNS Extended
-# Version: 20221031T2350
+# Version: 20221101T0000
 
-||.top^$all
-||.icu^$all
-||.cn^$all
-||.space^$all
-||.online^$all
-||.shop^$all
-||.live^$all
-||.biz^$all
-||.club^$all
-||.cyou^$all
-||.life^$all
-||.ml^$all
-||.gq^$all
-||.link^$all
+||top^$important
+||icu^$important
+||cn^$important
+||space^$important
+||online^$important
+||shop^$important
+||live^$important
+||biz^$important
+||club^$important
+||cyou^$important
+||life^$important
+||ml^$important
+||gq^$important
+||link^$important
 ||flat-ads-com^
 ||flat-ads.com^
 ||api.flat-ads-com^
+||l.flat-ads-com^
 ||war.ukraine.ua^
 ||ms.applvn.col^
 ||d.applvn.col^
