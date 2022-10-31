@@ -1,5 +1,5 @@
 # Title: 🛡Adguard DNS Extended
-# Version: 20221101T0400
+# Version: 20221101T0700
 
 ||top^$important
 ||icu^$important
@@ -95978,7 +95978,6 @@
 ||hqgjcm.com^
 ||hqohjvold.com^
 ||hqpuoxdtbqpdygf.com^
-||hqq.tv^
 ||hqtrnoqfvqao.xyz^
 ||hqysonbyddwta.com^
 ||hrb1tng0.com^
