@@ -1,5 +1,5 @@
 # Title: 🛡Adguard DNS Extended
-# Version: 20221031T2300
+# Version: 20221031T2350
 
 ||.top^$all
 ||.icu^$all
@@ -17,6 +17,7 @@
 ||.link^$all
 ||flat-ads-com^
 ||flat-ads.com^
+||api.flat-ads-com^
 ||war.ukraine.ua^
 ||ms.applvn.col^
 ||d.applvn.col^
