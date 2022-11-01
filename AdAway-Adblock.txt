@@ -1,12 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: 🛑 AdAway-Adblocker
 ! Blocking Ads, Popups, Popunders, and some tracking-analytics for additional security.
-! Version: 20221101T1600
+! Version: 20221101T2300
 !
 ! ☆ ---- Easy-Assets ---- ☆
 !#include Easy-Assets.txt
-! ☆ ---- Fixes ---- ☆
-!#include Fixes.txt
 ! ☆ ---- Anti-BS ---- ☆
 !#include Anti-BS-List.txt
 ! ☆ ---- Cosmetic Filter ---- ☆
