@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 🧷 Easy-Assets
-! Version: 20221101T2300
+! Version: 20221102T0600
 !
 ||tr.news.allopneus.com^
 ||unbecominghall.com^
@@ -5448,7 +5448,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ||apester.com/event^
 ||conative.de^$domain=spiegel.de
 ||grobsoap.net^
-*.gif
 ||an.avast.com^
 ||orderlyregister.pro^
 ||coolappland2.com^
