@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
-! Title: Popups Combined
-! Version: 20221101T1200
+! Title: 🍾 Popups Combined
+! Version: 20221101T2300
 
 @@||gamesqa.ru/wp-content/themes/gamesqa/advertising.js
 ||glihelethy.com^
