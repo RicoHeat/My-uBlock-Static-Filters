@@ -1,13 +1,24 @@
 !
 ![Adblock Plus 2.0]
-! Title: My User Rules (Adguard and uBlock)
-! Version: 20221023T1620
+! Title: ☠ My User Rules (Adguard and uBlock)
+! Version: 20221107T0500
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
 ||flat-ads.com^
+||api.flat-ads-com^
 ||war.ukraine.ua^
+||ms.applvn.col^
+||d.applvn.col^
 ||bongacams10.com^
-||safe.mt2.cn^
+||mt2.cn^
+||rt.applvn.col^
+||firebase-settings.crashlytics.col^
+||rt.applovin.col^
+||ms.applovin.col^
+||d.applovin.col^
+||adr.api.vungle.col^
+||telemetry.sdk.inmobi.col^
+||config.inmobi.col^
 ||gtm.oasisfeng.com^
 ||graph.facebook.com^
 ||amp.cloudflare.com^
@@ -62,6 +73,8 @@
 pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
 @@||raw.githubusercontent.com^
 @@||watchporn.to^$domain=watchporn.to
+watchporn.to##+js(nostif, offsetWidth)
+||watchporn.to/contents/*$media,1p watchporn.to##[style][href][target="_blank"]
 ||qrlsx.com^
 ||adsessionserv.com^
 ||impactserving.com^
