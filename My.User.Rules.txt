@@ -1,7 +1,8 @@
 !
 ![Adblock Plus 2.0]
 ! Title: ☠ My User Rules (Adguard and uBlock)
-! Version: 20221107T0500
+! Version: 20221112T1800
+
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
 ||flat-ads.com^
@@ -177,3 +178,94 @@ vidstream.pro/ping/$important
 @@||gogohd.net/js/crypto-js/crypto-js.js$script
 animepahe.*###iframe:not([src])
 savelinks.me###adbox,#banner_ad,a[href*='wowmasti.com']
+
+! 2022-09-12 https://www.xvideos2.com
+www.xvideos2.com###ad-header-mobile
+www.xvideos2.com##.live-cams.red-label.label.btn-default.btn
+www.xvideos2.com###mobile-slogan > .mobile-slogan-games.btn
+www.xvideos2.com###mobile-slogan > .btn.live-cams
+www.xvideos2.com##li.clicked:nth-of-type(5) > .red-label.label.btn-default.btn
+
+! 2022-09-14 https://www.pornhits.com
+www.pornhits.com##.sponsor
+pornhits.com##+js(abort-current-script, ACtMan)
+
+! 2022-09-25 https://beeg.com
+beeg.com##.GreyFox--under.GreyFox
+*##.ad-unit:not(.text-ad)
+
+! 2022-09-26 https://www.pornhits.com
+www.pornhits.com##.video-header
+
+! My Fixes
+
+! 2022-10-03 https://hqq.tv
+@@||commentsengine.com^
+
+! 2022-10-05 https://m.hqporner.com
+||www.google-analytics.com^$script
+
+! 2022-10-16 https://xgroovy.com
+xgroovy.com###top_links > .second-menu-links
+xgroovy.com##.headZ.headA
+xgroovy.com##.headZ.headB
+
+! 2022-10-17 https://www.pornhub.com
+www.pornhub.com##.topAdContainter > .clearfix.adContainer
+
+! 2022-10-17 https://justincestporn.com
+justincestporn.com##[href="https://a.adtng.com/get/10012927"]
+
+! 2022-10-17 https://watchporn.to
+||watchporn.to/banners.php$subdocument
+
+! 2022-10-18 https://www.tabooporn.tv
+|about:$popup,domain=tabooporn.tv
+||www.tabooporn.tv^$popup,1p
+
+! 2022-10-18 https://chrif8kdstie.com
+||www.tabooporn.tv^$popup,domain=chrif8kdstie.com
+
+! 2022-10-30 https://www.reddit.com
+www.reddit.com##.TopNav__promoButton
+
+! 2022-11-09 https://m.hqporner.com
+||go.xlivrdr.com/smartpop/*
+||www.google-analytics.com/analytics.js$script
+||mc.yandex.ru^$script
+hqporner.com##.black_friday
+
+# Spam and malware TLDs (courtesy Spamhaus and SURBL)
+||surf^$all
+||rest^$all
+||monster^$all
+||beauty^$all
+||associates^$all
+||cricket^$all
+||financial^$all
+||discount^$all
+||fit^$all
+||life^$all
+||icu^$all
+||tokyo^$all
+||cf^$all
+||casa^$all
+||ci^$all
+||cyou^$all
+||pw^$all
+||top^$all
+||gq^$all
+||cn^$all
+||ga^$all
+||tk^$all
+||space^$all
+||shop^$all
+||cam^$all
+||link^$all
+||live^$all
+||biz^$all
+||buzz^$all
+||cm^$all,domain=~hill.cm|~nyer.cm
+
+! 2022-11-09 https://www.tmtplay.net
+||dl.lfyanwei.com^$script
