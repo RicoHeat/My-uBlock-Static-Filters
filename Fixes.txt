@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 💉 Filter Fixes
-! Version: 20221110T0900
+! Version: 20221113T2100
 !
 ! ☆ ---- Easylist + AdGuard Allowlist and Unbreak Fixes ---- ☆
 !
@@ -4917,7 +4917,6 @@ $popup,third-party,domain=dood.ws,badfilter
 @@||aliexpress.com^$popup,domain=forum.hardware.fr
 @@||medicina.ua/js/adriver.core.*.js
 @@||playview.io^*/showads.js
-@@.png
 @@||e-planning.net/esb/*.swf?clickTag$domain=ole.com.ar
 @@||facebook.com/plugins/video.php
 @@||acid2.acidtests.org^$document
@@ -5558,7 +5557,6 @@ $popup,third-party,domain=embedsb.com,badfilter
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||s.click.aliexpress.com/deep_link.htm?aff_short_key=$removeparam=aff_short_key
 @@||wilderssecurity.com/forums/
-@@.gif
 @@||googletagmanager.com/gtm.js^$domain=raywhitepakenham.com.au
 @@||googletagservices.com/tag/js/gpt.js$script,domain=epaper.timesgroup.com
 @@||analytics.ladmedia.fr/parismatch/xtcore_mod2.js$domain=parismatch.com
@@ -5851,7 +5849,6 @@ $popup,third-party,domain=embedsb.com,badfilter
 @@||ad.mail.ru/adq/?callback=jQuery$domain=target.my.com
 @@||cdn-fck.tnaflix.com^$stealth
 @@/adverts/*$image,domain=emily-blunt.com|isla-fisher.net|islafisher.net|reese-witherspoon.org|reesewitherspoon.org
-@@.jpg
 @@||d396ihyrqc81w.cloudfront.net^$domain=currys.co.uk
 @@||canale.live/player-tv/$css,1p
 @@||promo.allo.ua^$domain=allo.ua
