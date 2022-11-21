@@ -1,7 +1,7 @@
 # Title: 🛡Adguard DNS Extended
-# Version: 20221101T1600
+# Version: 20221121T1600
 
-@@||hqq.tv^important
+@@||hqq.tv^$important
 
 ||top^$important
 ||icu^$important
