@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
 ! Title: ☠ My User Rules (Adguard and uBlock)
-! Version: 20221112T1800
+! Version: 20221122T1400
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
@@ -197,10 +197,14 @@ beeg.com##.GreyFox--under.GreyFox
 ! 2022-09-26 https://www.pornhits.com
 www.pornhits.com##.video-header
 
-! My Fixes
-
 ! 2022-10-03 https://hqq.tv
 @@||commentsengine.com^
+hqq.*##a[onclick="openAuc();"]
+hqq.*##a[onclick*="openAuc();"]
+hqq.*##a[title="Free money easy"]
+hqq.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+hqq.*##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
+
 
 ! 2022-10-05 https://m.hqporner.com
 ||www.google-analytics.com^$script
