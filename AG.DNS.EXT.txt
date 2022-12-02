@@ -1,22 +1,35 @@
 # Title: 🛡Adguard DNS Extended
-# Version: 20221129T1400
+# Version: 20221202T1700
 
-||top^$important
+||surf^$important
+||rest^$important
+||monster^$important
+||beauty^$important
+||associates^$important
+||cricket^$important
+||financial^$important
+||discount^$important
+||fit^$important
+||life^$important
 ||icu^$important
+||tokyo^$important
+||cf^$important
+||casa^$important
+||ci^$important
+||cyou^$important
+||pw^$important
+||top^$important
+||gq^$important
 ||cn^$important
+||ga^$important
+||tk^$important
 ||space^$important
-||online^$important
 ||shop^$important
+||cam^$important
+||link^$important
 ||live^$important
 ||biz^$important
-||club^$important
-||cyou^$important
-||life^$important
-||ml^$important
-||gq^$important
-||link^$important
 ||buzz^$important
-||casa^$important
 
 ||flat-ads-com^
 ||flat-ads.com^
