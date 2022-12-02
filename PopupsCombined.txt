@@ -1,7 +1,7 @@
 !
 ![Adblock Plus 2.0]
 ! Title: 🍾 Popups Combined
-! Version: 20221202T0300
+! Version: 20221203T0200
 
 @@||gamesqa.ru/wp-content/themes/gamesqa/advertising.js
 ||glihelethy.com^
@@ -18711,7 +18711,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 @@||buhgalter.com.ua/assets/templates/base/js/ads-blocking-detecter.js
 ||zegrumse.net^
 ||heedenglish.com^$popup
-||samsung.com^
 @@||vw-page.com/wcf/js/advertisement.js
 ||segodnia.space^$popup
 ||awaitcola.com^
