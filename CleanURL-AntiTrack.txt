@@ -1,5 +1,5 @@
 ![Adblock Plus 2.0]
-! Title: Clean URLs Anti-Track
+! Title: 🆑️ Clean URLs Anti-Track
 ! Version: 20221207T1400
 
 $removeparam=a_aid,domain=expressvpn.com|vpnarea.com
