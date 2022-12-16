@@ -1,6 +1,6 @@
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: 🆑️ Clean URLs Anti-Track
-! Version: 20221208T0600
+! Version: 20221216T1400
 
 $removeparam=fobs
 ||despegar.$removeparam=/^clt_/
@@ -138,6 +138,7 @@ $removeparam=intlid,domain=hotels.com
 $removeparam=ec,domain=nextdoor.com
 ||learner.org^$removeparam=jwsource
 $removeparam=mr:ploc
+$removeparam=/^mc_(eid|cid|tc)=/
 $removeparam=wickedid
 ||skyscanner.$removeparam=redirectedFrom
 ||sogou.com^$removeparam=hintidx
@@ -170,6 +171,7 @@ $removeparam=wtrid
 $removeparam=keyword,domain=bindright.com|lendgo.com
 ||taobao.com^$removeparam=ali_trackid
 @@||link.theplatform.com/s/fox-dcg/media/$removeparam
+||japan.cnet.com^$removeparam=tag
 ||pulseway.com^$removeparam=rfid
 $removeparam=hasha
 $removeparam=hashb
@@ -194,7 +196,6 @@ $removeparam=srnd
 @@/^https?:\/\/([a-z0-9-]+\.)*?gcsip\.(com|nl)[^?]*\?.*?&?ref_?=./$removeparam
 @@||www.cyberport.de/adscript.php$removeparam
 ||idealo.de^$removeparam=sid
-$removeparam=usg,domain=~translate.googleusercontent.com|~google.*
 ||tokopedia.com^$removeparam=whid
 ||mercadolibre.com.mx^$removeparam=/^reco_/
 ||cosse.de^$removeparam=sPartner
@@ -204,7 +205,6 @@ $removeparam=usg,domain=~translate.googleusercontent.com|~google.*
 ||lazada.com.my^$removeparam=mp
 $removeparam=referralInfo,domain=wix.com
 ||linkedin.com^$removeparam=refId
-@@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 $removeparam=hvlocphy
 ||www.baidu.com^$removeparam=rsv_t
 ||aliexpress.$removeparam=pdp_npi
@@ -248,8 +248,8 @@ $removeparam=spm
 ||iqiyi.com^$removeparam=flashvars
 $removeparam=hsa_mt
 $removeparam=hsa_ol
-$removeparam=hsa_la
 ||amazon.*/s?$removeparam=/^p[fd]_rd_[a-z]*=/
+$removeparam=hsa_la
 $removeparam=hsa_kw
 $removeparam=scm
 $removeparam=ts,domain=x-kom.pl|al.to|combat.pl|baidu.com
@@ -270,6 +270,7 @@ $removeparam=PID,domain=1800getlens.com|ae.com|allmodern.com|applevacations.com|
 $removeparam=mr:adGroup
 $removeparam=subacctname
 ||casper.com^$removeparam=gwlurl
+||asahi.com^$removeparam=ref
 ||bbc.*^$removeparam=at_link_id
 ||mp.weixin.qq.com^$removeparam=from
 @@||mmcref.pl/?$removeparam=utm_medium
@@ -318,6 +319,7 @@ $removeparam=wgu
 $removeparam=refdomain,domain=bestbuy.com
 $removeparam=btsid
 ||amazon.*^$removeparam=asc_contentid
+^s=cl$document,removeparam=s
 $removeparam=bsft_aaid
 ||xg4ken.com^$removeparam=criteriaid
 ||newyorker.com^$removeparam=bxid
@@ -335,6 +337,7 @@ $removeparam=adjust_tracker_limit
 ||hao123.com^$removeparam=tn
 $removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*
 @@||tix.axs.com^$removeparam
+$removeparam=ad_id,domain=~olx.ua
 ||upgrad.com^$removeparam=UTM_MEDIUM
 ||music.apple.com^$removeparam=itsct
 ||music.apple.com^$removeparam=itscg
@@ -439,6 +442,7 @@ $removeparam=_source_page
 ||fiverr.com^$removeparam=context_alg
 $removeparam=brand,domain=cyberghostvpn.com|privateinternetaccess.com
 ||bing.com^$removeparam=refig
+||whatsapp.com^$removeparam=helpref
 ||diepresse.com^$removeparam=from
 $removeparam=ft_medium
 ||backcountry.com^$removeparam=ti
@@ -498,7 +502,6 @@ $removeparam=sr_share
 ||kitbag.com^$removeparam=ab
 $removeparam=googleloc
 $removeparam=CJURL
-||google.*^$removeparam=site
 ||backcountry.com^$removeparam=MER
 $removeparam=af_click_lookback
 ||shopdisney.com^$removeparam=att
@@ -529,7 +532,6 @@ $removeparam=cl_crtv
 ||aliexpress.*^$removeparam=algo_expid
 $removeparam=REFERRAL_ID
 $removeparam=ads_network
-$~subdocument,removeparam=aff
 ||coolblue.nl^$removeparam=PHGref
 ||getir.com^$removeparam=af_force_deeplink
 ||bing.com^$removeparam=aqs
@@ -767,6 +769,7 @@ $removeparam=oref
 ||malwarebytes.com^$removeparam=x-source
 ||facebook.com^$removeparam=referral_code
 ||deeplearning.ai^$removeparam=_hsenc
+||asahi.com^$removeparam=cid
 .userapi.com/impg^$removeparam=proxy
 $removeparam=locale,domain=udemy.com
 ||get.adobe.com^$removeparam=workflow
@@ -1034,7 +1037,6 @@ $removeparam=utm_siteid
 $removeparam=pm_medium
 $removeparam=/^network=webgains$/i
 ||greenmangaming.com^$removeparam=/^tap_/
-$removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
 $removeparam=ad_prodid,domain=adlibris.com|scandinavianphoto.fi|e-ville.com|data-systems.fi|24hshop.fi|swamp.fi
 ||cardif.fr^$removeparam=at_custom_var10
 $removeparam=pro,domain=etsy.com
@@ -1153,6 +1155,7 @@ $removeparam=utm_emcid
 $removeparam=/^src=Linkfire$/,domain=apple.com|youtube.com
 ||facebook.com^$removeparam=action_history
 $removeparam=cj_affname
+$~subdocument,removeparam=aff,domain=~discoverbank.com|~discover.com
 $removeparam=crlp,domain=ebay.*
 $removeparam=asclid
 $removeparam=effect_source
@@ -1250,6 +1253,7 @@ $removeparam=li,domain=msn.com
 ||sogou.com^$removeparam=_ast
 ||sogou.com^$removeparam=_asf
 $removeparam=ref,domain=jin115.com|bipblog.com|animember.net
+$~stylesheet,~script,removeparam=campaignid
 ||bahn.de^$removeparam=/^dbkanal_[0-9]{3}=/
 ||voyeur-house.tv^$removeparam=clickid
 ||taobao.com^$removeparam=ptl
@@ -1310,6 +1314,7 @@ $removeparam=track_campaignid
 $removeparam=ds_s_kwgid,domain=clickserve.dartsearch.net
 ||m.bilibili.com^$removeparam=ts
 ||amazon.*^$removeparam=orig
+^fs=e$document,removeparam=fs
 ||cc.loginfra.com/cc$removeparam=nsc
 $removeparam=/^refsource=webgains$/
 $removeparam=content,domain=eonline.com|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io
@@ -1385,7 +1390,6 @@ $removeparam=cndid
 ||bilibili.com^$removeparam=/^share_/
 $removeparam=sender_device
 ||cafepedagogique.net^$removeparam=actSource
-||google.$removeparam=ved
 ||cht.com.tw^$removeparam=Identifier
 ||bestbuy.com^$removeparam=irgwc
 ||lookmovie211.xyz^$removeparam=sec
@@ -1438,7 +1442,6 @@ $removeparam=istFeedId
 ||bleepingcomputer.com^$removeparam=traffic_source
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
 $removeparam=e,domain=clockks.com|tellywebnews.com
-^s=cl$doc,removeparam=s
 ||www.galaxus.de^$removeparam=pcscpId
 $removeparam=share_item_id
 ||yandex.*^$removeparam=lr
@@ -1446,7 +1449,6 @@ $removeparam=share_item_id
 $removeparam=sc,domain=bing.com|qvc.com|startpage.com
 $removeparam=af_siteid
 @@||gizmodo.com/embed/comments/$removeparam
-^fs=e$doc,removeparam=fs
 $removeparam=usource
 ||bing.com^$removeparam=wsso
 ||amazon.*/aa$removeparam=bitCampaignCode
@@ -1554,7 +1556,6 @@ $removeparam=af_campaign
 ||amazon.*$removeparam=AssociateTag
 ||humblebundle.com^$removeparam=zmg_code
 $removeparam=mr:match
-$removeparam=eid,document,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi
 ||apple.com^$removeparam=mttnsubplmnt
 ||idealo.de^$removeparam=cancelUrl
 ||bstn.com^$removeparam=objectID
@@ -1668,7 +1669,6 @@ $removeparam=/^cid=DSS-Affiliate/,domain=disneyplus.com|espn.com|hotstar.com|sta
 ||office.com^$removeparam=ocid
 ||tiktok.com^$removeparam=share_author_id
 $removeparam=source,domain=privatehomeclips.com
-buffalonews.com
 $removeparam=detail_from
 @@||assetstore.unity.com/packages/*?aid=*&utm_$removeparam
 ||hepsiburada.com^$removeparam=wt_so
@@ -1816,11 +1816,11 @@ $removeparam=mchn
 ||amazon.*$removeparam=hvadid
 $removeparam=rx_ts,domain=cvshealth.*
 ||app.adjust.com^$removeparam=/^event_callback_/
+||linkedin.com^$removeparam=updateEntityUrn
 ||yandex.*/news/$removeparam=mlid
 $removeparam=dpg_campaign
 ||tmall.com^$removeparam=ali_refid
 $removeparam=LSNSID,domain=jwanderson.com
-@@|wss://$removeparam
 ||hoteles.com^$removeparam=/^sub_/
 ||jcpenney.com$removeparam=catId
 $removeparam=nrtv_as_src
@@ -1886,9 +1886,10 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 $removeparam=kpartnerid
 ||amazon.*/message-us$removeparam=muClientName
 $removeparam=guce_referrer_sig
-||search.naver.com/p/crd/rd$removeparam=sy
 ||taobao.com^$removeparam=turing_bucket
+||search.naver.com/p/crd/rd$removeparam=sy
 ||search.naver.com/p/crd/rd$removeparam=sx
+||fashion-press.net^$removeparam=media
 ||amazon.*^$removeparam=ref-refURL
 ||taobao.com^$removeparam=bftTag
 ||elgato.com^$removeparam=contact_id
@@ -1979,8 +1980,10 @@ $removeparam=mtm_content
 ||get.adobe.com^$removeparam=TRILIBIS_EMULATOR_UA
 ||spartoo.$removeparam=track_id
 ||promofarma.com^$removeparam=etf-prdref
+||jiji.com^$removeparam=g
 $removeparam=is_copy_url
 ||ebay.*$removeparam=emsid
+||jiji.com^$removeparam=m
 ||twitter.com^$removeparam=ref_url
 $removeparam=hc_location
 ||flipkart.com^$removeparam=/^sattr\[\]=/
@@ -1988,11 +1991,9 @@ $removeparam=hc_location
 $removeparam=mkwid
 @@||mywot.com/*/confirmNewEmail/$removeparam
 ||sogou.com^$removeparam=interV
-@@||google.com/url?$removeparam=ved
 ||postnord.$removeparam=signed
 ||pixel.adsafeprotected.com/services/pub?$removeparam=sessionId
 ||tweakers.net^$removeparam=u
-$~css,~script,removeparam=campaignid
 ||faei.cz^$removeparam=dop_id
 ||flipkart.com^$removeparam=collection-tab-name
 ||novinky.cz^$removeparam=source
@@ -2008,6 +2009,7 @@ $removeparam=mp_value1
 ||bilibili.com^$removeparam=hotRank
 ||idealo.de^$removeparam=disc
 ||fiverr.com^$removeparam=bta
+$removeparam=eid,document,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*
 ||shop.hololivepro.com^$removeparam=pr_seq
 $removeparam=site_id,domain=taskrabbit.com|kochava.com
 ||aliexpress.$removeparam=aff_platform
@@ -2285,7 +2287,6 @@ $removeparam=app,domain=tiktok.com|music.apple.*
 ||zhihu.com^$removeparam=hybrid_search_source
 $removeparam=_branch_referrer
 $removeparam=CJPID,domain=~keyade.com
-||use.typekit.net^$font,removeparam=~/^(primer|subset_id)=/
 ||amazon.$removeparam=aaxitk
 ||amazon.*^$removeparam=_encoding
 ||columbiasportswear.*^$removeparam=nid
@@ -2407,6 +2408,7 @@ $removeparam=p,domain=banggood.com|sogou.com
 ||nova.cz^$removeparam=dop_ab_variant
 $removeparam=mktgcampaignp
 $removeparam=action_type_map
+||cnn.co.jp^$removeparam=ref
 $removeparam=track_keyword
 ||linkedin.com^$removeparam=trk
 ||tradingview.com^$removeparam=source
@@ -2539,7 +2541,6 @@ $removeparam=dc_adgroupid
 ||theguardian.com^$removeparam=CMP
 ||amazon.*/s?$removeparam=/^[^a-z%0-9]adId=/
 ||baidu.com^$removeparam=n_type
-$removeparam=ad_id
 ||startpage.*^$removeparam=segment
 ||seznamzpravy.cz^$removeparam=dop_ab_variant
 $removeparam=hooid,domain=hotspotshield.com|gethotspotshield.com
@@ -2999,7 +3000,6 @@ $removeparam=ko_click_id
 @@/^https?:\/\/([a-z0-9-]+\.)*?facebook\.com\/dialog\/(share|send)/$removeparam
 ||norml.org^$removeparam=source
 ||flipkart.com^$removeparam=pid
-actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com
 $removeparam=sp_medium
 ||netflix.com^$removeparam=trackId
 ||blue-tomato.com^$removeparam=/_[$]ja/
@@ -3056,8 +3056,8 @@ $removeparam=CSID
 ||mirtesen.ru^$removeparam=nvuuid
 ||amazon.*^$removeparam=qsid
 ||bindright.com^$removeparam=camp_id
-||flipkart.com^$removeparam=iid
 ||aliexpress.*^$removeparam=btsid
+||flipkart.com^$removeparam=iid
 $removeparam=cl_ch
 $removeparam=elqcst
 $removeparam=gtm
@@ -3329,6 +3329,7 @@ $removeparam=campid,domain=otto.de|ottoversand.at
 @@/^https?:\/\/bugtracker\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 $removeparam=wx_navbar_hidden
 ||baidu.com^$removeparam=rq
+||use.typekit.net^$font,removeparam=~/^(primer|subset_id)=/,domain=~fonts.adobe.com
 $removeparam=erid
 $removeparam=aid,domain=adguard-vpn.com|adguard-dns.com|adguard.com
 ||baidu.com^$removeparam=oq
