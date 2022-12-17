@@ -1,5 +1,5 @@
 ! Title: 📎 Easy Assets
-! Version: 20221218T0600
+! Version: 20221218T0700
 ! Description: uAssets filters combined and optimized for adblockers who don't recognize the (!#include) tag
 
 google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
@@ -11446,9 +11446,6 @@ techdracula.com##.adsbygoogle
 /sdk/push_web/?zid=$script,3p
 /code/native.js?h=$script
 /q/tdl/95/dnt/*$script,3p
-!#include filters-2020.txt
-!#include filters-2021.txt
-!#include filters-2022.txt
 !
 akoam.*##+js(nowoif)
 javhdfree.icu##+js(aopr, __Y)
