@@ -1,7 +1,6 @@
-!
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: ☠ My User Rules (Adguard and uBlock)
-! Version: 20221122T1400
+! Version: 20221221T2300
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
@@ -205,7 +204,6 @@ hqq.*##a[title="Free money easy"]
 hqq.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 hqq.*##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
 
-
 ! 2022-10-05 https://m.hqporner.com
 ||www.google-analytics.com^$script
 
@@ -269,7 +267,8 @@ hqporner.com##.black_friday
 ||live^$all
 ||biz^$all
 ||buzz^$all
-||cm^$all,domain=~hill.cm|~nyer.cm
+||ml^$all
+||club^$all
 
 ! 2022-11-09 https://www.tmtplay.net
 ||dl.lfyanwei.com^$script
