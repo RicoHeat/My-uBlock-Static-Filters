@@ -1,11 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: ☠ My User Rules (Adguard and uBlock)
-! Version: 20221221T2300
+! Version: 20221223T1500
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
 ||flat-ads.com^
-||api.flat-ads-com^
 ||war.ukraine.ua^
 ||ms.applvn.col^
 ||d.applvn.col^
@@ -87,7 +86,6 @@ watchporn.to##+js(nostif, offsetWidth)
 ||239.255.255.250:1900^$app=com.playit.videoplayer
 @@||api.nextdns.io^
 @@||unpkg.com^
-||static-hw.xvideos-cdn.com/xvgames^
 @@||gitlab.com^
 @@||play.google.com^
 @@||pgl.yoyo.org/adservers^
@@ -198,7 +196,6 @@ www.pornhits.com##.video-header
 
 ! 2022-10-03 https://hqq.tv
 @@||commentsengine.com^
-hqq.*##a[onclick="openAuc();"]
 hqq.*##a[onclick*="openAuc();"]
 hqq.*##a[title="Free money easy"]
 hqq.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
@@ -233,9 +230,39 @@ www.reddit.com##.TopNav__promoButton
 
 ! 2022-11-09 https://m.hqporner.com
 ||go.xlivrdr.com/smartpop/*
-||www.google-analytics.com/analytics.js$script
 ||mc.yandex.ru^$script
 hqporner.com##.black_friday
+
+! 2022-12-18 https://wbgame.jlwinwin.com
+@@||wbslot-platform.sssjlsss.com/webservice/event/trigger$xhr
+
+! 2022-12-18 https://watchporn.to
+watchporn.to##.top-links
+
+! 2022-12-19 https://www.tmtplay.net
+www.tmtplay.net##.add-arrow.num-12.LIVETABLE
+www.tmtplay.net##.live_game
+
+! 2022-11-09 https://www.tmtplay.net
+||dl.lfyanwei.com^$script
+
+! 2022-12-21 https://watchporn.to
+@@||watchporn.to^$1p
+
+! 2022-12-22 https://porntn.com
+||srv.dropkickmedia.com^$script
+
+! 2022-12-22 https://dailyxvideo.com
+||lyricslocusvaried.com^$script
+
+! 2022-12-22 https://nsfwzone.xyz
+||prd.jwpltx.com^
+
+! 2022-12-22 https://milfprime.com
+||static.cloudflareinsights.com^$script
+
+! 2022-12-22 https://upornia.com
+upornia.com##.mmqkmmjduji
 
 # Spam and malware TLDs (courtesy Spamhaus and SURBL)
 ||surf^$all
@@ -270,5 +297,3 @@ hqporner.com##.black_friday
 ||ml^$all
 ||club^$all
 
-! 2022-11-09 https://www.tmtplay.net
-||dl.lfyanwei.com^$script
