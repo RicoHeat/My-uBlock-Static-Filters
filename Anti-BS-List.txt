@@ -1,7 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: 🆎️ The Anti-BS List
-! Version: 20221218T1700
-!
+! Version: 20221227T0100
+
+! ☆ ---- Anti Bullshit List ---- ☆
 ###AdBlockDialog
 ###ab--notification-ribbon
 ###abDetected
@@ -522,6 +523,7 @@ pl#@#.advert
 ##a[href*="/afu.php"]
 ##button[data-openuri="|BTN_URL|"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
+##div[style^="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##div[style^="position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:2147483647"]
@@ -705,6 +707,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/vli-platform/adb-analytics$script,third-party,important
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 /\/[A-Z]\/[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){3}[0-9a-f]{32}\.js$/$script,~third-party,match-case
+|http*:*/asset/angular.min.js?t=$xmlhttprequest,~third-party
+|http*:*/asset/jquery/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party
 ||hazmolive.stream/hazmoLive.js$script
 ||hazmo.stream/hazmo.js$script
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
@@ -1147,6 +1151,7 @@ pink.my.id,gea.my.id##+js(no-setTimeout-if.js, location.href)
 
 okrzone.com##+js(addEventListener-defuser.js, click, _blank)
 
+! ☆ ---- anti-antiadb ---- ☆
 &crc=1|$xmlhttprequest,third-party
 &dev=r&adb=y|$document
 .com/1?z=$script,third-party
@@ -1184,6 +1189,7 @@ okrzone.com##+js(addEventListener-defuser.js, click, _blank)
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
 /\/wp-content\/uploads\/[a-zA-Z]{12}\/[a-zA-Z]{12}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
 /?rb=*&zoneid=$xmlhttprequest,popup,third-party
+/\/[A-Z]\/[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){3}[0-9a-f]{32}\.js$/$script,~third-party,match-case
 /^https:\/\/(?:cdn77\.)?aj[0-9a-z]{2}\d{2}\.online\/[0-9a-z]{8}\.js$/$script,third-party
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{10,14}\.(?:com|casa|website)\/[a-z]{2,3}\/\d{5}\?md=[%0-9a-zA-Z]{900,}(?:&cr=\d{5})?$/$xmlhttprequest,third-party
 /^https:\/\/1ts\d{2}\.top\/show\.php$/$script,third-party
@@ -1327,13 +1333,13 @@ okrzone.com##+js(addEventListener-defuser.js, click, _blank)
 _spot_id=*&zone_id=$script,~third-party
 =%*&v=&m=|$popup
 =eyJ.js^$script
-
+!
 ||adclixx.net^$script,third-party,redirect=prevent-bab2,important
 ||adnetasia.com^$script,third-party,redirect=prevent-bab2,important
 ||adtrackers.net^$script,third-party,redirect=prevent-bab2,important
 ||bannertrack.net^$script,third-party,redirect=prevent-bab2,important
 ||fundingchoicesmessages.google.com^$third-party
-
+!
 ###ad_300:not([style^="position: absolute; left: -5000px"])
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
@@ -1382,6 +1388,7 @@ _spot_id=*&zone_id=$script,~third-party
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black none repeat scroll 0% 0%; opacity: 0.01"]
 ##div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent none repeat scroll 0% 0%; display: block;"]
 ##div[style^="position: fixed; display: block"][style*="inset: 0px;"][style*="background-color: rgba(0, 0, 0, 0)"][style*="z-index"][style*="height: 100%"][style*="width: 100%"]
+##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="z-index: 2147483647 !important; position: fixed !important; width: 420px !important; height:"]
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 ##iframe[class][scrolling=no][sandbox="allow-same-origin allow-scripts allow-popups"][style*="z-index: 2147483647; position: fixed"]
@@ -1390,13 +1397,13 @@ _spot_id=*&zone_id=$script,~third-party
 ##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px"][style$="overflow: hidden; z-index: 2147483647;"]
 ##in-page-message[id][doskip]
 ##ins[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
-
+!
 #$#.div-gpt-ad { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 ~anydebrid.com,~colonist.io,~ff14angler.com,~downloads.descendant.me,~hotdebrid.com,~html5.gamedistribution.com,~paraphraser.io,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co#$#ins.adsbygoogle { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 #$#[class^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 ~dropgalaxy.com,~kurashiru.com,~saitama-np.co.jp#$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 #$#div[id^="div-gpt-"]:not([id^="div-gpt-ad"]) { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-
+!
 -prebid.$script,badfilter
 .com/ads.$subdocument,redirect-rule=noopframe
 .tv/ads.$xmlhttprequest,redirect-rule=prebid-ads
@@ -1443,6 +1450,7 @@ _spot_id=*&zone_id=$script,~third-party
 @@||crunchyroll.adtrackers.net/vast?fg=$script
 @@||crunchyroll.bannertrack.net/vast?fg=$script
 @@||fundingchoicesmessages.google.com^$script,domain=bbc.com|soranews24.com|youpouch.com
+@@||g.adspeed.net/ad.php?do=detectadblocker|$script
 @@||ox-d.adclixx.net/auid=$script
 @@||ox-d.adnetasia.com/auid=$script
 @@||ox-d.adtrackers.net/auid=$script
@@ -1507,8 +1515,25 @@ _spot_id=*&zone_id=$script,~third-party
 ||thisiswaldo.com/static/js$script,redirect-rule=noopjs
 ||wtg-ads.com/publisher/$script,redirect-rule=noopjs
 ||yieldmo.com/ym.adv.$script,redirect-rule=noopjs
+#@##ad_300
+#@##ad_728
+#@##ad_area
+#@##ad_big
+#@##ad_box
+#@##ad_footer
+#@##ad_slot
+#@##ad_space
 #@##adframe:not(frameset)
+#@##adheader
+#@##ads-1
+#@##ads-banner
+#@##ads-footer
+#@##adspace
+#@##adsquare
+#@##banner468
+#@##banner728x90
 #@##iqadtile5
+#@#.ad-300x250
 #@#.ad-content
 #@#.ad-left
 #@#.ad-link
@@ -1516,9 +1541,14 @@ _spot_id=*&zone_id=$script,~third-party
 #@#.ad-placeholder
 #@#.ad-placement
 #@#.ad-refresh
+#@#.ad-unit
 #@#.adBanner
 #@#.adbanner
+#@#.ad_unit
+#@#.ads-iframe
 #@#.adsBanner
+#@#.adsBox
+#@#.adsbygoogle
 #@#.display_ad
 #@#.div-gpt-ad
 #@#.google-ad
@@ -1526,7 +1556,7 @@ _spot_id=*&zone_id=$script,~third-party
 #@#div[id^="div-gpt-"]
 #@#[class^="div-gpt-ad"]
 #@#[id^="div-gpt-ad"]
-
+!
 /\/nb\/(?=[a-z]{0,9}[A-Z])[a-zA-Z]{10}\.js/$script,~third-party,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
 /^https:\/\/[a-z]{7,16}\.(?:buzz|com?|lol|one|xyz)\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,match-case,domain=~edu|~gov|~jp
@@ -1539,3 +1569,53 @@ _spot_id=*&zone_id=$script,~third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,third-party,match-case
+
+! ☆ ---- Anti-Functionality Removal List ---- ☆
+
+! 📛 = This category requires using uBlock Origin or AdGuard for the best results.
+
+! Copypaste hijackers 📛
+bloombergquint.com##+js(acis, document.oncopy)
+bloombergquint.com##+js(aopr, getSelection)
+!!!||deepl.com/js/docTrans-react.chunk. (https://github.com/AdguardTeam/AdguardFilters/issues/119645)
+!#if !adguard
+||www.15min.lt/naujiena^$inline-script
+!#endif
+!#if adguard
+! https://github.com/AdguardTeam/FiltersRegistry/issues/683
+!+ NOT_OPTIMIZED
+||www.15min.lt/naujiena^$csp=script-src 'self' 'unsafe-eval' http: https:
+!#endif
+
+! Prevents sites from removing the ability to right-click on pages
+! https://www.patheos.com/blogs/godzooks
+/wp-content/plugins/disable-right-click-and-content-copy-protection^
+! From "Frellwit's Swedish Filter"
+/plugins/wp-content-copy-protection/*
+/plugins/wp-copy-protect-with-color-design/*
+
+! Prevents sites from removing the ability to copy text 📛
+respublika.lt#?#[class^=com_]:style(user-select: unset !important; -webkit-user-select: unset !important; -moz-user-select: unset !important)
+hirunews.lk,ada.lk#?#body:style(user-select: unset !important; -webkit-user-select: unset !important; -moz-user-select: unset !important)
+||laisvadienis.lt^$inline-script
+
+! Removes strange blurring of comments on non-Nordic sites 📛
+respublika.lt#?##news_comment_container:style(filter: none !important)
+
+! Prevents sites from forcibly always opening pages in new tabs 📛
+! https://github.com/EasyList-Lithuania/easylist_lithuania/issues/16
+autoplius.lt##+js(ra, target, [target="_blank"], stay)
+
+! Fake loading screens
+hackintoshshop.com##body > div:first-of-type[style^=background-color][id]
+! (From "Nordic Filters")
+nettavisen.no###topover-loader
+nettavisen.no###topover
+! adressa.no (02/12/2020)
+||collector.schibsted.io^$third-party
+! https://sandberg.world/en-no/product/Wireless-Mouse-Pro (25/12/2022); mppdainik.com (Unknown date)
+###preloader
+
+! Prevents sites from making wiki pages impossible to edit on phone screens 📛
+pcgamingwiki.com#?##mw-head-right > li:style(display: inline-block !important)
+pcgamingwiki.com#?##mw-head-more:style(display: inline-block !important)
