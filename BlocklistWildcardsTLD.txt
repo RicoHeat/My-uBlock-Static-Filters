@@ -1,5 +1,6 @@
-# Title: Blocklist with Wildcards and TLD
-# Version: 20220913T0700
+[Adblock Plus 3.13]
+! Title: Blocklist with Wildcards and TLD
+! Version: 20221228T1600
 
 ! ☆ ---- General JS API ---- ☆
 ! JS API START
@@ -66,10 +67,48 @@
 #%#var AG_setConstant=function(e,a){if("undefined"===a)a=void 0;else if("false"===a)a=!1;else if("true"===a)a=!0;else if("noopFunc"===a)a=function(){};else if("trueFunc"===a)a=function(){return!0};else if("falseFunc"===a)a=function(){return!1};else if(/^\d+$/.test(a)){if(a=parseFloat(a),isNaN(a)||32767<Math.abs(a))return}else return;var b=!1;AG_defineProperty(e,{get:function(){return a},set:function(c){if(b)var d=!0;else void 0!==c&&void 0!==a&&typeof c!==typeof a&&(b=!0),d=b;d&&(a=c)}})};
 ! JS API FINISH
 
+! Cascading Style Sheets (CSS) START
+*##iframe[src="about:blank"]
+*##a[href*="//ads."]
+*##a[href*="//ad."]
+*##.adsbygoogle[data-ad-client][data-ad-slot]
+*##[data-ad-client^="ca-pub-"][data-ad-slot]
+*##.dfp-leaderboard-container
+*##[data-adsbygoogle-status]
+*##[class*="-banner-exoclick"]
+*##[id*="div-gpt-ad"]
+aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
+freebitco.in###myModal22:has-text(Did you know?)
+freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container
+mail.yandex.ru##.mail-Placeholder-Text,.mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap,.mail-MailProAnnouncingPromoLeftColumn,.subscriptionsBubble
+music.yandex.ru##.sidebar__under
+music.yandex.ru##span:contains(Отключить рекламу)
+trade.aliexpress.*##[href^="//simplee.aliexpress.com/"],[href^="//campaign.aliexpress.com/"]
+twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
+twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в сети"],[aria-label="Bits"],[data-a-target="bits-button"],[data-a-target="subscribe-button"],[data-a-target="share-button"],.tw-tag,.extension-panel
+twitch.tv##[class*="CoreButton"]:has-text(/Купить Bits|Get Bits/)
+twitch.tv##div.side-nav-section:has([aria-label]):has-text(/Рекомендуемые каналы|также смотрят|Viewers Also Watch|Recommended Channels/)
+vk.com###stl_left,#stl_side,.apps_feedRightAppsBlock,#ads_left,.right_list_header,#group_recom_rows,#group_recom_wrap,.feed_friends_recomm,div[data-ad],div[data-ad-view],[class^="ads_ad_"],#stories_feed_wrap,#profile_friends_recomm,.ads_ads_box,#system_msg,#utils,.audio_promo,#feed_blog_reminder,a[href*="/app7399325"],#l_watch_home,a[href*="/covid19"],.installApp,#ui_rmenu_coronavirus,#ui_rmenu_stayhome,.wall_marked_as_ads,.item_share,.apps_feedRightAppsBlock__row,.videoplayer_action_button,.ads_ad_box,.ads_ad_box2,[id*="reply_box_donut-"],.ShortVideoFeedBlock,.feed_groups_recomm,.feedAssistance_recommendedGroups,.feedAssistance_promoButton,#block_youla-recommendations-carousel,#block_aliexpress-recommendations-carousel,.RecommendedNarrativesBlock,.FeedVideosForYou,.GroupsRecommendedSlider,.friendsRecommendedSliderWrap,.friends_possible_block,.videoplayer_share_actions,#cover_list_app_widget,.EasterEggsContainer,.post_withExtraHeader.post_exploreBait.wall_item,.VideoOwnerInfo,.NeuroHdHint__button,.InterestsBlock__inner
+vk.com##div.feed_row:has-text(/Может быть интересно|Рекомендуемые новости/)
+vk.com##[id^="post-"]:has([class*="copyright"]):has-text(/Источник:/)
+vk.com##[class="wall_item"]:has([class*="ads_mark"])
+yadi.sk##.header__inline-services-menu.inline-services-menu,.app-promo-banner,.software-header-product_win
+youtube.com###player-ads,.ytd-mealbar-promo-renderer,#masthead-ad,#alert-banner, YTM-PROMOTED-VIDEO-RENDERER,.mealbar-promo-renderer,a[href*="/covid19"],.ytp-ad-module,.ytd-carousel-ad-renderer,.ytp-ad-progress,#promotion-shelf,.masthead-ad-control,.ad-div,.pyv-afc-ads-container,#sponsor-button,.ytp-endscreen-content,#live-chat-banner,.ytp-ad-progress-list,.subscribecard-endscreen,[href="/premium"],[aria-label="Показать подсказки"],.ytd-player-legacy-desktop-watch-ads-renderer,.badge-style-type-ad,.ytp-ce-element,.iv-branding,.yt-live-chat-viewer-engagement-message-renderer,.ytd-search-pyv-renderer,.ytp-impression-link,.ytm-paid-content-overlay-link,.ytp-paid-content-overlay
+youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):has-text(/Сбор средств|Fundraiser/)
+youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has-text(/Купить|Buy/)
+my.yota.ru##.y-expansion-panel,.promotion-offer, app-slider-ma-symk,.y-swiper-track
+passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("],div.newsbox,div.noticebox,div.noticeboxtop
+passageweather.com##.document:style(background-image: none!important;)
+pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"],.cookiesBanner
+twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
+marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
+xvideos.com##.banner-slider.embed-responsive
+! Cascading Style Sheets (CSS) END
+
 ! Content Security Policy (CSP) START
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
-||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net *.googlevideo.com youtube.com;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -97,7 +136,6 @@
 ||mobilemaps-pa.googleapis.com/*.ads.$important
 ||null^
 ||undefined^
-||yandex.*/clck/$important
 ||yandex.*/geohelper/$important
 ||yandex.net/get-direct$important
 ||youtube.com/ptracking?$important
@@ -133,6 +171,8 @@
 ||cloudfront.net/hostsetting?open=
 ||rocket.ivi.ru/event/
 ||rocket.ivi.ru/playback/event/
+||yandex.ru/appcry|
+/^https?:\/\/yandex\.ru\/appcry\/[a-zA-Z0-9]{5,}\//
 ! OTHER END
 
 ! SCRIPT START
@@ -148,7 +188,6 @@
 |http*:*/player/assets/devtools-detector/$script,third-party,important
 ||twitchcdn.net/*.video-ads.*$script,important
 ||twitchcdn.net/*/sentry-$script,important
-||twitchcdn.net/config/settings.$script,important
 ||github.io/actualize.js|$script,important
 ||yastatic.net/nearest.js|$script,important
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script,important
@@ -173,14 +212,6 @@
 ||yandex.ru/ick/$xmlhttprequest
 ! XMLHTTPREQUEST END
 
-! SUBDOCUMENT START
-||video.sibnet.ru/my/settings/$subdocument
-! SUBDOCUMENT END
-
-! IMAGE START
-|http*:*/image/px?$image
-! IMAGE END
-
 ! COMBINED START
 /\/afs\/ads[?/]/$subdocument,script,important
 /^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
@@ -188,19 +219,12 @@
 /[-._?/](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,other,script,xmlhttprequest
 /[-._?/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?]?204[-._?]?/$image,other,xmlhttprequest
 /[-._?/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com|~github.com
-/[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru
-/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru
-/[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru
-/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com|~yoomoney.ru
+/[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.*|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru
+/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.*|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru
+/[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.*|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru|~yandex.ru
+/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+\/sw\.js/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/sw(\d+)?\.js\?[^\s]+$/$important,script,xmlhttprequest
-/\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/sw[-_]\w+\.js/$important,script,xmlhttprequest
-|http*:*.php?sw/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/service[-_]worker\.js/$important,script,xmlhttprequest
 |http*:*/serviceworker?$important,script,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
@@ -209,7 +233,6 @@
 
 ! TRASH START
 infourok.ru##div#aa-popup
-|http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
 ||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~baza.bz|~bdnewszh.com|~cdnmovies.be|~cdnmovies.cc|~cdnmovies.nl|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~fyshare.info|~getvi.tv|~github.io|~gsmware.com|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~live94today.com|~lookbase.xyz|~magicfilm.net|~mail.google.com|~mangahere.fit|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~playm4u.xyz|~playmuvi.com|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk-apps.com|~vk.com|~vmeste.tv|~web.app|~webflow.io,badfilter
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vulpecula.host,badfilter
 @@||s.youtube.com^|$badfilter
@@ -237,57 +260,47 @@ geo.ritm.ru###audio-playback-firefox
 @@||api.browser.yandex.*^$badfilter
 /templates/*/images/like.gif$image
 @@||gstatic.com/*/firebase-analytics.js$script
+||t.co^$badfilter
+||filmitorrents.ru^
+@@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
+||ad.mail.ru/$script,redirect-rule=empty,badfilter
 ! TRASH END
 
-/^(.+[_.-])?advast([\d]+)?[_.-]/
-/^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?[_.-]/
-/^(.+[_.-])?beacons?([\d]+)?[_.-]/
-/^(.+[_.-])?moviead(s|[0-9]{2})\.ru$/
-/^(.+[_.-])?vast([\d]+)?[_.-]/
-/^(.+[_.-]?)?aj[0-9]{4}\.online$/
-/^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
-/^(.+[_.-]?)?counter([\d]+)?[_.-]/
-/^(.+[_.-]?)?easyads[0-9]{2}\.(mobi|pro|info)$/
-/^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
-/^(.+[_.-]?)?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
-/^(.+[_.-]?)?telemetr(y|ics?)([\d]+)?[_.-]/
-/^a\.[a-f0-9]{30,60}\.com$/
-/^frane[cs]ki\.net$/
-/^logs?([\d]+)?[_.-]/
-/^m[sr]ad[sx]\.net$/
-/^n[0-9]{2,4}adserv\.\w+$/
-/^pixel([\d]+)?[_.-]/
-/^vii[a-z]{3}\.com$/
-/^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
-/^[rt]s?[0-3]?\.mail\.ru$/
-
 ! ☆ ---- TLDs and Wildcards ---- ☆
+! Spam and malware TLDs (courtesy Spamhaus and SURBL)
 ||surf^$all
 ||rest^$all
 ||monster^$all
 ||beauty^$all
-||live^$all
+||associates^$all
+||cricket^$all
+||financial^$all
+||discount^$all
+||fit^$all
+||life^$all
 ||icu^$all
-||ml^$all
 ||tokyo^$all
 ||cf^$all
 ||casa^$all
-||zw^$all
-||bd^$all
-||ke^$all
-||cd^$all
-||bid^$all
-||sbs^$all
-||top^$all
-||gg^$all
 ||ci^$all
+||cyou^$all
+||pw^$all
+||top^$all
 ||gq^$all
 ||cn^$all
 ||ga^$all
 ||tk^$all
+||space^$all
+||shop^$all
 ||cam^$all
-||su^$all
-||cm^~hill.cm,~nyer.cm
+||link^$all
+||live^$all
+||biz^$all
+||buzz^$all
+||ml^$all
+||club^$all
+
+! ☆ ---- Condensed Blocklist ---- ☆
 ||2o7.net^$all
 ||.daraz.^
 ||*.irs01.com^
@@ -680,7 +693,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.4jnzhl0d0.com^
 ||*.50websads.com^
 ||*.518ad.com^
-||*.5mcwl.pw^
 ||*.6ldu6qa.com^
 ||*.6sc.co^
 ||*.777partner.com^
@@ -953,7 +965,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.admonitor.com^
 ||*.adn.lrb.co.uk^
 ||*.adnet.asahi.com^
-||*.adnet.biz^
 ||*.adnet.de^
 ||*.adnet.ru^
 ||*.adnetinteractive.com^
@@ -968,7 +979,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adoric-om.com^
 ||*.adorigin.com^
 ||*.adotmob.com^
-||*.adpenguin.biz^
 ||*.adpepper.dk^
 ||*.adpepper.nl^
 ||*.adpia.vn^
@@ -1075,7 +1085,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ads.digitalpoint.com^
 ||*.ads.directionsmag.com^
 ||*.ads.domeus.com^
-||*.ads.dtpnetwork.biz^
 ||*.ads.eagletribune.com^
 ||*.ads.easy-forex.com^
 ||*.ads.economist.com^
@@ -1090,7 +1099,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ads.epltalk.com^
 ||*.ads.eu.msn.com^
 ||*.ads.exactdrive.com^
-||*.ads.expat-blog.biz^
 ||*.ads.fairfax.com.au^
 ||*.ads.fastcomgroup.it^
 ||*.ads.fasttrack-ignite.com^
@@ -1305,7 +1313,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ads.wiezoekje.nl^
 ||*.ads.wikia.nocookie.net^
 ||*.ads.wineenthusiast.com^
-||*.ads.wwe.biz^
 ||*.ads.xhamster.com^
 ||*.ads.xtra.co.nz^
 ||*.ads.yap.yahoo.com^
@@ -1393,7 +1400,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adserver.janes.com^
 ||*.adserver.lecool.com^
 ||*.adserver.mobi^
-||*.adserver.msmb.biz^
 ||*.adserver.news.com.au^
 ||*.adserver.nydailynews.com^
 ||*.adserver.o2.pl^
@@ -2033,7 +2039,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.clksite.com^
 ||*.cloisteredhydrant.com^
 ||*.closedcows.com^
-||*.cloudcoins.biz^
 ||*.cloudflareinsights.com^
 ||*.cloudiq.com^
 ||*.clrstm.com^
@@ -2109,7 +2114,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.counting.kmindex.ru^
 ||*.coupling-media.de^
 ||*.coxmt.com^
-||*.cp.abbp1.pw^
 ||*.cpalead.com^
 ||*.cpays.com^
 ||*.cpmstar.com^
@@ -2316,7 +2320,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.epom.com^
 ||*.epp.bih.net.ba^
 ||*.eqads.com^
-||*.eqy.link^
 ||*.erne.co^
 ||*.ero-advertising.com^
 ||*.estat.com^
@@ -2340,7 +2343,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.everestads.net^
 ||*.everesttech.net^
 ||*.evergage.com^
-||*.eversales.space^
 ||*.evs.sgmt.loom.com^
 ||*.evyy.net^
 ||*.exchange-it.com^
@@ -2521,7 +2523,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.gunggo.com^
 ||*.h-bid.com^
 ||*.h0.t.hubspotemail.net^
-||*.h78xb.pw^
 ||*.habitualhumor.com^
 ||*.hadskiz.com^
 ||*.haltingbadge.com^
@@ -2672,7 +2673,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.intergi.com^
 ||*.internetfuel.com^
 ||*.interreklame.de^
-||*.intnotif.club^
 ||*.inventionpassenger.com^
 ||*.invitesugar.com^
 ||*.ioam.de^
@@ -2732,7 +2732,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.kpu.samsungelectronics.com^
 ||*.krxd.net^
 ||*.kt5850pjz0.com^
-||*.ktu.sv2.biz^
 ||*.kubient.com^
 ||*.l1.britannica.com^
 ||*.l6b587txj1.com^
@@ -3464,7 +3463,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.roar.com^
 ||*.robotreplay.com^
 ||*.rockabox.co^
-||*.roia.biz^
 ||*.rok.com.com^
 ||*.rose.ixbt.com^
 ||*.rotabanner.com^
@@ -3788,7 +3786,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.takru.com^
 ||*.talentedsteel.com^
 ||*.tamgrt.com^
-||*.tangerinenet.biz^
 ||*.tangibleteam.com^
 ||*.tapad.com^
 ||*.tapfiliate.com^
@@ -3826,7 +3823,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.teststocking.com^
 ||*.text-link-ads.com^
 ||*.textad.sexsearch.com^
-||*.textads.biz^
 ||*.textlinks.com^
 ||*.tfag.de^
 ||*.the-ozone-project.com^
@@ -3959,7 +3955,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.traffic-exchange.com^
 ||*.traffic-redirecting.com^
 ||*.traffic.focuusing.com^
-||*.trafficfactory.biz^
 ||*.trafficforce.com^
 ||*.trafficholder.com^
 ||*.traffichunt.com^
@@ -4238,7 +4233,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zeus.developershed.com^
 ||*.zeusclicks.com^
 ||*.zion-telemetry.api.cnn.io^
-||*.zlp6s.pw^
 ||*.zm232.com^
 ||*.zmedia.com^
 ||*.zpu.samsungelectronics.com^
@@ -4687,7 +4681,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.3gl.net^
 ||*.login-ds.dotomi.com^
 ||*.ieonlinews.trafficmanager.net^
-||*.impression.link^
 ||*.dable.io^
 ||*.am-vid-events.taboola.com^
 ||*.rum-static.pingdom.net^
@@ -4933,7 +4926,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.c.bannerflow.net^
 ||*.mon.us.tiktokv.com^
 ||*.airbrake.io^
-||*.dewrain.life^
 ||*.us-match.taboola.com^
 ||*.appnext.com^
 ||*.mndsrv.com^
@@ -4989,7 +4981,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.android.rqd.qq.com^
 ||*.client.px-cloud.net^
 ||*.smetrics.cnn.com^
-||*.oo00.biz^
 ||*.c2.taboola.com^
 ||*.rmtag.com^
 ||*.glitter.services.disqus.com^
@@ -5688,7 +5679,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xxxivjmp.com^
 ||*.prx.wayfair.com^
 ||*.fclick.baidu.com^
-||*.report2.biz^
 ||*.track.customer.io^
 ||*.innovid.com.edgekey.net^
 ||*.s3-analytics-events.easybrain.com^
@@ -5779,7 +5769,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.v.shopify.com^
 ||*.karma.mdpcdn.com^
 ||*.api.fd.mob.com^
-||*.itskiddoan.club^
 ||*.metok.sys.miui.com^
 ||*.mediaforge.com^
 ||*.hpr.outbrain.com^
@@ -5794,7 +5783,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pushprofit.ru^
 ||*.ssp.rambler.ru^
 ||*.xedo.me^
-||*.zog.link^
 ||*.advertnative.com^
 ||*.surveystats.hotjar.io^
 ||*.logservice-dra.platform.hicloud.com^
@@ -5835,7 +5823,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.raf.overwolf.com^
 ||*.ads-api.twitter.com^
 ||*.dl.episerver.net^
-||*.relaxtime24.biz^
 ||*.log-collector.shopee.vn^
 ||*.player.sendtonews.com^
 ||*.platform.wondershare.com^
@@ -5952,7 +5939,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ibclick.stream^
 ||*.s3.lightboxcdn.com^
 ||*.mediaplex-match.dotomi.com^
-||*.powerain.biz^
 ||*.osb-krsvc.samsungqbe.com^
 ||*.publisher-event.ads.prd.ie.internal.unity3d.com^
 ||*.beusable.net^
@@ -6131,7 +6117,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ads.sparkflow.net^
 ||*.sabavision.com^
 ||*.r2b2.io^
-||*.moevideo.biz^
 ||*.abeagle-public.buzzfeed.com^
 ||*.itop.qq.com^
 ||*.omguk.com^
@@ -6146,7 +6131,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.spotx-match.dotomi.com^
 ||*.v-collector.dp.aws.charter.com^
 ||*.waust.at^
-||*.matrix.dailyinnovation.biz^
 ||*.adara.com^
 ||*.itsup.com^
 ||*.player-feedback-v1.glomex.com^
@@ -6219,7 +6203,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.infinity-tracking.net^
 ||*.krakenoptimize.com^
 ||*.js.mchncdn.com^
-||*.nighkclick.biz^
 ||*.pps-log.op-mobile.opera.com^
 ||*.ad.bench.utorrent.com^
 ||*.analytics.churnzero.net^
@@ -6318,7 +6301,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.rtbanalytics.com^
 ||*.rtb-eu.andbeyond.media^
 ||*.quantumgraph.com^
-||*.gobacktothefuture.biz^
 ||*.philacct.com^
 ||*.sanalytics.verizonwireless.com^
 ||*.smetrics.samsung.com^
@@ -6555,7 +6537,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.freegeoip.app^
 ||*.republer.com^
 ||*.rktch.com^
-||*.uponelectabuzzor.club^
 ||*.nanigans.com^
 ||*.static.zotabox.com^
 ||*.15gifts.com^
@@ -6673,9 +6654,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.consentag.eu^
 ||*.masterconn.qq.com^
 ||*.eproof.drudgereport.com^
-||*.stats.myangular.life^
 ||*.mepodownload.mediatek.com^
-||*.zap.buzz^
 ||*.rc.vtex.com.br^
 ||*.events.jotform.com^
 ||*.streetmetrics.io^
@@ -6723,7 +6702,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.collect.trendyol.com^
 ||*.segurazo.com^
 ||*.axept.io^
-||*.n06.biz^
 ||*.sprinklecontent.com^
 ||*.informer.yandex.ru^
 ||*.umengjmacs.m.taobao.com^
@@ -6909,7 +6887,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.kargo-match.dotomi.com^
 ||*.performax.cz^
 ||*.abservinean.com^
-||*.c13a856f4a879a89e9a638207efd6c94.biz^
 ||*.ak-ads-ns.prisasd.com^
 ||*.mplxtms.com^
 ||*.bf-tools.net^
@@ -6937,7 +6914,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bulldogcpi.com^
 ||*.73780fbd309561e201a4aee9914d882d.org^
 ||*.foundation.youdao.com^
-||*.dcb5684707f6c66492aaa9f7d9bfb5a6.biz^
 ||*.aaafc94b3a37b75ae9cb60afc42e86fe.org^
 ||*.cba4a6e5d3c956548a337c52388473f1.com^
 ||*.fast.forbes.com^
@@ -6973,7 +6949,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.customer.iad-03.braze.com^
 ||*.pushid-noneu.truecaller.com^
 ||*.yieldbird.com^
-||*.plusclick.biz^
 ||*.api.flocktory.com^
 ||*.tagman.britishairways.com^
 ||*.uc9.ucweb.com^
@@ -6981,7 +6956,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.atomex.net^
 ||*.sharemedia.rs^
 ||*.answerscloud.com^
-||*.di5.biz^
 ||*.impactradius.com^
 ||*.resources-us.yinzcam.com^
 ||*.dig.ultimedia.com^
@@ -7085,7 +7059,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cl-data-id.ads.heytapmobile.com^
 ||*.resetoccultkeeper.com^
 ||*.xmlrtb.com^
-||*.serch26.biz^
 ||*.insights-collector.gog.com^
 ||*.servicecut.meizu.com^
 ||*.mybetterck.com^
@@ -7129,7 +7102,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.game.str.mdt.qq.com^
 ||*.a.tvpage.com^
 ||*.pcookie.aliexpress.com^
-||*.stat.headlines.pw^
 ||*.tapas.net^
 ||*.cdn.optmn.cloud^
 ||*.client-metrics.chess.com^
@@ -7164,7 +7136,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.feedblitz.com^
 ||*.cagothie.net^
 ||*.lds.lenovomm.com^
-||*.ippen.space^
 ||*.adtiming.com^
 ||*.sf3-ttcdn-tos.pstatp.com^
 ||*.smetrics.att.com.edgekey.net^
@@ -7199,7 +7170,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.manager.smartlook.com^
 ||*.uptrendsdata.com^
 ||*.iyes.youku.com^
-||*.whiteclick.biz^
 ||*.mpianalytics.com^
 ||*.a.ki^
 ||*.pushaddict.com^
@@ -7354,7 +7324,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.appmetrica.yandex.com^
 ||*.center.io^
 ||*.obus-dc-us.heytapmobile.com^
-||*.cdn.czx5eyk0exbhwp43ya.biz^
 ||*.brightfunnel.com^
 ||*.crash2.zhihu.com^
 ||*.img.tradedoubler.com^
@@ -7556,7 +7525,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.paas-push-api-log.immomo.com^
 ||*.sgmntfy.com^
 ||*.mediation-tracking.prd.mz.internal.unity3d.com^
-||*.lib1.biz^
 ||*.jcpclick.com^
 ||*.forlumineoner.com^
 ||*.impservice.youdao.com^
@@ -7582,7 +7550,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fearlessfaucet.com^
 ||*.nadvideo2.baidu.com^
 ||*.ttmetrics.jcpenney.com^
-||*.presssnews.biz^
 ||*.ssp.hinet.net^
 ||*.ausoafab.net^
 ||*.c.microsoft.com^
@@ -7626,7 +7593,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.widget.sellwild.com^
 ||*.r-tb.com^
 ||*.bwukxn.com^
-||*.vpnclick.biz^
 ||*.h5v.eu^
 ||*.mxvp-feature-toggle-prod-1.zenmxapps.com^
 ||*.kstj.baidu.com^
@@ -8017,7 +7983,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adxcorp.kr^
 ||*.perfalytics.com^
 ||*.mediatoday.ru^
-||*.killtarget.biz^
 ||*.tubecorp.com^
 ||*.all.cnzz.com.danuoyi.tbcache.com^
 ||*.force24.co.uk^
@@ -8561,7 +8526,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.somt.honda.com^
 ||*.facil-iti.com^
 ||*.t1.a.market.xiaomi.com^
-||*.dmtgo.upc.biz^
 ||*.exitintel.com^
 ||*.glersakr.com^
 ||*.rest.locuslabs.com^
@@ -8866,7 +8830,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.trmads.eu^
 ||*.ad-x.co.uk^
 ||*.pocli.click^
-||*.pringed.space^
 ||*.rtb-useast.displayio.cloud^
 ||*.beam.bankrate.com^
 ||*.potestainsula.com^
@@ -8912,7 +8875,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adfpoint.com^
 ||*.affilae.com^
 ||*.appjiagu.com^
-||*.winworker.club^
 ||*.79xmz3lmss.com^
 ||*.flowerstreatment.com^
 ||*.mbww.com^
@@ -9118,7 +9080,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pixel.monitor2.returnpath.net^
 ||*.ptoahaistais.com^
 ||*.pushdi.com^
-||*.beagle.prod.tda.link^
 ||*.prtrackings.com^
 ||*.edge.atmtd.com^
 ||*.mobwsa.ximalaya.com^
@@ -9226,7 +9187,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lanopoon.net^
 ||*.track-mgz.360os.com^
 ||*.att.productmadness.com^
-||*.net00.biz^
 ||*.budvawshes.ru^
 ||*.metricreceiver.cellrebel.com^
 ||*.trk-api.crossengage.io^
@@ -9241,7 +9201,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adbroker.mp.dse.microsoft.com^
 ||*.blueadss.com^
 ||*.webtrekk-us.net^
-||*.wwclickads.club^
 ||*.mepuzz.com^
 ||*.tesseradigital.com^
 ||*.adpon.jp^
@@ -9328,7 +9287,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ptwmemd.com^
 ||*.3600.com^
 ||*.ad6media.fr^
-||*.dreamnews.biz^
 ||*.tdn.da-services.ch^
 ||*.acq.io^
 ||*.startappnetwork.com^
@@ -9370,7 +9328,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.api.installer.xiaomi.com^
 ||*.trackingvn.zingplay.com^
 ||*.admetrica.ru^
-||*.lovesound.space^
 ||*.t.karte.io^
 ||*.thequin.ai^
 ||*.appdownload.alicdn.com^
@@ -9500,7 +9457,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zorosrv.com^
 ||*.app.crossengage.io^
 ||*.cdn-resources.prfct.cc^
-||*.dfnetwork.link^
 ||*.p.gazeta.pl^
 ||*.stat.sputnik.ru^
 ||*.widgets.jobbio.com^
@@ -9649,7 +9605,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.content-ad.net^
 ||*.ug.snssdk.com^
 ||*.fortvision.com^
-||*.p-analytics.life^
 ||*.vuwmxjusucnh.com^
 ||*.gdeslon.ru^
 ||*.retailads.net^
@@ -9967,7 +9922,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.smetrics.nationwide.co.uk^
 ||*.snssdk1233.onelink.me^
 ||*.aag.yahooapis.jp^
-||*.go1news.biz^
 ||*.admulti.com^
 ||*.analytics-events.inshorts.com^
 ||*.dramaticdirection.com^
@@ -10012,7 +9966,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.risk.clearbit.com^
 ||*.sh2-ue261.rtbtrackers.com^
 ||*.ai.m.taobao.com^
-||*.ateoildim.club^
 ||*.events.textme-app.com^
 ||*.mobojoy.baidu.com^
 ||*.naverwebtoon-phinf.pstatic.net^
@@ -10127,7 +10080,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.live-playphoto.servers.kwalee.com^
 ||*.secure.vs3.com^
 ||*.yektanet.net^
-||*.adkaora.space^
 ||*.smetrics.loft.com^
 ||*.log.cmbchina.com^
 ||*.related.queryly.com^
@@ -10239,7 +10191,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.internewsweb.com^
 ||*.mcangelus.com^
 ||*.mobile.measurelib.com^
-||*.91p20.space^
 ||*.adwise.bg^
 ||*.adx-in.ads.heytapmobile.com^
 ||*.collector.wawlabs.com^
@@ -10266,7 +10217,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.alexatracker.com^
 ||*.share.yandex.ru^
 ||*.shared.youdao.com^
-||*.convers.link^
 ||*.mtrace.play.cp81.ott.cibntv.net^
 ||*.analytics.gismart.xyz^
 ||*.azmsoft.com^
@@ -10281,12 +10231,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.powerlinks.com^
 ||*.seon.io^
 ||*.analytics.plaid.com^
-||*.bro3.biz^
 ||*.custom-wrs.api.responsys.net^
 ||*.liqwid.net^
 ||*.reople.co.kr^
 ||*.rhetoricalloss.com^
-||*.covivado.club^
 ||*.holder.com.ua^
 ||*.kuaikan.netmon.360safe.com^
 ||*.promobar.tools^
@@ -10587,7 +10535,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adsturn.com^
 ||*.app-ab26.marketo.com^
 ||*.cdn.logrocket.com^
-||*.soft-com.biz^
 ||*.events.shareably.net^
 ||*.ntracker-collector.naver.com.nheos.com^
 ||*.vik-analytics-gke.moonactive.net^
@@ -10618,7 +10565,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tenmaxsgads.blob.core.windows.net^
 ||*.tracking.bonnier.news^
 ||*.air2s.com^
-||*.checkpost.club^
 ||*.fam-8.net^
 ||*.fimg-resp.seznam.cz^
 ||*.gettopple.com^
@@ -10653,12 +10599,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.abtest-ch.snssdk.com^
 ||*.channel.api.duapp.com^
 ||*.geotargetly-1a441.appspot.com^
-||*.hottracker.biz^
 ||*.logger.ivi.ru^
 ||*.mwt.net^
 ||*.null-point.com^
 ||*.webcare.byside.com^
-||*.blok.link^
 ||*.calameo-beacon.global.ssl.fastly.net^
 ||*.dalecta.com^
 ||*.explorer43.g.ebay.com^
@@ -10693,7 +10637,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ad2.ettoday.net^
 ||*.adm.beimg.com^
 ||*.ads.baadesaba.ir^
-||*.cipledecline.buzz^
 ||*.go.mmstat.com^
 ||*.louchees.net^
 ||*.shoelace.com^
@@ -10817,7 +10760,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.analytics.appservice.tech^
 ||*.ats.gmarket.co.kr^
 ||*.betterbannerscloud.com^
-||*.buckridge.link^
 ||*.quitzon.net^
 ||*.vicp.net^
 ||*.video-serve.com^
@@ -10835,7 +10777,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tracker.suara.com^
 ||*.ultimateaderaser.com^
 ||*.anonymousdemographics.com^
-||*.bashirian.biz^
 ||*.fbthirdpartypixel.com^
 ||*.hit.duhnet.tv^
 ||*.onvictinitor.com^
@@ -10901,7 +10842,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.webair.com^
 ||*.app-sjh.marketo.com^
 ||*.gr.linkwi.se^
-||*.hgbn.space^
 ||*.stat.ovh^
 ||*.traffic-media.co.uk^
 ||*.adc.flyermobi.com^
@@ -11011,7 +10951,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lite-cdn.com^
 ||*.solosegment.com^
 ||*.theonecdn.com^
-||*.wpm.neustar.biz^
 ||*.bemobtracks.com^
 ||*.collserve.com^
 ||*.links22.com^
@@ -11143,7 +11082,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hwa.his.huawei.com^
 ||*.pubtrack.co^
 ||*.s.duhnet.tv^
-||*.analytics.ynap.biz^
 ||*.appsdt.com^
 ||*.events.ifunny.co^
 ||*.gofenews.com^
@@ -11267,7 +11205,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hardsextube-bud.gravityrd-services.com^
 ||*.ju.taobao.com^
 ||*.qoijertneio.com^
-||*.retargeting.biz^
 ||*.rftslb.com^
 ||*.si.adocean.pl^
 ||*.statsmp2.emol.com^
@@ -11302,7 +11239,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.e-ad-monitor.huya.com^
 ||*.gi.gepush.com^
 ||*.ndroip.com^
-||*.pu3.biz^
 ||*.track-mixer.ru^
 ||*.utopclick.com^
 ||*.wpnjs.com^
@@ -11432,7 +11368,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.smi.today^
 ||*.stereotypedsugar.com^
 ||*.0.code.cotsta.ru^
-||*.betgorebysson.club^
 ||*.boyfriendlive.com^
 ||*.deemaagency.ir^
 ||*.dns.ladipage.com^
@@ -11567,7 +11502,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.profusesupport.com^
 ||*.pub.funshion.com^
 ||*.whagrolt.com^
-||*.wwclicktm.club^
 ||*.actionlog.divar.ir^
 ||*.adservice.tohsoft.com^
 ||*.bhabhiporn.pro^
@@ -11613,7 +11547,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sirius.iad-03.braze.com^
 ||*.smac-ad.com^
 ||*.t.ofsys.com^
-||*.69v.club^
 ||*.adsp.xunlei.com^
 ||*.athena.api.kwalee.com^
 ||*.attributedminded.com^
@@ -11629,7 +11562,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.app-lon05.marketo.com^
 ||*.cwt.citywire.info^
 ||*.l.tcp.push.mob.com^
-||*.startmode.biz^
 ||*.timbol.iad-03.braze.com^
 ||*.zap.cloud.wowza.com^
 ||*.adv.r7.com^
@@ -11646,7 +11578,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.collector.bughd.com^
 ||*.duckswillsmoochyou.com^
 ||*.log.plo.vn^
-||*.mol17.biz^
 ||*.nightfallroad.com^
 ||*.no2veeamggaseber.com^
 ||*.plausible.ams.to^
@@ -11683,7 +11614,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.log.snapdeal.com^
 ||*.ma.logsss.com^
 ||*.push.delivery.ethinking.de^
-||*.track.traffichub.club^
 ||*.adblockerapp.com^
 ||*.agaenteitor.com^
 ||*.aspiringattempt.com^
@@ -11799,7 +11729,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.callreports.com^
 ||*.event-tracker-api.kredivo.com^
 ||*.fluid-adverts.localstars.com^
-||*.publyads.jstag.space^
 ||*.shoosh.co^
 ||*.t.riverhit.com^
 ||*.zendplace.pro^
@@ -11842,7 +11771,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dig.lianjia.com^
 ||*.shesubscriptions.com^
 ||*.ucsec.ucweb.com^
-||*.wct.link^
 ||*.ads.admaru.com^
 ||*.app-abc.marketo.com^
 ||*.ios-quinoa-config-prod.sense360eng.com^
@@ -11894,7 +11822,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.publicsurveypanel.com^
 ||*.sablesong.com^
 ||*.scaredsnake.com^
-||*.taigame789.club^
 ||*.augu3yhd485st.com^
 ||*.dataunion.com.br^
 ||*.dmp.sbermarketing.ru^
@@ -11940,7 +11867,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adkontekst.pl^
 ||*.adquery.io^
 ||*.ads.golem.de^
-||*.aimaniape.club^
 ||*.aptracking1.com^
 ||*.ckm.iqiyi.com^
 ||*.click.digiato.com^
@@ -12076,7 +12002,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.npcad.com^
 ||*.piwik.itzbund.de^
 ||*.privacy-sdk.talent-soft.com^
-||*.redads.biz^
 ||*.shroughtened.com^
 ||*.tools.prnewswire.com^
 ||*.uneasydoll.com^
@@ -12110,7 +12035,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.track.greentropolo.com^
 ||*.wg-aff.com^
 ||*.babylon.com^
-||*.cplayer.pw^
 ||*.jalewaads.com^
 ||*.mcy8q-n2f8ttyv729bcg5v83dsp4.device.marketingcloudapis.com^
 ||*.sgdmobile.com^
@@ -12245,7 +12169,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.widget.haberler.com^
 ||*.analytics.brave.com^
 ||*.chatntr.com^
-||*.clickgate.biz^
 ||*.lgtdkpfnor.com^
 ||*.mobio-salive.com^
 ||*.spanids.thesaurus.com^
@@ -12382,7 +12305,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.internetbadguys.com^
 ||*.iyfubh.com^
 ||*.livenetlife.com^
-||*.picmedia.biz^
 ||*.static.aottercdn.com^
 ||*.tm5kpprikka.com^
 ||*.track.storm.mg^
@@ -12554,7 +12476,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.driver-fixer.com^
 ||*.streamate.com^
 ||*.tracot.com^
-||*.adsrvtrk.biz^
 ||*.analytics.webflow.com^
 ||*.analytics.yext-static.com^
 ||*.btpnav.com^
@@ -12616,7 +12537,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.events.busuu.com^
 ||*.nct2-logging.nct.vn^
 ||*.oakbustrp.com^
-||*.pu4.biz^
 ||*.reward4spot.com^
 ||*.static.airbridge.io^
 ||*.xpprinx2.com^
@@ -12736,7 +12656,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tealand.cmcm.com^
 ||*.tracker.wigzopush.com^
 ||*.can-get-some.net^
-||*.ceviz.pw^
 ||*.clkdeals.com^
 ||*.deliverytrafficnews.com^
 ||*.hyperoi.com^
@@ -12800,7 +12719,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.splashimgbssdl.yun.kugou.com^
 ||*.telize.com^
 ||*.tracker.wpserveur.net^
-||*.worldtxt.club^
 ||*.adsemo.com^
 ||*.app-ab23.marketo.com^
 ||*.bannersvideo.com^
@@ -13011,7 +12929,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dynpaa.com^
 ||*.eakalra.ru^
 ||*.extensions-media.com^
-||*.free.rnv.life^
 ||*.publicidadebrasildigital.com^
 ||*.tagm.eduscho.at^
 ||*.tracking-server-prod-1.zenmxapps.com^
@@ -13048,7 +12965,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.natnlconsmrctr.com^
 ||*.newsrank.nate.com^
 ||*.res.mmstat.com^
-||*.sv-static-lottery.headlines.pw^
 ||*.viaqoo.tech^
 ||*.adloox-blocks.deliverimp.com^
 ||*.analytics-cdiscount.com^
@@ -13129,7 +13045,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.log2.spotify.com^
 ||*.login.alibaba-inc.com^
 ||*.mrab.co.kr^
-||*.op02.biz^
 ||*.orangepublicite.fr^
 ||*.rampmetrics.com^
 ||*.tcimg.com^
@@ -13243,7 +13158,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fp.techinasia.com^
 ||*.irlmaster.com^
 ||*.leucan3thegm6um.com^
-||*.metrika.traff.space^
 ||*.ndegj3peoh.com^
 ||*.neechube.net^
 ||*.ninjacat.io^
@@ -13621,7 +13535,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cha2spoi3rasne.com^
 ||*.coinhive.com^
 ||*.console.yapaytech.com^
-||*.dantbritingd.club^
 ||*.dating2cloud.org^
 ||*.effectiveperformanceformat.com^
 ||*.girls.xyz^
@@ -13817,7 +13730,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.quinoa-personal-identify-prod.sense360eng.com^
 ||*.raidbossa.com^
 ||*.rainyrule.com^
-||*.se05.biz^
 ||*.secure.dawn3host.com^
 ||*.t.get-native.eu^
 ||*.tnkfactory.com^
@@ -13941,7 +13853,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.contentsbridge.com^
 ||*.dotcom10.info^
 ||*.eulerian.sarenza.com^
-||*.event.headlines.pw^
 ||*.extmaps-api.yandex.net^
 ||*.feedback.cn.ronghub.com^
 ||*.fpcpopunder.com^
@@ -14129,7 +14040,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.announcem.com^
 ||*.api-launcher-em.hismarttv.com^
 ||*.biliyilish.com^
-||*.click-to-continue.shop^
 ||*.colossalcoat.com^
 ||*.config.88-f.net^
 ||*.dcys.ijinshan.com^
@@ -14146,7 +14056,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.piwik.documentfoundation.org^
 ||*.possessionaddictedflight.com^
 ||*.qc.kqbd88.com^
-||*.revcontent.biz^
 ||*.rps-p2.rockpapershotgun.com^
 ||*.shestugele.pro^
 ||*.signafrica.com^
@@ -14187,7 +14096,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.rewardsgiantusa.com^
 ||*.serviceswork.net^
 ||*.slushhelmetmirth.com^
-||*.stat.turb.pw^
 ||*.supert.ag^
 ||*.trackerx.ru^
 ||*.velocecdn.com^
@@ -14219,7 +14127,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.imagodd.com^
 ||*.kronosspell.com^
 ||*.kungfupandasa.com^
-||*.lottery.headlines.pw^
 ||*.multi-cluster.directservices.it^
 ||*.ndsplitter.com^
 ||*.nzme-ads.co.nz^
@@ -14379,7 +14286,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pristopmedia.network^
 ||*.promotion.aliyun.com^
 ||*.rapirasa.com^
-||*.secret-vip.club^
 ||*.trk-imps.com^
 ||*.wb.110.taobao.com^
 ||*.web-analytics.ica.se^
@@ -14590,7 +14496,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.track.cnki.net^
 ||*.vethojoa.net^
 ||*.wp20.ru^
-||*.wwopenclick.space^
 ||*.xvnitu.com^
 ||*.zeobit.com^
 ||*.zzux.com^
@@ -14610,7 +14515,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fearlesselevated.com^
 ||*.fordgitter.com^
 ||*.glssp.net^
-||*.greysummergo.biz^
 ||*.isprime.com^
 ||*.kubecloud.com^
 ||*.lbtinc.com^
@@ -14930,7 +14834,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.potwm.com^
 ||*.prod-collector.bigbasket.com^
 ||*.pzjgtuo.net^
-||*.sexyxxx.biz^
 ||*.trackboxx.info^
 ||*.ukhkcxmzesi.com^
 ||*.vrtzads.com^
@@ -15001,7 +14904,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.showmeyouradsnow.com^
 ||*.shvhse.com^
 ||*.stinkcomedian.com^
-||*.synkd.life^
 ||*.tailapsi.com^
 ||*.temporarympay.com^
 ||*.tracker.blutv.com^
@@ -15078,7 +14980,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.helpzonecisco.com^
 ||*.irkantyip.com^
 ||*.juringupstage.com^
-||*.knjghuig.biz^
 ||*.kvhdd.com^
 ||*.n26-trusted.n26.com^
 ||*.nextmillennium.io^
@@ -15115,11 +15016,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.finkyepbows.com^
 ||*.h.cloudengage.com^
 ||*.hublosk.com^
-||*.ian029dkl3osl930sian.club^
 ||*.ja1.gamersky.com^
 ||*.kb-render.alicdn.com^
 ||*.lickingimprovementpropulsion.com^
-||*.load00.biz^
 ||*.mm.jbzj.com^
 ||*.ns346259.ip-94-23-27.eu^
 ||*.pamonhariaalvorada.net^
@@ -15131,7 +15030,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.shorantonto.com^
 ||*.spyoff.com^
 ||*.statclick.net^
-||*.talktomeplease.biz^
 ||*.tvlyzer.com^
 ||*.uktc.ijento.com^
 ||*.varechphugoid.com^
@@ -15159,7 +15057,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.craigconnors.com^
 ||*.crowd1.com^
 ||*.cuppinaruke.com^
-||*.cvgrf.biz^
 ||*.cxt.ms^
 ||*.data.qq.com^
 ||*.dawin.tv^
@@ -15185,7 +15082,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.shenghuo.xiaomi.com^
 ||*.shoresmmrnews.com^
 ||*.smartadnetwork.net^
-||*.ssbzmoy.biz^
 ||*.stougnee.com^
 ||*.thongke99.baogiaothong.vn^
 ||*.topsecurityservice.net^
@@ -15216,7 +15112,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.gssp.asia^
 ||*.gtm.flo.com.tr^
 ||*.helpforyourservice.com^
-||*.istat.biz^
 ||*.log.mofa.go.kr^
 ||*.mamblubamblua.com^
 ||*.mediapush1.com^
@@ -15237,7 +15132,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.voluumtlkrnarketing.com^
 ||*.watson.ppe.telemetry.microsoft.com^
 ||*.woemqmgf.xyz^
-||*.worldinfocontact.club^
 ||*.1xl.co.uk^
 ||*.a.doganburda.com^
 ||*.adv.khan.co.kr^
@@ -15287,7 +15181,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.andyhoppe.com^
 ||*.app-lon02.marketo.com^
 ||*.belgikanst.iad-03.braze.com^
-||*.biggarderoub.cyou^
 ||*.burdaffi.burdadigital.pl^
 ||*.cc.m.jd.com^
 ||*.click-now-on-this.online^
@@ -15301,7 +15194,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.log.kaka.me^
 ||*.mipengine.baidu.com^
 ||*.mypinpointe.com^
-||*.nokaut.link^
 ||*.offers.brothersail.com^
 ||*.online-metrix.imars.cloud^
 ||*.perion.com^
@@ -15323,7 +15215,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vulisia.pl^
 ||*.wass.ihsmarkit.com^
 ||*.wer.schwarzwaelder-bote.de^
-||*.adbit.biz^
 ||*.adsniper.ru^
 ||*.alfpair.com^
 ||*.alklinker.com^
@@ -15346,10 +15237,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.gammae.com^
 ||*.gerepa.com^
 ||*.go2app.org^
-||*.intensemisha.cyou^
 ||*.kogasiv.com^
 ||*.mp3lofts.com^
-||*.npukfztj.biz^
 ||*.o-oo.ooo^
 ||*.pokkt.fuse-ad.com^
 ||*.poweredbyliquidfire.mobi^
@@ -15368,7 +15257,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.webmetrics.mayoclinic.org^
 ||*.xxlargepop.com^
 ||*.zhej78i1an8w6ceu.com^
-||*.zlenh.biz^
 ||*.a9.com^
 ||*.adskkkkk.com^
 ||*.adsplay.xyz^
@@ -15422,7 +15310,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bighomegl.at^
 ||*.bildirimci.net^
 ||*.blitzbg.adocean.pl^
-||*.bro1.biz^
 ||*.bvmtogo.com^
 ||*.bytesabbreviation.com^
 ||*.click.linkadx.com^
@@ -15438,7 +15325,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.itelagen.com^
 ||*.jqeyvtgelo.com^
 ||*.kyjbpwo.com^
-||*.lamberserer.club^
 ||*.leadrebel.io^
 ||*.myfrance.xyz^
 ||*.newspopperio.com^
@@ -15495,7 +15381,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.refinedwebs.com^
 ||*.sare25.com^
 ||*.sdk.iappgame.com^
-||*.silenthill24.biz^
 ||*.static.fastpic.org^
 ||*.teljari.is^
 ||*.testflightapp.com^
@@ -15553,7 +15438,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.toponad.com^
 ||*.track4ref.com^
 ||*.uadexchange.com^
-||*.uhxqin.biz^
 ||*.us-dsptrack.ymmobi.com^
 ||*.vdx.tv^
 ||*.vpscash.nl^
@@ -15597,7 +15481,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.msg-em.hismarttv.com^
 ||*.njabl.org^
 ||*.pfpskfa.net^
-||*.przvgke.biz^
 ||*.ptprctl.ru^
 ||*.realpush.digital^
 ||*.sanjagh.net^
@@ -15635,7 +15518,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ppcnt.eu^
 ||*.profitablegate.com^
 ||*.proof.sudo.vn^
-||*.recdirectgo.biz^
 ||*.sadnesscontemporary.com^
 ||*.saedu.naver.com^
 ||*.sdfjjd.globatds.com^
@@ -15644,7 +15526,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.secure.iron0walk.com^
 ||*.sourcepoint.lifehacker.com^
 ||*.tracking.fff.com.vn^
-||*.traffer.biz^
 ||*.u0079.com^
 ||*.wtk.db.com^
 ||*.xmllover.com^
@@ -15708,7 +15589,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.benevolencepair.com^
 ||*.bigberryconsulting.com^
 ||*.cdn.relaido.jp^
-||*.cenceevent.club^
 ||*.clck.yandex.com^
 ||*.coffeinoffice.xyz^
 ||*.counter.joins.com^
@@ -15738,7 +15618,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.open.isnssdk.com^
 ||*.piwik.townwebinc.com^
 ||*.prtc.net^
-||*.qc.whmn.shop^
 ||*.sjc03-usadmm.dotomi.com^
 ||*.somicrososoft.ru^
 ||*.syncadv.com^
@@ -15830,7 +15709,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pluffdoodah.com^
 ||*.pocketstay.com^
 ||*.predictivadvertising.com^
-||*.qaynky.biz^
 ||*.revpusher.com^
 ||*.seewhy.com^
 ||*.tabmo2018.go2cloud.org^
@@ -15865,7 +15743,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cityads.com^
 ||*.click-on-this.today^
 ||*.decals.rcgroups.net^
-||*.di02.biz^
 ||*.e95-238.icpnet.pl^
 ||*.enviousshape.com^
 ||*.eventstream.dodopizza.com^
@@ -15879,7 +15756,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.koalaups.com^
 ||*.ladyphapty.com^
 ||*.lilscrambler.com^
-||*.loveclubhere.life^
 ||*.mambkooocango.com^
 ||*.maxxcorp.net^
 ||*.mgc-games.com^
@@ -15956,7 +15832,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tracking-amp.vnexpress.net^
 ||*.vexacion.com^
 ||*.video-change.digital^
-||*.willitepartisti.club^
 ||*.ww1.willalland.info^
 ||*.9191919199.com^
 ||*.ad.dline.com.tr^
@@ -15976,7 +15851,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cloudpush.iqiyi.com^
 ||*.cofounderspecials.com^
 ||*.dd.yiche.com^
-||*.deoci.biz^
 ||*.dnsseed.bitcoin.dashjr.org^
 ||*.drpease.com^
 ||*.dummieseardrum.com^
@@ -15990,9 +15864,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.logapi.tv.naver.com^
 ||*.luvaihoo.com^
 ||*.movemeal.com^
-||*.mutqwqm.biz^
 ||*.mycdn2.co^
-||*.napws.biz^
 ||*.netsynergy.com^
 ||*.nftmatrixed.info^
 ||*.onlinebars.xyz^
@@ -16011,7 +15883,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.turbocap.net^
 ||*.tw-img.vpon.com^
 ||*.umbel.com^
-||*.whatosgoingon.biz^
 ||*.wwpcrisis.com^
 ||*.ygiudewsqhct.in^
 ||*.zxoexbgy.net^
@@ -16022,7 +15893,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.advancedmaccleaner.com^
 ||*.affiliate.heureka.cz^
 ||*.aligtr050.mmstat.com^
-||*.anpmnmxo.biz^
 ||*.antevenio.com^
 ||*.api.permaleads.ch^
 ||*.app-sj17.marketo.com^
@@ -16037,7 +15907,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.daughterinlawrib.com^
 ||*.facebook1mob.com^
 ||*.fortnite.events^
-||*.fwiwk.biz^
 ||*.gortisir.ru^
 ||*.gritaware.com^
 ||*.henghost.com^
@@ -16070,7 +15939,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.voodoo-analytics.io^
 ||*.vps-7494662d.vps.ovh.net^
 ||*.xaxis.com^
-||*.yijzasrq.biz^
 ||*.zubivu.com^
 ||*.abc.esprit.de^
 ||*.addb.interpark.com^
@@ -16106,7 +15974,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.log.tinxe.vn^
 ||*.mdmserver.mobidia.com^
 ||*.mppapi.io^
-||*.news02.biz^
 ||*.newscode.online^
 ||*.padrup.com^
 ||*.paymentsweb.org^
@@ -16131,7 +15998,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.unknown.level3.net^
 ||*.whamuthygle.com^
 ||*.worthyrid.com^
-||*.xlfhhhm.biz^
 ||*.xspadvertising.com^
 ||*.yozyboqyiy.com^
 ||*.139site.com^
@@ -16222,7 +16088,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.inpwrd.com^
 ||*.isbnrs.com^
 ||*.kerio-push-gateway-prod.elasticbeanstalk.com^
-||*.kma.biz^
 ||*.livezombymil.com^
 ||*.log.vneconomy.vn^
 ||*.log6.reader.qq.com^
@@ -16239,7 +16104,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pixel.hangikredi.com^
 ||*.rostraffic.com^
 ||*.samplerpouch.com^
-||*.saytjshyf.biz^
 ||*.scsnewstoday.com^
 ||*.secure.loki8lave.com^
 ||*.securetunnel.co^
@@ -16270,7 +16134,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.analytics.lb.mobileapphelper.com^
 ||*.anymind360-com.cdn.ampproject.org^
 ||*.app-sj19.marketo.com^
-||*.arthur.niria.biz^
 ||*.atebilaterde.one^
 ||*.aversionworkingthankful.com^
 ||*.avisorecusapagamento.com^
@@ -16299,7 +16162,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.nattanda.ru^
 ||*.ntvpinp.com^
 ||*.onclickclear.com^
-||*.oroeiodb.biz^
 ||*.os.scmpacdn.com^
 ||*.otiifafm.net^
 ||*.ox-bio.com^
@@ -16313,7 +16175,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.qservz.com^
 ||*.rawaumi.ru^
 ||*.rclgroup.com^
-||*.recode.pw^
 ||*.saba.ye^
 ||*.saworbpox.com^
 ||*.secure.emeu0circ.com^
@@ -16338,7 +16199,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.affiliate.juno.co.uk^
 ||*.analytics.kemlu.go.id^
 ||*.analytics.mlstatic.com^
-||*.apia.headlines.pw^
 ||*.app-ab08.marketo.com^
 ||*.brighteroption.com^
 ||*.careerdesk.org^
@@ -16386,7 +16246,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.separatelysmackfibber.com^
 ||*.sexybltch.net^
 ||*.singlewomenmeet.com^
-||*.sjlqqjwb.biz^
 ||*.snd.tc^
 ||*.stampsmindlessscrap.com^
 ||*.suborecho.com^
@@ -16395,7 +16254,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tkmftc.aotter.net^
 ||*.vakkerlight.com^
 ||*.variablesconevening.com^
-||*.vcddkls.biz^
 ||*.warau.ru^
 ||*.waudit.cz^
 ||*.webtrekk.com^
@@ -16428,12 +16286,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.d2.yiche.com^
 ||*.dratingmaject.com^
 ||*.dui88.com^
-||*.eckyqwb.biz^
 ||*.foiblesretried.com^
 ||*.formalyzer.com^
 ||*.hostanalytics.com^
 ||*.i2idata.com^
-||*.ifsaia.biz^
 ||*.jumplead.com^
 ||*.lisarobertson.com^
 ||*.litcsxdj.website^
@@ -16477,7 +16333,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ads.tapzin.com^
 ||*.adstock.pro^
 ||*.adtima-common.zascdn.me^
-||*.allowandgo.link^
 ||*.alorica.pro^
 ||*.amenityleisurelydays.com^
 ||*.analytics.eggoffer.com^
@@ -16596,7 +16451,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.stat.youku.com^
 ||*.supply.upjers.com^
 ||*.tags.spider-mails.com^
-||*.taiiwin.club^
 ||*.track.junggglex.com^
 ||*.track.mspy.click^
 ||*.tracking.graphly.io^
@@ -16606,7 +16460,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tyxo.bg^
 ||*.tzobylw.ru^
 ||*.u0062.com^
-||*.user.headlines.pw^
 ||*.varietyjob.com^
 ||*.weblog.eseoul.go.kr^
 ||*.weblog.flyasiana.com^
@@ -16663,7 +16516,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.netsolads.com^
 ||*.noerwe5gianfor19e4st.com^
 ||*.notomica.com^
-||*.nstat.headlines.pw^
 ||*.nutritionshooterinstructor.com^
 ||*.offnavi.map.baidu.com^
 ||*.onelnk.com^
@@ -16748,9 +16600,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jupirest.ru^
 ||*.laxdomax.com^
 ||*.letitnews.com^
-||*.linkredirect.biz^
 ||*.linksmart.com^
-||*.lpuegx.biz^
 ||*.malwarecrusher.com^
 ||*.masdpanalytics.azureedge.net^
 ||*.medialytics.com^
@@ -16920,7 +16770,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hb5t.adups.com^
 ||*.horzrb.com^
 ||*.invitewingorphan.com^
-||*.jobtwitterz.biz^
 ||*.jssdk.pulse.schibsted.com^
 ||*.junkieswudge.com^
 ||*.kantarmedia.com^
@@ -16983,7 +16832,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.at.artistchai.co.kr^
 ||*.auditioningborder.com^
 ||*.az512334.vo.msecnd.net^
-||*.bitcoin.grey.pw^
 ||*.boost-cdn.manatee.dk^
 ||*.choogeet.net^
 ||*.creative-analytics.crossinstall.io^
@@ -17042,7 +16890,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.update.crashlytics.com^
 ||*.vastb.adwmg.com^
 ||*.vostilo.ru^
-||*.vue-js.cyou^
 ||*.washdaycalmly.com^
 ||*.weakya.com^
 ||*.xiaodongrui.com^
@@ -17147,14 +16994,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dekarchpeanuts.com^
 ||*.deliverysapgoblet.com^
 ||*.dlfvgndsdfsn.com^
-||*.dontblock.jav1jav2.buzz^
 ||*.dronedgentile.com^
 ||*.fer2oxheou4nd.com^
 ||*.freewheel-mtgx-tv.akamaized.net^
 ||*.fuidrsar.net^
 ||*.getsidecar.com^
 ||*.healing-rock.de^
-||*.heartmedia.biz^
 ||*.hetahien.com^
 ||*.hotblognetwork.com^
 ||*.hotelscombined.com.au^
@@ -17163,7 +17008,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jsutandy.com^
 ||*.kitchencafeso.com^
 ||*.kozuyzcciaygg.com^
-||*.lgrarcosbann.club^
 ||*.littlecutelions.com^
 ||*.livelog.co.kr^
 ||*.llyvjs.com^
@@ -17218,11 +17062,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.babyniceshark.com^
 ||*.bd.hd.sohu.com^
 ||*.beacon.itmedia.jp^
-||*.cationakasu.shop^
 ||*.cdn-alliancegravity.s3.amazonaws.com^
 ||*.cdn.adt357.net^
 ||*.chartiq-client-prod.s3.amazonaws.com^
-||*.cndnagb.biz^
 ||*.cpabuild.com^
 ||*.creativedisplayformat.com^
 ||*.creatorcloakroomborrowed.com^
@@ -17277,7 +17119,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.uiiokhcw.com^
 ||*.update.mopub.com^
 ||*.videostat.com^
-||*.vjaxhpbji.biz^
 ||*.vooculok.com^
 ||*.webstats1.com^
 ||*.wellgroomedhydrant.com^
@@ -17307,7 +17148,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.app-aba.marketo.com^
 ||*.as.gamevui.com^
 ||*.avazudsp.net^
-||*.best-partner-now.life^
 ||*.betmarathon.com^
 ||*.bgpng.me^
 ||*.brenz.pl^
@@ -17318,7 +17158,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.counter.jdi5.com^
 ||*.detinetcallant.com^
 ||*.diesophiestore.com^
-||*.dontblock.jaaavjavs1.buzz^
 ||*.dronestore.cl^
 ||*.duringissued.com^
 ||*.dynsrvwer.com^
@@ -17361,14 +17200,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.prstatics.com^
 ||*.quantumadblocker.com^
 ||*.ralphabeth.com^
-||*.reportions.club^
 ||*.rotate4all.com^
 ||*.rtbtracking.com^
 ||*.scatteredstream.com^
 ||*.sdbvveonb1.com^
 ||*.sh2-sg9.rtbtrackers.com^
-||*.sixminutes.biz^
-||*.smartklick.biz^
 ||*.sminewsnet.ru^
 ||*.sni.ps^
 ||*.stat.adultium.com^
@@ -17453,7 +17289,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.prbtqjujwzwepv.com^
 ||*.prf.vagnt.com^
 ||*.quinuaknife.com^
-||*.researchers.pw^
 ||*.secure.clue6load.com^
 ||*.secure.ruth8badb.com^
 ||*.secure.text6film.com^
@@ -17526,7 +17361,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.log.tv360.vn^
 ||*.logger.kcisa.kr^
 ||*.meshatr.ru^
-||*.mixmarket.biz^
 ||*.mm-api.agency^
 ||*.musik-mp3.info^
 ||*.mw19c3mi5a.com^
@@ -17539,7 +17373,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pixel.europapress.net^
 ||*.plugin.management^
 ||*.puitaexb.com^
-||*.pupok.link^
 ||*.rallydisprove.com^
 ||*.reapart.ru^
 ||*.rknyjitw.com^
@@ -18069,127 +17902,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bms.xenium.bg^
 ||*.ads.zajenata.bg^
 ||*.smetrics.kone.bi^
-||*.3gporn.biz^
-||*.6ms.biz^
-||*.partners.a24.biz^
-||*.acwm.biz^
-||*.ad2adnetwork.biz^
-||*.ad999.biz^
-||*.admob.biz^
-||*.ad-tag.biz^
-||*.aff.biz^
-||*.afflight.biz^
-||*.counter.all.biz^
-||*.andibringto.biz^
-||*.ankunding.biz^
-||*.r.apina.biz^
-||*.arthahoonte.biz^
-||*.athenainstitute.biz^
-||*.back2yard.biz^
-||*.beginstory.biz^
-||*.betcdn.biz^
-||*.cgeckmydirect.biz^
-||*.checkfilter.biz^
-||*.checkmymedia.biz^
-||*.checkup02.biz^
-||*.ckeckstatus.biz^
-||*.piwikpro.com.de-aurora-dc.cldsrv.biz^
-||*.clickgate07.biz^
-||*.clickgate08.biz^
-||*.clickgate09.biz^
-||*.tracktrue.clicktrue.biz^
-||*.contributiont.biz^
-||*.cpm.biz^
-||*.data-analyst.biz^
-||*.fastbuy.biz^
-||*.www.flvto.biz^
-||*.ads.garga.biz^
-||*.greenrecru.biz^
-||*.d.haberciniz.biz^
-||*.hearfromyou.biz^
-||*.hipnoticrec.biz^
-||*.homenick.biz^
-||*.icdecidents.biz^
-||*.igaming.biz^
-||*.ingenioustech.biz^
-||*.instore.biz^
-||*.jsks.biz^
-||*.justpush.biz^
-||*.s.kma1.biz^
-||*.kubet.biz^
-||*.lead-analytics.biz^
-||*.linkit.biz^
-||*.adv.livelog.biz^
-||*.blog.livelog.biz^
-||*.loopme.biz^
-||*.lubowitz.biz^
-||*.mobile-click.biz^
-||*.moneyhate.biz^
-||*.moneyplatform.biz^
-||*.more1.biz^
-||*.ad.mozzi.biz^
-||*.www.mozzi.biz^
-||*.mpau.biz^
-||*.mpay69.biz^
-||*.n19.biz^
-||*.nexxxt.biz^
-||*.nkwintenc.biz^
-||*.cra-arc-gc-ca.noads.biz^
-||*.notspecial.biz^
-||*.oblivki.biz^
-||*.oblivochki.biz^
-||*.oconner.biz^
-||*.op01.biz^
-||*.a5g.oves.biz^
-||*.stats.ozwebsites.biz^
-||*.smetrics.panasonic.biz^
-||*.parnuxi.biz^
-||*.partnerz.biz^
-||*.part-time-job.biz^
-||*.js.passaro-de-fogo.biz^
-||*.playattack.biz^
-||*.playiwin.biz^
-||*.smetrics.plumbingtoday.biz^
-||*.politicosta.biz^
-||*.privatelands.biz^
-||*.promotools.biz^
-||*.pu1.biz^
-||*.pushads.biz^
-||*.pushadv.biz^
-||*.ratke.biz^
-||*.r.reklama.biz^
-||*.securesurf.biz^
-||*.1.shoppinglifestyle.biz^
-||*.ad.sigortagundem.biz^
-||*.sitiveadditio.biz^
-||*.skygone.biz^
-||*.snapdeal.biz^
-||*.socialsex.biz^
-||*.solty.biz^
-||*.spacenine.biz^
-||*.lm5.spyc.biz^
-||*.spycash.biz^
-||*.storyends.biz^
-||*.sunnysales.biz^
-||*.sv2.biz^
-||*.td-everest.biz^
-||*.ams.toxity.biz^
-||*.trftopp.biz^
-||*.tubevideos.biz^
-||*.track.ultragaming.biz^
-||*.vietnammoi.biz^
-||*.vinuser5.biz^
-||*.vn88.biz^
-||*.vpnfortorrents.biz^
-||*.vpnoffers.biz^
-||*.rtb.watchmedia.biz^
-||*.webpushdirect.biz^
-||*.webtrack.biz^
-||*.wister.biz^
-||*.wmonthsaft.biz^
-||*.ct.xn--0et88ccz6awh1a.biz^
-||*.xxxtraffic.biz^
-||*.yhdncj.biz^
 ||*.pl.codetheweb.blog^
 ||*.log.ctrl.blog^
 ||*.assets.garron.blog^
@@ -18278,37 +17990,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.smetricas.fgv.br^
 ||*.f.sen.seg.br^
 ||*.stats.medium.build^
-||*.aptonnerv.buzz^
-||*.a.asgadblock.buzz^
-||*.atedmon.buzz^
-||*.statement.blauenseville.buzz^
-||*.chuntian.buzz^
-||*.dev0.buzz^
-||*.dongtian.buzz^
-||*.ementwre.buzz^
-||*.entualkenti.buzz^
-||*.feifei.buzz^
-||*.gcouncer.buzz^
-||*.guagua.buzz^
-||*.hyytt.buzz^
-||*.ismscold.buzz^
-||*.dontblock.javjav1.buzz^
-||*.kanshu.buzz^
-||*.laladui.buzz^
-||*.meimei.buzz^
-||*.mifeng.buzz^
-||*.minmin.buzz^
-||*.mworkh.buzz^
-||*.ncesprin.buzz^
-||*.nedassiu.buzz^
-||*.nedaugha.buzz^
-||*.nesispubl.buzz^
-||*.niunai.buzz^
-||*.ospicalad.buzz^
-||*.ovdimin.buzz^
-||*.qiutian.buzz^
-||*.plsdonblock.supjav.buzz^
-||*.xiatian.buzz^
 ||*.go.by^
 ||*.shopeasy.by^
 ||*.s1r.tut.by^
@@ -18756,109 +18437,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.js.mulan.cloud^
 ||*.odoscope.cloud^
 ||*.stats.urlaubsverwaltung.cloud^
-||*.pre.102porno.club^
-||*.11bet.club^
-||*.vodpic.320down.club^
-||*.69i.club^
-||*.69qa.club^
-||*.789a.club^
-||*.789clubs.club^
-||*.abundled.club^
-||*.aclientiret.club^
-||*.addressen.club^
-||*.adtopia.club^
-||*.trk.aduclick.club^
-||*.adultiq.club^
-||*.advinci.club^
-||*.allsports4free.club^
-||*.pl.allsportsfree.club^
-||*.anglended.club^
-||*.appsflyer.club^
-||*.hub.bazboy.club^
-||*.bing0sl0t.club^
-||*.birung.club^
-||*.brainian.club^
-||*.casino86.club^
-||*.choita88.club^
-||*.cima-club.club^
-||*.continuedi.club^
-||*.dgmaplain.club^
-||*.a.dorkim.club^
-||*.pre.ebasos.club^
-||*.click.eclk.club^
-||*.ee88.club^
-||*.empirelayer.club^
-||*.ad.erkiss.club^
-||*.fatwalkinger.club^
-||*.fi88.club^
-||*.gamebai.club^
-||*.gamex8vn.club^
-||*.go88.club^
-||*.googleapi.club^
-||*.gotohouse1.club^
-||*.we-love-privacy.humane.club^
-||*.c4n.ijerk.club^
-||*.ijre.club^
-||*.imediacrew.club^
-||*.nvkrm.instadating.club^
-||*.cdn.itphanpytor.club^
-||*.iwiin.club^
-||*.iwin.club^
-||*.jmpmedia.club^
-||*.kaminari.club^
-||*.a.katomu.club^
-||*.leveryone.club^
-||*.loadingpagesson.club^
-||*.0uk6n.lokpresearch.club^
-||*.looew.club^
-||*.lux39.club^
-||*.macau.club^
-||*.man.club^
-||*.manclubwin.club^
-||*.moviesflix4k.club^
-||*.movies-flix.club^
-||*.movie-pass.club^
-||*.mp3king.club^
-||*.pre.myfuck.club^
-||*.newsofworld.club^
-||*.oizn.club^
-||*.otcdirectasia.club^
-||*.pandanetwork.club^
-||*.pdfsviewer.club^
-||*.performit.club^
-||*.playerseo.club^
-||*.potentingaknt.club^
-||*.premium4kflix.club^
-||*.pushcampaign.club^
-||*.visits.quitsocialmedia.club^
-||*.rdsb2.club^
-||*.rdsb21.club^
-||*.rdvinfidele.club^
-||*.rencontreadultere.club^
-||*.resurrect.club^
-||*.sensortoluy.club^
-||*.sin88.club^
-||*.skouns.club^
-||*.cdn.sports-streams-online.club^
-||*.sunwinvn.club^
-||*.sv88.club^
-||*.taib52.club^
-||*.theship.club^
-||*.tipkeomoingay.club^
-||*.top88.club^
-||*.topsexcams.club^
-||*.top-performance.club^
-||*.trackads.club^
-||*.traffic.club^
-||*.urgoldpie.club^
-||*.v28.club^
-||*.v8.club^
-||*.wwclicknews.club^
-||*.wwclickserv.club^
-||*.x8.club^
-||*.xemdabanh.club^
-||*.xtojqz.club^
-||*.zo.club^
 ||*.2no.co^
 ||*.ads.54646.co^
 ||*.cdn-ads.54646.co^
@@ -42963,10 +42541,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.id.google.com.cu^
 ||*.e.tw.cx^
 ||*.analytics.ouc.ac.cy^
-||*.a.888x.cyou^
-||*.alenai.cyou^
-||*.clzw.cyou^
-||*.quinni.cyou^
 ||*.engage.3mcesko.cz^
 ||*.4web.cz^
 ||*.marketing.602.cz^
@@ -44289,7 +43863,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vihtori-analytics.fi^
 ||*.web123.webhotelli.fi^
 ||*.stat.www.fi^
-||*.stats.training.fit^
 ||*.audionews.fm^
 ||*.admgr.qingting.fm^
 ||*.logger.qingting.fm^
@@ -46207,39 +45780,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fas.li^
 ||*.ads.paper.li^
 ||*.uceprotect.li^
-||*.11bet.life^
-||*.achieve-superprizes.life^
-||*.advinci.life^
-||*.stats.amiibo.life^
-||*.bestdatingshere.life^
-||*.casualdatingisreal.life^
-||*.v.cdn4.life^
-||*.hot-dating-here.life^
-||*.kubet.life^
-||*.pznqjhh.life^
-||*.starbuckssurvey.life^
-||*.topicdating-center.life^
-||*.a8cv.unito.life^
-||*.worldbusiness.life^
-||*.adblockstrtape.link^
-||*.adblockstrtech.link^
-||*.t.ajrkm.link^
-||*.srv.clinno.link^
-||*.copysign.link^
-||*.dk8.link^
-||*.pl.ethan.link^
-||*.fb88.link^
-||*.www.grabify.link^
-||*.histats.link^
-||*.kingyonlendir.link^
-||*.krut.link^
-||*.oconner.link^
-||*.ourl.link^
-||*.qwertize.link^
-||*.stats.share.link^
-||*.cdn.tetori.link^
-||*.cdn1.tetori.link^
-||*.traffic-bam.link^
 ||*.engage.3mcompany.lk^
 ||*.trafiq.loan^
 ||*.98tang.lol^
@@ -50666,33 +50206,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ad.lapa.pub^
 ||*.track.lapa.pub^
 ||*.rsa.pub^
-||*.abbp1.pw^
-||*.bmcm.pw^
-||*.bmnr.pw^
-||*.bmst.pw^
-||*.c303.pw^
-||*.asq.d6shiiwz.pw^
-||*.flashx.pw^
-||*.adadmin.headlines.pw^
-||*.adpostback.headlines.pw^
-||*.apl.headlines.pw^
-||*.financial-agent.headlines.pw^
-||*.offerwall.headlines.pw^
-||*.sv-api-event.headlines.pw^
-||*.sv-api-lottery.headlines.pw^
-||*.sv-static1-lottery.headlines.pw^
-||*.widget.headlines.pw^
-||*.i9w8p.pw^
-||*.k54nw.pw^
-||*.magescripts.pw^
-||*.myforex.pw^
-||*.asq.r77vh0.pw^
-||*.royalflora.pw^
-||*.tdzvm.pw^
-||*.tzwaw.pw^
-||*.vq1qi.pw^
-||*.xdisctracking.pw^
-||*.younglustforum.pw^
 ||*.engage.3m.com.py^
 ||*.engage.3m.com.qa^
 ||*.id.google.com.qa^
@@ -51746,17 +51259,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.init.sh^
 ||*.ad.kisscartoon.sh^
 ||*.nativepu.sh^
-||*.athyimmesa.shop^
-||*.plausible.bostad.shop^
-||*.club2.shop^
-||*.dentofinauk.shop^
-||*.emc.dr-stick.shop^
-||*.mcurrentlyse.shop^
-||*.ncecafvdeu.shop^
-||*.opxnwz.shop^
-||*.pokemoney.shop^
-||*.rtyvaluation.shop^
-||*.uads.shop^
 ||*.stats.chapterist.show^
 ||*.8000plus.si^
 ||*.www.adpartner.si^
@@ -51844,25 +51346,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.affiliation.software^
 ||*.invoca.solutions^
 ||*.notify.solutions^
-||*.a.6vids.space^
-||*.adshort.space^
-||*.stats.artefact.space^
-||*.drim.space^
-||*.dtoo1.space^
-||*.eighing.space^
-||*.jistenbefor.space^
-||*.jistvotestabl.space^
-||*.oklm.space^
-||*.olivedinflats.space^
-||*.owsvolksk.space^
-||*.pushup.space^
-||*.s.sporks.space^
-||*.theinterwebs.space^
-||*.tipster.space^
-||*.visits.tommi.space^
-||*.warumbistdusoarm.space^
-||*.wheelwheel.space^
-||*.zapcdn.space^
 ||*.zen.sr^
 ||*.marketing.bca.srl^
 ||*.cnt.st^
@@ -53327,7 +52810,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.0-000.store^
 ||*.000123456789.online^
 ||*.000123456789.site^
-||*.000123456789.space^
 ||*.000free.us^
 ||*.000tristanprod.free.fr^
 ||*.0024aaaa.com^
@@ -53423,7 +52905,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.0pyn37dv3m.com^
 ||*.0q2.sitey.me^
 ||*.0redirb.com^
-||*.0rg.pw^
 ||*.0s9dxlr07huu.com^
 ||*.0sywjs4r1x.com^
 ||*.0torrent.com^
@@ -53470,7 +52951,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.101flag.ru^
 ||*.101m3.com^
 ||*.101raccoon.ru^
-||*.1024mzs.pw^
 ||*.103092804.com^
 ||*.103bees.com^
 ||*.104231.dtiblog.com^
@@ -53528,7 +53008,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.123latina.free.fr^
 ||*.123locker.com^
 ||*.123plays.com^
-||*.123sex.biz^
 ||*.124fe3e59c.com^
 ||*.12805b86d6.com^
 ||*.1298bab69bbc4.com^
@@ -53705,7 +53184,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.23taoke.xyz^
 ||*.23uuw3.com^
 ||*.24-ak.ru^
-||*.24-xxx.biz^
 ||*.24695.com^
 ||*.247lyrics.com^
 ||*.247playz.com^
@@ -53722,7 +53200,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.24network.it^
 ||*.24ratownik.hit.gemius.pl^
 ||*.24smi.pro^
-||*.24smi.pw^
 ||*.24tradeplus.com^
 ||*.24trk.com^
 ||*.24videos.tv^
@@ -53735,7 +53212,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.2560.fd.mobile.tv.sms13.de^
 ||*.258c7c3d75.com^
 ||*.258ydh.com^
-||*.25917.shop^
 ||*.259572.com^
 ||*.25b09661f2.com^
 ||*.25haich4342.ru^
@@ -53748,14 +53224,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.27417130d3.com^
 ||*.2748cfaad3.com^
 ||*.277ryf6nabi0.com^
-||*.27823.club^
 ||*.27ceb2d5631623.com^
 ||*.27f51e5610.com^
 ||*.27vckaccbto7p761.pro^
 ||*.2803e11a21.com^
 ||*.283.laobanfa.com^
 ||*.2886115.com^
-||*.288family.club^
 ||*.289931.com^
 ||*.28acglz.com^
 ||*.28wangmeng.com^
@@ -53971,7 +53445,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.40hardcore.galleryprogram.com^
 ||*.4113705a84.com^
 ||*.411playz.com^
-||*.41cm.shop^
 ||*.41df76c67812005c.com^
 ||*.41ee789d61.com^
 ||*.41fcd2b939.com^
@@ -53982,7 +53455,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.42d61f012e27b36d53.com^
 ||*.42fd278b95.com^
 ||*.43137c93a82b0e81da.com^
-||*.4399.space^
 ||*.4480dy.net^
 ||*.4484986022.com^
 ||*.451e3dba80.com^
@@ -54070,17 +53542,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.51dc.xyz^
 ||*.51ertong.com^
 ||*.51fishplace.com^
-||*.51grow.club^
 ||*.51lx.ink^
-||*.51mw.club^
 ||*.51roadway.com^
 ||*.51showmy.com^
 ||*.51sxzz.com^
-||*.51teach.club^
 ||*.51toubu.com^
-||*.51vs.club^
 ||*.51yusi.xyz^
-||*.51yw.club^
 ||*.5201314.fashion^
 ||*.5206a9500e.com^
 ||*.5207470.com^
@@ -54207,7 +53674,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.64si.com^
 ||*.6521d79e42.com^
 ||*.652696.com^
-||*.65432.shop^
 ||*.65a29ceed813bbca61.com^
 ||*.65mjvw6i1z.com^
 ||*.65tgh.com^
@@ -54304,10 +53770,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.77sky.de^
 ||*.77tel.com^
 ||*.7839e0482307b9276b.com^
-||*.789.club^
 ||*.789.fun^
 ||*.789.moi^
-||*.789club.biz^
 ||*.789club.org^
 ||*.78tdd75.com^
 ||*.79cedd0043.com^
@@ -54340,7 +53804,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.7hor9gul4s.com^
 ||*.7hu8e1u001.com^
 ||*.7insight.com^
-||*.7kjfbgkjbfgb.club^
 ||*.7minuteworkout.com^
 ||*.7offers.ru^
 ||*.7out.ru^
@@ -54458,7 +53921,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.911.x24hr.com^
 ||*.91eto.xyz^
 ||*.91funcy.com^
-||*.91office.club^
 ||*.91ysa.com^
 ||*.92291944cd.com^
 ||*.924e60106cd9d0e.com^
@@ -54717,7 +54179,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.abc.pema.cl^
 ||*.abc88866.com^
 ||*.abc98.cc^
-||*.abcccccc.club^
 ||*.abcdlm.com^
 ||*.abckj123.com^
 ||*.abclauncher.com^
@@ -54733,9 +54194,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.abetran.com^
 ||*.abetterinternet.com^
 ||*.abetting.net^
-||*.abevc.club^
 ||*.abgeobalancer.com^
-||*.abhabh.club^
 ||*.abhorboring.com^
 ||*.abhorcarious.com^
 ||*.abi83-schramberg.de^
@@ -54768,7 +54227,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.absolstats.co.za^
 ||*.absolute-live.com^
 ||*.absorbedexistence.com^
-||*.abtaurosa.club^
 ||*.abtest.mistat.xiaomi.com^
 ||*.abtrcking.com^
 ||*.abwang.xyz^
@@ -54783,7 +54241,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.acaoz.com^
 ||*.acbp0020171456.page.tl^
 ||*.acc-hd.de^
-||*.accedenonre.club^
 ||*.accelacomm.com^
 ||*.acceptabletally.com^
 ||*.accessi.it^
@@ -54893,7 +54350,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ad-server.co.za^
 ||*.ad-shot.com^
 ||*.ad-souk.com^
-||*.ad-sp.biz^
 ||*.ad-tizer.net^
 ||*.ad-tool.com^
 ||*.ad-u.com^
@@ -54901,7 +54357,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ad-us.24hstatic.com^
 ||*.ad-v.jp^
 ||*.ad-vanx.com^
-||*.ad-vice.biz^
 ||*.ad-wheel.com^
 ||*.ad-words.ru^
 ||*.ad.23blogs.com^
@@ -55100,7 +54555,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adaos-ads.net^
 ||*.adapd.com^
 ||*.adapi.gunosy.com^
-||*.adaptingtova.biz^
 ||*.adasta.it^
 ||*.adb.azet.sk^
 ||*.adb.fling.com^
@@ -55363,7 +54817,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adomv.com^
 ||*.adonion.com^
 ||*.adonly.com^
-||*.adop.pw^
 ||*.adopalstroy.com^
 ||*.adopt.precisead.com^
 ||*.adoptdischarged.com^
@@ -55894,7 +55347,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adsjumbo.com^
 ||*.adsk2.co^
 ||*.adskape.ru^
-||*.adskk.club^
 ||*.adslingers.com^
 ||*.adslivecorp.com^
 ||*.adsload.co^
@@ -55957,7 +55409,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.adswam.com^
 ||*.adswrapme.click^
 ||*.adsy.mail.bg^
-||*.adsyst.biz^
 ||*.adszx.pro^
 ||*.adt545.net^
 ||*.adtago.s3.amazonaws.com^
@@ -56118,7 +55569,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.advmedia.by^
 ||*.advmusic.net^
 ||*.advnet.xyz^
-||*.advolution.biz^
 ||*.advoly.com^
 ||*.advon.net^
 ||*.advplace.com^
@@ -56280,7 +55730,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.afshanthough.pro^
 ||*.aftrangale.com^
 ||*.afunnygames.com^
-||*.afx001.pw^
 ||*.afy11.net^
 ||*.afyonturkreklam.com^
 ||*.againstperfectlywrench.com^
@@ -56333,7 +55782,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ahyau.com^
 ||*.ahyuns.com^
 ||*.ahzahg6ohb.com^
-||*.ai-gis.club^
 ||*.aiadvi.com^
 ||*.aid-ad.jp^
 ||*.aid-golf-golfdust-training.tabrays.com^
@@ -56348,14 +55796,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.aihuihui.xyz^
 ||*.aikan6.com^
 ||*.ailamtrieuphu.com^
-||*.ailawlani.club^
 ||*.ailehui9149.com^
 ||*.ailkeyair.com^
 ||*.ailpielei.com^
 ||*.ailtumty.net^
 ||*.aimer.love^
 ||*.airdoamoord.com^
-||*.airfrance.life^
 ||*.airlinerappetizingcoast.com^
 ||*.airmaxlovers.com^
 ||*.airmore.co^
@@ -56363,7 +55809,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.airpb.com^
 ||*.airportsys.com^
 ||*.airroutine.com^
-||*.aisastore.club^
 ||*.aiservice.vn^
 ||*.aishangcan.com^
 ||*.aisiansex.com^
@@ -56381,7 +55826,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ajanlom-magamat.com^
 ||*.ajansyenimedya.com^
 ||*.ajdivotdelbloab24.jio.com^
-||*.ajiekeji.club^
 ||*.ajiez.com^
 ||*.ajillionmax.com^
 ||*.ajjhtetv87.com^
@@ -56438,7 +55882,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ale-gratka.pl^
 ||*.aleaidass.site^
 ||*.aleailarm.com^
-||*.aleapeact.club^
 ||*.aleassbun.site^
 ||*.alecupknuffe.com^
 ||*.alert.com.mt^
@@ -56481,7 +55924,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.alif-ba-ta.com^
 ||*.alightin.com^
 ||*.alignclamstram.com^
-||*.alimama.link^
 ||*.alini.de^
 ||*.aliru1.ru^
 ||*.alisatilsner.com^
@@ -56509,7 +55951,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.alladvantage.com^
 ||*.allalla.com^
 ||*.allanimehentai.com^
-||*.allartand.club^
 ||*.allashark.site^
 ||*.allavv.xyz^
 ||*.allbestnews.net^
@@ -56581,7 +56022,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.amateurs.jerkr.com^
 ||*.amateursexdvd.com^
 ||*.amateurspain.com^
-||*.amateurtour.biz^
 ||*.amateurwifevids.com^
 ||*.amatrice-partouzeuse.com^
 ||*.amatrices-sexy.fr^
@@ -56603,7 +56043,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ambushinjure.com^
 ||*.amendableobituaryalienate.com^
 ||*.amenitypassenger.com^
-||*.amerallyluke.club^
 ||*.american-prize-center.com^
 ||*.americanairlines.demdex.net^
 ||*.americanmedia.blueconic.net^
@@ -56611,7 +56050,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.amhpbhyxfgvd.com^
 ||*.amiablebackscertified.com^
 ||*.amitaephapse.com^
-||*.amnoctowlan.club^
 ||*.amomumgarcons.com^
 ||*.amp.adpushup.com^
 ||*.ampl.cinotes.com^
@@ -56638,7 +56076,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.anahtars.com^
 ||*.anal-acrobats.com^
 ||*.anal-et-sodomie.com^
-||*.anal-pictures.biz^
 ||*.anal-videos-photos.com^
 ||*.anal.cx^
 ||*.analcreampie.net^
@@ -56733,7 +56170,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.andydill.com^
 ||*.andyhawk.free-online.co.uk^
 ||*.andymurray.plus.com^
-||*.anelexpres.club^
 ||*.anelkathe.tripod.com^
 ||*.anephangja.com^
 ||*.anepszava.com^
@@ -56766,7 +56202,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.anldnews.pro^
 ||*.anmira.info^
 ||*.ann5.net^
-||*.anni141224.club^
 ||*.annonce.lequipement.fr^
 ||*.annotated802.site^
 ||*.annotationwednesdayplayground.com^
@@ -56782,7 +56217,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.antalya.ru^
 ||*.antaraimedia.com^
 ||*.antarcticoffended.com^
-||*.antburape.club^
 ||*.antcompany.com^
 ||*.antecedentponderoverweight.com^
 ||*.antennash.com^
@@ -56826,10 +56260,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.apdc3n.adpushup.com^
 ||*.ape-tagit.timeinc.net^
 ||*.apeagle.io^
-||*.apearkcan.club^
 ||*.apeartalb.site^
 ||*.apedah.com^
-||*.apeng.club^
 ||*.apenterprise.io^
 ||*.apepix.com^
 ||*.apex-ad.com^
@@ -56933,7 +56365,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.appad.click^
 ||*.appad02.mbsp.jp^
 ||*.apparelchildplash.com^
-||*.apparentsav.club^
 ||*.apparest.com^
 ||*.appcdn.xyz^
 ||*.appclick.rqmob.com^
@@ -56949,14 +56380,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.applets.sulekha.com^
 ||*.applez.fr^
 ||*.applicationgrabb.net^
-||*.applicationpremium70.club^
 ||*.applink.mob.com^
 ||*.apploading.mobi^
 ||*.applovin2-asia-imp.aarki.net^
 ||*.appnexus.net^
 ||*.approachingrat.com^
 ||*.approp.pro^
-||*.appropeanes.club^
 ||*.apps-cloud.xyz^
 ||*.apps.media-lab.ai^
 ||*.apps.nastydollars.com^
@@ -56966,7 +56395,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.appsanalytics.appideas.it^
 ||*.appserver-ap.com^
 ||*.appserver-cp.com^
-||*.appsflybeta.biz^
 ||*.appslinker.net^
 ||*.appsrv.display.io^
 ||*.appstreets.com^
@@ -56985,7 +56413,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.aqdkehbez.com^
 ||*.aqjdigkqvmakz.com^
 ||*.ar.5.p2l.info^
-||*.arabic-life.buzz^
 ||*.arabnews365.com^
 ||*.aragontrack.com^
 ||*.arbaloseyepit.com^
@@ -57003,8 +56430,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.area52.fr^
 ||*.arealx.com^
 ||*.areantaid.site^
-||*.arearmark.club^
-||*.areasonsimon.club^
 ||*.arecio.work^
 ||*.arejoysew.com^
 ||*.arena-quantum.co.uk^
@@ -57012,15 +56437,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.arfanbajt.xyz^
 ||*.ariane.abtasty.com^
 ||*.arianelab.com^
-||*.arisonoping.club^
-||*.aristianewr.club^
 ||*.aritzal.com^
 ||*.arkalealb.site^
 ||*.arkayne.com^
 ||*.arkfacialdaybreak.com^
 ||*.arkn81.com^
 ||*.arlime.com^
-||*.arlottencert.club^
 ||*.armashair.site^
 ||*.armhutspa.com^
 ||*.armi.media^
@@ -57036,9 +56458,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.arsconsole.global-intermedia.com^
 ||*.arsonunemployedcask.com^
 ||*.art-offer.com^
-||*.artantash.club^
 ||*.artbluesea.xyz^
-||*.arteisabello.space^
 ||*.arthritis.atspace.com^
 ||*.artreconnect.com^
 ||*.arts-cloud.net^
@@ -57063,7 +56483,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.asd2.projectfreetv.so^
 ||*.asdasdad.net^
 ||*.asdb.xyz^
-||*.asdead24.club^
 ||*.asdfix.com^
 ||*.asdhit.com^
 ||*.asdnow.xyz^
@@ -57075,7 +56494,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.asg.aphex.me^
 ||*.asg.catraff.com^
 ||*.asg1.adrooski.com^
-||*.ashaidbit.club^
 ||*.ashhgo.com^
 ||*.ashlynnbrookevideos.com^
 ||*.ashot.txxx.com^
@@ -57088,12 +56506,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ask-coder.com^
 ||*.ask-gps.ru^
 ||*.ask.webatall.com^
-||*.askallalb.club^
 ||*.asklots.com^
 ||*.askthedust.info^
 ||*.askto.net^
 ||*.asleepnancy.com^
-||*.aslnk.link^
 ||*.asoursuls.com^
 ||*.asowp.com^
 ||*.aspartbib.site^
@@ -57115,7 +56531,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.assets.soom.la^
 ||*.assets.taboola.com^
 ||*.assetscdn.jivox.com^
-||*.assistantrok.club^
 ||*.assistedadultrib.com^
 ||*.assistedloop.com^
 ||*.assoc-amazon.es^
@@ -57141,7 +56556,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.asundersimultaneously.com^
 ||*.at98.com^
 ||*.atadserver.com^
-||*.atamjanebyl.biz^
 ||*.atax.ign.com^
 ||*.atax.teamxbox.com^
 ||*.atilohdxsg.com^
@@ -57201,7 +56615,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.auguredmorns.com^
 ||*.august15download.com^
 ||*.aukalerim.com^
-||*.aulingimpora.club^
 ||*.aulrains.com^
 ||*.aumpoabi.com^
 ||*.aureate.com^
@@ -57262,7 +56675,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.avstat.it^
 ||*.avtej.com^
 ||*.avtiaozhuan.com^
-||*.avvr.club^
 ||*.avwincall.info^
 ||*.avxcore.com^
 ||*.awaitcola.com^
@@ -57321,7 +56733,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.azjmp.com^
 ||*.aznapoz.info^
 ||*.azoogleads.com^
-||*.azpresearch.club^
 ||*.azskk.com^
 ||*.aztbeszelik.com^
 ||*.aztecash.com^
@@ -57375,7 +56786,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.b41.xyz^
 ||*.b44b115392.com^
 ||*.b46d59ded1.com^
-||*.b477.life^
 ||*.b49.xyz^
 ||*.b52.win^
 ||*.b5332556b5.com^
@@ -57384,7 +56794,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.b59812ee54afcabd.com^
 ||*.b5ae848728034caddca.com^
 ||*.b5e75c56.com^
-||*.b5mc3.life^
 ||*.b62c8d1a6b.com^
 ||*.b6852c8ea5.com^
 ||*.b6vgame.xyz^
@@ -57529,7 +56938,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bannerbit.com^
 ||*.bannerbro.ru^
 ||*.bannercommunity.de^
-||*.bannerconnect.biz^
 ||*.bannerexchange.cjb.net^
 ||*.bannerexplosion.it^
 ||*.bannerflux.com^
@@ -57571,7 +56979,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bannersnack.fr^
 ||*.bannersnack.net^
 ||*.bannersolutions.com^
-||*.bannersurvey.biz^
 ||*.bannersweb.s3.amazonaws.com^
 ||*.bannertracker-script.com^
 ||*.bannerus1.axelsfun.com^
@@ -57591,7 +56998,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bantrmind.com^
 ||*.banusatoday.com^
 ||*.banxc.com^
-||*.baobaopicture.space^
 ||*.baowf.com^
 ||*.baowt.com^
 ||*.baoying.asia^
@@ -57602,7 +57008,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.barafranca.iwarp.com^
 ||*.barbedpotions.com^
 ||*.baresi.xyz^
-||*.bargaret.club^
 ||*.barlo.xyz^
 ||*.barnmonths.com^
 ||*.baronsoffers.com^
@@ -57642,7 +57047,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bbnfcfrvjs.com^
 ||*.bbs.bjchun.com^
 ||*.bbs.ws^
-||*.bbsg.club^
 ||*.bbttkk.com^
 ||*.bbuni.com^
 ||*.bbvever.com^
@@ -57654,7 +57058,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bcfads.com^
 ||*.bcjxwlkj.com^
 ||*.bcli.flash-xxx.com^
-||*.bcnewltd.club^
 ||*.bcservice.it^
 ||*.bctwe.com^
 ||*.bcuuipewdz.com^
@@ -57731,7 +57134,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bedspursueclueless.com^
 ||*.beead.fr^
 ||*.beeaimaid.com^
-||*.beeashale.club^
 ||*.beencounter.com^
 ||*.beespace.com.ua^
 ||*.beeweedisomer.com^
@@ -57743,10 +57145,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.begunprescription.com^
 ||*.behance.vo.llnwd.net^
 ||*.beharmalted.info^
-||*.beigeiros.pw^
 ||*.beijing.buzhi5.com^
 ||*.beishangdichan.com^
-||*.beiven.pw^
 ||*.beiwf.com^
 ||*.bekannt-im-web.de^
 ||*.belazyelephant.com^
@@ -57767,7 +57167,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bentengcn.com^
 ||*.benwang.love^
 ||*.berangkasilmu.com^
-||*.berningbegi.club^
 ||*.besc.baidustatic.com^
 ||*.beserte.pro^
 ||*.besguses.pro^
@@ -57789,8 +57188,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bestcasinopartner.com^
 ||*.bestcond1tions.com^
 ||*.bestcontenthost.com^
-||*.bestdealfor20.life^
-||*.bestdealfor33.life^
 ||*.bestevernews.com^
 ||*.bestfoods.co^
 ||*.bestforexpartners.com^
@@ -57798,7 +57195,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bestheadphones4u.com^
 ||*.besthitsnow.com^
 ||*.bestlandcn.com^
-||*.bestnews.biz^
 ||*.bestnewsforbest.com^
 ||*.bestnewsworld.net^
 ||*.bestnfd.com^
@@ -57816,7 +57212,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bestwm.info^
 ||*.besucherstats.de^
 ||*.besucherzahlen.com^
-||*.bet29.club^
 ||*.beta-news.org^
 ||*.betarget.com^
 ||*.betarget.de^
@@ -57832,7 +57227,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bettingpartners.com^
 ||*.beturtwiga.com^
 ||*.betwinnerpromo.com^
-||*.betxerneastor.club^
 ||*.betylife.com^
 ||*.bewailbeforelibrarian.com^
 ||*.bewailconsistedmembers.com^
@@ -57856,7 +57250,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bhpz.adj.st^
 ||*.bhyddc.com^
 ||*.bhyuu.com^
-||*.bianpin.pw^
 ||*.biaoshipai.net^
 ||*.biasedrepercussion.com^
 ||*.bibagloty.com^
@@ -57888,14 +57281,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bigcood.xyz^
 ||*.bigdata.riamedia.com.ua^
 ||*.bigdata.ssp.samsung.com^
-||*.bigdate.biz^
 ||*.biggestgiftrewards.com^
 ||*.biggestplayer.cachefly.net^
 ||*.bighow.net^
 ||*.biglinksrc.cool^
 ||*.bigmart.com.np^
 ||*.bigmobileads.com^
-||*.bigpigcz.club^
 ||*.bigprizesonline.com^
 ||*.bigseatsout.net^
 ||*.bigsister-puff.cxa.de^
@@ -57933,7 +57324,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.birgandenemied.com^
 ||*.birth-control.1.p2l.info^
 ||*.birthdiscipline.com^
-||*.bisafniv.space^
 ||*.bistr4.ru^
 ||*.bit-iq.co^
 ||*.bit-iq.net^
@@ -57945,7 +57335,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bitburg.adtech.fr^
 ||*.bitburg.adtech.us^
 ||*.bitcast-d.bitgravity.com^
-||*.bitcoadz.pw^
 ||*.bitcoin-era.pl^
 ||*.bitcoin-pocket.de^
 ||*.bitcoin-upappl.com^
@@ -58000,9 +57389,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.blablacam.fr^
 ||*.black-diamond.asia^
 ||*.black6adv.com^
-||*.blackforce.club^
 ||*.blacklinknow.com^
-||*.blackname.biz^
 ||*.blacktri-a.akamaihd.net^
 ||*.blacktri.com^
 ||*.blackwhitebags.com^
@@ -58026,7 +57413,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.blissfulonline.com^
 ||*.blizzrubier.com^
 ||*.bllbvv.xyz^
-||*.block.mediavenus.biz^
 ||*.blockai.me^
 ||*.blockingspecialist.com^
 ||*.blockmetrics.com^
@@ -58041,7 +57427,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.blogan.ru^
 ||*.blogcounter.com^
 ||*.bloggerex.com^
-||*.blogkiemtien.club^
 ||*.blogpatrol.com^
 ||*.blogrankers.com^
 ||*.blogranking.fc2.com^
@@ -58052,7 +57437,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.blogstatistics.sapoapps.vn^
 ||*.blogun.ru^
 ||*.blogvertising.pl^
-||*.bloodleian.club^
 ||*.blossommo.com^
 ||*.blossomtel.com^
 ||*.blotchgrimdeplete.com^
@@ -58093,7 +57477,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bnux.store^
 ||*.bnvxcfhdgf.blogspot.com.es^
 ||*.bo.facesbet.com^
-||*.bo4news.biz^
 ||*.boa-0918-verify-login-2014.icrb.cl^
 ||*.boajagoar.com^
 ||*.boardx.huanqiu.com^
@@ -58150,7 +57533,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.boolff.com^
 ||*.boom.mail.ru^
 ||*.boomerang.com.au^
-||*.boomj.club^
 ||*.boonsolutions.com^
 ||*.boosirad.net^
 ||*.boostable.com^
@@ -58161,7 +57543,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.bopstermedia56.com^
 ||*.bopvetgel.com^
 ||*.borderoffenseantenna.com^
-||*.borlsbla.cyou^
 ||*.bormis.com^
 ||*.boroniasunback.com^
 ||*.boroskola.info^
@@ -58186,7 +57567,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.boxofficebabyore.com^
 ||*.boyalebut.site^
 ||*.boyughaye.com^
-||*.bozhu.shop^
 ||*.bp5hq5jivj.ru^
 ||*.bptxcg.xyz^
 ||*.br.fling.com^
@@ -58206,7 +57586,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.brandarium.net^
 ||*.brandclik.com^
 ||*.brandomatic.ru^
-||*.brandscreen.biz^
 ||*.brandsurveypanel.com^
 ||*.brans.pl^
 ||*.brapolice.com^
@@ -58232,7 +57611,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.briskpelican.io^
 ||*.briticatederfd.site^
 ||*.brlnjv.xyz^
-||*.bro4.biz^
 ||*.broadcast.piximedia.fr^
 ||*.broadlystipulate.com^
 ||*.broced.co^
@@ -58288,7 +57666,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.budnetoil.com^
 ||*.bufamy.com^
 ||*.bufan.in^
-||*.bufan.space^
 ||*.bugaga.tut.by^
 ||*.bugdepromo.com^
 ||*.bugsphnhl.com^
@@ -58298,7 +57675,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.buildyourdata.com^
 ||*.buipovexhav.com^
 ||*.bulankk.com^
-||*.buliglss.space^
 ||*.bulkclicks.com^
 ||*.bulkeach.com^
 ||*.bulletads.com^
@@ -58457,7 +57833,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.c0594.com^
 ||*.c073b6e1bb.com^
 ||*.c09.xyz^
-||*.c0c.biz^
 ||*.c0nforama.fr^
 ||*.c0z.xyz^
 ||*.c1.4qx.net^
@@ -58487,7 +57862,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.c3113b90b1.com^
 ||*.c3metrics.medifast1.com^
 ||*.c3s.bionestraff.pro^
-||*.c3t-system-err.club^
 ||*.c4.myway.com^
 ||*.c4.statcounter.com^
 ||*.c40.xyz^
@@ -58547,12 +57921,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cafecoc.com^
 ||*.cafecoquin.com^
 ||*.cagelrib.net^
-||*.caicj.club^
 ||*.caimei.me^
 ||*.caisse-apargne.fr^
 ||*.caithamo.net^
 ||*.caiwuwang.ltd^
-||*.caiyeml.pw^
 ||*.calamityfortuneaudio.com^
 ||*.calculatesymbols.com^
 ||*.calendar.rodim.ru^
@@ -58568,7 +57940,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.camadmin.ru^
 ||*.camads.net^
 ||*.camakaroda.com^
-||*.cambrianter.club^
 ||*.camgeil.com^
 ||*.camion.idps.co.uk^
 ||*.camisagrieko.com^
@@ -58626,7 +57997,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.carisoprodol.shengen.ru^
 ||*.carmuffler.net^
 ||*.carolinebeverly.com^
-||*.carpediem.sv2.biz^
 ||*.carpenterexplorerdemolition.com^
 ||*.carpreposition.com^
 ||*.carrfefour.fr^
@@ -58684,7 +58054,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cbcspace.xyz^
 ||*.cbdm.weathercn.com^
 ||*.cbf265695d.com^
-||*.cbh365.club^
 ||*.cbleads.com^
 ||*.cbtopsites.com^
 ||*.cc.xiaodapei.com^
@@ -58736,7 +58105,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cdn.adsafeprotected.com^
 ||*.cdn.adswizz.com^
 ||*.cdn.adt567.net^
-||*.cdn.appround.biz^
 ||*.cdn.appsflyer.com^
 ||*.cdn.asecv.xyz^
 ||*.cdn.atdmt.com^
@@ -58764,7 +58132,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cdn.hunteryvely.com^
 ||*.cdn.insta.playbryte.com^
 ||*.cdn.jivox.com^
-||*.cdn.malokacha.club^
 ||*.cdn.mmtro.com^
 ||*.cdn.mobsocmedia.com^
 ||*.cdn.msdwnld.com^
@@ -58792,7 +58159,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cdn1sitescout.edgesuite.net^
 ||*.cdn2.auditude.com^
 ||*.cdn4.mxpnl.com^
-||*.cdn7.space^
 ||*.cdnads.cam4.com^
 ||*.cdnanalytics.xyz^
 ||*.cdnappicons.appsflyer.com^
@@ -58860,7 +58226,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.certifiedwinners.today^
 ||*.ceskarepublika.net^
 ||*.cestoshagli.com^
-||*.cestyraten.club^
 ||*.cetlog.jp^
 ||*.cevowesty.com^
 ||*.cewaugaz.net^
@@ -58881,8 +58246,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cfrsqptn.com^
 ||*.cftrack.com^
 ||*.cfts1tifqr.com^
-||*.cfun68.biz^
-||*.cfyao.club^
 ||*.cggf.xyz^
 ||*.cgi-view-item-co-uk.xf.cz^
 ||*.cgiale.com^
@@ -58908,7 +58271,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.channelvue.com.au^
 ||*.chaochaogege.net^
 ||*.chaogej.com^
-||*.chaojituoke.club^
 ||*.chaoseskhedahs.com^
 ||*.chapelonefoldonefoldpuppet.com^
 ||*.chapelrecommended.com^
@@ -58955,7 +58317,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.chenghe.store^
 ||*.chenhao.name^
 ||*.chenjie.site^
-||*.chenliang.link^
 ||*.chenqinghui.xyz^
 ||*.chenyaxin.xyz^
 ||*.chenzhao.xyz^
@@ -58999,13 +58360,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.chordeez.net^
 ||*.chouftak.net^
 ||*.chowderventric.com^
-||*.chpok.pw^
 ||*.christianbusinessadvertising.com^
 ||*.christiantop1000.com^
 ||*.christingera.site^
 ||*.chrliehebdo.fr^
 ||*.chronicads.com^
-||*.chtoumenja.biz^
 ||*.chu-bordeau.fr^
 ||*.chuangmeiteyi.net^
 ||*.chubaka.org^
@@ -59020,7 +58379,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.chylenogre.com^
 ||*.chytraastond.com^
 ||*.ci-admin.iovation.com^
-||*.cialanaly.club^
 ||*.cialis-store.shengen.ru^
 ||*.cialis.1.p2l.info^
 ||*.cialis.3.p2l.info^
@@ -59090,7 +58448,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ckseeknew.com^
 ||*.claiks.com^
 ||*.claimfreerewards.com^
-||*.clairedikio.club^
 ||*.clairiose.pro^
 ||*.claitors.com^
 ||*.clariniwoald.com^
@@ -59099,7 +58456,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.clarkiainde.com^
 ||*.clarm.ru^
 ||*.class2deal.com^
-||*.classentedol.club^
 ||*.classionreactice.info^
 ||*.clausephotographer.com^
 ||*.clavategrubbed.com^
@@ -59132,7 +58488,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.clearac.com^
 ||*.clearalgorithm.com^
 ||*.cleen.ru^
-||*.cleriendsev.club^
 ||*.clevermillercooperation.com^
 ||*.clevernet.vn^
 ||*.clevi.com^
@@ -59177,13 +58532,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.clickclick.net^
 ||*.clickco.net^
 ||*.clickconversion.net^
-||*.clickcount.pw^
 ||*.clickening.com^
 ||*.clickforward.net^
 ||*.clickhere.egroups.com^
 ||*.clickkingdom.net^
 ||*.clickmatic.pl^
-||*.clickmatters.biz^
 ||*.clickmedia.co.id^
 ||*.clickmedia.ro^
 ||*.clickmedias.info^
@@ -59245,7 +58598,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.clk.onet.pl^
 ||*.clkads.com^
 ||*.clktrk.com^
-||*.clldirectasianew.club^
 ||*.clmmw.com^
 ||*.clnk.me^
 ||*.cloffext.com^
@@ -59265,7 +58617,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.clouddream.ltd^
 ||*.cloudioo.net^
 ||*.cloudpsvn.com^
-||*.cloudroad.shop^
 ||*.cloudtracked.com^
 ||*.cloutbeliefphantom.com^
 ||*.clozetempts.com^
@@ -59290,7 +58641,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cm2.adform.net^
 ||*.cm3.adform.net^
 ||*.cmads.sv.publicus.com^
-||*.cmall.club^
 ||*.cmaxisolation.com^
 ||*.cmbestsrv.com^
 ||*.cmfads.com^
@@ -59338,7 +58688,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cnzz.991yue.com^
 ||*.co.5.p2l.info^
 ||*.co.akisinn.info^
-||*.co.dewrain.life^
 ||*.co.vaicore.site^
 ||*.coachingminceur.go2cloud.org^
 ||*.coads.akipress.org^
@@ -59487,7 +58836,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.comwgi.com^
 ||*.conceiveintentlybookie.com^
 ||*.concentleconse.site^
-||*.concertainwqa.club^
 ||*.concocting.wang^
 ||*.concord.systems^
 ||*.concoursestrickenpuppy.com^
@@ -59626,8 +58974,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.core.unit-sense.net^
 ||*.coreclickhoo.com^
 ||*.coreg.flashtrack.net^
-||*.corkery.biz^
-||*.corlsblt.cyou^
 ||*.coronisabv.com^
 ||*.corp-downloads.com^
 ||*.corwrite.com^
@@ -59638,12 +58984,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cost1action.com^
 ||*.costaquire.com^
 ||*.costranchill.com^
-||*.cosyroom.biz^
 ||*.cotchaug.com^
 ||*.cotdrollback.com^
 ||*.couas.com^
 ||*.couhawhu.net^
-||*.councedvdvg.club^
 ||*.count.channeladvisor.com^
 ||*.count.im^
 ||*.count.me.uk^
@@ -59808,7 +59152,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cpmrocket.com^
 ||*.cpmterra.com^
 ||*.cpmtree.com^
-||*.cpndz.space^
 ||*.cpng.lol^
 ||*.cppgf.com^
 ||*.cppoc.com^
@@ -59832,9 +59175,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cradleton.xyz^
 ||*.crakbanner.com^
 ||*.crankyads.com^
-||*.craydark.pw^
 ||*.crayon.meishichina.com^
-||*.crazybits.biz^
 ||*.crazyhell.com^
 ||*.crazylead.com^
 ||*.crazyprotocol.com^
@@ -59847,7 +59188,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.creafi-online-media.com^
 ||*.creakversionfort.com^
 ||*.creara-media.ru^
-||*.creasureeffe.club^
 ||*.create2fear.com^
 ||*.creatingkegtogether.com^
 ||*.creative-platform.vrvm.com^
@@ -59899,15 +59239,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.crushingacevex.com^
 ||*.crutop.nu^
 ||*.crux.songline.com^
-||*.cryaptall.club^
-||*.cryarkall.club^
 ||*.cryartarm.online^
-||*.crypto-coins.club^
 ||*.crypto-coins.com^
 ||*.crypto-coins.info^
 ||*.crypto-loot.com^
-||*.cryptoads.space^
-||*.cryptoblog.biz^
 ||*.cryptocurrecny.com^
 ||*.cryptokoinz.com^
 ||*.cryptolabpro.com^
@@ -59950,7 +59285,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ctbdev.net^
 ||*.ctdhylltfighs.com^
 ||*.ctibank.com^
-||*.ctiontouritysh.club^
 ||*.ctlweb.site^
 ||*.ctm-media.com^
 ||*.ctoairtx.com^
@@ -59971,9 +59305,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cufcw.com^
 ||*.cuhzsx.xyz^
 ||*.cuiron.de^
-||*.cuit.shop^
 ||*.cukierniatylczynscy.lh.pl^
-||*.culiglsm.space^
 ||*.culsauwou.com^
 ||*.cultidifficient.info^
 ||*.culturalfoundation.fr^
@@ -60000,7 +59332,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.cvsheil.com^
 ||*.cvtr.io^
 ||*.cw.addthis.com^
-||*.cw9twua9.shop^
 ||*.cwkuki.com^
 ||*.cwmlm.com^
 ||*.cx.atdmt.com^
@@ -60053,7 +59384,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.czrcdq.com^
 ||*.czsmac.com^
 ||*.cztanchao.com^
-||*.czx5eyk0exbhwp43ya.biz^
 ||*.d-agency.net^
 ||*.d-star.xyz^
 ||*.d-stats.com^
@@ -60435,8 +59765,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dadsanz.com^
 ||*.dadsats.com^
 ||*.dadslims.com^
-||*.daero.pw^
-||*.daethana.pw^
 ||*.dafoljqjmlopaf.com^
 ||*.dagasaka.com^
 ||*.dah0wv79ikn14.cloudfront.net^
@@ -60453,7 +59781,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dainaith.net^
 ||*.dairouzy.net^
 ||*.daisiyao.love^
-||*.daixishuai.pw^
 ||*.daizi.love^
 ||*.dajean.com^
 ||*.dakang-energy.com^
@@ -60469,7 +59796,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.damiren.com^
 ||*.dana123.com^
 ||*.danair.es^
-||*.danaoren.shop^
 ||*.danban.com^
 ||*.dance-alarm.de^
 ||*.dandelionbypasstestimony.com^
@@ -60515,7 +59841,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.datatech.es^
 ||*.datatech.wang^
 ||*.date-this-supergirl3.com^
-||*.dateon.link^
 ||*.dateszone.net^
 ||*.dating-banners.com^
 ||*.dating-exchange.com^
@@ -60537,7 +59862,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dbaof.com^
 ||*.dbcdqp72lzmvj.cloudfront.net^
 ||*.dbclix.com^
-||*.dbecreativea.biz^
 ||*.dbf1405f9c.com^
 ||*.dbfocus.jp^
 ||*.dbios.org^
@@ -60593,7 +59917,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.deal-courrier.be^
 ||*.dealcurrent.com^
 ||*.deals-du-web.com^
-||*.dealsfor.life^
 ||*.dealtbroodconstitutional.com^
 ||*.dealtsowbite.com^
 ||*.debadu.com^
@@ -60651,7 +59974,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.delivery.applogy.com^
 ||*.delivery.locari.jp^
 ||*.delivery.myswitchads.com^
-||*.delivery.sexyxxx.biz^
 ||*.delivery.swid.switchads.com^
 ||*.delivery.us.myswitchads.com^
 ||*.delivery45.com^
@@ -60673,7 +59995,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.demkc32bq01ah.cloudfront.net^
 ||*.demo.vertexinfo.in^
 ||*.demo1.lerian-nti.be^
-||*.demoney.club^
 ||*.demopage.me^
 ||*.demr.mspaceads.com^
 ||*.demulcegregor.com^
@@ -60711,7 +60032,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.despairpsalmmuch.com^
 ||*.destinationurl.com^
 ||*.destineddominant.com^
-||*.deswhatlike.biz^
 ||*.detachedringer.com^
 ||*.detdtmkwcl.com^
 ||*.detect.ergebnis-dienst.de^
@@ -60845,7 +60165,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dimwitsbesaile.com^
 ||*.dinclinx.com^
 ||*.dingdagroup.com^
-||*.dingdian.shop^
 ||*.dingeecurlily.com^
 ||*.dinterperson.xyz^
 ||*.dipegrathy.com^
@@ -60870,7 +60189,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.disappearanceinspiredscan.com^
 ||*.disapprovalhardwareenvy.com^
 ||*.discofrowsy.com^
-||*.discountryvc.club^
 ||*.discountwound.com^
 ||*.discoverapp.xyz^
 ||*.discoverdemo.com^
@@ -60909,7 +60227,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.diximedia.es^
 ||*.diyiguanggao.xyz^
 ||*.dizzcloud.com^
-||*.dj57.club^
 ||*.djbanners.deadjournal.com^
 ||*.djers.com^
 ||*.djfiln.com^
@@ -60953,7 +60270,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dlp4luwpus5kr.cloudfront.net^
 ||*.dlrijiaele.com^
 ||*.dlsdk.appsflyer.com^
-||*.dlski.space^
 ||*.dlx.addthis.com^
 ||*.dlyads.com^
 ||*.dlzjdesign.com^
@@ -60971,7 +60287,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dm.wenshenxiu.com^
 ||*.dm1.zjydt.com^
 ||*.dm7gsepi27zsx.cloudfront.net^
-||*.dmcqs.club^
 ||*.dmdigbrzjbmso.cloudfront.net^
 ||*.dmfjeu.xyz^
 ||*.dmgjwy.xyz^
@@ -61048,7 +60363,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.doors.co.kr^
 ||*.doortrade.ru^
 ||*.dopor.info^
-||*.dorbanise.pw^
 ||*.doremi.ink^
 ||*.doremido.com^
 ||*.dorianbaroque.org^
@@ -61060,7 +60374,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.doskki.com^
 ||*.dostavka.ru^
 ||*.dostophog.com^
-||*.dosugcz.biz^
 ||*.dot-metrix.com^
 ||*.dotandad.com^
 ||*.dotandads.com^
@@ -61119,7 +60432,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dragonspontaneous.com^
 ||*.drailsaculeus.com^
 ||*.drainlot.com^
-||*.drakorindo.club^
 ||*.drasticmean.com^
 ||*.drawbacksubdue.com^
 ||*.drawx.xyz^
@@ -61128,7 +60440,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dreamcounter.de^
 ||*.dreamintim.net^
 ||*.dreamsky.xin^
-||*.drebz4f.shop^
 ||*.dressedincidentchildbirth.com^
 ||*.dreyeli.info^
 ||*.drinkergenys.com^
@@ -61161,7 +60472,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dsparking.com^
 ||*.dsply.com^
 ||*.dspxxy.com^
-||*.dssh.shop^
 ||*.dt.adsafeprotected.com^
 ||*.dt.nrjmobile.fr^
 ||*.dt243100.com^
@@ -61206,7 +60516,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dvaminusodin.net^
 ||*.dvbee3zterhof.cloudfront.net^
 ||*.dvc8653ec6uyk.cloudfront.net^
-||*.dvdmanager-203.sv2.biz^
 ||*.dvdsm0rlx65fo.cloudfront.net^
 ||*.dviccvivms.com^
 ||*.dvr8.com^
@@ -61225,10 +60534,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.dwfoxvfktkqmf.com^
 ||*.dwswap.xyz^
 ||*.dx6uy6q3udhkj.cloudfront.net^
-||*.dxdx.shop^
 ||*.dxkkb5tytkivf.cloudfront.net^
 ||*.dxprljqoay4rt.cloudfront.net^
-||*.dxsh.shop^
 ||*.dxssiyi.com^
 ||*.dxwpedu.me^
 ||*.dxz454z33ibrc.cloudfront.net^
@@ -61356,7 +60663,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.easyads29.pro^
 ||*.easyadservice.com^
 ||*.easydistrustuldistrustul.com^
-||*.easyflirt-partners.biz^
 ||*.easyhash.io^
 ||*.easylist-to.xyz^
 ||*.easymarketcrs.it^
@@ -61386,7 +60692,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ec73ce0ab9.com^
 ||*.eccbb.com^
 ||*.ecestats.theglobeandmail.com^
-||*.echnolog.club^
 ||*.echo.andumb.com^
 ||*.ecmeilin.xyz^
 ||*.eco-tag.jp^
@@ -61470,11 +60775,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.eighteenmedal.com^
 ||*.eighthssidemen.com^
 ||*.eirenefv.com^
-||*.eisafniw.space^
 ||*.eivamos.com^
 ||*.eivbjsegbino.com^
 ||*.eiya.net^
-||*.ejd3q.life^
 ||*.ejdkqclkzq.com^
 ||*.ejevika.com^
 ||*.ejfuh.com^
@@ -61545,7 +60848,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.encyclopediabritannica.blueconic.net^
 ||*.end.scorecardresearch.com^
 ||*.endpencilclothes.com^
-||*.enerableoffi.club^
 ||*.enflaquat.xyz^
 ||*.enfreine.com^
 ||*.engagementpolicelick.com^
@@ -61558,11 +60860,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.enginedriverflexible.com^
 ||*.enginedriverhaw.com^
 ||*.engineseeker.com^
-||*.englingedrxa.club^
 ||*.englutzydecos.com^
 ||*.enhencer.com^
 ||*.enjuk.com^
-||*.enkayijamal.club^
 ||*.enlarget.com^
 ||*.enlnks.com^
 ||*.enmbg.com^
@@ -61603,7 +60903,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.epmclk.com^
 ||*.epurallites.com^
 ||*.eqfgc.com^
-||*.eqnan.megaseries.biz^
 ||*.equallyyolked.com^
 ||*.er.5ykj.com^
 ||*.er.search.naver.com^
@@ -61611,20 +60910,17 @@ geo.ritm.ru###audio-playback-firefox
 ||*.erdsyzb.com^
 ||*.ere.wew.92kkdy.cc^
 ||*.erectile.byethost33.com^
-||*.eredunass.club^
 ||*.erenchinterried.pro^
 ||*.eresmas.net^
 ||*.ergs4.com^
 ||*.erihj.com^
 ||*.erileni.ru^
 ||*.erkhxw.com^
-||*.ermitteedi.biz^
 ||*.erna.xyz^
 ||*.ernitz.com^
 ||*.ero2you.com^
 ||*.erogames.fr^
 ||*.eroksen.ru^
-||*.eroo.shop^
 ||*.erop.store^
 ||*.eropays2.com^
 ||*.erotikcounter.org^
@@ -61674,7 +60970,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.etemis.com^
 ||*.etg98.com^
 ||*.ethan.wang^
-||*.etheopportu.biz^
 ||*.etherx2.info^
 ||*.ethevent-22.org^
 ||*.ethfw0370q.com^
@@ -61700,7 +60995,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.eulerian.brandalley.fr^
 ||*.eulerian.madeindesign.com^
 ||*.eulerian.mathon.fr^
-||*.euliglsp.space^
 ||*.eumnxwvp.ink^
 ||*.euniverseads.com^
 ||*.eupornstar.info^
@@ -61890,9 +61184,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.f8260adbf8558d6.com^
 ||*.f853150605ccb.com^
 ||*.f86c0f6c3b.com^
-||*.f8ij9.life^
 ||*.f95nkry2nf8o.com^
-||*.fa.fpt.shop^
 ||*.fa88.win^
 ||*.faa39957a3.com^
 ||*.fabricww.com^
@@ -61916,7 +61208,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.faggotry.com^
 ||*.faggrim.com^
 ||*.fagpodmum.site^
-||*.faindianship.club^
 ||*.fairadsnetwork.com^
 ||*.fairnessels.com^
 ||*.fairypays.com^
@@ -61954,7 +61245,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fardhvarment.com^
 ||*.farm.plista.com^
 ||*.farmafit.it^
-||*.fartris.pw^
 ||*.fashion-online.net^
 ||*.fashion4young.de^
 ||*.fashionabacus.com^
@@ -61994,7 +61284,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fbgdc.com^
 ||*.fbpopr.com^
 ||*.fbsecurity.co^
-||*.fc2ppv.buzz^
 ||*.fcb8.com^
 ||*.fccinteractive.com^
 ||*.fcg.casino770.com^
@@ -62027,7 +61316,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fe95a992e6afb.com^
 ||*.fearpeaceoversight.com^
 ||*.featbooksterile.com^
-||*.featurewinning.life^
 ||*.featwombknockout.com^
 ||*.febadu.com^
 ||*.febao.xyz^
@@ -62082,7 +61370,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fessoovy.com^
 ||*.festads.com^
 ||*.festivaldelicious.com^
-||*.fesurvivial.club^
 ||*.fetisch-pornos.cxa.de^
 ||*.fetm.xin^
 ||*.fewvincent.com^
@@ -62155,7 +61442,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.findingupsetabstinence.com^
 ||*.findit-quick.com^
 ||*.findlnk.com^
-||*.findmedia.biz^
 ||*.findmenow.info^
 ||*.findnewline.com^
 ||*.findsexguide.com^
@@ -62187,7 +61473,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fishyscalpelweight.com^
 ||*.fitbxtqgneq.com^
 ||*.fitcenterz.com^
-||*.five88.biz^
 ||*.fixbonus.com^
 ||*.fixchidie.com^
 ||*.fixcleaner.com^
@@ -62205,7 +61490,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fjmrxys.com^
 ||*.fjrkn.com^
 ||*.fjsjsj.com^
-||*.fjyc.pw^
 ||*.fjylcy.com^
 ||*.fkehg.com^
 ||*.fkesfg.com^
@@ -62283,7 +61567,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fmgfqwe.xyz^
 ||*.fmkys.com^
 ||*.fmsads.com^
-||*.fmzxing.pw^
 ||*.fnacgbik9v14.com^
 ||*.fnactickets.fr^
 ||*.fngurubob.com^
@@ -62308,8 +61591,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.folloyu.com^
 ||*.folmetor.com^
 ||*.foneclick.com.br^
-||*.fontainsuny.club^
-||*.fontostudni.club^
 ||*.foocheeb.net^
 ||*.food-offer.com^
 ||*.fooders.eu^
@@ -62322,7 +61603,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.footpetoo.com^
 ||*.foowafoa.com^
 ||*.for-ward.jp^
-||*.forafinan.club^
 ||*.forced-lose.de^
 ||*.forcelessgreetingbust.com^
 ||*.forcetraf.com^
@@ -62358,7 +61638,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fouralered.pro^
 ||*.fourmix.net^
 ||*.fourthchoseark.com^
-||*.foxcdn.life^
 ||*.foxcounter.com^
 ||*.foxev.com^
 ||*.foxnet.demdex.net^
@@ -62374,7 +61653,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fpxau.net^
 ||*.fpxkqwdoaxuln.com^
 ||*.fqigyr.xyz^
-||*.fqjinyinhua.shop^
 ||*.fqtra.com^
 ||*.fqwgi.com^
 ||*.fr.mediaplayercodecpack.com^
@@ -62438,11 +61716,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.freeserials.ws^
 ||*.freesoftwarelive.com^
 ||*.freestat.ws^
-||*.freestats.biz^
 ||*.freestats.org^
 ||*.freestats.ws^
-||*.freetoadvertise.biz^
-||*.freetracker.biz^
 ||*.freetrafficsystem.com^
 ||*.freevideo.biz.nf^
 ||*.freevideodownloadforpc.com^
@@ -62521,18 +61796,15 @@ geo.ritm.ru###audio-playback-firefox
 ||*.functionalclam.com^
 ||*.functionalcover.com^
 ||*.functionssubqueries.com^
-||*.fundardsesaz.club^
 ||*.fungus.online^
 ||*.funintheuk.com^
 ||*.funkydoowop.plus.com^
-||*.funlove.pw^
 ||*.funneld.com^
 ||*.funnyreign.com^
 ||*.funpageexchange.com^
 ||*.funsilly.com^
 ||*.funtabsafe.com^
 ||*.funtopliste.de^
-||*.funwarcab.club^
 ||*.fuqypaqu.xyz^
 ||*.furocmay.com^
 ||*.furoidrewash.com^
@@ -62581,7 +61853,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.fzbymy.com^
 ||*.fzdeng.com^
 ||*.fzwoa.com^
-||*.g-cash.biz^
 ||*.g-day.design^
 ||*.g.3lian.com^
 ||*.g.adnxs.com^
@@ -62600,7 +61871,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.g2921554487.com^
 ||*.g3j2wzmon8b.com^
 ||*.g3tf1lxdaters.com^
-||*.g4news.biz^
 ||*.g5fzq2l.com^
 ||*.g7.com.tw^
 ||*.g8715710740.co^
@@ -62753,7 +62023,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.generalizationdisputelesser.com^
 ||*.generatecompassionphotocopy.com^
 ||*.generationgirls.com^
-||*.genfar.club^
 ||*.gengsang.me^
 ||*.geniad.net^
 ||*.gentlesyoicks.com^
@@ -62813,7 +62082,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.getidglutton.com^
 ||*.getiluda.com^
 ||*.getinclinarss.xyz^
-||*.getlink.pw^
 ||*.getloan.com^
 ||*.getmyads24.com^
 ||*.getmyfreegiftcard.com^
@@ -62939,7 +62207,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.globalcharge.com^
 ||*.globalinteractive.com^
 ||*.globalnews247.net^
-||*.globalso.biz^
 ||*.globalsuccessclub.com^
 ||*.globaltizer.ru^
 ||*.globaltrak.net^
@@ -62968,7 +62235,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.go-gal.com^
 ||*.go-top.xyz^
 ||*.go.bestmobiworld.com^
-||*.go.biz^
 ||*.go.media-x.ru^
 ||*.go.shareaholic.com^
 ||*.go.showmeyouradsnow.com^
@@ -63010,7 +62276,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.gogoplexer.com^
 ||*.gohillgo.com^
 ||*.goingtocontent.com^
-||*.gojokey.club^
 ||*.gold-mir.com^
 ||*.gold2762.com^
 ||*.goldapps.org^
@@ -63038,7 +62303,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.goodgamesmanship.com^
 ||*.goodkind.ru^
 ||*.goodlooknews.net^
-||*.goodsky.shop^
 ||*.goofypismica.com^
 ||*.googele.com^
 ||*.googfle.com^
@@ -63123,7 +62387,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.greatfind-a.akamaihd.net^
 ||*.greatfireoflondon.org.uk^
 ||*.greatgrace.ru^
-||*.greatmentef.club^
 ||*.greatnfq.com^
 ||*.greatnfw.com^
 ||*.greatpussies.com^
@@ -63215,13 +62478,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.gumlaughter.com^
 ||*.gunpartners.com^
 ||*.guntang.me^
-||*.guofuhaohua.club^
 ||*.guominziben.com^
 ||*.guoshihuaiyao.com^
 ||*.guotaotaoci.net^
 ||*.guoxintdh.com^
 ||*.guoyang.us^
-||*.guoyu.link^
 ||*.guq9.vente-unique.it^
 ||*.gurgle.zdbb.net^
 ||*.gururevenue.com^
@@ -63309,13 +62570,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.haedong.es.kr^
 ||*.haftersfrutify.com^
 ||*.haichengdzsp.com^
-||*.haigou.life^
 ||*.hainancaishui.online^
 ||*.haitan.site^
 ||*.haitaochen.xyz^
 ||*.haite.xyz^
 ||*.haithoaz.net^
-||*.haixingou.shop^
 ||*.haiyinsiwang.com^
 ||*.haiyunimg.com^
 ||*.haiyunpush.com^
@@ -63351,11 +62610,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hao.315hyw.com^
 ||*.hao.360hyzj.com^
 ||*.hao61.net^
-||*.haodazhizhuangzhuang.club^
 ||*.haodong.site^
 ||*.haogame.me^
 ||*.haohud.cc^
-||*.haojun.shop^
 ||*.haolew.com^
 ||*.haomaiweb.com^
 ||*.haomaojin.com^
@@ -63368,7 +62625,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.happy-davinci-53144f.netlify.com^
 ||*.happy-egg.net^
 ||*.happycastle.me^
-||*.happyhs.club^
 ||*.happyunicorns.gutefrage.net^
 ||*.haradeiu.rocks^
 ||*.harafunnel.com^
@@ -63380,11 +62636,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.harrer-tipp.de^
 ||*.hartamann.fr^
 ||*.hasdarot.cc^
-||*.hasdarot.club^
 ||*.hasdarot.co^
 ||*.hasdarot.com^
 ||*.hasdarot.info^
-||*.hasdarot.life^
 ||*.hasdarot.net^
 ||*.hasdarot.pro^
 ||*.hasdarot.tv^
@@ -63403,7 +62657,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.havasedge.com^
 ||*.haveamint.com^
 ||*.havetohave.com^
-||*.haviouseulom.club^
 ||*.hawiyaseljuk.com^
 ||*.hazardguiltconsulting.com^
 ||*.hazicu.hothomefuck.com^
@@ -63416,7 +62669,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hbfqcy.com^
 ||*.hbggcm.com^
 ||*.hbguzhenyuan.com^
-||*.hbhdyn.club^
 ||*.hbhnwy.com^
 ||*.hbhtbn.com^
 ||*.hbkhqc.com^
@@ -63467,7 +62719,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hebdotop.com^
 ||*.hebeixingfei.com^
 ||*.hebeiyichen.com^
-||*.hebufr7h.shop^
 ||*.hebzycw.com^
 ||*.hedrvszms.com^
 ||*.hedvid.com^
@@ -63477,7 +62728,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.heimen.xyz^
 ||*.heimlich-gefilmt.cxa.de^
 ||*.hejing.cloud^
-||*.helessenge.club^
 ||*.helilong.xyz^
 ||*.hello.staticstuff.net^
 ||*.helloc.xyz^
@@ -63515,7 +62765,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hexin.city^
 ||*.hexp.xyz^
 ||*.heybuddycn.me^
-||*.heyi.shop^
 ||*.hezhenzi.com^
 ||*.hflwgg.xyz^
 ||*.hfyxdl.com^
@@ -63570,7 +62819,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.himicrosoft.com^
 ||*.himselve.info^
 ||*.himselves.com^
-||*.himselvesobr.club^
 ||*.hinchantickt.com^
 ||*.hinlargecons.xyz^
 ||*.hiopdi.com^
@@ -63671,7 +62919,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hnskorea.co.kr^
 ||*.hntymg.com^
 ||*.hnxahz.com^
-||*.hnyczs.club^
 ||*.hnyishidengbao.com^
 ||*.hnyny.com^
 ||*.hnyoufan.com^
@@ -63689,7 +62936,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hoilop.com^
 ||*.hoistchart.com^
 ||*.hokespotheen.com^
-||*.holdierpriv.club^
 ||*.holexknw.loan^
 ||*.holidayhappy.online^
 ||*.holika.com^
@@ -63733,7 +62979,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.horyzon-media.com^
 ||*.hosillfir.site^
 ||*.hospicalada.xyz^
-||*.hospitecrew.club^
 ||*.host-redirect.net^
 ||*.host4media.com^
 ||*.hosting-source.bm23.com^
@@ -63778,7 +63023,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hoyukoda.cloud^
 ||*.hoyukoda.lol^
 ||*.hoyukoda.mom^
-||*.hoyukoda.shop^
 ||*.hoyukoda.xyz^
 ||*.hozzs.hk^
 ||*.hpad.www.infoseek.co.jp^
@@ -63807,7 +63051,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hsc.ink^
 ||*.hskj.net^
 ||*.hslyqs.com^
-||*.hspstudio.club^
 ||*.hsrvv.com^
 ||*.hsy0616.love^
 ||*.hsybe0m5.site^
@@ -63829,7 +63072,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.huahuaxiji.love^
 ||*.huapuzs.com^
 ||*.huasheng.love^
-||*.huaxiaozhang.club^
 ||*.huayange.com^
 ||*.huayi65.com^
 ||*.hub.fghtem.com^
@@ -63837,7 +63079,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hubzozo.com^
 ||*.hucang.cloud^
 ||*.hududushy.com^
-||*.huge-cocks.biz^
 ||*.huge-gay-cock.com^
 ||*.hugenicholas.com^
 ||*.hugersoft.com^
@@ -63856,7 +63097,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.huixianjiaoyuedu.com^
 ||*.huizeyoupin.com^
 ||*.hukbo.com^
-||*.hulai0323166.space^
 ||*.hulemedia.com^
 ||*.hulkflugarb.com^
 ||*.hulksskyed.com^
@@ -63903,7 +63143,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hx9.ink^
 ||*.hxf1688.xyz^
 ||*.hxiak.com^
-||*.hxinyi.club^
 ||*.hxlif.com^
 ||*.hxnzyy.com^
 ||*.hxyifu.com^
@@ -63922,13 +63161,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.hygar.com^
 ||*.hygromycin-b-50mg-ml-solution.com^
 ||*.hyhfimgg.com^
-||*.hyipbrowser.biz^
 ||*.hyipmanager.in^
 ||*.hyjxtz.com^
 ||*.hylmimgg.com^
 ||*.hylmkele.com^
 ||*.hylmxing.com^
-||*.hylyl.club^
 ||*.hypeads.org^
 ||*.hypemakers.net^
 ||*.hyperactivate.com^
@@ -63992,7 +63229,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.iad02-event.spotxchange.com^
 ||*.iad02-search.spotxchange.com^
 ||*.iaflstore.jp^
-||*.iamtheid.club^
 ||*.iasbetaffiliates.com^
 ||*.iasrv.com^
 ||*.iauto.wang^
@@ -64073,7 +63309,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.if.bbanner.it^
 ||*.if37.com^
 ||*.ifactz.com^
-||*.ifil.shop^
 ||*.ifil.store^
 ||*.ifileyou.com^
 ||*.ifjyo.com^
@@ -64085,8 +63320,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ig0nr8hhhb.com^
 ||*.igame2steam.com^
 ||*.igame4free.com^
-||*.igg.biz^
-||*.igiene.club^
 ||*.igloohq.com^
 ||*.ignitioninstaller.com^
 ||*.ignitna.info^
@@ -64137,7 +63370,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ili.net^
 ||*.ili.pp.ua^
 ||*.ilinxi.cc^
-||*.ilivaris.pw^
 ||*.illallwoe.com^
 ||*.illegally.wang^
 ||*.illnessspraydeference.com^
@@ -64266,7 +63498,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.imserv006.adtech.us^
 ||*.imserv00x.adtech.fr^
 ||*.imserv00x.adtech.us^
-||*.imspecial.club^
 ||*.imssl01.adtech.fr^
 ||*.imssl01.adtech.us^
 ||*.imstks.com^
@@ -64325,8 +63556,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.infoanalytics.tools^
 ||*.infobbs.xyz^
 ||*.infoblog.site^
-||*.infoboom.club^
-||*.infoboom.life^
 ||*.infocenter.support^
 ||*.infocentro.ru^
 ||*.infocollect.dk^
@@ -64337,7 +63566,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.infoprodata.com^
 ||*.informacja-dnia.com^
 ||*.informcheck.com^
-||*.informer.link^
 ||*.informer.minfin.com.ua^
 ||*.informers.ukr.net^
 ||*.informsnobstephen.com^
@@ -64359,7 +63587,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.inlacesepicly.com^
 ||*.inleadership.co.nz^
 ||*.inlinks.de^
-||*.inlive.link^
 ||*.inmateoutsetflippant.com^
 ||*.inmobi-jp.com^
 ||*.inmobi.net^
@@ -64400,7 +63627,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.inswebt.com^
 ||*.int.akisinn.info^
 ||*.int.akisinn.site^
-||*.int.dewrain.life^
 ||*.int.dewrain.site^
 ||*.int.vaicore.site^
 ||*.int.vaicore.store^
@@ -64467,7 +63693,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ionia.pro^
 ||*.ionisestriller.com^
 ||*.iople.com^
-||*.iorlsblj.cyou^
 ||*.ios.426g.com^
 ||*.ios.bugly.qq.com^
 ||*.iovation.co.uk^
@@ -64547,19 +63772,15 @@ geo.ritm.ru###audio-playback-firefox
 ||*.isurpopc.com^
 ||*.isuzi.com^
 ||*.iswwwup.com^
-||*.itbraviarychan.club^
 ||*.itcgin.net^
 ||*.itfarm.com^
 ||*.itgear.jp^
 ||*.ithaibap.com^
 ||*.ithyourretye.xyz^
 ||*.itjie.xyz^
-||*.itphanpytor.club^
 ||*.itrigra.ru^
 ||*.itsptp.com^
-||*.ittoxicroakon.club^
 ||*.itv.hexun.com^
-||*.iuliglsh.space^
 ||*.iumnxwvh.ink^
 ||*.iupot.com^
 ||*.iv.doubleclick.net^
@@ -64592,7 +63813,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.j46rwh.site^
 ||*.j49.xyz^
 ||*.jackao.net^
-||*.jacksonyee.club^
 ||*.jact.atdmt.com^
 ||*.jaggedunaccustomeddime.com^
 ||*.jagoiklan.com^
@@ -64615,14 +63835,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.javascriptobfuscator.com^
 ||*.javblow.com^
 ||*.javbuzz.com^
-||*.javjav1.buzz^
 ||*.jawholeminable.com^
 ||*.jawlessbenet.com^
 ||*.jawsjackson.com^
 ||*.jazze.hk^
 ||*.jb777.net^
 ||*.jb9vtov.xyz^
-||*.jbdz.shop^
 ||*.jbm6c54upkui.com^
 ||*.jbrlsr.com^
 ||*.jcaik.com^
@@ -64638,7 +63856,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jddaw.com^
 ||*.jdfabrication.com^
 ||*.jdgsgl.com^
-||*.jdxq.club^
 ||*.jdzlxtc.com^
 ||*.je8fn.com^
 ||*.jecqhvrclrxe.com^
@@ -64678,7 +63895,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jhtwiolgjeons.com^
 ||*.jhwj88.com^
 ||*.ji.ihualun.com^
-||*.jiabo.shop^
 ||*.jiadunkeji.com^
 ||*.jiage.ink^
 ||*.jiajv.net^
@@ -64686,17 +63902,14 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jianduankm.com^
 ||*.jiangmg.com^
 ||*.jiangsg.me^
-||*.jiangsm.club^
 ||*.jianxinshanghai.com^
 ||*.jianyihang.com^
 ||*.jianyouling.com^
 ||*.jiaoben.jucanw.com^
-||*.jiatang.club^
 ||*.jiatu.co^
 ||*.jiawen88.com^
 ||*.jiaxue.xyz^
 ||*.jiayiss.com^
-||*.jiazhenghangye.pw^
 ||*.jiedaibao.gs^
 ||*.jiehe.me^
 ||*.jiese.fun^
@@ -64724,10 +63937,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jioads.akamaized.net^
 ||*.jioer.pro^
 ||*.jirafe.com^
-||*.jisafnia.space^
 ||*.jisufeifei.com^
 ||*.jisuoping.com^
-||*.jiu9.shop^
 ||*.jiudiandyw.com^
 ||*.jiuhui878.com^
 ||*.jiuku.cc^
@@ -64735,7 +63946,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jiwire.com^
 ||*.jiyan.net^
 ||*.jiyuanzixun.com^
-||*.jjli87.life^
 ||*.jjmdavj.com^
 ||*.jjpnveujkk.com^
 ||*.jjuau.com^
@@ -64747,7 +63957,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jkxtd77.com^
 ||*.jl-mt.com^
 ||*.jl1130.com^
-||*.jlbz.club^
 ||*.jlhygy.com^
 ||*.jlijten.nl^
 ||*.jljspx.com^
@@ -64762,7 +63971,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jnqiangzhi.xyz^
 ||*.jnsdkjzs.com^
 ||*.jobsyndicate.com^
-||*.jockeryfgtu.club^
 ||*.jodellbrought.pro^
 ||*.jodellvideos.pro^
 ||*.joeputa.xyz^
@@ -64773,7 +63981,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.joggingavenge.com^
 ||*.johays.co^
 ||*.join1.winhundred.com^
-||*.joinbrand.club^
 ||*.joincreditexpert.co.uk^
 ||*.joinourwebsite.com^
 ||*.jojome.xyz^
@@ -64793,7 +64000,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jotpoolwarren.com^
 ||*.jotrening.com^
 ||*.journalforum.org^
-||*.joyceglobal.club^
 ||*.joyekepus.online^
 ||*.joyingclaros.com^
 ||*.joyvowdig.com^
@@ -64871,9 +64077,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jtjsevmr.com^
 ||*.jtrackern.joins.com^
 ||*.ju33.com^
-||*.juanbanji.biz^
 ||*.jubiitag.dk^
-||*.judaisydfs.club^
 ||*.judgementinvincible.com^
 ||*.judicated.com^
 ||*.judiciousbloke.com^
@@ -64881,7 +64085,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jufengputao.com^
 ||*.jugjetwok.com^
 ||*.juhuiguoji.wang^
-||*.juhuitongcheng.life^
 ||*.juiceadv.com^
 ||*.juiceadv.net^
 ||*.juicesphose.com^
@@ -64901,7 +64104,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.junwjwl.com^
 ||*.juren0.com^
 ||*.juricts.xyz^
-||*.jurl.pw^
 ||*.juruiklan.com^
 ||*.jushikk.com^
 ||*.jussibrarow.com^
@@ -64912,7 +64114,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.justearn.it^
 ||*.justgetitfaster.com^
 ||*.justiceintegral.com^
-||*.justickedukil.club^
 ||*.justifiedcharmsmoustache.com^
 ||*.justinpressed.com^
 ||*.justtrck.com^
@@ -64925,9 +64126,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.jvyigg.biqugeq.com^
 ||*.jvyigg.zbzw.la^
 ||*.jwmfxp.xyz^
-||*.jwplayer.space^
 ||*.jwt8e5vzc1.com^
-||*.jx3yixi.club^
 ||*.jxbtl.com^
 ||*.jxhcyc.com^
 ||*.jxjzny.com^
@@ -64962,22 +64161,18 @@ geo.ritm.ru###audio-playback-firefox
 ||*.k-macs.ne.jp^
 ||*.k.streamrail.com^
 ||*.k1.dancihu.com^
-||*.k11designstore.club^
 ||*.k1815.com^
 ||*.k1rsdhu.xyz^
 ||*.k26fe9xhuzm.com^
 ||*.k3node.com^
 ||*.k50.ru^
 ||*.k5ads.osdn.com^
-||*.k67lxl.space^
 ||*.k8trangphim.com^
 ||*.ka5188.com^
 ||*.kabakabrules.com^
 ||*.kabbmedia.com^
 ||*.kadkaxjfeh.com^
-||*.kafar4.club^
 ||*.kagdf.com^
-||*.kagiti.club^
 ||*.kaharmonie.nl^
 ||*.kaiguangdou.com^
 ||*.kaiyiluye.com^
@@ -65022,13 +64217,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.keepinfit.net^
 ||*.kegsandremembrance.com^
 ||*.kehalim.com^
-||*.kejia.pw^
 ||*.kelder.nl^
 ||*.kelsaurt.com^
 ||*.kenkudo.plus.com^
 ||*.kenxq.com^
 ||*.kenxr.com^
-||*.keqiao.pw^
 ||*.kerlou.ltd^
 ||*.kershop.ren^
 ||*.ketads.com^
@@ -65050,9 +64243,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.keyxel.com^
 ||*.kf3.xyz^
 ||*.kf3msfm.com^
-||*.kf94.club^
 ||*.kfd3sm2c.com^
-||*.kfir.club^
 ||*.kfluoa.com^
 ||*.kfnvrt.xyz^
 ||*.kfweo2.com^
@@ -65102,12 +64293,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.kinoprofi.org^
 ||*.kinotraff.ru^
 ||*.kinott.com^
-||*.kinsecutiony.club^
 ||*.kiolim.com^
 ||*.kipasdenim.com^
 ||*.kirgeemo.com^
-||*.kisafnid.space^
-||*.kissmyads.biz^
 ||*.kistured.com^
 ||*.kitaramedia.com^
 ||*.kitchen.juicer.cc^
@@ -65124,7 +64312,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.kjhfy.com^
 ||*.kjkhgtwft.com^
 ||*.kjkwrmwdyhi.com^
-||*.kjmx.shop^
 ||*.kjos.vo.llnwd.net^
 ||*.kjshenghuo.com^
 ||*.kjwx8.com^
@@ -65176,7 +64363,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.knutenegros.pro^
 ||*.knwekg.com^
 ||*.koacojus.net^
-||*.kohen.biz^
 ||*.kolinay.com^
 ||*.kolks.nl^
 ||*.komi168.com^
@@ -65214,7 +64400,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.kpdn.ru^
 ||*.kpirog.com^
 ||*.kpns.ijinshan.com^
-||*.kq7it3c6.club^
 ||*.kq7it3c6.xyz^
 ||*.kqirf.xyz^
 ||*.krakenfolio.com^
@@ -65229,7 +64414,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ksgsjeix.xyz^
 ||*.kstream.xyz^
 ||*.kt220.com^
-||*.ktai.pw^
 ||*.ktdlsb.com^
 ||*.ktggbk.com^
 ||*.ktokto.mobi^
@@ -65265,7 +64449,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.kuveres.com^
 ||*.kuwoyy.com^
 ||*.kuxinqi.com^
-||*.kuyanosa.shop^
 ||*.kuzeyinyeri.site^
 ||*.kv61xc8.xyz^
 ||*.kvision.tv^
@@ -65284,7 +64467,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.kyqcfj.com^
 ||*.kythodoby.pro^
 ||*.kz.search.need2find.com^
-||*.kzzs.shop^
 ||*.l-kingmall.com^
 ||*.l.evidon.com^
 ||*.l.fairblocker.com^
@@ -65309,7 +64491,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.labelnayarit.com^
 ||*.laborates.com^
 ||*.labourpushed.com^
-||*.lacerate.club^
 ||*.ladsanz.com^
 ||*.ladsatz.com^
 ||*.ladsblue.com^
@@ -65329,7 +64510,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.laferia.cr^
 ||*.lafrjs.com^
 ||*.lagginleapful.com^
-||*.lahair.biz^
 ||*.lajeshuru.pro^
 ||*.lalaping.com^
 ||*.laleh.itrc.ac.ir^
@@ -65364,7 +64544,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.large-format.net^
 ||*.largesscoue.com^
 ||*.larossola.it^
-||*.larpollicwilli.club^
 ||*.larrenpicture.pro^
 ||*.larrenworld.pro^
 ||*.laserharasslined.com^
@@ -65459,7 +64638,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.leftoverdense.com^
 ||*.lega.store^
 ||*.legalevaluate.com^
-||*.legalledgtjuj.club^
 ||*.legandruk.com^
 ||*.legcatastrophetransmitted.com^
 ||*.legendofdragoon.com^
@@ -65477,7 +64655,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lengejoberdak.pro^
 ||*.lenta-novostei.com^
 ||*.lentduskyscold.com^
-||*.leoceran.pw^
 ||*.leojmp.com^
 ||*.leonab.com^
 ||*.leonardoadv.it^
@@ -65505,13 +64682,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.letopdusexe.net^
 ||*.letou8868.com^
 ||*.letsfinder.com^
-||*.letsread.club^
 ||*.letstry69.xyz^
 ||*.letvertise.com^
 ||*.letyoufall.com^
 ||*.leuquipe.fr^
 ||*.leuxq.com^
-||*.leveloped.club^
 ||*.levelpay.ru^
 ||*.levexis.com^
 ||*.levigilant.fr^
@@ -65568,7 +64743,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.liehu.ijinshan.com^
 ||*.lienquanmobilequatang.com^
 ||*.lifebounce.net^
-||*.lifemeet.biz^
 ||*.lifestyle24h.com^
 ||*.lifiads.com^
 ||*.lifu11.com^
@@ -65580,7 +64754,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.likecontrol.com^
 ||*.likeportal.com^
 ||*.likespike.com^
-||*.likethislist.biz^
 ||*.likondok.com^
 ||*.lilacdefencelessroyal.com^
 ||*.lilinstall11x.com^
@@ -65641,7 +64814,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.linkunder.ru^
 ||*.linkwi.se^
 ||*.linkwmr.ru^
-||*.linkword.biz^
 ||*.linkword.ru^
 ||*.linkxchanger.com^
 ||*.linkybank.com^
@@ -65652,7 +64824,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lipinstott.com^
 ||*.lippieramman.com^
 ||*.lirsmmnsaixa.com^
-||*.lisafnil.space^
 ||*.lislepostsax.com^
 ||*.lisponightingale.com^
 ||*.listenother.com^
@@ -65686,8 +64857,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.livedecnow.com^
 ||*.livedecwow.com^
 ||*.livehapp.com^
-||*.liveinpassion.club^
-||*.livelog.biz^
 ||*.livepartners.it^
 ||*.liversely.com^
 ||*.liversely.net^
@@ -65741,7 +64910,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lm882.com^
 ||*.lm885.com^
 ||*.lm995.com^
-||*.lmcraft.pw^
 ||*.lmjy.us^
 ||*.lmy.de^
 ||*.lnads.osdn.com^
@@ -65749,8 +64917,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lnkr.us^
 ||*.lnque.xyz^
 ||*.lnscxrqgfyxgs.xyz^
-||*.lntx.shop^
-||*.lo83cs.space^
 ||*.loading-delivery2.com^
 ||*.loading-page.net^
 ||*.loading-resource.com^
@@ -65763,13 +64929,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.locationsreverenceaid.com^
 ||*.lockdowncautionmentally.com^
 ||*.lockingadmitted.com^
-||*.lodder5.biz^
-||*.lodder6.biz^
 ||*.lodevn789.net^
 ||*.loedtamanac.com^
 ||*.loerv.com^
 ||*.loestrin.1.p2l.info^
-||*.lofe.shop^
 ||*.loftsbaacad.com^
 ||*.log-api.pangolin-sdk-toutiao.com^
 ||*.log-dbff2e04.us.v2.we-stats.com^
@@ -65855,7 +65018,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lokggprixs.xyz^
 ||*.lol.to^
 ||*.lolco.net^
-||*.loloclicks.biz^
 ||*.loltrack.com^
 ||*.loltrk.com^
 ||*.lomo.cool^
@@ -65879,8 +65041,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lorajety.com^
 ||*.lore.circulate.com^
 ||*.lorimertoned.com^
-||*.lorlsblh.cyou^
-||*.lornardchr.club^
 ||*.losittooday.info^
 ||*.losstrack.com^
 ||*.lostartofbeingadame.com^
@@ -65929,7 +65089,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lsaeb.com^
 ||*.lsassoc.com^
 ||*.lsfinteractive.com^
-||*.lsxc.shop^
 ||*.lsyz.xyz^
 ||*.lt.angelfire.com^
 ||*.ltassrv.com^
@@ -65938,7 +65097,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ltcraft.ru^
 ||*.ltdjifang.xyz^
 ||*.ltht.tech^
-||*.ltk.pw^
 ||*.lu.sogou.com^
 ||*.lucasyyy.ltd^
 ||*.lucktui.com^
@@ -65946,7 +65104,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.luckyforworlds.com^
 ||*.luckysearch123.com^
 ||*.lucretius-ada.com^
-||*.ludesthat.club^
 ||*.lufhansa.com^
 ||*.lufthansaairlines.com^
 ||*.lufthanza.com^
@@ -65958,7 +65115,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lunio.net^
 ||*.lunoidgulsach.com^
 ||*.lunt.cx^
-||*.luoshihua.club^
 ||*.luotuoma.center^
 ||*.luotuoma.cool^
 ||*.lurefuleuryon.com^
@@ -65980,7 +65136,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.luzulabeguile.com^
 ||*.luzynka.ru^
 ||*.lvecygampj.com^
-||*.lvjoe.pw^
 ||*.lvkuaizi.com^
 ||*.lvntekpejrmtb.com^
 ||*.lvodomo.info^
@@ -65991,9 +65146,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lw88.site^
 ||*.lwlscy.com^
 ||*.lwobol.cloud^
-||*.lwxqaq.club^
-||*.lxiu.shop^
-||*.lxlx.shop^
 ||*.lxqcgj.com^
 ||*.lxting.com^
 ||*.lxtrack.com^
@@ -66001,7 +65153,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lxxy.xyz^
 ||*.lyadu.com^
 ||*.lyaeccn.com^
-||*.lyautotech.club^
 ||*.lybctx.com^
 ||*.lycodz.com^
 ||*.lycos-eu.imrworldwide.com^
@@ -66025,7 +65176,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.lyxuexin.com^
 ||*.lyzenoti.pro^
 ||*.lyztdz.com^
-||*.lzjc.shop^
 ||*.lzljhs.com^
 ||*.lzls.ltd^
 ||*.lzqicpumq.com^
@@ -66115,7 +65265,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mackeeperapp1.zeobit.com^
 ||*.mackeeperapp2.mackeeper.com^
 ||*.mackeeperapp3.mackeeper.com^
-||*.macleaner.space^
 ||*.macouwou.com^
 ||*.macpurifier.com^
 ||*.madeleinekrook.nl^
@@ -66129,8 +65278,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.madskis.com^
 ||*.madsokz.com^
 ||*.maebtjn.com^
-||*.mafenggo.club^
-||*.mafengow.club^
 ||*.magdove.xyz^
 ||*.magellen.com^
 ||*.magento-analytics.com^
@@ -66143,7 +65290,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.magifirst.com^
 ||*.magiq.com^
 ||*.magnuum.com^
-||*.magrie.pw^
 ||*.magyarnep.me^
 ||*.magyarokvagyunk.com^
 ||*.mahao.xyz^
@@ -66185,7 +65331,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mall0.qiyipic.com^
 ||*.mallcss.com^
 ||*.mallowsmother.com^
-||*.mals.shop^
 ||*.mambo.kiev.ua^
 ||*.mamboedclarine.com^
 ||*.mament.co^
@@ -66236,7 +65381,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.marketing.hub-js.com^
 ||*.marketingenhanced.com^
 ||*.marketland.me^
-||*.marketnews.pw^
 ||*.marketplace-android-b235.hyprmx.com^
 ||*.marketrip.co^
 ||*.marketshot.com^
@@ -66258,7 +65402,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mastermilligram.com^
 ||*.mastermind.com^
 ||*.masteroids.com^
-||*.masterspace.biz^
 ||*.masture.mobi^
 ||*.matchendirectr.fr^
 ||*.mateast.com^
@@ -66286,7 +65429,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.maxregistrycleaner.com^
 ||*.maxserving.com^
 ||*.maxtrust.ru^
-||*.may88.club^
 ||*.mayib.xyz^
 ||*.mayie.xyz^
 ||*.mayif.xyz^
@@ -66307,7 +65449,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mc-ya.ru^
 ||*.mc.admetrica.ru^
 ||*.mc.webvisor.org^
-||*.mc63rs.life^
 ||*.mcdhshlsboom.com^
 ||*.mcdn.batmobi.net^
 ||*.mcfg.sandai.net^
@@ -66332,7 +65473,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mdxapi.io^
 ||*.me-client.eservice.emarsys.net^
 ||*.me.5.p2l.info^
-||*.me390.life^
 ||*.me511.win^
 ||*.meadigital.com^
 ||*.meapk.com^
@@ -66386,7 +65526,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mediaid.click^
 ||*.mediakeywords.com^
 ||*.medialand.ru^
-||*.mediamodern.biz^
 ||*.medianaft.com^
 ||*.mediaonenetwork.net^
 ||*.mediaplan.ru^
@@ -66421,7 +65560,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.meethanshi.com^
 ||*.meetics.fr^
 ||*.meetsocialmeta.com^
-||*.meetsourhig.biz^
 ||*.meeturlove.com^
 ||*.meezauch.net^
 ||*.mega-fla.com^
@@ -66433,7 +65571,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.megapopads.com^
 ||*.megatizer.com^
 ||*.megawealthbiz.com^
-||*.megmobpoi.club^
 ||*.megogo.1ru.tv^
 ||*.megoszthato.blogspot.hu^
 ||*.mehebborc.com^
@@ -66482,7 +65619,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.meratsignons.com^
 ||*.merbleue.hk^
 ||*.merchant-businesses.com^
-||*.mercialtaver.club^
 ||*.merciselyancies.site^
 ||*.mercuras.com^
 ||*.mercury.bravenet.com^
@@ -66513,7 +65649,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.meteon.org^
 ||*.meteorsolutions.com^
 ||*.methidpossum.com^
-||*.methingewsf.club^
 ||*.metingsaeta.com^
 ||*.metmt.com^
 ||*.metododinheiro.pt^
@@ -66628,7 +65763,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.migransdghaisa.com^
 ||*.mikaeljigmo.com^
 ||*.mil-colores.com^
-||*.mil-gov.space^
 ||*.milabra.com^
 ||*.milanorangest.com^
 ||*.milawka.com^
@@ -66643,7 +65777,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mindenegybenblog.net^
 ||*.mindopu.com^
 ||*.mine.nahnoji.cz^
-||*.mine.torrent.pw^
 ||*.minemytraffic.com^
 ||*.minence.fr^
 ||*.minently.com^
@@ -66652,7 +65785,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.minero-proxy-01.now.sh^
 ||*.minero-proxy-02.now.sh^
 ||*.minero-proxy-03.now.sh^
-||*.minero.pw^
 ||*.minescripts.info^
 ||*.minexmr.stream^
 ||*.ming-dun.com.tw^
@@ -66662,11 +65794,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.miniapp.online^
 ||*.minidoc.ru^
 ||*.minimumgold.com^
-||*.mininghub.club^
 ||*.minireklam.com^
 ||*.minisms.xyz^
 ||*.minismss.xyz^
-||*.minr.pw^
 ||*.minsistetricket.xyz^
 ||*.mintake.com^
 ||*.minunetclose.com^
@@ -66676,13 +65806,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.miqsoft.hu^
 ||*.miraclejay.work^
 ||*.miraclenecklace.com^
-||*.mirafaren.pw^
 ||*.mirextpro.com^
 ||*.mirnauk.ru^
 ||*.mirnews.pro^
 ||*.mirror.smi.fm^
 ||*.mirrors.site50.net^
-||*.misafnix.space^
 ||*.misosoup.io^
 ||*.missiondues.com^
 ||*.misslk.com^
@@ -66717,7 +65845,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mlnadvertising.com^
 ||*.mlno6.com^
 ||*.mlntracker.com^
-||*.mlovem.pw^
 ||*.mlqq.store^
 ||*.mlstat.com^
 ||*.mltp.com^
@@ -66741,7 +65868,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mn.mn.co.cu^
 ||*.mn1nm.com^
 ||*.mnbvbrow.xyz^
-||*.mno.link^
 ||*.mnogodiva.ru^
 ||*.mnptinibfbv.com^
 ||*.mnsd.xyz^
@@ -66807,7 +65933,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.modescrips.info^
 ||*.modifymaintenance.com^
 ||*.modules.wcax.com^
-||*.moffreelance.biz^
 ||*.moguozhi.com^
 ||*.mohion.com^
 ||*.moijs.com^
@@ -66816,8 +65941,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mojoaffiliates.com^
 ||*.mokavilag.com^
 ||*.mokonocdn.com^
-||*.mokopoio.shop^
-||*.mol18.biz^
 ||*.mollnia.com^
 ||*.molocoads.com^
 ||*.momdola.com^
@@ -66836,7 +65959,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.moneybot.net^
 ||*.moneymaiker.ru^
 ||*.moneyraid.com^
-||*.moneysyst.biz^
 ||*.mongsonv.uno^
 ||*.monitor.adcaffe.com^
 ||*.monkeyball.osa.pl^
@@ -66857,19 +65979,16 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mopushy.com^
 ||*.moradu.com^
 ||*.moranoder.com^
-||*.morar.biz^
 ||*.morbitempus.com^
 ||*.moregamers.com^
 ||*.moreinfo.support^
 ||*.morenews3.net^
 ||*.mori.ink^
-||*.morlsbli.cyou^
 ||*.morning-maps.com^
 ||*.moronghumaner.com^
 ||*.mortgage-rates.now-cash.com^
 ||*.mortoncourbe.com^
 ||*.mortypush.com^
-||*.mostaboutm.biz^
 ||*.motbw.com^
 ||*.motfanner.com^
 ||*.motherehoom.pro^
@@ -66933,7 +66052,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ms.yandex.ru^
 ||*.ms247.plus.com^
 ||*.ms3388.com^
-||*.ms3t.club^
 ||*.msccabin.com^
 ||*.mscimg.com^
 ||*.msdk-files.webengage.com^
@@ -66951,7 +66069,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.msnm.com^
 ||*.msnsearch.srv.girafa.com^
 ||*.msnsports.com^
-||*.msri.club^
 ||*.mssmkj.com^
 ||*.mstgc.com^
 ||*.mstorer.net^
@@ -66987,7 +66104,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mugpothop.com^
 ||*.mujilora.com^
 ||*.mulato.info^
-||*.muliglsn.space^
 ||*.multileaguebookstore.com^
 ||*.multimater.com^
 ||*.multimedia-projector.katrina.ru^
@@ -66999,20 +66115,17 @@ geo.ritm.ru###audio-playback-firefox
 ||*.municalcurit.xyz^
 ||*.mupads.de^
 ||*.murbil.hostei.com^
-||*.murdenedo.club^
 ||*.musan.love^
 ||*.muscle-relaxers.1.p2l.info^
 ||*.musedalisma.com^
 ||*.music611.com^
 ||*.musicnote.info^
 ||*.musikzoo.com^
-||*.muskbtc.life^
 ||*.muskonealysson.com^
 ||*.mustang-browser.com^
 ||*.musthird.com^
 ||*.mutilatecoast.com^
 ||*.muvimtim.com^
-||*.muyijia.shop^
 ||*.muyoozrkkyr.com^
 ||*.muyviajero.com^
 ||*.muzhiying.xyz^
@@ -67038,9 +66151,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.my-stats.info^
 ||*.my.electricbalance.com^
 ||*.my.shymilftube.com^
-||*.my1688.shop^
 ||*.my2.hizliizlefilm.net^
-||*.my2.life^
 ||*.my83s1kw3u.com^
 ||*.myads.ru^
 ||*.myadshub.com^
@@ -67081,7 +66192,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mylinkbox.com^
 ||*.mylovecards.com^
 ||*.mymediarecommendations.com^
-||*.mymf.shop^
 ||*.mymoneymakingapp.com^
 ||*.mynagor.com^
 ||*.mynativeads.com^
@@ -67094,7 +66204,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.myprivateemails.com^
 ||*.mypush.online^
 ||*.mypushz.com^
-||*.myro.shop^
 ||*.myroitracking.com^
 ||*.myrrhicfoeman.com^
 ||*.myrrhiskie.com^
@@ -67122,12 +66231,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.mywei.love^
 ||*.mywhite.ru^
 ||*.mywifiext.fr^
-||*.myyuye.club^
 ||*.myzk1.com^
 ||*.mzcd.xyz^
 ||*.mzol7lbm.com^
 ||*.mzwfu.xyz^
-||*.mzwfw.club^
 ||*.mzy1.xyz^
 ||*.mzya5718.xyz^
 ||*.n-ad.work^
@@ -67170,7 +66277,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.napimigrans.com^
 ||*.napimigrans.info^
 ||*.napitrend.blogspot.hu^
-||*.napolimagazine.biz^
 ||*.nappybedcandid.com^
 ||*.narsap.com^
 ||*.nas-k.co.jp^
@@ -67225,7 +66331,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ndfsl.com^
 ||*.ndikvccwz.com^
 ||*.ndingcouncer.xyz^
-||*.nditlookslike.biz^
 ||*.ndtzx.com^
 ||*.nduad811.com^
 ||*.ndyzz.com^
@@ -67407,7 +66512,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.nhatvip.net^
 ||*.nhm32.site^
 ||*.nhn.dk^
-||*.nhqqv.space^
 ||*.nhqxzqvkj.com^
 ||*.ni87.com^
 ||*.nianshen.xyz^
@@ -67418,10 +66522,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.niche247.trade^
 ||*.nicheads.com^
 ||*.nickhel.com^
-||*.nidelove.club^
 ||*.niepanruanjian.com^
 ||*.niftymaps.com^
-||*.nighter.club^
 ||*.nightfallinquiredune.com^
 ||*.nightsgeological.com^
 ||*.nigrebud.net^
@@ -67439,12 +66541,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.nipwaghue.com^
 ||*.nirentang.com^
 ||*.nirifude.com^
-||*.nisafnic.space^
 ||*.nitrokod.com^
-||*.nitytolearnan.biz^
 ||*.niubiba.com^
 ||*.niuhe.xyz^
-||*.niulai0323166.space^
 ||*.niuspykmn.bar^
 ||*.niuxgame77.com^
 ||*.nization.com^
@@ -67511,17 +66610,13 @@ geo.ritm.ru###audio-playback-firefox
 ||*.nordette.4.p2l.info^
 ||*.nordicresearch.com^
 ||*.noritesroyally.com^
-||*.norlsbly.cyou^
 ||*.normanstaximan.com^
 ||*.normugtog.com^
 ||*.norseltraheen.com^
-||*.northbase.club^
-||*.northeregikgf.club^
 ||*.northernintimate.com^
 ||*.not-only.info^
 ||*.notebookstublouise.com^
 ||*.notecompilecogitate.com^
-||*.noticias.life^
 ||*.notification-browser.com^
 ||*.notification-centar.com^
 ||*.notification-list.com^
@@ -67549,7 +66644,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.novemberrainx.com^
 ||*.novembersightsoverhear.com^
 ||*.novosti247.com^
-||*.novostimira.biz^
 ||*.novostisporta.info^
 ||*.nowlooking.net^
 ||*.noxaffiliates.com^
@@ -67558,7 +66652,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.npario-inc.net^
 ||*.npgco.blueconic.net^
 ||*.nplxa.com^
-||*.nposition.club^
 ||*.nprove.com^
 ||*.npvos.com^
 ||*.nq42.com^
@@ -67594,7 +66687,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.nst.broadcast.pm^
 ||*.nster.net^
 ||*.nstracking.com^
-||*.nsurethatthe.biz^
 ||*.nt.compass-fit.jp^
 ||*.nt.imagine-inc.com^
 ||*.nta1vb6cdlrl.com^
@@ -67613,7 +66705,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ntxiru.com^
 ||*.nu26.com^
 ||*.nu9k.adj.st^
-||*.nuanqipian.pw^
 ||*.nubvetsag.com^
 ||*.nucleo.online^
 ||*.nuconomy.com^
@@ -67625,7 +66716,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.numberium.com^
 ||*.numbertrck.com^
 ||*.numnxwvv.ink^
-||*.nums1.link^
 ||*.nunailsum.com^
 ||*.nuqwe.com^
 ||*.nurobi.info^
@@ -67729,7 +66819,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.obscenitythefodder.com^
 ||*.observe.aniview.com^
 ||*.observerapp.com^
-||*.obtainlylibuk.club^
 ||*.obyz.de^
 ||*.oc.uk^
 ||*.occultcreed.com^
@@ -67796,7 +66885,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.oilcloze.com^
 ||*.oimg.nbcuni.com^
 ||*.oimsgad.qq.com^
-||*.oisafnik.space^
 ||*.oix.com^
 ||*.oix.net^
 ||*.oiya.ru^
@@ -67829,7 +66917,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.olkrzytv.com^
 ||*.olpfeere.com^
 ||*.om.dowjoneson.com^
-||*.omafaren.pw^
 ||*.omatri.info^
 ||*.ometrics.warnerbros.com^
 ||*.omg.esprit-click.com^
@@ -67867,7 +66954,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.onedrive-us-en.com^
 ||*.onegalact.com^
 ||*.onelink.appsflyer.com^
-||*.onemerelyingisr.club^
 ||*.onemontay.ru^
 ||*.onenag.com^
 ||*.onespot-tracking.herokuapp.com^
@@ -67886,14 +66972,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.onlineapi.youappi.com^
 ||*.onlinedownloads.org^
 ||*.onlineformfinder.com^
-||*.onlinekey.biz^
 ||*.onlinesupaads.com^
 ||*.onlinim.ru^
 ||*.only-valium.shengen.ru^
 ||*.only2date.com^
 ||*.only4men.ru^
 ||*.onmypc.net^
-||*.onolinclosesr.club^
 ||*.onrt-stsdk.vivoglobal.com^
 ||*.onsitestats.bluecore.com^
 ||*.ontheweb.com^
@@ -67903,7 +66987,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.oofun.com^
 ||*.oolakanunafire.com^
 ||*.ooq5z.com^
-||*.oorlsblk.cyou^
 ||*.oorunsey.com^
 ||*.oownik.com^
 ||*.ooxxsearch.com^
@@ -67985,7 +67068,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.originalicons.com^
 ||*.originedreting.site^
 ||*.orjzy.com^
-||*.orkonavariet.biz^
 ||*.orpixel.adsafeprotected.com^
 ||*.ortange.fr^
 ||*.ortho-tri-cyclen.1.p2l.info^
@@ -68013,8 +67095,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.oudccdjvh.com^
 ||*.oufteens.com^
 ||*.oughtbuilding.com^
-||*.oulddothesa.biz^
-||*.ouliglsu.space^
 ||*.oultuwee.net^
 ||*.oumax.oupeng.com^
 ||*.oumazg.com^
@@ -68039,7 +67119,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.outsoarpg.com^
 ||*.outtunova.com^
 ||*.outube.com^
-||*.ouues.space^
 ||*.ouxutong.com^
 ||*.ouzoadru.net^
 ||*.overboardbilingual.com^
@@ -68051,11 +67130,9 @@ geo.ritm.ru###audio-playback-firefox
 ||*.overlapflintsidenote.com^
 ||*.overloadhomes.com^
 ||*.overlypower.com^
-||*.overnment.club^
 ||*.oversightbullet.com^
 ||*.overthetopexad.com^
 ||*.overturnconstitution.com^
-||*.overyfamiliar.biz^
 ||*.ovgads.ovguide.com^
 ||*.ovgzbnjj.com^
 ||*.ovibospeseta.com^
@@ -68073,7 +67150,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ownerswifeimprove.com^
 ||*.ox11.com^
 ||*.oxanelinkups.com^
-||*.oxbet.club^
 ||*.oxbet.com^
 ||*.oxfami.com^
 ||*.oxharmonysample.com^
@@ -68123,7 +67199,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.p4psearch.china.alibaba.com^
 ||*.p64gk2yhba0p.com^
 ||*.p7ivj09f.xyz^
-||*.p7lvj09f.shop^
 ||*.p8u.hinet.net^
 ||*.pa-oa.com^
 ||*.pa.5.p2l.info^
@@ -68142,7 +67217,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.padssup.com^
 ||*.padstm.com^
 ||*.pagead2.googleadservices.com^
-||*.pageanalytics.space^
 ||*.pageplop.com^
 ||*.pager.site50.net^
 ||*.pagerank-backlink.eu^
@@ -68167,7 +67241,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.painmidsummer.com^
 ||*.painsko.com^
 ||*.paintball-gun.tripod.com^
-||*.paintifiercute.club^
 ||*.painting-walls.com^
 ||*.paintnet.es^
 ||*.paishuiban.ltd^
@@ -68176,7 +67249,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.palasidesdoor.com^
 ||*.palmendeals.blob.core.windows.net^
 ||*.palmicplod.com^
-||*.paluofen.shop^
 ||*.palyazatfigyelo.info^
 ||*.pamoran.net^
 ||*.pamphletrating.com^
@@ -68255,7 +67327,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.payday-loans.now-cash.com^
 ||*.payerscocoa.com^
 ||*.payingnoodlescam.com^
-||*.paymonsters.biz^
 ||*.payn.me^
 ||*.paypal-exchange.com^
 ||*.paypalcz.cz^
@@ -68267,7 +67338,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pc-agency24.de^
 ||*.pc-gizmos-ssl.com^
 ||*.pc-on-internet.com^
-||*.pc-virus-d0l92j2.pw^
 ||*.pc-wallpapers.co.uk^
 ||*.pc20160301.com^
 ||*.pc6cda10.com^
@@ -68354,7 +67424,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.peterfishwick.free-online.co.uk^
 ||*.petfoppew.com^
 ||*.petrafashion.com^
-||*.petrenko.biz^
 ||*.pets.finaltips.com^
 ||*.petsfairy.com^
 ||*.petsheying.com^
@@ -68373,7 +67442,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pftservice.click^
 ||*.pg-ad-b1.nosdn.127.net^
 ||*.pgalvaoteles.pt^
-||*.pgames.club^
 ||*.pgcode.org^
 ||*.pgeejqisao.com^
 ||*.pgmcdn.com^
@@ -68447,7 +67515,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.photos6.pop6.com^
 ||*.photos7.pop6.com^
 ||*.photos8.pop6.com^
-||*.php4you.biz^
 ||*.phpad.cqnews.net^
 ||*.phpads.astalavista.us^
 ||*.phpads.flipcorp.com^
@@ -68471,7 +67538,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pigpenchiba.com^
 ||*.pigredoben12.sytes.net^
 ||*.piledarriving.com^
-||*.pilgrimarym.club^
 ||*.pillowspopes.com^
 ||*.pillsmoney.com^
 ||*.pimmuter.com^
@@ -68571,7 +67637,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.play.mix.kinostuff.com^
 ||*.play.play1.videos.vidto.me^
 ||*.play.vidzi.tv^
-||*.play.yo.onvid.club^
 ||*.player.aniview.com^
 ||*.player.gliacloud.com^
 ||*.player.movenetworks.com^
@@ -68610,7 +67675,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.plyfoni.ru^
 ||*.plywoodenchant.com^
 ||*.pm.adsafeprotected.com^
-||*.pmbox.biz^
 ||*.pmdatabase.xyz^
 ||*.pmzer.com^
 ||*.pndagz.com^
@@ -68627,7 +67691,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pogonipgunner.com^
 ||*.pohs2oom.com^
 ||*.pointclicktrack.com^
-||*.poirreleast.club^
 ||*.poisom.com^
 ||*.pojulo.com^
 ||*.poke88.com^
@@ -68642,7 +67705,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.polelemploi.fr^
 ||*.policityseriod.info^
 ||*.polinaryapp.com^
-||*.polipol.pw^
 ||*.polishshinyspectacles.com^
 ||*.polkoa.com^
 ||*.pollet-rauen.de^
@@ -68656,7 +67718,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pooboafi.net^
 ||*.poodsboiko.com^
 ||*.poogriry.click^
-||*.pop.egi.biz^
 ||*.pop.redirect.adsjudo.com^
 ||*.pop.verplusonline.com^
 ||*.pop.virgilio.us^
@@ -68672,12 +67733,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.popec.net^
 ||*.pophahwot.com^
 ||*.popinads.com^
-||*.popiruss.pw^
 ||*.popmode.net^
 ||*.popmonetizer.com^
 ||*.popmycash.com^
 ||*.poponclick.com^
-||*.popped.biz^
 ||*.poppers-rush.ru^
 ||*.popsads.com^
 ||*.popsample.com^
@@ -68708,9 +67767,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.porekosa.lol^
 ||*.porekosa.mom^
 ||*.porekosa.pics^
-||*.porekosa.shop^
 ||*.porekosa.xyz^
-||*.porlsbll.cyou^
 ||*.porn-images-xxx.com^
 ||*.pornlemon.com^
 ||*.porno-lesben.cxa.de^
@@ -68719,7 +67776,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pornoprinzen.com^
 ||*.pornorunet.ru^
 ||*.pornoscanner.com^
-||*.pornovau.club^
 ||*.poromasremoted.com^
 ||*.port-connection.com^
 ||*.port.bg^
@@ -68775,8 +67831,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pr.hogei.info^
 ||*.pr0gram.org^
 ||*.praceline.com^
-||*.practeddagek.club^
-||*.practthreat.club^
 ||*.pradma.com^
 ||*.praktijkewalts.info^
 ||*.praktijkmariekehuisman.nl^
@@ -68800,7 +67854,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.preligions.com^
 ||*.preludeadv.it^
 ||*.premium-members.com^
-||*.premium-offers.space^
 ||*.premium-rx.com^
 ||*.premiumpedia.com^
 ||*.premiumproductsonline.com^
@@ -68814,9 +67867,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.prerogativebritishdial.com^
 ||*.preroot.xyz^
 ||*.presatisfy.com^
-||*.presbanise.pw^
 ||*.prescription-drugs.shengen.ru^
-||*.presdithas.pw^
 ||*.presentlyarch.com^
 ||*.presidency.site^
 ||*.presidentialagent.com^
@@ -68839,12 +67890,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.primecups.com^
 ||*.primevalsymphonymuttering.com^
 ||*.princesses.asia^
-||*.princided.club^
 ||*.principles.wang^
 ||*.print.khingtracking.com^
 ||*.print3.info^
 ||*.printapplink.com^
-||*.printmail.biz^
 ||*.priry.com^
 ||*.priv-policy.imrworldwide.com^
 ||*.privatteaser.ru^
@@ -68887,13 +67936,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.programdiag.com^
 ||*.programme-media.fr^
 ||*.programminghonourable.com^
-||*.prograph.club^
 ||*.projectgoals.net^
 ||*.projectpoi.com^
 ||*.projectsunblock.com^
 ||*.projetsascend.com^
 ||*.prolinker.ru^
-||*.promclickapp.biz^
 ||*.promisingsquall.com^
 ||*.promlinkdev.com^
 ||*.promo.adult-torrent.com^
@@ -68926,14 +67973,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.promotionalads.yahoo.co.jp^
 ||*.promotools.islive.nl^
 ||*.promotools.vpscash.nl^
-||*.promoworld.pw^
 ||*.proofly.date^
 ||*.proofly.win^
 ||*.proofpositivemedia.com^
 ||*.proparm.jp^
 ||*.propecia.1.p2l.info^
 ||*.propellerpops.com^
-||*.properatery.club^
 ||*.propositionsensitivity.com^
 ||*.prorodeosportmed.com^
 ||*.prosecutorcessationdial.com^
@@ -69008,7 +68053,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.psewhaur.net^
 ||*.psiwaphado.pro^
 ||*.psl93qx.site^
-||*.pslnk.link^
 ||*.psma03.com^
 ||*.psoaptou.net^
 ||*.psonstrentie.info^
@@ -69023,7 +68067,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.psychologywoman.com^
 ||*.psydyrony.com^
 ||*.psytupuny.com^
-||*.pt.beststreams.club^
 ||*.pt5.titans-gel.net^
 ||*.ptadsrv.de^
 ||*.ptarepjx.com^
@@ -69046,7 +68089,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.pub.gdb-host.com^
 ||*.pub.plan-dial.com^
 ||*.pub.sapo.pt^
-||*.pub.sv2.biz^
 ||*.pub1.co^
 ||*.pubacca5mc.com^
 ||*.pubcloud.pub^
@@ -69196,15 +68238,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.qhnwj.com^
 ||*.qian-tao.xyz^
 ||*.qianchengwenhua.xyz^
-||*.qianduoduo.fit^
-||*.qiangren.biz^
 ||*.qiangzai.work^
 ||*.qianhua.co^
 ||*.qianmeiby.com^
-||*.qiannian.biz^
 ||*.qianyan.love^
 ||*.qianyuntengyue.com^
-||*.qiaofu.shop^
 ||*.qiaopiguniang.com^
 ||*.qiaoxiaomiao.com^
 ||*.qichegongxiang.xyz^
@@ -69228,14 +68266,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.qiqipower.com^
 ||*.qiqiyii.com^
 ||*.qiruidea.com^
-||*.qisafniy.space^
 ||*.qivsod.com^
 ||*.qiyeb.iaskbus.com^
 ||*.qiyijiazhuangshi.com^
 ||*.qiyou.com^
-||*.qiyu.shop^
 ||*.qjudpxkisv.xyz^
-||*.qkf7jq3b.space^
 ||*.qkffv.com^
 ||*.qkptx.com^
 ||*.qksz.net^
@@ -69249,7 +68284,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.qogbgxne.com^
 ||*.qongsonw.uno^
 ||*.qoredi.com^
-||*.qorlsbls.cyou^
 ||*.qorosmall.com^
 ||*.qp3lgzt6exyn.com^
 ||*.qpdownload.com^
@@ -69272,20 +68306,16 @@ geo.ritm.ru###audio-playback-firefox
 ||*.qrstes.com^
 ||*.qshare.ru^
 ||*.qshxc.com^
-||*.qskj.club^
 ||*.qslychhjeo.com^
 ||*.qss-client.qq.com^
 ||*.qssa.co.uk^
-||*.qsxfsp.shop^
 ||*.quad-cleaner.com^
 ||*.qualifiedourspecialoffer.com^
 ||*.quality-channel.de^
 ||*.qualityindustrialcoatings.com^
-||*.qualityofeve.biz^
 ||*.qualmsmixmild.com^
 ||*.quangcao247.com.vn^
 ||*.quanin.xyz^
-||*.quanwu.shop^
 ||*.quanxiaozi.com^
 ||*.quatrefeuillepolonaise.xyz^
 ||*.quber.ru^
@@ -69309,7 +68339,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.quidachieve.com^
 ||*.quideo.men^
 ||*.quik-serv.com^
-||*.quilee.pw^
 ||*.quinnwealth.com^
 ||*.quiremuken.xyz^
 ||*.quite-bag-seed-catch.xyz^
@@ -69322,7 +68351,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.qutltjamq.com^
 ||*.quwecgjiibsq.com^
 ||*.qvpublish.com^
-||*.qwe.qrrgv.space^
 ||*.qwebirc.swiftirc.net^
 ||*.qweewq2021.site^
 ||*.qwertytracks.com^
@@ -69358,7 +68386,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.r.popin.cc^
 ||*.r.topdent.ru^
 ||*.r2.adwo.com^
-||*.r20.club^
 ||*.r2prod.com^
 ||*.r3adyt0download.com^
 ||*.r5.dir.bg^
@@ -69390,7 +68417,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.randomlane.net^
 ||*.randppro-cuts.com^
 ||*.rang.com.ua^
-||*.ranke.link^
 ||*.ranking-counter.de^
 ||*.rankingpartner.com^
 ||*.rankings24.de^
@@ -69462,7 +68488,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.realincestvideos.com^
 ||*.realist.gen.tr^
 ||*.realmedia.advance.net^
-||*.realnews.life^
 ||*.realplayz.com^
 ||*.realtimewebstats.net^
 ||*.realzeit.io^
@@ -69526,9 +68551,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.reducelnk.com^
 ||*.reductionjogvast.com^
 ||*.redvase.bravenet.com^
-||*.reedthatm.biz^
 ||*.reelcentric.com^
-||*.reenginee.club^
 ||*.reenrageasse.xyz^
 ||*.reesttowny.com^
 ||*.reevaipi.com^
@@ -69629,7 +68652,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.rentfromart.com^
 ||*.rentingketch.com^
 ||*.renxinghuan.com^
-||*.reotherebyfery.club^
 ||*.reoxclick.com^
 ||*.rep0pkgr.com^
 ||*.repbowdew.com^
@@ -69656,7 +68678,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.reproofdibase.com^
 ||*.repruggob.com^
 ||*.reptilesire.com^
-||*.requentlyfths.club^
 ||*.rereddit.com^
 ||*.rereegny.net^
 ||*.reroplittrewheck.pro^
@@ -69682,7 +68703,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.restaurantsstar.com^
 ||*.restedhope.com^
 ||*.restights.pro^
-||*.restoring.club^
 ||*.restrictbench.com^
 ||*.resultsz.com^
 ||*.resumersvo.fun^
@@ -69771,7 +68791,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.rigfoxcup.site^
 ||*.rightenedetu.site^
 ||*.righteouscentral.com^
-||*.rightiescolled.club^
 ||*.rightmedia.net^
 ||*.rights.wang^
 ||*.rik.win^
@@ -69785,14 +68804,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ringtonematcher.com^
 ||*.ringtonepartner.com^
 ||*.rinn.love^
-||*.rio66qc.club^
-||*.riousstylegui.biz^
 ||*.ripplead.com^
 ||*.ripplestika.site^
 ||*.riptukri.net^
 ||*.riqosf.com^
 ||*.riqu2015.com^
-||*.risafniz.space^
 ||*.risale.ru^
 ||*.rise2xrp.com^
 ||*.riskybus.f9.co.uk^
@@ -69806,7 +68822,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.riverhitc.com^
 ||*.riverpush.com^
 ||*.rivrai.com^
-||*.riy9qqfu.club^
 ||*.riy9qqfu.xyz^
 ||*.riy9qqfushop.xyz^
 ||*.rizzonelli.it^
@@ -69828,7 +68843,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.rmt.plus^
 ||*.rmwdn.com^
 ||*.rmxads.com^
-||*.rndchanseytor.club^
 ||*.rngetek.com^
 ||*.rnmd.net^
 ||*.rnnuw.com^
@@ -69845,7 +68859,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.rockyou.net^
 ||*.rocm0c.site^
 ||*.rodplxlpc.com^
-||*.roewnand.biz^
 ||*.rof77skt5zo0.com^
 ||*.roi-pro.com^
 ||*.roi-rocket.net^
@@ -69866,23 +68879,18 @@ geo.ritm.ru###audio-playback-firefox
 ||*.romepartners.com^
 ||*.rongedui.com^
 ||*.rongnews.com^
-||*.rongnuo.pw^
 ||*.rongsonm.uno^
-||*.rongxin.biz^
 ||*.roojouma.com^
 ||*.rookads.com^
 ||*.rookmemorizevoluntary.com^
 ||*.roosevelt.gjbig.com^
 ||*.roosterfirework.com^
 ||*.root--servers.org^
-||*.rootstood.club^
 ||*.roredi.com^
-||*.rorlsblm.cyou^
 ||*.ros-infonews.ru^
 ||*.rosafondente.it^
 ||*.rossoad.com^
 ||*.rotation-context.ru^
-||*.rotator.onokino.club^
 ||*.rotator.promokrot.com^
 ||*.rotdubboy.com^
 ||*.rotfrigilityfrigility.com^
@@ -69923,7 +68931,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.rsalcch.com^
 ||*.rsaltsjt.com^
 ||*.rsepv.com^
-||*.rskillsplu.club^
 ||*.rss.dtiserv.com^
 ||*.rstg.io^
 ||*.rsuuc.com^
@@ -69964,8 +68971,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ruelliaforgift.com^
 ||*.rufadses.net^
 ||*.rufflycouncil.com^
-||*.ruide168.pw^
-||*.ruidekatao.pw^
 ||*.ruif.xyz^
 ||*.ruifeng99.com^
 ||*.ruigezx.com^
@@ -69975,7 +68980,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.rules.aatkit.com^
 ||*.rules2.aatkit.com^
 ||*.rules3.aatkit.com^
-||*.ruliglso.space^
 ||*.rum.nccgroup-webperf.com^
 ||*.rumanalytics.com^
 ||*.rumerrand.com^
@@ -70009,7 +69013,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ruxianke.com^
 ||*.rvlmpo.xyz^
 ||*.rvwtpwmtnfj.com^
-||*.rwhxz.space^
 ||*.rwjfs.com^
 ||*.rwlfznyvivh.com^
 ||*.rwpypf.com^
@@ -70018,7 +69021,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ryliphuhy.com^
 ||*.ryminos.com^
 ||*.ryosuke.plus.com^
-||*.rysubmission.biz^
 ||*.ryynoljdarrw.com^
 ||*.rzbkusrz.com^
 ||*.rzjirk.com^
@@ -70203,7 +69205,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.schumacher.adtech.fr^
 ||*.schumacher.adtech.us^
 ||*.schwule-boys-nackt.cxa.de^
-||*.sciencem.club^
 ||*.scissorstenantplot.com^
 ||*.sckxppzdm.com^
 ||*.sclatekelia.com^
@@ -70363,7 +69364,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.seductiveamateurs.com^
 ||*.see-back.com^
 ||*.see-work.info^
-||*.seed.bitcoin.wiz.biz^
 ||*.seedapp-creative.s3.amazonaws.com^
 ||*.seekads.net^
 ||*.seekinstantly.com^
@@ -70372,7 +69372,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.seertul.com^
 ||*.seg.mmtro.com^
 ||*.segment.api.useinsider.com^
-||*.sehd.shop^
 ||*.sehtjv.com^
 ||*.seinse27.com^
 ||*.seitsinlike.com^
@@ -70435,7 +69434,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.seopult.ru^
 ||*.seorate.ru^
 ||*.seosape.com^
-||*.separenujilo.club^
 ||*.septembership.com^
 ||*.sepyra.com^
 ||*.seraialumins.com^
@@ -70447,7 +69445,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.serialinfo.ru^
 ||*.serie-vostfr.com^
 ||*.seriend.com^
-||*.seriouspartner.biz^
 ||*.seriouspartner.ru^
 ||*.serv-ac.com^
 ||*.serve.mediayan.com^
@@ -70581,7 +69578,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.shares-cloud.com^
 ||*.sharethrough.adnxs.com^
 ||*.shaunfennings.plus.com^
-||*.shaxon.shop^
 ||*.shcd.me^
 ||*.shcy3.com^
 ||*.shcylxl.com^
@@ -70608,7 +69604,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.shilong.xyz^
 ||*.shilternimpossip.xyz^
 ||*.shinasi.info^
-||*.shinearmor.space^
 ||*.shinedns.net^
 ||*.shinilchurch.net^
 ||*.shino3ur.xyz^
@@ -70635,7 +69630,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.shoppingjobshere.com^
 ||*.shopsutike.com^
 ||*.shoptimally.com^
-||*.shopwizz.digital-comet.biz^
 ||*.shore-view.com^
 ||*.shoresblared.com^
 ||*.short-share.com^
@@ -70657,17 +69651,14 @@ geo.ritm.ru###audio-playback-firefox
 ||*.showbiz.mail.ru^
 ||*.showcaserealestate.net^
 ||*.showcasethat.com^
-||*.showeveresz.club^
 ||*.shproud.com^
 ||*.shqbsdjatunl.com^
 ||*.shrillbighearted.com^
 ||*.shrimpsqueezed.com^
 ||*.shrinkearn.com^
 ||*.shroffmere.com^
-||*.shtu.shop^
 ||*.shuai.love^
 ||*.shuanglequ.xyz^
-||*.shuangliu.link^
 ||*.shuazili.wang^
 ||*.shucaihangjia.com^
 ||*.shuffele.com^
@@ -70693,7 +69684,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sift-campaign-creatives.sift.co^
 ||*.sifuglie.com^
 ||*.sigmaad.com^
-||*.significbystal.club^
 ||*.signpetition.co^
 ||*.signup-way.com^
 ||*.signup.advance.net^
@@ -70722,8 +69712,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sin1-ib.adnxs.com^
 ||*.sin1.geoadnxs.com^
 ||*.sin3-ib.adnxs.com^
-||*.sin88.biz^
-||*.sina-img.club^
 ||*.sinaalicdn.com^
 ||*.sinatrakohens.com^
 ||*.sinawbimg.com^
@@ -70741,7 +69729,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sirius-expedition.com^
 ||*.sirokad.net^
 ||*.sis.jpush.io^
-||*.sisafnib.space^
 ||*.sisewepod.com^
 ||*.sistemishop.it^
 ||*.site-kaiseki-tool.com^
@@ -70814,8 +69801,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sleeper-sofa.dreamhoster.com^
 ||*.sleepymosquenutrient.com^
 ||*.sleepzn.com^
-||*.slejv.space^
-||*.slgo.club^
 ||*.slickjump.net^
 ||*.slimads.vn^
 ||*.slimilycosaque.com^
@@ -70885,7 +69870,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.slopeac.com^
 ||*.slorent.com^
 ||*.slotscity.g2afse.com^
-||*.slowerwave.cyou^
 ||*.slowmacfaster.trade^
 ||*.slrviazqkilu.com^
 ||*.sls2.loisirsencheres.com^
@@ -70894,9 +69878,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.smac-ssp.com^
 ||*.smackbolt.com^
 ||*.smailes.plus.com^
-||*.smallapp.club^
 ||*.smart-scripts.com^
-||*.smartaccess.biz^
 ||*.smartadtags.com^
 ||*.smartadv.ru^
 ||*.smartcanvas.net^
@@ -70927,7 +69909,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.smile-angel.com^
 ||*.smilered.com^
 ||*.smileycentral.com^
-||*.smilitygorb.club^
 ||*.smilk.cc^
 ||*.smimarket.com^
 ||*.smithwick.net^
@@ -70939,7 +69920,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.smpgfx.com^
 ||*.smrtbnr.com^
 ||*.smrtbnr.info^
-||*.smrtbnr.space^
 ||*.smrtgs.com^
 ||*.smrtlnks.com^
 ||*.smrtrdrct.com^
@@ -70953,7 +69933,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.smv.to^
 ||*.smxay.com^
 ||*.smxsg.com^
-||*.smyvividi.club^
 ||*.sn00.net^
 ||*.snaretoeburp.work^
 ||*.snarlsevres.com^
@@ -70962,7 +69941,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.snessubsets.pro^
 ||*.sngsn.fun^
 ||*.snickunfairtheatres.com^
-||*.snifferent.club^
 ||*.sniglet.online^
 ||*.sniphub.com^
 ||*.snitchcompany.com^
@@ -70996,7 +69974,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sociocast.com^
 ||*.sockjs-goguardian.pusher.com^
 ||*.socvip.com^
-||*.socvip9.club^
 ||*.sodoit.com^
 ||*.sodoviet.net^
 ||*.soft4dle.com^
@@ -71039,7 +70016,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.someperceptionparade.com^
 ||*.sometired.com^
 ||*.sometrics.com^
-||*.somewhate.club^
 ||*.sompuserve.com^
 ||*.somuchrain.com^
 ||*.sonata-notifications-us-east.taptapnetworks.com^
@@ -71113,7 +70089,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.speedcounts.com^
 ||*.speednetwork14.com^
 ||*.speedrep.com^
-||*.speedup.cyou^
 ||*.speedyclick.com^
 ||*.speedyfox.io^
 ||*.speedyrhino.co^
@@ -71129,7 +70104,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.spire.aarki.net^
 ||*.spiritedirreparablemiscarriage.com^
 ||*.spitter.pauk.ru^
-||*.spittsprevi.club^
 ||*.spitzerpfunde.com^
 ||*.spixel.adsafeprotected.com^
 ||*.spjxwlkj.com^
@@ -71148,9 +70122,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.spontaneousguarded.com^
 ||*.spoods.rce.veeseo.com^
 ||*.spoonslaxoil.com^
-||*.sport205.club^
 ||*.sportinggritlouisa.com^
-||*.sports-live-streams.club^
 ||*.sportsyndicator.com^
 ||*.sportupdates.info^
 ||*.spotrails.com^
@@ -71158,7 +70130,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.spottt.com^
 ||*.spr-rtr.com^
 ||*.spr.welt.de^
-||*.spreadcreative.club^
 ||*.spreement.com^
 ||*.sprincipal.com^
 ||*.spring-tns.net^
@@ -71219,7 +70190,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ssephora.fr^
 ||*.ssiapawz.com^
 ||*.ssjxwlkj.com^
-||*.ssjy.shop^
 ||*.ssl.eroscomix.com^
 ||*.ssl2anyone3.com^
 ||*.ssl2anyone5.com^
@@ -71279,17 +70249,14 @@ geo.ritm.ru###audio-playback-firefox
 ||*.stat.novostimira.com^
 ||*.stat.radar.imgsmail.ru^
 ||*.stat.ringier.sk^
-||*.stat.rolledwil.biz^
 ||*.stat.ruvr.ru^
 ||*.stat.tiara.kakao.com^
 ||*.stat.tvigle.ru^
-||*.stat.uitools.space^
 ||*.stat.valica.it^
 ||*.stat.videonow.ru^
 ||*.stat1.z-stat.com^
 ||*.stat24.ru^
 ||*.statcamp.net^
-||*.statcounter.biz^
 ||*.stathound.com^
 ||*.static-ads.akamaized.net^
 ||*.static-ads.zaloapp.com^
@@ -71460,7 +70427,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.stewlinedull.com^
 ||*.stezuzeje.com^
 ||*.stg-data-collector.playbuzz.com^
-||*.stheconc.club^
 ||*.sticans.pro^
 ||*.stickyharry.com^
 ||*.stiffnetwork.com^
@@ -71473,7 +70439,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.stoakrig.net^
 ||*.stoashou.net^
 ||*.stocker.bonnint.net^
-||*.stompebi.link^
 ||*.stonecalcom.com^
 ||*.stonergraces.com^
 ||*.stoneshards.ru^
@@ -71511,7 +70476,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.stripteas.com^
 ||*.stripvidz.com^
 ||*.stronglygathering.com^
-||*.stroublederaa.club^
 ||*.struq.com^
 ||*.sts.batmobi.net^
 ||*.sts.eccmp.com^
@@ -71550,7 +70514,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sueed.love^
 ||*.suggestionwallpaperhump.com^
 ||*.suhusushi.com^
-||*.suigeng.shop^
 ||*.suissemicron.com^
 ||*.suitesmart.com^
 ||*.sukodanos.click^
@@ -71558,7 +70521,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sukodanos.mom^
 ||*.sukodanos.pics^
 ||*.sukodanos.xyz^
-||*.suliglsr.space^
 ||*.sullensregimes.com^
 ||*.sumapo.org^
 ||*.sumatoad.com^
@@ -71599,7 +70561,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.supernfq.com^
 ||*.superstyle.ru^
 ||*.supertura.com^
-||*.supjav.buzz^
 ||*.supletcedintand.pro^
 ||*.supplements.1.p2l.info^
 ||*.support-ip.com^
@@ -71608,10 +70569,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.supposefright.com^
 ||*.suprama.online^
 ||*.supreme-hunter.com^
-||*.supremish.club^
 ||*.suqiguoji.wang^
 ||*.sur-navigator.srv43.ru^
-||*.surefire.link^
 ||*.surf-bar-traffic.com^
 ||*.surf-traffic.com^
 ||*.surfcounters.com^
@@ -71666,7 +70625,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.swxun.com^
 ||*.sx.nazari.org^
 ||*.sx.z0rz.com^
-||*.sxbme.club^
 ||*.sxbxzc.com^
 ||*.sxdyrq.com^
 ||*.sxgbwlkjkj.xyz^
@@ -71677,7 +70635,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sxmyyx.com^
 ||*.sxqyuming.xyz^
 ||*.sxrgd.com^
-||*.sxrs.shop^
 ||*.sxswjkgs.com^
 ||*.sxtc.wang^
 ||*.sxympy.com^
@@ -71689,9 +70646,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.sycbbs.com^
 ||*.sydz.tw^
 ||*.sylicomservicios.com^
-||*.sylmyar.pw^
 ||*.sylvia.cloud^
-||*.sylwenys.pw^
 ||*.sym.zone^
 ||*.symantex.com^
 ||*.sympathetictasting.com^
@@ -71809,14 +70764,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tags.newscgp.com^
 ||*.tags.viewdeos.com^
 ||*.tagsadvancenative-glb8iionio2cozc.netdna-ssl.com^
-||*.tahuixin.club^
 ||*.tai789.win^
 ||*.taigasquarl.com^
 ||*.taikangshenyuan.com^
 ||*.taiphaib.net^
 ||*.taipingyang.hk^
 ||*.taishijian.com^
-||*.taishu.shop^
 ||*.taiwhups.net^
 ||*.takidd.site^
 ||*.talaropa.com^
@@ -71825,7 +70778,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.talentbroker.net^
 ||*.talk.igexin.com^
 ||*.talkable.com^
-||*.talkingdom.club^
 ||*.talkmego.com^
 ||*.tallergestion.com^
 ||*.tallowstwangle.com^
@@ -71852,7 +70804,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.taoguanda.com^
 ||*.taoguohe.com^
 ||*.taohanpai.com^
-||*.taopiaopiao.shop^
 ||*.taoquan365.net^
 ||*.taoviep.mom^
 ||*.taoyao.tech^
@@ -71902,7 +70853,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tdameritrade.demdex.net^
 ||*.tdayi.com^
 ||*.tdcv3.talkingdata.net^
-||*.tdjc.shop^
 ||*.tdk.ink^
 ||*.tdkrevfg.com^
 ||*.tds.exopay.ru^
@@ -71925,7 +70875,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.te.supportfreecontent.com^
 ||*.te.trb.com^
 ||*.te.versiontracker.com^
-||*.teacher1.shop^
 ||*.teachscape.vo.llnwd.net^
 ||*.teakreese.com^
 ||*.teambetaffiliates.com^
@@ -71990,7 +70939,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.terralink.xyz^
 ||*.terrificlukewarm.com^
 ||*.territoria-remonta.ru^
-||*.terrout9.biz^
 ||*.terttalkinhitin.pro^
 ||*.teser.net^
 ||*.teslaamg.obs.cn-east-3.myhuaweicloud.com^
@@ -72032,12 +70980,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.thackgooder.com^
 ||*.thainews.asia^
 ||*.thanksinhabitedregretful.com^
-||*.thatitgivesm.biz^
 ||*.thatrendsystem.com^
 ||*.thatsping.jp^
 ||*.thauftoa.net^
 ||*.thaveksi.net^
-||*.the-binary-trader.biz^
 ||*.the-bitcoin-erapro.com^
 ||*.the-bitcoinpro.com^
 ||*.the-bitlq.com^
@@ -72048,7 +70994,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.theactivetag.com^
 ||*.theappanalytics.com^
 ||*.theatlantic.blueconic.net^
-||*.theatrialmero.club^
 ||*.thebestlinks.com^
 ||*.thebestoffersintheweb.com^
 ||*.thebigoutdoors.co.uk^
@@ -72107,7 +71052,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.thishare.com^
 ||*.thisisyourprize.site^
 ||*.thismetric.com^
-||*.thispositionw.biz^
 ||*.thistocapsy.com^
 ||*.thizamocu.pro^
 ||*.thjxwlkj.com^
@@ -72168,19 +71112,16 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tingechoseseverely.com^
 ||*.tinggalklik.com^
 ||*.tinglian.com^
-||*.tingsec.link^
 ||*.tingyusw.xyz^
 ||*.tinkermockingmonitor.com^
 ||*.tinkerta.com^
 ||*.tinquestions.com^
 ||*.tinycounter.com^
-||*.tionmodat.club^
 ||*.tipsurf.com^
 ||*.tirqeso.ru^
 ||*.tirreleaseavailan.xyz^
 ||*.tirsmile.pro^
 ||*.tirusoge.com^
-||*.tisafnii.space^
 ||*.tisagama.com^
 ||*.tiser.com^
 ||*.tisref.com^
@@ -72229,7 +71170,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tkshyp.com^
 ||*.tl.tradetracker.net^
 ||*.tl2go.com^
-||*.tlafu.space^
 ||*.tlauder.f9.co.uk^
 ||*.tldtgs.com^
 ||*.tle.ru^
@@ -72337,10 +71277,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.topcashvibes.com^
 ||*.topconsumergifts.com^
 ||*.topcto.ru^
-||*.topdatingclub.life^
 ||*.topdemaroc.com^
 ||*.topdepo.com^
-||*.topeuro.biz^
 ||*.tophirek.hu^
 ||*.tophot-news.com^
 ||*.topiccraze.com^
@@ -72361,7 +71299,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.topsem.com^
 ||*.topstat.com^
 ||*.topworld.nl^
-||*.torgdom.biz^
 ||*.torgi.kz^
 ||*.torgochthroat.com^
 ||*.torimochi-ad.net^
@@ -72375,7 +71312,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.total-media.net^
 ||*.totallifeguru.com^
 ||*.tothemoon.incest-porno.pro^
-||*.totoro.link^
 ||*.totorogyring.com^
 ||*.totszentmarton.hu^
 ||*.touch.media-serving.com^
@@ -72395,7 +71331,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tp1jcgl644jk.com^
 ||*.tpads.ovguide.com^
 ||*.tpe163.com^
-||*.tpm.pw^
 ||*.tpnads.com^
 ||*.tptrk.ru^
 ||*.tpx.tesseradigital.com^
@@ -72595,13 +71530,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.trackmyusers.com^
 ||*.trackmyweb.net^
 ||*.trackocean.com^
-||*.trackpath.biz^
 ||*.tracks.arubamediamarketing.it^
 ||*.trackset.it^
 ||*.trackstarsengland.net^
 ||*.tracksurf.daooda.com^
 ||*.trackthatad.com^
-||*.trackword.biz^
 ||*.trackyourlinks.com^
 ||*.trackyourstats.com^
 ||*.trackzapper.com^
@@ -72610,7 +71543,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tradeexchanging.com^
 ||*.tradelax.com^
 ||*.tradem.com^
-||*.tradescape.biz^
 ||*.trading24.io^
 ||*.traf2me.ru^
 ||*.trafex.net^
@@ -72746,7 +71678,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.trocado.at^
 ||*.trofvid.com^
 ||*.trombegoitcho.com^
-||*.tronglyre.club^
 ||*.tropicalos.com^
 ||*.trothko.com^
 ||*.trotux.com^
@@ -72853,7 +71784,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tukeai.com^
 ||*.tukexiu.com^
 ||*.tulecheja.pro^
-||*.tuliglsd.space^
 ||*.tulip18.com^
 ||*.tummiarunzpf.com^
 ||*.tummyunmovedfetch.com^
@@ -72911,7 +71841,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.tx2.ru^
 ||*.txcmjo.com^
 ||*.txgg2022bisheng.com^
-||*.txie.club^
 ||*.txlidi.ink^
 ||*.txmsw.mobi^
 ||*.txmusk.net^
@@ -72956,7 +71885,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.uballcc.com^
 ||*.ubertags.com^
 ||*.ubertracking.info^
-||*.ubjectsandie.biz^
 ||*.ubmcmm.baidustatic.com^
 ||*.ubmcvideo.baidustatic.com^
 ||*.ubuntu-fr.fr^
@@ -72964,9 +71892,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.uc.zhuici.com^
 ||*.uc610.com^
 ||*.ucalte.com^
-||*.ucationin.club^
 ||*.ucdn.website^
-||*.ucesreferre.club^
 ||*.ucheephu.com^
 ||*.uchmuk.com^
 ||*.uclo.net^
@@ -72977,7 +71903,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ud860ec5.com^
 ||*.udalmanresuit.com^
 ||*.udc-neb.kampyle.com^
-||*.udiy.club^
 ||*.udm.scorecardresearch.com^
 ||*.ue4.store^
 ||*.uedata.amazon.com^
@@ -72997,7 +71922,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.uhotw.xyz^
 ||*.uhsmmaq4l2n5.com^
 ||*.uigruwtql.com^
-||*.uisafnit.space^
 ||*.uiuspakmn.bar^
 ||*.uj0g7.com^
 ||*.ujccccb.com^
@@ -73037,7 +71961,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.uncinalmystes.com^
 ||*.unconditionally.wang^
 ||*.uncoverherbal.com^
-||*.undedfracted.club^
 ||*.underdone.ru^
 ||*.underdorakely.com^
 ||*.undere.com^
@@ -73053,7 +71976,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.undm.qibulo.com^
 ||*.uneede.com^
 ||*.ungainarmers.com^
-||*.ungstlateriag.club^
 ||*.unhappywaxdamaging.com^
 ||*.unhwav.com^
 ||*.uniad.vn^
@@ -73063,7 +71985,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.unicume.com^
 ||*.unified.adsafeprotected.com^
 ||*.unifini.de^
-||*.uniformery.club^
 ||*.union.baidu.com^
 ||*.unionssoothe.com^
 ||*.uniquecaptcha.com^
@@ -73100,7 +72021,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.uole.ad.uol.com.br^
 ||*.uongsona.uno^
 ||*.uongsono.uno^
-||*.uorlsblg.cyou^
 ||*.uoyrsd.com^
 ||*.up-rank.com^
 ||*.upasiansex.com^
@@ -73135,7 +72055,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.uramog.com^
 ||*.urbanodecalle.com^
 ||*.urgigan.info^
-||*.uriren.pw^
 ||*.url-redirect.com^
 ||*.url2all.net^
 ||*.urlbrief.com^
@@ -73154,7 +72073,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.us-microsoft-store.com^
 ||*.us-trk.bidmatrixdsp.com^
 ||*.us.3zs0.date^
-||*.us.b3018.pw^
 ||*.us.yeshen.com^
 ||*.us4post.com^
 ||*.usa.cc^
@@ -73168,7 +72086,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.usefavour.xyz^
 ||*.usekahuna.com^
 ||*.uselayer.com^
-||*.usemyreferral.link^
 ||*.usenetpassport.com^
 ||*.user-clicks.com^
 ||*.user.in.net^
@@ -73252,7 +72169,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vafw.adsafeprotected.com^
 ||*.vahufapave.com^
 ||*.vaigowoa.com^
-||*.vaitu.club^
 ||*.vakarek.info^
 ||*.validate.appsflyer.com^
 ||*.validator.lomadee.com^
@@ -73304,7 +72220,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vchim.com^
 ||*.vcslotoplay.com^
 ||*.vdbunt.net^
-||*.vddf0.club^
 ||*.vdhu.com^
 ||*.vdkejkyztas.com^
 ||*.vdoing.com^
@@ -73314,14 +72229,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vedeh.com^
 ||*.veewhaiw.com^
 ||*.vegabet.net^
-||*.veirregnant.club^
 ||*.vempozah.net^
-||*.venator.link^
 ||*.vendnibtemp.com^
 ||*.vengbald.fun^
 ||*.vengovision.ru^
-||*.vennala.pw^
-||*.venotrouble.biz^
 ||*.ventite.com^
 ||*.venuegirtjive.com^
 ||*.ver-pelis.net^
@@ -73343,7 +72254,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vespymedia.com^
 ||*.vetcheslegumen.com^
 ||*.vetdeberg.com^
-||*.veterok2.pw^
 ||*.vezetmne.ru^
 ||*.vf7.soundsecureredir.com^
 ||*.vfbvcshnc.com^
@@ -73448,7 +72358,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.villagarden.pl^
 ||*.villalecchi.com^
 ||*.vimjarawl.com^
-||*.vimmenced.club^
 ||*.vimvio.ru^
 ||*.vinaads.vn^
 ||*.vinkelvej12.dk^
@@ -73477,7 +72386,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.viralize.tv^
 ||*.viralninjas.com^
 ||*.viralture.com^
-||*.virnews.club^
 ||*.virt0n.news^
 ||*.virtonnews.com^
 ||*.virtuallycoollybarber.com^
@@ -73569,7 +72477,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.voocl.com^
 ||*.voodooalerts.com^
 ||*.voredi.com^
-||*.vorlsblf.cyou^
 ||*.vote.sibnet.ru^
 ||*.votetoda.com^
 ||*.votistics.com^
@@ -73610,9 +72517,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vtizr.com^
 ||*.vtoyshop.com^
 ||*.vtracker.net^
-||*.vua1004.club^
-||*.vua1005.club^
-||*.vuaclub1008.club^
 ||*.vuahb.com^
 ||*.vueujv.com^
 ||*.vuksoude.net^
@@ -73620,7 +72524,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vulcan.branch.io^
 ||*.vulcan.wiki^
 ||*.vulcannonibird.de^
-||*.vuliglsf.space^
 ||*.vulturechinamaternity.com^
 ||*.vumnxwvf.ink^
 ||*.vupload.duowan.com^
@@ -73640,7 +72543,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.vwin010.com^
 ||*.vwinfast.com^
 ||*.vwuyuahqf.com^
-||*.vxiframe.biz^
 ||*.vy4e3jw46l.com^
 ||*.vyborexperta.ru^
 ||*.vylmhkasl.xyz^
@@ -73678,7 +72580,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.waframedia16.com^
 ||*.waframedia5.com^
 ||*.waframedia8.com^
-||*.wagbinbad.club^
 ||*.wagecarriage.com^
 ||*.wagerjoint.com^
 ||*.waggerbianco.com^
@@ -73695,14 +72596,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wallflore.de^
 ||*.wallstrads.com^
 ||*.wamnetwork.com^
-||*.wancai.shop^
 ||*.wangbo.group^
 ||*.wangchangye.xyz^
 ||*.wangdaguanli.com^
 ||*.wangdaizao.com^
 ||*.wangderder.xyz^
 ||*.wangdq.com^
-||*.wangduoduo.pw^
 ||*.wangfenxi.com^
 ||*.wanghu2020.ltd^
 ||*.wangjianxd.site^
@@ -73710,13 +72609,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wangketuan.com^
 ||*.wangqipu.com^
 ||*.wangxingkui.online^
-||*.wangxuan.pw^
 ||*.wangyao.pro^
-||*.wangyasen.link^
 ||*.waniks.com^
 ||*.wantfour.com^
 ||*.wantsfly.com^
-||*.wanyi.pw^
 ||*.wanzikeji.com^
 ||*.waoptions.com.au^
 ||*.wap-click.com^
@@ -73745,7 +72641,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.waxtamnit.com^
 ||*.way2traffic.com^
 ||*.waycash.net^
-||*.wayexiaofei.club^
 ||*.wayfarerspoutpraise.com^
 ||*.waynagmay.com^
 ||*.wazimo.com^
@@ -73767,7 +72662,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.we-are-gamers.com^
 ||*.weakcompromise.com^
 ||*.wealthnourish.com^
-||*.weaponsort.club^
 ||*.wearelovelive.com^
 ||*.wearetopple.com^
 ||*.weatherapi.co^
@@ -73875,9 +72769,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wedeegut.net^
 ||*.wedgeac.com^
 ||*.wedgesdayment.com^
-||*.wedneckekij.club^
 ||*.weduoke.com^
-||*.weebly.shop^
 ||*.weedazou.net^
 ||*.weekhostedmoo.com^
 ||*.weekslw.com^
@@ -73905,7 +72797,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.weixinhuoyuan.com^
 ||*.weixisiwang.com^
 ||*.weizhenwx.com^
-||*.wekb.club^
 ||*.weknow.ac^
 ||*.welcome.indihome.co.id^
 ||*.weldsystem.online^
@@ -73922,7 +72813,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wenqiche.com^
 ||*.wenxiang.work^
 ||*.weownthetraffic.com^
-||*.wephone.club^
 ||*.wepthandbook.com^
 ||*.werfop.com^
 ||*.werinussa.net^
@@ -73937,7 +72827,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.westreclameadvies.nl^
 ||*.wetpeachcash.com^
 ||*.wew.dushiwenxue.net^
-||*.weway.club^
 ||*.wewillrocknow.com^
 ||*.wewon.to^
 ||*.wexevoom.net^
@@ -73977,7 +72866,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.whiceega.com^
 ||*.whimsoplynx.com^
 ||*.whisla.com^
-||*.whitehalfabrr.club^
 ||*.whitepixel.com^
 ||*.whitwise.com^
 ||*.whixochyxy.pro^
@@ -73997,7 +72885,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.whxjnwzhs.com^
 ||*.whxva.com^
 ||*.whycywhivu.pro^
-||*.whysoserius.club^
 ||*.whytoss.com^
 ||*.whyzipsiwho.com^
 ||*.whzshoes.com^
@@ -74010,7 +72897,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.widestep.com^
 ||*.widget.onlinetv.ru^
 ||*.widget.promoqui.it^
-||*.widgetadvertising.biz^
 ||*.widgets.comcontent.net^
 ||*.widgets.pinterest.com^
 ||*.widjet.analnoe.tv^
@@ -74028,7 +72914,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wimpmustsyllabus.com^
 ||*.win-bidding.com^
 ||*.win-spy.com^
-||*.win-your-prize-now2.life^
 ||*.win.staticstuff.net^
 ||*.winadiscount.com^
 ||*.winaproduct.com^
@@ -74036,7 +72921,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wincleaner.com^
 ||*.windaily.com^
 ||*.winde.cc^
-||*.windoorsew.club^
 ||*.windows-afx-update.com^
 ||*.windows-cnd-update.com^
 ||*.windows-en-us-update.com^
@@ -74067,12 +72951,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wipeunauthorized.com^
 ||*.wiptisiwo.com^
 ||*.wirelesstube.mobi^
-||*.wisafnie.space^
 ||*.wiseezab.com^
 ||*.witchcraftcash.com^
 ||*.with0utdr0p.com^
 ||*.withdromnit.pro^
-||*.withinknuko.club^
 ||*.withoughdv.xyz^
 ||*.witlee.com^
 ||*.wiuspckmn.bar^
@@ -74118,7 +73000,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wocysuwo.com^
 ||*.wofjhs.com^
 ||*.wogukcd.xyz^
-||*.wojv.club^
 ||*.woka.cc^
 ||*.wokawot.com^
 ||*.wokekk.com^
@@ -74128,7 +73009,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.woma.site^
 ||*.womanclick.ru^
 ||*.womens-insider.info^
-||*.wonderful-day.club^
 ||*.wonderfulinsights.com^
 ||*.wonfigfig.com^
 ||*.wongsonc.uno^
@@ -74151,18 +73031,14 @@ geo.ritm.ru###audio-playback-firefox
 ||*.world-2012.info^
 ||*.worldfilia.net^
 ||*.worldflagcounter.com^
-||*.worldmodel.biz^
 ||*.worldofrest.com.ua^
 ||*.worldwidemailer.com^
-||*.worlsbld.cyou^
 ||*.worry-free-savings.com^
-||*.worthersefim.club^
 ||*.woryuc.com^
 ||*.wosade.xyz^
 ||*.woshiyunying.com^
 ||*.woundedassurance.com^
 ||*.wounderfullife.xyz^
-||*.woven.pw^
 ||*.wowad.wow-classic.com^
 ||*.wowcalmnessdumb.com^
 ||*.wowjogsot.com^
@@ -74183,8 +73059,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wrapper-vast.adsafeprotected.com^
 ||*.wretchauraflirt.com^
 ||*.wrfiwa.ru^
-||*.writerredolasy.club^
-||*.writerswhow.biz^
 ||*.writingassociates.com^
 ||*.writsteespas.com^
 ||*.writtenlistened.com^
@@ -74211,7 +73085,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wstatslive.com^
 ||*.wstztt.com^
 ||*.wsvay.com^
-||*.wswh.club^
 ||*.wswh.xyz^
 ||*.wsxxu.com^
 ||*.wt2noay3fgjn.com^
@@ -74231,7 +73104,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wuidtl.com^
 ||*.wula.store^
 ||*.wulian.in^
-||*.wuliglsg.space^
 ||*.wulongqiyi.com^
 ||*.wumnxwvg.ink^
 ||*.wunderloop.net^
@@ -74240,7 +73112,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wurtoosy.com^
 ||*.wussucko.com^
 ||*.wusths.com^
-||*.wutaixian.shop^
 ||*.wuxiap.xyz^
 ||*.wuxie419.xyz^
 ||*.wuxiqiangheng.com^
@@ -74259,7 +73130,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wwm24.de^
 ||*.wwrpfevyca.com^
 ||*.wwry.xyz^
-||*.wwsercher.biz^
 ||*.wwt-ag.ch^
 ||*.www-google.nl^
 ||*.www-protection.com^
@@ -74329,7 +73199,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.wzrk.co^
 ||*.wzsygdl.com^
 ||*.x-adservice.com^
-||*.x-diesel.biz^
 ||*.x-diesel.com^
 ||*.x-diesel.org^
 ||*.x-lift.jp^
@@ -74361,7 +73230,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xahywwx.com^
 ||*.xakywl.xyz^
 ||*.xamaptapsu.com^
-||*.xamateurpornlic.www1.biz^
 ||*.xamephapse.com^
 ||*.xanax-online.run.to^
 ||*.xanax-store.shengen.ru^
@@ -74383,7 +73251,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xcjcy.pro^
 ||*.xcjy876.com^
 ||*.xclk-integracion.com^
-||*.xcms.shop^
 ||*.xcmz999.com^
 ||*.xcnn.com^
 ||*.xcsaz.com^
@@ -74410,7 +73277,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xfnkds.com^
 ||*.xgraph.net^
 ||*.xgsnjl.com^
-||*.xgsx.club^
 ||*.xgzdys.com^
 ||*.xhct66.com^
 ||*.xhhy.online^
@@ -74422,7 +73288,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xhzmjs.com^
 ||*.xhzz3moj1dsd.com^
 ||*.xiald.com^
-||*.xianggou.club^
 ||*.xianguangergaozhi.com^
 ||*.xiangwangdesh.com^
 ||*.xianka.cloud^
@@ -74438,15 +73303,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xiaopinwo.com^
 ||*.xiaotong.pink^
 ||*.xiaoxiangmovie.com^
-||*.xiaoxiaozhijia.shop^
-||*.xiaoyaunbao.club^
 ||*.xiaozhangzhushou.ltd^
 ||*.xiaozhige.xyz^
 ||*.xiarikui08.com^
 ||*.xibadupty.com^
 ||*.xidx.org^
 ||*.xiepl.com^
-||*.xiezhong.club^
 ||*.xigolashu.com^
 ||*.xihua.me^
 ||*.xihuangdushu.com^
@@ -74519,13 +73381,11 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xmseaside.com^
 ||*.xmsrd.com^
 ||*.xmtrk.com^
-||*.xmwn.shop^
 ||*.xmxxwl.com^
 ||*.xmysinter.com^
 ||*.xmzwdgm.com^
 ||*.xn--2hvw21e.online^
 ||*.xn--2qu96gouvko1a.com^
-||*.xn--gov-x68dy61b.shop^
 ||*.xn--u1aaw.xn--p1ai^
 ||*.xn--xkry73b.online^
 ||*.xnjpg.com^
@@ -74536,7 +73396,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xoliter.com^
 ||*.xoomer.alice.it^
 ||*.xoor.ru^
-||*.xorlsblw.cyou^
 ||*.xpanama.net^
 ||*.xpantivirus.com^
 ||*.xpctraffic.com^
@@ -74576,12 +73435,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xuexi.wiki^
 ||*.xueyanshan.com^
 ||*.xueyongbao.com^
-||*.xuhaijun.pw^
 ||*.xuhycaphe.com^
 ||*.xujie.xyz^
 ||*.xujingch.com^
 ||*.xujx8.com^
-||*.xuliglsw.space^
 ||*.xulilin.ltd^
 ||*.xumnxwvw.ink^
 ||*.xunjiu.online^
@@ -74601,7 +73458,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xxe2.com^
 ||*.xxgxqscl.com^
 ||*.xxltr.com^
-||*.xxslu.space^
 ||*.xxvism.com^
 ||*.xxwd.ltd^
 ||*.xxx-hunt-er.xyz^
@@ -74617,7 +73473,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.xy33.smallable.com^
 ||*.xyhfc.xyz^
 ||*.xyhly.xyz^
-||*.xyrydark.pw^
 ||*.xytom.com^
 ||*.xywdvhd.com^
 ||*.xywy.name^
@@ -74664,7 +73519,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yaohq.com^
 ||*.yaomuzhubao.com^
 ||*.yaoquanshumeiyu.com^
-||*.yaoxi.shop^
 ||*.yaoxing.fun^
 ||*.yapusheji.com^
 ||*.yardr.net^
@@ -74679,12 +73533,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yawnspuker.com^
 ||*.ybpxv.com^
 ||*.ybtianxi.com^
-||*.ybxw.shop^
 ||*.yc-ads.s3.amazonaws.com^
 ||*.ycgy8888.com^
 ||*.ychml.com^
 ||*.ycooh.group^
-||*.ycurrentjobis.biz^
 ||*.ydfz.org^
 ||*.ydgege.xyz^
 ||*.ydtqlmsvocjp.com^
@@ -74698,7 +73550,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yedimedia.net^
 ||*.yeegsxcwbnn.com^
 ||*.yellowbrix.com^
-||*.yema.shop^
 ||*.yemonisoni.com^
 ||*.yengbalf.fun^
 ||*.yenlm.com^
@@ -74732,7 +73583,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yieldselect.com^
 ||*.yieldsoftware.com^
 ||*.yifenghuyu.com^
-||*.yihoo.biz^
 ||*.yijia2009.com^
 ||*.yijikm.com^
 ||*.yijuxie.com^
@@ -74742,7 +73592,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yingjiawm.com^
 ||*.yingxunkeji.net^
 ||*.yingyeping.com^
-||*.yini.link^
 ||*.yiniyiwo.org^
 ||*.yinlt.com^
 ||*.yinmofun.com^
@@ -74757,7 +73606,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yitongfang.com^
 ||*.yiuspekmn.bar^
 ||*.yiyuantian.com^
-||*.yizhanghaoquan.pw^
 ||*.yjegf.com^
 ||*.yjiaj.com^
 ||*.yjsituation.com^
@@ -74780,7 +73628,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ymtracking.com^
 ||*.ymxlm.cc^
 ||*.ymxpb.com^
-||*.ymyh.club^
 ||*.ymzrrizntbhde.com^
 ||*.ynbyutongdianqi.com^
 ||*.ynd41r.online^
@@ -74789,14 +73636,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ynwia.com^
 ||*.ynwqls.com^
 ||*.ynwsyl.com^
-||*.ynyn.shop^
 ||*.ynyyx168.com^
 ||*.ynzhby.com^
 ||*.yo99.win^
 ||*.yobihost.com^
 ||*.yobr.net^
 ||*.yodr.net^
-||*.yofdifferents.biz^
 ||*.yong.chazidian.com^
 ||*.yongjiu7.net^
 ||*.yongshengtongda.com^
@@ -74817,12 +73662,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yougouquanqiu.xyz^
 ||*.youhuotiyu.asia^
 ||*.youintelligence.com^
-||*.youkan.shop^
 ||*.youle55.com^
 ||*.youliangyouxian.xyz^
 ||*.youndoo.com^
 ||*.youngalsobeautiful.com^
-||*.youpeng.pw^
 ||*.youqunjx.com^
 ||*.your-gift-zone.com^
 ||*.your.dailytopdealz.com^
@@ -74835,7 +73678,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yourgiftzone.com^
 ||*.yourhealmyheal.com^
 ||*.youripad4free.com^
-||*.yourlegacy.club^
 ||*.yourrecovery.net^
 ||*.yourrewardzone.com^
 ||*.yourtubetvs.site^
@@ -74843,7 +73685,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.youthlaw.name^
 ||*.youtome.xyz^
 ||*.youtube2top.com^
-||*.youtubem.shop^
 ||*.youtuhe.com^
 ||*.youweiprint.com^
 ||*.youwenzhi.xyz^
@@ -74881,7 +73722,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ysyjg.com^
 ||*.yt-adblocker.com^
 ||*.yt.5.p2l.info^
-||*.ytb2017.club^
 ||*.ytbapi.com^
 ||*.ytdownloader.com^
 ||*.ytmaitian.com^
@@ -74913,8 +73753,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yuhvjuedhcu.com^
 ||*.yule8.net^
 ||*.yulidianshang.com^
-||*.yuliglsd.space^
-||*.yummycuisine.club^
 ||*.yummyfoodallover.com^
 ||*.yumnxwvd.ink^
 ||*.yumu.pro^
@@ -74941,7 +73779,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yurosikua.click^
 ||*.yurosikua.cloud^
 ||*.yurosikua.lol^
-||*.yurosikua.shop^
 ||*.yurosikua.xyz^
 ||*.yushengyuancaishui.com^
 ||*.yuxiangrc.com^
@@ -74971,7 +73808,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.yyxjt.cloud^
 ||*.yyxrm.com^
 ||*.yyy6999.com^
-||*.yyys.shop^
 ||*.yyyyt.ltd^
 ||*.yyzkf.com^
 ||*.yzaosite.com^
@@ -75002,7 +73838,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zanaflex.1.p2l.info^
 ||*.zaparena.com^
 ||*.zapbox.ru^
-||*.zaprosbaza.pw^
 ||*.zapunited.com^
 ||*.zarabotki.ru^
 ||*.zarrmarketing.co.uk^
@@ -75029,7 +73864,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zdsfnagupwkztl.com^
 ||*.zdtag.com^
 ||*.zdwsh.tech^
-||*.zdzy.shop^
 ||*.zeads.com^
 ||*.zebutal.1.p2l.info^
 ||*.zeegreen.net^
@@ -75075,8 +73909,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zgyhw.mobi^
 ||*.zgystsd.com^
 ||*.zgzrmh.mobi^
-||*.zhaishanghui.shop^
-||*.zhaixing.link^
 ||*.zhangdujia.com^
 ||*.zhangfeiyijuepifa.com^
 ||*.zhangguangzong.com^
@@ -75086,7 +73918,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zhangkeblog.site^
 ||*.zhanglibomgmail.online^
 ||*.zhangmingqin.tech^
-||*.zhangshen.club^
 ||*.zhangshiyuan.com^
 ||*.zhangtiantian.cc^
 ||*.zhangwanwan.online^
@@ -75095,19 +73926,13 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zhaovip.site^
 ||*.zhaoyiqi.ltd^
 ||*.zhctrack.net^
-||*.zhe8000.pw^
 ||*.zhekoudajie.com^
 ||*.zhemaijs.net^
 ||*.zhengyejixie.com^
 ||*.zhengzhoupengbo.com^
-||*.zhenniu.shop^
-||*.zhentao.shop^
 ||*.zhenxinchicken.xyz^
-||*.zhiai.space^
 ||*.zhifoujiaoyu.xyz^
 ||*.zhihui.ink^
-||*.zhihuichuxing.pw^
-||*.zhihuinongye.biz^
 ||*.zhihuirenjia.xyz^
 ||*.zhihuizeyuan.com^
 ||*.zhilii.com^
@@ -75127,16 +73952,13 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zhouyi.cool^
 ||*.zhswzxfw.com^
 ||*.zhtlvag.com^
-||*.zhty.club^
 ||*.zhuanquxian.com^
 ||*.zhuanzhuzibu.com^
 ||*.zhuba8.com^
-||*.zhudao.shop^
 ||*.zhufushuo.com^
 ||*.zhuomengwangluo.com^
 ||*.zhushihuahan.com^
 ||*.zhuwawa.net^
-||*.zhuxin.link^
 ||*.zhw949.ltd^
 ||*.zhwotai.com^
 ||*.zhy333.com^
@@ -75146,14 +73968,10 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zijaipse.com^
 ||*.zimingdh.com^
 ||*.zinmnubj1cfr.com^
-||*.zinrora.pw^
 ||*.ziphentai.com^
 ||*.zipitfast.com^
-||*.zipmonster.biz^
 ||*.zirve100.com^
-||*.zisafniq.space^
 ||*.zisu.cn.com^
-||*.zixiaxianhua.shop^
 ||*.ziyeaiying.com^
 ||*.ziyu.net^
 ||*.ziyuanyinhang.wang^
@@ -75172,10 +73990,8 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zjlfqf.com^
 ||*.zjliloveyou.ixiunv.com^
 ||*.zjo0tjqpm1.com^
-||*.zjzs.club^
 ||*.zk.91post.com^
 ||*.zkbkcdhieqcoev.com^
-||*.zkit.club^
 ||*.zkjh.info^
 ||*.zkwsdf.com^
 ||*.zlfgedpuxrbpgm.com^
@@ -75187,7 +74003,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zllxy.love^
 ||*.zlys.store^
 ||*.zminer.zaloapp.com^
-||*.zmkj.club^
 ||*.zmnqoymznwng.com^
 ||*.zmuphhlienv.com^
 ||*.zmusic-online.com^
@@ -75214,15 +74029,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zoompegs.com^
 ||*.zoophil.com^
 ||*.zoopy.xyz^
-||*.zoosi.club^
 ||*.zoossoft.net^
 ||*.zootravel.com^
-||*.zorlsbln.cyou^
 ||*.zoteromedia.com^
 ||*.zoudlogick.net^
 ||*.zougg.com^
 ||*.zoujitea.hk^
-||*.zozocash.biz^
 ||*.zozolilla.com^
 ||*.zozoter.ru^
 ||*.zp0737.com^
@@ -75251,10 +74063,7 @@ geo.ritm.ru###audio-playback-firefox
 ||*.ztxbd.com^
 ||*.zugnogne.com^
 ||*.zugo.com^
-||*.zuibandao.club^
-||*.zuirengou.shop^
 ||*.zujilife.online^
-||*.zuliglsa.space^
 ||*.zumads.vrixon.com^
 ||*.zumnxwva.ink^
 ||*.zumodemarketing.com^
@@ -75285,7 +74094,6 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zxxds.net^
 ||*.zxycxk.love^
 ||*.zy1017421.xyz^
-||*.zyam.club^
 ||*.zyban-store.shengen.ru^
 ||*.zyban.1.p2l.info^
 ||*.zybxchina.com^
@@ -75312,14 +74120,12 @@ geo.ritm.ru###audio-playback-firefox
 ||*.zzdb5p4upiug.com^
 ||*.zzhengre.com^
 ||*.zzhszj.com^
-||*.zzkj.biz^
 ||*.zzkoubei.com^
 ||*.zzpzero.com^
 ||*.zzsdjq.com^
 ||*.zzsno1.com^
 ||*.zzuzcy.cloud^
 ||*.zzxhx.com^
-||*.zzxxli.club^
 ||*.zzycj.com^
 ||*.zzyl.mobi^
 ||*.zzznews.ru^
