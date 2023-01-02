@@ -1,6 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: 🆎️ The Anti-BS List
-! Version: 20221227T0100
+! Version: 20230102T1400
+
+! ☆ ---- AdGuard General JS Api ---- ☆
+!#include AG.General.JS.Api.txt
 
 ! ☆ ---- Anti Bullshit List ---- ☆
 ###AdBlockDialog
