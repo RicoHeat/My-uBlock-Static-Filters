@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
-! Title: Blocklist with Wildcards and TLD
-! Version: 20221228T1600
+! Title: 🃏 Blocklist with Wildcards and TLD
+! Version: 20230109T1900
 
 ! ☆ ---- General JS API ---- ☆
 ! JS API START
