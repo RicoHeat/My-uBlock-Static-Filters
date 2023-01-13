@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ☠️ My User Rules (Adguard and uBlock)
-! Version: 20230110T0300
+! Version: 20230113T1900
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
@@ -281,4 +281,4 @@ fxpornhd.com##.happy-header-mobile
 milfprime.com##.bZSnCh.style__LinkHeader-sc-1adl0tj-3
 
 ! 2023-01-10 My attempt to block a few Top Level Domains (TLD)
-/^https?:\/\/.*\.(surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club)\/.*/$
+/^https?:\/\/.*\.(surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club)\/.*/$all
