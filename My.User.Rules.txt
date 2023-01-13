@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ☠️ My User Rules (Adguard and uBlock)
-! Version: 20230113T2200
+! Version: 20230113T2230
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
@@ -217,13 +217,6 @@ justincestporn.com##[href="https://a.adtng.com/get/10012927"]
 
 ! 2022-10-17 https://watchporn.to
 ||watchporn.to/banners.php$subdocument
-
-! 2022-10-18 https://www.tabooporn.tv
-|about:$popup,domain=tabooporn.tv
-||www.tabooporn.tv^$popup
-
-! 2022-10-18 https://chrif8kdstie.com
-||www.tabooporn.tv^$popup,domain=chrif8kdstie.com
 
 ! 2022-10-30 https://www.reddit.com
 www.reddit.com##.TopNav__promoButton
