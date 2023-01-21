@@ -1,7 +1,7 @@
 ![Adblock Plus 2.0]
 !
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230121T2200
+! Version: 20230121T2300
 !
 ! ☆ ---- Generichide Rules ---- ☆
 !
@@ -1856,6 +1856,8 @@ porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 tabooporns.com##[href="https://tabuporns.com/"]
 fullporner.com##.col-md-right
+fullporner.com##.ad-inline-box.col-md-12
+fullporner.com##.live-embed
 ! ☆ ---- Advanced element hiding rules for Adblock Plus ---- ☆
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-1:-abp-has(> div[class^="inside-list-boxes"])
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-2:-abp-has(.duration-ad)
