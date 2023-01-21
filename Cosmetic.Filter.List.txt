@@ -1,8 +1,7 @@
-!
 ![Adblock Plus 2.0]
 !
 ! Title: 💋 Cosmetic Filter List
-! Version: 20221129T0600
+! Version: 20230121T2200
 !
 ! ☆ ---- Generichide Rules ---- ☆
 !
