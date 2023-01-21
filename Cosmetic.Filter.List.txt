@@ -1856,6 +1856,7 @@ porndoe.com,tube8.es,tube8.fr,youjizz.com,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 tabooporns.com##[href="https://tabuporns.com/"]
+fullporner.com##.col-md-right
 ! ☆ ---- Advanced element hiding rules for Adblock Plus ---- ☆
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-1:-abp-has(> div[class^="inside-list-boxes"])
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-2:-abp-has(.duration-ad)
