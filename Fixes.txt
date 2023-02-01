@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💉 Filter Fixes
-! Version: 20230131T1600
+! Version: 20230201T1200
 
 @@||www.facebook.com/ajax/ads/$xmlhttprequest,domain=facebookcorewwwi.onion|www.facebook.com
 @@||iwatchgot.$generichide
@@ -1226,7 +1226,6 @@ $xhr,3p,domain=nxbrew.com
 @@||cloudfront.net/frosmo.easy.js$domain=hobbyhall.fi|lippu.fi
 @@||static.lci.fr/assets/scripts/common/user-agent-analyzer.js$script,~third-party
 @@||playview.io^*/showads.js
-@@.png
 @@||generatorlinkpremium.com/ads/$script,~third-party
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||office365.com^*/adbar.js
@@ -1386,7 +1385,6 @@ $xhr,3p,domain=nxbrew.com
 @@||drive.google.com^$generichide
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 @@||gakushuin.ac.jp/ad/common/$~third-party
-@@.gif
 @@||googletagservices.com/tag/js/gpt.js$script,domain=epaper.timesgroup.com
 @@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com|wowebook.org|animes-mangas-ddl.net|pipocas.tv
 @@||coinpayu.com^$ghide
@@ -1453,7 +1451,6 @@ $xhr,3p,domain=nxbrew.com
 @@||elon.se^*/googleanalytics.js
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||amazonaws.com/common/legacy/scripts/pixels/google_analytics.js$script,domain=evenue.net
-@@.jpg
 @@||aetv.com^$generichide
 @@||akvideo.*_468x60.$image
 @@||apmebf.com/ad/$domain=betfair.com
