@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: 🃏 Blocklist with Wildcards and TLD
-! Version: 20230109T1900
+! Version: 20230203T1100
 
 ! ☆ ---- General JS API ---- ☆
 ! JS API START
@@ -268,37 +268,39 @@ geo.ritm.ru###audio-playback-firefox
 
 ! ☆ ---- TLDs and Wildcards ---- ☆
 ! Spam and malware TLDs (courtesy Spamhaus and SURBL)
-||surf^$all
-||rest^$all
-||monster^$all
-||beauty^$all
-||associates^$all
-||cricket^$all
-||financial^$all
-||discount^$all
-||fit^$all
-||life^$all
-||icu^$all
-||tokyo^$all
-||cf^$all
-||casa^$all
-||ci^$all
-||cyou^$all
-||pw^$all
-||top^$all
-||gq^$all
-||cn^$all
-||ga^$all
-||tk^$all
-||space^$all
-||shop^$all
-||cam^$all
-||link^$all
-||live^$all
-||biz^$all
-||buzz^$all
-||ml^$all
-||club^$all
+
+*$all,to=surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club
+! ||surf^$all
+! ||rest^$all
+! ||monster^$all
+! ||beauty^$all
+! ||associates^$all
+! ||cricket^$all
+! ||financial^$all
+! ||discount^$all
+! ||fit^$all
+! ||life^$all
+! ||icu^$all
+! ||tokyo^$all
+! ||cf^$all
+! ||casa^$all
+! ||ci^$all
+! ||cyou^$all
+! ||pw^$all
+! ||top^$all
+! ||gq^$all
+! ||cn^$all
+! ||ga^$all
+! ||tk^$all
+! ||space^$all
+! ||shop^$all
+! ||cam^$all
+! ||link^$all
+! ||live^$all
+! ||biz^$all
+! ||buzz^$all
+! ||ml^$all
+! ||club^$all
 
 ! ☆ ---- Condensed Blocklist ---- ☆
 ||2o7.net^$all
