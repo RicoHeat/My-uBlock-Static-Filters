@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Title: Adult Easylist [Optimized]
-! Version: 20230201T1600
+! Title: 🌶 Adult Easylist [Optimized]
+! Version: 20230204T0800
 ! Description: Easylist Adult Section made into a standalone supplementary list
 
 ! ☆ ----
