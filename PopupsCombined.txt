@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: 🍾 Popups Combined
-! Version: 20230114T1000
+! Version: 20230205T0000
 
 ||www.stagetortoiseinfatuated.com^
 ||glihelethy.com^
@@ -35115,7 +35115,6 @@ _push_sw.
 ||hq.fungalsbooger.com^
 ||puwpush.com^$popup
 ||directshopping.pro^
-||ahacdn.me^
 ||oafsevasive.com^
 ||sponsorflyr.com^
 ||aulteeby.net^
