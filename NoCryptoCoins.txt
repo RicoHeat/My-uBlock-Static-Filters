@@ -1,7 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: ☢ NoCryptoCoins Filterlist
-! Version: 20221216T1100
-
+! Version: 20230205T1000
 
 ||go.bestmobiworld.com^$third-party
 ||sunnimiq2.cf^$third-party
