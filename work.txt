@@ -1,6 +1,34 @@
 ! Title: ⚓ Working List
-! Version: 20230205T0900
+! Version: 20230205T1000
 ! Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
+
+! CONDITIONS START
+!#if !ext_ublock
+$$script[src="//pagead2.googlesyndication.com/"]
+$$script[src="https://c1.popads.net/pop.js"]
+$$script[src="https://c2.popads.net/pop.js"]
+$$script[src="https://mc.yandex.ru/"]
+$$script[src="https://pagead2.googlesyndication.com/"]
+$$script[src="https://www.google-analytics.com/"]
+$$script[src="https://www.googleadservices.com/"]
+$$script[src="https://www.googletagmanager.com/"]
+$$script[src="https://www.googletagservices.com/"]
+$$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
+||googletagservices.com^$important
+||doubleclick.net^$important
+||adservice.google.*^$important
+||googlesyndication.com^$important
+||google-analytics.com^$important
+||sentry.io^$important
+!#endif
+!#if adguard_app_android
+@@||analyticsinsights-pa.clients*.google.com^$important,document
+@@||analytics.google.com^$important,document
+||facebook.com^
+||facebook.net^
+||bing.com^
+!#endif
+! CONDITIONS END
 
 ! TEST START
 ! https://github.com/AdguardTeam/DnsLibs/issues/141
