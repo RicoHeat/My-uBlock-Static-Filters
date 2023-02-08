@@ -1,5 +1,5 @@
 ! Title: ⚓ Working List
-! Version: 20230208T1000
+! Version: 20230208T1020
 ! Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
 
 ! CONDITIONS START
@@ -134,7 +134,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 
 ! SCRIPTLET START
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
@@ -205,7 +204,6 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 /\_shutdown\?token\=[a-zA-Z0-9]{10,}$/$important
 |http*:*$important,beacon
 |http*:*$important,ping
-|http*:*$important,webrtc
 |http*:*/log/$domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?
 |http*:*.com/pagead/
