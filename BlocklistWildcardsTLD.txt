@@ -1,82 +1,89 @@
 [Adblock Plus 3.13]
 ! Title: 🃏 Blocklist with Wildcards and TLD
-! Version: 20230203T1100
+! Version: 20230208T1050
 
-! ☆ ---- General JS API ---- ☆
-! JS API START
-#%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
-#%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
-#%#var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
-#%#var AG_each = function(selector, fn) { if (!document.querySelectorAll) return; var elements = document.querySelectorAll(selector); for (var i = 0; i < elements.length; i++) { fn(elements[i]); }; };
-#%#var AG_removeParent = function(el, fn) { while (el && el.parentNode) { if (fn(el)) { el.parentNode.removeChild(el); return; } el = el.parentNode; } };
-!
-! AG_removeCookie
-! Examples: AG_removeCookie('/REGEX/') or AG_removeCookie('part of the cookie name')
-!
-#%#var AG_removeCookie=function(a){var e=/./;/^\/.+\/$/.test(a)?e=new RegExp(a.slice(1,-1)):""!==a&&(e=new RegExp(a.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")));a=function(){for(var a=document.cookie.split(";"),g=a.length;g--;){cookieStr=a[g];var d=cookieStr.indexOf("=");if(-1!==d&&(d=cookieStr.slice(0,d).trim(),e.test(d)))for(var h=document.location.hostname.split("."),f=0;f<h.length-1;f++){var b=h.slice(f).join(".");if(b){var c=d+"=",k="; domain="+b;b="; domain=."+b;document.cookie=c+"; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+k+"; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+b+"; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+"; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+k+"; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";document.cookie=c+b+"; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT"}}}};a();window.addEventListener("beforeunload",a)};
-!
-! AG_defineProperty
-! See https://github.com/AdguardTeam/deep-override
-!
-#%#var AG_defineProperty=function(){var p,q=Object.defineProperty;if("function"==typeof WeakMap)p=WeakMap;else{var r=0,t=function(){this.a=(r+=Math.random()).toString()};t.prototype.set=function(a,b){var d=a[this.a];d&&d[0]===a?d[1]=b:q(a,this.a,{value:[a,b],writable:!0});return this};t.prototype.get=function(a){var b;return(b=a[this.a])&&b[0]===a?b[1]:void 0};t.prototype.has=function(a){var b=a[this.a];return b?b[0]===a:!1};p=t}function u(a){this.b=a;this.h=Object.create(null)}function v(a,b,d,e){this.a=a;this.i=b;this.c=d;this.f=e}function w(){this.g=/^([^\\\.]|\\.)*?\./;this.j=/\\(.)/g;this.a=new p}function x(a,b){var d=b.f;if(d&&!("beforeGet"in d||"beforeSet"in d))return z(d);var e={get:function(){var c=b.f;c&&c.beforeGet&&c.beforeGet.call(this,b.a.b);a:if(c=b.g)c=A(c)?c.value:c.get?c.get.call(this):void 0;else{c=b.a.b;if(b.i in c&&(c=B(c),null!==c)){var d=C.call(c,b.i);c=d?d.call(this):c[b.i];break a}c=void 0}(this===b.a.b||D.call(b.a.b,this))&&E(a,c,b.c);return c},set:function(c){if(this===b.a.b||D.call(b.a.b,this)){b.f&&b.f.beforeSet&&(c=b.f.beforeSet.call(this,c,this));var d=b.g;d&&A(d)&&d.value===c?c=!0:(d=F(b,c,this),G(c)&&(c=H(a,c),I(a,c,b.c)),c=d)}else c=F(b,c,this);return c}};d&&J(d,e,K);return e}function I(a,b,d){for(var e in d.h){var c=d.h[e];if(b.h[e]){var h=a,g=b.h[e],k=c;!k.f||g.f||"undefined"===typeof g.a.b||g.g||(g.g=z(k.f));g.c&&k.c&&g.c!==k.c&&I(h,g.c,k.c)}else{g=h=void 0;k=a;var f=b,l=c.i,m="undefined"!==typeof f.b,y=!1;m&&(g=L(f.b,l))&&!g.configurable&&(y=!0,h=f.b[l]);var n=y?H(k,h):new u(c.c.b);I(k,n,c.c);n=new v(f,l,n,c.f);f.h[l]=n;m&&(n.g=g,m=x(k,n),y?E(k,h,c.c):(q(f.b,l,m),g&&A(g)&&(M(m,g.value,f.b),E(k,g.value,c.c))))}}}function E(a,b,d){G(b)&&(b=H(a,b),I(a,b,d))}function F(a,b,d){var e=a.g;if(!e){e=B(a.a.b);if(null!==e&&(e=N.call(e,a.i)))return e.call(d,b);if(!O(a.a.b))return!1;a.g={value:b,configurable:!0,writable:!0,enumerable:!0};return!0}return M(e,b,d)}function H(a,b){var d=a.a.get(b);d||(d=new u(b),a.a.set(b,d));return d}function A(a){return"undefined"!==typeof a.writable}function J(a,b,d){for(var e=0,c=d.length;e<c;e++){var h=d[e];h in a&&(b[h]=a[h])}}function z(a){if(a){var b={};J(a,b,P);return b}}function M(a,b,d){if(A(a))return a.writable?(a.value=b,!0):!1;if(!a.set)return!1;a.set.call(d,b);return!0}var P="configurable enumerable value get set writable".split(" "),K=P.slice(0,2),L=Object.getOwnPropertyDescriptor,O=Object.isExtensible,B=Object.getPrototypeOf,D=Object.prototype.isPrototypeOf,C=Object.prototype.__lookupGetter__||function(a){return(a=Q(this,a))&&a.get?a.get:void 0},N=Object.prototype.__lookupSetter__||function(a){return(a=Q(this,a))&&a.set?a.set:void 0};function Q(a,b){if(b in a){for(;!w.hasOwnProperty.call(a,b);)a=B(a);return L(a,b)}}function G(a){var b=typeof a;return"function"===b||"object"===b&&null!==a?!0:!1}var R;return function(a,b,d){R||(R=new w);var e=R;d=d||window;var c=new u;a+=".";var h=c||new u;for(var g=e.g,k=e.j,f,l,m;a;){f=g.exec(a);if(null===f)throw 1;f=f[0].length;l=a.slice(0,f-1).replace(k,"$1");a=a.slice(f);(f=h.h[l])?m=f.c:(m=new u,f=new v(h,l,m),h.h[l]=f);h=m}if(!f)throw 1;a=f;a.f=b;E(e,d,c)};}();
-!
-! AG_abortOnPropertyWrite(property, debug)
-! Aborts execution of a script when it attempts to write the specified property.
-! Based on AG_defineProperty (https://github.com/AdguardTeam/deep-override)
-!
-! Examples:
-! AG_abortOnPropertyWrite('String.fromCharCode');
-!
-! @param property property or properties chain
-! @param debug optional, if true - we will print warning when script is aborted.
-!
-#%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
-!
-! AG_abortOnPropertyRead(property, debug)
-! Aborts execution of a script when it attempts to read the specified property.
-! Based on AG_defineProperty (https://github.com/AdguardTeam/deep-override)
-!
-! Examples:
-! AG_abortOnPropertyRead('String.fromCharCode');
-!
-! @param property property or properties chain
-! @param debug optional, if true - we will print warning when script is aborted.
-!
-#%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
-!
-! AG_abortInlineScript(regex, property, debug)
-! Aborts execution of an inline script when it attempts to access the specified property
-! AND content of the <script> element matches specified regular expression.
-! Based on AG_defineProperty (https://github.com/AdguardTeam/deep-override)
-!
-! Examples:
-! AG_abortInlineScript(/zfgloadedpopup|zfgloadedpushopt/, 'String.fromCharCode');
-!
-! @param regex regular expression that the inline script contents must match
-! @param property property or properties chain
-! @param debug optional, if true - we will print warning when script is aborted.
-!
-#%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
-!
-! AG_setConstant('property.chain', 'true') // defines boolean (true), same for false;
-! AG_setConstant('property.chain', '123') // defines Number 123;
-! AG_setConstant('property.chain', 'noopFunc') // defines function(){};
-! AG_setConstant('property.chain', 'trueFunc') // defines function(){return true};
-! AG_setConstant('property.chain', 'falseFunc') // defines function(){return false};
-!
-#%#var AG_setConstant=function(e,a){if("undefined"===a)a=void 0;else if("false"===a)a=!1;else if("true"===a)a=!0;else if("noopFunc"===a)a=function(){};else if("trueFunc"===a)a=function(){return!0};else if("falseFunc"===a)a=function(){return!1};else if(/^\d+$/.test(a)){if(a=parseFloat(a),isNaN(a)||32767<Math.abs(a))return}else return;var b=!1;AG_defineProperty(e,{get:function(){return a},set:function(c){if(b)var d=!0;else void 0!==c&&void 0!==a&&typeof c!==typeof a&&(b=!0),d=b;d&&(a=c)}})};
-! JS API FINISH
+! CONDITIONS START
+!#if !ext_ublock
+$$script[src="//pagead2.googlesyndication.com/"]
+$$script[src="https://c1.popads.net/pop.js"]
+$$script[src="https://c2.popads.net/pop.js"]
+$$script[src="https://mc.yandex.ru/"]
+$$script[src="https://pagead2.googlesyndication.com/"]
+$$script[src="https://www.google-analytics.com/"]
+$$script[src="https://www.googleadservices.com/"]
+$$script[src="https://www.googletagmanager.com/"]
+$$script[src="https://www.googletagservices.com/"]
+$$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
+||googletagservices.com^$important
+||doubleclick.net^$important
+||adservice.google.*^$important
+||googlesyndication.com^$important
+||google-analytics.com^$important
+||sentry.io^$important
+!#endif
+! CONDITIONS END
+
+! TEST START
+! https://github.com/AdguardTeam/DnsLibs/issues/141
+||adjust.*^$important
+||adj.st^$important
+! Xiaomi
+||resolver.msg.global.xiaomi.net^
+||micloud.xiaomi.net^
+! TEST END
+
+! WHITELIST START
+@@/^https?:\/\/edge\.microsoft\.com\/(extension(webstorebase|installverifier)\/[a-z1-9.]{2,4}\/(installverify|(hash)?crx\?|log(extensionreliability|failureinfo)\?)|(redirector|hunspell)dictionaries\/)/
+@@||connectivitycheck.gstatic.com^
+@@||safebrowsing.clients.google.com^$document
+@@||local.adguard.org^$script
+@@||injections.adguard.org^$script
+@@||metrika.yandex.ru^$document
+mail.yandex.ru#@#iframe[src="about:blank"]
+@@||cdnjs.cloudflare.com^$script
+! WHITELIST END
+
+! LAN START
+/^https?:\/\/192\.168\.[01]\.1/$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||127.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||10.0.0.1^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||[::1]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||localhost^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+! LAN END
+
+! DOCUMENT START
+|http*:*/page/bouncy.php?$document
+|http*:*/domain_profile.cfm?d=$document
+|http*:*/buy-domain/*?redirected=$document
+||ttk.ru/?order=$document
+||warning.rt.ru^$document
+! DOCUMENT END
+
+! SCRIPTLET START
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+infourok.ru##+js(addEventListener-defuser.js, focus)
+infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
+infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
+infourok.ru##+js(abort-on-property-write.js, document.ondragstart)
+infourok.ru##+js(abort-on-property-write.js, document.onselectstart)
+infourok.ru##+js(js-rm.js, yaCounter)
+twitch.tv##+js(no-fetch-if.js, /video-edge-[^/]+ttvnw.net/ method:POST)
+ilovepdf.com##+js(cookie-remover.js, /^fp0$/)
+! SCRIPTLET END
 
 ! Cascading Style Sheets (CSS) START
 *##iframe[src="about:blank"]
 *##a[href*="//ads."]
 *##a[href*="//ad."]
+*##[id*="cookieConsentUR"]
 *##.adsbygoogle[data-ad-client][data-ad-slot]
 *##[data-ad-client^="ca-pub-"][data-ad-slot]
-*##.dfp-leaderboard-container
 *##[data-adsbygoogle-status]
 *##[class*="-banner-exoclick"]
 *##[id*="div-gpt-ad"]
+*##[id*="aswift"]
 aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container
@@ -89,7 +96,7 @@ twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в се�
 twitch.tv##[class*="CoreButton"]:has-text(/Купить Bits|Get Bits/)
 twitch.tv##div.side-nav-section:has([aria-label]):has-text(/Рекомендуемые каналы|также смотрят|Viewers Also Watch|Recommended Channels/)
 vk.com###stl_left,#stl_side,.apps_feedRightAppsBlock,#ads_left,.right_list_header,#group_recom_rows,#group_recom_wrap,.feed_friends_recomm,div[data-ad],div[data-ad-view],[class^="ads_ad_"],#stories_feed_wrap,#profile_friends_recomm,.ads_ads_box,#system_msg,#utils,.audio_promo,#feed_blog_reminder,a[href*="/app7399325"],#l_watch_home,a[href*="/covid19"],.installApp,#ui_rmenu_coronavirus,#ui_rmenu_stayhome,.wall_marked_as_ads,.item_share,.apps_feedRightAppsBlock__row,.videoplayer_action_button,.ads_ad_box,.ads_ad_box2,[id*="reply_box_donut-"],.ShortVideoFeedBlock,.feed_groups_recomm,.feedAssistance_recommendedGroups,.feedAssistance_promoButton,#block_youla-recommendations-carousel,#block_aliexpress-recommendations-carousel,.RecommendedNarrativesBlock,.FeedVideosForYou,.GroupsRecommendedSlider,.friendsRecommendedSliderWrap,.friends_possible_block,.videoplayer_share_actions,#cover_list_app_widget,.EasterEggsContainer,.post_withExtraHeader.post_exploreBait.wall_item,.VideoOwnerInfo,.NeuroHdHint__button,.InterestsBlock__inner
-vk.com##div.feed_row:has-text(/Может быть интересно|Рекомендуемые новости/)
+vk.com##div.feed_row:has-text(/Может быть интересно|Рекомендуемые новости|Рекомендуемое видео/)
 vk.com##[id^="post-"]:has([class*="copyright"]):has-text(/Источник:/)
 vk.com##[class="wall_item"]:has([class*="ads_mark"])
 yadi.sk##.header__inline-services-menu.inline-services-menu,.app-promo-banner,.software-header-product_win
@@ -103,21 +110,20 @@ pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.ads
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
 marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
+yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
-||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net *.googlevideo.com youtube.com;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net *.googlevideo.com youtube.com *.hostingradio.ru *.n340.com *.cdnvideo.ru *.101.ru *.magonet.ru;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
-/\?advert((ising)|\_page)?\_id=/
 /^https?:\/\/bann?ers?([\d]+)?\./
 /^https?:\/\/ad[svbxo]?([\d]+)?\./
 /^https?:\/\/ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?([\d]+)?\./
 /^https?:\/\/analy([\W\w]+)?([\d]+)?\./$domain=~google.com|~google.ru
-/^https?:\/\/geo([\d]+)?\./$domain=~google.com|~google.ru|~office.com|~sberbank.ru|~ritm.ru
 /^https?:\/\/me?tr[ie]?[ck][asx]?([\d]+)?\./$domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/telemetr(y|ics?)?([\d]+)?\./
 /[-._?]beacon[\d\D]?/
@@ -127,7 +133,6 @@ xvideos.com##.banner-slider.embed-responsive
 /\_shutdown\?token\=[a-zA-Z0-9]{10,}$/$important
 |http*:*$important,beacon
 |http*:*$important,ping
-|http*:*$important,webrtc
 |http*:*/log/$domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?
 |http*:*.com/pagead/
@@ -173,6 +178,9 @@ xvideos.com##.banner-slider.embed-responsive
 ||rocket.ivi.ru/playback/event/
 ||yandex.ru/appcry|
 /^https?:\/\/yandex\.ru\/appcry\/[a-zA-Z0-9]{5,}\//
+||yandex.ru/an/
+|http*:*&oad=
+|http*:*/yabanner?url=
 ! OTHER END
 
 ! SCRIPT START
@@ -212,29 +220,37 @@ xvideos.com##.banner-slider.embed-responsive
 ||yandex.ru/ick/$xmlhttprequest
 ! XMLHTTPREQUEST END
 
+! SUBDOCUMENT START
+||video.sibnet.ru/my/settings/$subdocument
+! SUBDOCUMENT END
+
+! IMAGE START
+|http*:*/image/px?$image
+! IMAGE END
+
 ! COMBINED START
 /\/afs\/ads[?/]/$subdocument,script,important
 /^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
-/[-._?/](event|stat)logs?(ging|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest
+/[-._?/](event|stat)logs?(ging|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~wikipedia.org|~google.com
 /[-._?/](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,other,script,xmlhttprequest
 /[-._?/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?]?204[-._?]?/$image,other,xmlhttprequest
 /[-._?/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com|~github.com
-/[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.*|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru
+/[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.*|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru|~binance.com
 /[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.*|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru
-/[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.*|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru|~yandex.ru
+/[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.*|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru|~yandex.ru|~vk.com
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+\/service[-_]worker\.js/$important,script,xmlhttprequest
 |http*:*/serviceworker?$important,script,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
+||youtube.com/*/activeview?$important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
 infourok.ru##div#aa-popup
-||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~baza.bz|~bdnewszh.com|~cdnmovies.be|~cdnmovies.cc|~cdnmovies.nl|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~fyshare.info|~getvi.tv|~github.io|~gsmware.com|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~live94today.com|~lookbase.xyz|~magicfilm.net|~mail.google.com|~mangahere.fit|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~playm4u.xyz|~playmuvi.com|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk-apps.com|~vk.com|~vmeste.tv|~web.app|~webflow.io,badfilter
-||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vulpecula.host,badfilter
+||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~baza.bz|~bdnewszh.com|~capshd.xyz|~cdnmovies.be|~cdnmovies.cc|~cdnmovies.nl|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~espnfree.xyz|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~fyshare.info|~getvi.tv|~github.io|~gsmware.com|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~live94today.com|~lookbase.xyz|~lyra.finance|~mail.google.com|~mangahere.fit|~map-a-date.cc|~mas-stream2021.xyz|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~playm4u.xyz|~playmuvi.com|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vercel.app|~vk-apps.com|~vk.com|~vmeste.tv|~web.app|~webflow.io,badfilter
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.eu|~forum.worldofwarships.ru|~hdvbplayer.tk|~herokuapp.com|~live-gol.net|~movielab.pro|~panomama.ru|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vk-apps.com|~vulpecula.host,badfilter
 @@||s.youtube.com^|$badfilter
 @@||redirect.appmetrica.yandex.com^|$badfilter
 @@||imasdk.googleapis.com^|$badfilter
@@ -246,61 +262,106 @@ infourok.ru##div#aa-popup
 ||wl.spotify.com^$badfilter
 ||click.redditmail.com^$badfilter
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
-@@/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.dublgis.dgismobile
-@@||usher.ttvnw.net^$xmlhttprequest,other,app=tv.twitch.android.app
-@@/^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.yandex.taxi
-@@/[-._?]bann?ers?[-.0-9_?]/$image,xmlhttprequest,app=ru.mts.mtstv
-@@/^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/$xmlhttprequest,app=ru.mts.mtstv
-@@/\?advert((ising)|\_page)?\_id=/$other,app=ru.yandex.yandexmaps
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 noodlemagazine.com#@#.verify
 pay.google.com#@#iframe[src="about:blank"]
 geo.ritm.ru###audio-playback-firefox
 ||checkadblock.ru^$document,csp=script-src 'self',badfilter
+||iobit.com/appgoto.php$document
 @@||api.browser.yandex.*^$badfilter
 /templates/*/images/like.gif$image
 @@||gstatic.com/*/firebase-analytics.js$script
 ||t.co^$badfilter
+||lan02.bid^
+||as.lencdn.com^
+/^https?:\/\/(.*\.)?lenkino\.adult\/([a-z0-9]{7}\/){2}$/$script
+cdn.cdn-films.xyz##.registration-form-widget
 ||filmitorrents.ru^
-@@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
 ||ad.mail.ru/$script,redirect-rule=empty,badfilter
 ! TRASH END
+
+! INTERCEPT-REDIRECT START
+*://c212.net/c/link
+*://*.curseforge.com/linkout
+*://clickserve.dartsearch.net/link/click
+*://github-redirect.dependabot.com/
+*://*.digidip.net/visit
+*://disq.us/url
+*://cj.dotomi.com/links-t/*
+*://console.ebsta.com/linktracking/track.aspx
+*://redirect.epicgames.com/*
+*://exit.sc/
+*://facebook.com/flx/warn/
+*://l.facebook.com/l.php
+*://lm.facebook.com/l.php
+*://m.facebook.com/flx/warn/
+*://gate.sc/
+*://www.google.co.jp/imgres
+*://www.google.co.jp/url
+*://news.url.google.com/url
+*://plus.url.google.com/url
+*://www.google.com/imgres
+*://www.google.com/sorry/index
+*://www.google.com/url
+*://www.google.se/imgres
+*://www.google.se/url
+*://www.googleadservices.com/pagead/aclk
+*://href.li/
+*://l.instagram.com/
+*://www.javlibrary.com/cn/redirect.php
+*://www.javlibrary.com/en/redirect.php
+*://www.javlibrary.com/ja/redirect.php
+*://www.javlibrary.com/tw/redirect.php
+*://r.klar.na/
+*://www.kraken.com/redirect
+*://t.lever-analytics.com/email-link
+*://l.messenger.com/l.php
+*://outgoing.prod.mozaws.net/v1/*
+*://onlyfans.com/away
+*://gcc01.safelinks.protection.outlook.com/
+*://slack-redir.net/link
+*://steamcommunity.com/linkfilter/
+*://twitter.com/i/redirect
+*://t.umblr.com/redirect
+*://vk.com/away.php
+*://workable.com/nr
+*://www.youtube.com/redirect
+! INTERCEPT-REDIRECT END
 
 ! ☆ ---- TLDs and Wildcards ---- ☆
 ! Spam and malware TLDs (courtesy Spamhaus and SURBL)
 
-*$all,to=surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club
-! ||surf^$all
-! ||rest^$all
-! ||monster^$all
-! ||beauty^$all
-! ||associates^$all
-! ||cricket^$all
-! ||financial^$all
-! ||discount^$all
-! ||fit^$all
-! ||life^$all
-! ||icu^$all
-! ||tokyo^$all
-! ||cf^$all
-! ||casa^$all
-! ||ci^$all
-! ||cyou^$all
-! ||pw^$all
-! ||top^$all
-! ||gq^$all
-! ||cn^$all
-! ||ga^$all
-! ||tk^$all
-! ||space^$all
-! ||shop^$all
-! ||cam^$all
-! ||link^$all
-! ||live^$all
-! ||biz^$all
-! ||buzz^$all
-! ||ml^$all
-! ||club^$all
+||surf^$all
+||rest^$all
+||monster^$all
+||beauty^$all
+||associates^$all
+||cricket^$all
+||financial^$all
+||discount^$all
+||fit^$all
+||life^$all
+||icu^$all
+||tokyo^$all
+||cf^$all
+||casa^$all
+||ci^$all
+||cyou^$all
+||pw^$all
+||top^$all
+||gq^$all
+||cn^$all
+||ga^$all
+||tk^$all
+||space^$all
+||shop^$all
+||cam^$all
+||link^$all
+||live^$all
+||biz^$all
+||buzz^$all
+||ml^$all
+||club^$all
 
 ! ☆ ---- Condensed Blocklist ---- ☆
 ||2o7.net^$all
