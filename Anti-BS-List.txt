@@ -1,9 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 🆎️ The Anti-BS List
-! Version: 20230102T1400
-
-! ☆ ---- AdGuard General JS Api ---- ☆
-!#include AG.General.JS.Api.txt
+! Version: 20230209T0000
 
 ! ☆ ---- Anti Bullshit List ---- ☆
 ###AdBlockDialog
@@ -1401,12 +1398,6 @@ _spot_id=*&zone_id=$script,~third-party
 ##in-page-message[id][doskip]
 ##ins[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
 !
-#$#.div-gpt-ad { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-~anydebrid.com,~colonist.io,~ff14angler.com,~downloads.descendant.me,~hotdebrid.com,~html5.gamedistribution.com,~paraphraser.io,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co#$#ins.adsbygoogle { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-#$#[class^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-~dropgalaxy.com,~kurashiru.com,~saitama-np.co.jp#$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-#$#div[id^="div-gpt-"]:not([id^="div-gpt-ad"]) { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-!
 -prebid.$script,badfilter
 .com/ads.$subdocument,redirect-rule=noopframe
 .tv/ads.$xmlhttprequest,redirect-rule=prebid-ads
@@ -1572,53 +1563,3 @@ _spot_id=*&zone_id=$script,~third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,third-party,match-case
-
-! ☆ ---- Anti-Functionality Removal List ---- ☆
-
-! 📛 = This category requires using uBlock Origin or AdGuard for the best results.
-
-! Copypaste hijackers 📛
-bloombergquint.com##+js(acis, document.oncopy)
-bloombergquint.com##+js(aopr, getSelection)
-!!!||deepl.com/js/docTrans-react.chunk. (https://github.com/AdguardTeam/AdguardFilters/issues/119645)
-!#if !adguard
-||www.15min.lt/naujiena^$inline-script
-!#endif
-!#if adguard
-! https://github.com/AdguardTeam/FiltersRegistry/issues/683
-!+ NOT_OPTIMIZED
-||www.15min.lt/naujiena^$csp=script-src 'self' 'unsafe-eval' http: https:
-!#endif
-
-! Prevents sites from removing the ability to right-click on pages
-! https://www.patheos.com/blogs/godzooks
-/wp-content/plugins/disable-right-click-and-content-copy-protection^
-! From "Frellwit's Swedish Filter"
-/plugins/wp-content-copy-protection/*
-/plugins/wp-copy-protect-with-color-design/*
-
-! Prevents sites from removing the ability to copy text 📛
-respublika.lt#?#[class^=com_]:style(user-select: unset !important; -webkit-user-select: unset !important; -moz-user-select: unset !important)
-hirunews.lk,ada.lk#?#body:style(user-select: unset !important; -webkit-user-select: unset !important; -moz-user-select: unset !important)
-||laisvadienis.lt^$inline-script
-
-! Removes strange blurring of comments on non-Nordic sites 📛
-respublika.lt#?##news_comment_container:style(filter: none !important)
-
-! Prevents sites from forcibly always opening pages in new tabs 📛
-! https://github.com/EasyList-Lithuania/easylist_lithuania/issues/16
-autoplius.lt##+js(ra, target, [target="_blank"], stay)
-
-! Fake loading screens
-hackintoshshop.com##body > div:first-of-type[style^=background-color][id]
-! (From "Nordic Filters")
-nettavisen.no###topover-loader
-nettavisen.no###topover
-! adressa.no (02/12/2020)
-||collector.schibsted.io^$third-party
-! https://sandberg.world/en-no/product/Wireless-Mouse-Pro (25/12/2022); mppdainik.com (Unknown date)
-###preloader
-
-! Prevents sites from making wiki pages impossible to edit on phone screens 📛
-pcgamingwiki.com#?##mw-head-right > li:style(display: inline-block !important)
-pcgamingwiki.com#?##mw-head-more:style(display: inline-block !important)
