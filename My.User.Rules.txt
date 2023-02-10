@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
+[uBlock Origin; AdGuard]
 ! Title: ☠️ My User Rules (Adguard and uBlock)
-! Version: 20230115T0600
+! Version: 20230210T2200
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
@@ -200,6 +200,17 @@ hqq.tv##+js(set-constant, doSecondPop, noopFunc)
 hqq.tv##+js(nofab)
 @@||hqq.*^$script,xhr,1p
 ||hqq.tv/cdn-cgi/trace
+*##a[onclick="openAuc();"]
+*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+*##[onclick="openAuc();"]
+*##a[title="Free money easy"]
+*##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
+*##[title="Free money easy"]
+*##+js(aopr, BetterJsPop)
+*##+js(acis, document.querySelectorAll, popMagic)
+*##+js(set-constant, adblockcheck, false)
+*##+js(set-constant, doSecondPop, noopFunc)
+*##+js(nofab)
 
 ! 2022-10-05 https://m.hqporner.com
 ||www.google-analytics.com^$script
@@ -271,6 +282,4 @@ fxpornhd.com##.happy-header-mobile
 ! 2022-12-30 https://milfprime.com
 milfprime.com##.bZSnCh.style__LinkHeader-sc-1adl0tj-3
 
-! 2023-01-10 My attempt to block a few Top Level Domains (TLD)
-/^https?:\/\/.*\.(surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club)\/.*/$all
 
