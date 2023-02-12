@@ -1,5 +1,5 @@
 # Title: ⚓ Working List
-# Version: 20230212T0430
+# Version: 20230212T1600
 # Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
 # A Compilation of bogachenko's + HaGeZi's Personal Lists
 
@@ -86,18 +86,10 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||micloud.xiaomi.net^
 ! TEST END
 
-! STEALTH START
-@@||gosuslugi.ru^$stealth
-@@||wildberries.ru^$stealth
-! STEALTH END
-
 ! WHITELIST START
-@@/^https?:\/\/edge\.microsoft\.com\/(extension(webstorebase|installverifier)\/[a-z1-9.]{2,4}\/(installverify|(hash)?crx\?|log(extensionreliability|failureinfo)\?)|(redirector|hunspell)dictionaries\/)/$important
-@@||connectivitycheck.gstatic.com^$important
 @@||safebrowsing.clients.google.com^$document
 @@||local.adguard.org^$script
 @@||injections.adguard.org^$script
-@@||metrika.yandex.ru^$document,important
 mail.yandex.ru#@#iframe[src="about:blank"]
 @@||cdnjs.cloudflare.com^$script
 ! WHITELIST END
@@ -119,15 +111,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
 ||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
 ! LAN END
-
-! NETWORK START
-! sentry.io
-35.188.42.15:443^$network
-! sentry.io googlesyndication.com doubleclick.net adservice.google.com adservice.google.ru
-/^(172\.217\.[12][0-9]{2,3}\.[0-9]{2,3}|216\.58\.2[0-9]{2}\.[0-9]{1,3}|142\.250\.74\.[0-9]{2,3}|35\.188\.42\.15):443$/$network,app=Spotify.exe|com.spotify.music
-! TikTok
-/^(8\.8\.[84]\.[84]):443$/$network,app=com.zhiliaoapp.musically
-! NETWORK END
 
 ! DOCUMENT START
 |http*:*/page/bouncy.php?$document
@@ -201,22 +184,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||premium.getcontact.com^
 ! DOMAIN END
 
-! APP START
-/^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|g(oogleapis|static)|pbssrv\-centralevents|verifykit|cdngtc)\.com)).*$/$important,app=app.source.getcontact
-*$important,app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
-/^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|(firebaseinstallations|update)\.googleapis\.com)).*$/$important,app=Spotify.exe|com.spotify.music
-/^https?:\/\/pbssrv\-centralevents\.com\/.*\/(subscription|marketing\-event|ad\-settings|spam\-info)$/$important,app=app.source.getcontact
-/^(?!.*(temp\-mail)\.org).*$/$important,app=com.tempmail
-||amazonaws.com^$important,app=ru.yandex.merto
-||dns.google^$app=com.zhiliaoapp.musically
-/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$important,script,xmlhttprequest,app=ru.ivi.client
-||config.teams.microsoft.com^$important,app=com.microsoft.teams
-||config.edge.skype.com^$important,app=com.microsoft.office.outlook
-! APP END
-
 ! SCRIPTLET START
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
@@ -286,7 +255,6 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 /\_shutdown\?token\=[a-zA-Z0-9]{10,}$/$important
 |http*:*$important,beacon
 |http*:*$important,ping
-|http*:*$important,webrtc
 |http*:*/log/$domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?
 |http*:*.com/pagead/
@@ -417,12 +385,6 @@ infourok.ru##div#aa-popup
 ||wl.spotify.com^$badfilter
 ||click.redditmail.com^$badfilter
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
-@@/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.dublgis.dgismobile
-@@||usher.ttvnw.net^$xmlhttprequest,other,app=tv.twitch.android.app
-@@/^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.yandex.taxi
-@@/[-._?]bann?ers?[-.0-9_?]/$image,xmlhttprequest,app=ru.mts.mtstv
-@@/^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/$xmlhttprequest,app=ru.mts.mtstv
-@@/\?advert((ising)|\_page)?\_id=/$other,app=ru.yandex.yandexmaps
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 noodlemagazine.com#@#.verify
 pay.google.com#@#iframe[src="about:blank"]
@@ -438,7 +400,6 @@ geo.ritm.ru###audio-playback-firefox
 /^https?:\/\/(.*\.)?lenkino\.adult\/([a-z0-9]{7}\/){2}$/$script
 cdn.cdn-films.xyz##.registration-form-widget
 ||filmitorrents.ru^
-@@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
 ||ad.mail.ru/$script,redirect-rule=empty,badfilter
 ||bolayaros.com^
 ||mpraven.org^
