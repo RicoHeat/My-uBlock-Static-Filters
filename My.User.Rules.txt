@@ -1,6 +1,6 @@
 [uBlock Origin; AdGuard]
 ! Title: ☠️ My User Rules (Adguard and uBlock)
-! Version: 20230213T2000
+! Version: 20230213T2200
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
@@ -338,3 +338,5 @@ www.trendyxxx.com##body > .ad-content > center > .ad-body.well
 www.letmejerk.net##.item-container
 www.letmejerk.net##.slick-slider.slick-initialized.slide-webcams.thumbs
 www.letmejerk.net##div.heading:nth-of-type(8)
+letmejerk.*##+js(abort-on-property-read, ExoLoader)
+letmejerk.*##div[class^="lmj"]
