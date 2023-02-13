@@ -1,5 +1,5 @@
 # Title: ⚓ Working List
-# Version: 20230212T1600
+# Version: 20230214T0000
 # Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
 # A Compilation of bogachenko's + HaGeZi's Personal Lists
 
@@ -95,14 +95,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ! WHITELIST END
 
 ! LAN START
-/^https?:\/\/192\.168\.[01]\.1/$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
-||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
-||127.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
-||10.0.0.1^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
-||[::1]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
-||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
-||localhost^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
-
 ||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
 ||[::]^$third-party,domain=~0.0.0.0|~[::ffff:0:0]
 ||[::ffff:0:0]^$third-party,domain=~0.0.0.0|~[::]
