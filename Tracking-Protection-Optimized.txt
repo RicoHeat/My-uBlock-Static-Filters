@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Title: Tracking Protection Optimized
-! Version: 20230213T2000
+! Title: 🔎 Tracking Protection Optimized
+! Version: 20230213T2100
 
 ! Filter Data imported from <https://raw.githubusercontent.com/RicoHeat/My-uBlock-Static-Filters/main/CleanURL-AntiTrack.txt>
 ||google.*/search$removeparam=biw
