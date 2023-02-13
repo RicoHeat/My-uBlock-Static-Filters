@@ -1,6 +1,6 @@
 [uBlock Origin; AdGuard]
-! Title: ☠️ My User Rules (Adguard and uBlock)
-! Version: 20230213T2200
+! Title: ☠️ My User Rules (AdGuard and uBlock)
+! Version: 20230214T0200
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
@@ -197,9 +197,6 @@ beeg.com##.GreyFox--under.GreyFox
 @@||unpkg.com^
 ||unpkg.com/videojs-vast-vpaid$domain=hqq.*
 hqq.*##a[onclick*="openAuc();"]
-hqq.*##a[title="Free money easy"]
-hqq.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-hqq.*##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
 hqq.tv##a[title="Free money easy"]
 ||hqq.*/cdn-cgi/trace$xhr,1p,important
 hqq.tv##+js(set-constant, adblockcheck, false)
@@ -234,7 +231,6 @@ www.pornhub.com##.topAdContainter &gt; .clearfix.adContainer
 justincestporn.com##[href="https://a.adtng.com/get/10012927"]
 
 ! 2022-10-17 https://watchporn.to
-||watchporn.to/banners.php$subdocument
 @@||watchporn.to^$domain=watchporn.to
 watchporn.to##+js(nostif, offsetWidth)
 ||watchporn.to/contents/*$media,1p
@@ -331,8 +327,6 @@ pornobae.net##a[title="Free money easy"]
 www.trendyxxx.com##body > .ad-content > center > .ad-body.well
 
 ! 2023-02-12 https://www.porn00.tv
-||www.google-analytics.com/analytics.js$script
-||www.google-analytics.com^$script
 
 ! 2023-02-13 https://www.letmejerk.net
 www.letmejerk.net##.item-container
