@@ -1,6 +1,6 @@
 [uBlock Origin; AdGuard]
-! Title: ☠️ My User Rules (AdGuard and uBlock)
-! Version: 20230214T0200
+! Title: ☠️ My User Rules
+! Version: 20230214T0700
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
