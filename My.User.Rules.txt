@@ -1,29 +1,33 @@
 [uBlock Origin; AdGuard]
 ! Title: ☠️ My User Rules (Adguard and uBlock)
-! Version: 20230210T2200
+! Version: 20230213T2000
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
 ||flat-ads.com^
 ||war.ukraine.ua^
-||ms.applvn.col^
-||d.applvn.col^
+||ms.applvn.*^
+||d.applvn.*^
 ||bongacams10.com^
 ||mt2.cn^
-||rt.applvn.col^
-||firebase-settings.crashlytics.col^
-||rt.applovin.col^
-||ms.applovin.col^
-||d.applovin.col^
-||adr.api.vungle.col^
-||telemetry.sdk.inmobi.col^
-||config.inmobi.col^
+||rt.applvn.*^
+||firebase-settings.crashlytics.*^
+||rt.applovin.*^
+||ms.applovin.*^
+||d.applovin.*^
+||adr.api.vungle.*^
+||telemetry.sdk.inmobi.*^
+||config.inmobi.*^
 ||gtm.oasisfeng.com^
 ||graph.facebook.com^
 ||amp.cloudflare.com^
 ||ampproject.net^
 ||cdn.ampproject.org^
 ||rayjump.com^
+
+! ☆ ---- Top Level Domains ---- ☆
+*$doc,domain=surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club
+
 ! ☆ ---- 2022 OCT 23 User Rules ---- ☆
 ||reddit.com/counters/$xmlhttprequest
 ||redditmedia.com/gtm/jail?
@@ -53,6 +57,7 @@
 ||com/banners/$image,object,subdocument,domain=~pingdom.com|~thetvdb.com|~tooltrucks.com
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||xvideos-games.com^$app=com.wg.xvideos.app
+
 ! ☆ ---- Older User Rules ---- ☆
 .doublepimp.com^$third-party
 ||itspsmup.com^
@@ -113,9 +118,11 @@ $$script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="2500
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 ||eporner.com/dot/
 &amp;action=js_stats&amp;
+
 ! ☆ ---- cloned app ---- ☆
 @@||graph.facebook.com^$app=com.facebook.orka
 @@||b-graph.facebook.com^$app=com.facebook.orka
+
 ! ☆ ---- 1DM filters ---- ☆
 @@/jwplayer.core.controls.html5.js$script
 @@||cc.1clickcdn.ru/*.vtt
@@ -234,6 +241,11 @@ watchporn.to##+js(nostif, offsetWidth)
 watchporn.to##[style][href][target="_blank"]
 watchporn.to##.top-links
 @@||watchporn.to^$1p
+||xlirdr.com^$important
+||creative.xlirdr.com/widgets/*$subdocument
+watchporn.to#@#.ads-iframe
+||watchporn.to/banners.php
+watchporn.to,bravoerotica.net,thothd.com,hairyerotica.com,theporngod.com,sexoverdose.com,bestpornflix.com,4porn4.com,kuxxx.com,gettubetv.com,hoes.tube,cluset.com,xtits.*,pornsai.com,jizzberry.com,63290r.com,love4porn.com,cartoonprn.com,celebwhore.com,sexcams-24.com,camwhorescloud.com,bigtitslust.com,camfox.com,camflow.tv,pornchimp.com,xmegadrive.com,tubsexer.*,theyarehuge.com,yourporngod.com,thebussybandit.com##.table
 
 ! 2022-10-30 https://www.reddit.com
 www.reddit.com##.TopNav__promoButton
@@ -282,4 +294,47 @@ fxpornhd.com##.happy-header-mobile
 ! 2022-12-30 https://milfprime.com
 milfprime.com##.bZSnCh.style__LinkHeader-sc-1adl0tj-3
 
+! 2022-12-16 https://www.yespornplease.sexy
+www.yespornplease.sexy##div.row:nth-of-type(7) > .col-sm-12 > .row
+www.yespornplease.sexy##.container > center
+www.yespornplease.sexy##.well-filters.well
+www.yespornplease.sexy##[href="https://amateurcam4u.com/"]
+www.yespornplease.sexy##[href="https://www.camworms.com/en/"]
 
+! 2022-12-16 https://www.trendyxxx.com
+www.trendyxxx.com##div.row:nth-of-type(6)
+www.trendyxxx.com##.mb-3.well-filters
+
+! 2023-01-02 https://pornwiss.com
+||pornwiss.com/wp-content/uploads/2020/10/vpn-notice.png$image
+pornwiss.com##.happy-under-player
+
+! 2023-01-25 https://pornobae.net
+@@||pornobae.net^$generichide
+pornobae.net##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+pornobae.net##a[onclick="openAuc();"]
+pornobae.net##a[title="Free money easy"]
+
+! 2023-01-25 https://fullporner.org
+@@||fullporner.org^$generichide
+
+! 2023-01-30 https://milfnuts.net
+@@||milfnuts.net^$generichide
+
+! 2023-02-07 https://www.pornhits.com
+@@||data.rdtk.io^$popup,domain=www.pornhits.com
+
+! 2023-02-07 https://hqq.tv
+/^(.+[_.-])?vast([\d]+)?[_.-]/
+
+! 2023-02-11 https://www.trendyxxx.com
+www.trendyxxx.com##body > .ad-content > center > .ad-body.well
+
+! 2023-02-12 https://www.porn00.tv
+||www.google-analytics.com/analytics.js$script
+||www.google-analytics.com^$script
+
+! 2023-02-13 https://www.letmejerk.net
+www.letmejerk.net##.item-container
+www.letmejerk.net##.slick-slider.slick-initialized.slide-webcams.thumbs
+www.letmejerk.net##div.heading:nth-of-type(8)
