@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Title: ⛑ Unbreak Fixes
-! Version: 20230214T0300
+! Title: ⛑️ Unbreak Fixes
+! Version: 20230214T1300
 
 ! Filter Data imported from <https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt>
 @@||ads.brave.software^$first-party
@@ -492,7 +492,6 @@ globalnews.ca##.c-newsletterSignup
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
-geekzone.co.nz,elpais.com,abc.es,lapresse.ca##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 latimes.com##body:style(overflow: auto !important;)
 accuweather.com,kupujemprodajem.com,polovniautomobili.com##+js(remove-attr, class, .ads-not-loaded, stay)
 computerbase.de#@#+js(rc, consent-dialog-open, body)
@@ -729,7 +728,6 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 ||cdn.krxd.net^$script,redirect=noopjs,domain=video.foxnews.com
 @@||akamaihd.net/player/*/akamai/amp/prebid/*$script,domain=static.foxnews.com
 @@||global.fncstatic.com^*/ads.js$script,domain=foxnews.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=insider.foxnews.com
 @@||analytics.nova.foxnews.com/analytics.js/v1/$script,domain=nation.foxnews.com
 @@||api.lab.amplitude.com/sdk/vardata$xhr,domain=nation.foxnews.com
 ||statcounter.com^$badfilter
@@ -1837,7 +1835,6 @@ usnews.com##+js(set, Object.prototype.vjsPlayer.ads, noopFunc)
 @@||open.spotify.com^$cname
 @@||itorrents.org/torrent/$popup
 @@||torrage.info/download$popup
-@@||d28julafmv4ekl.cloudfront.net/*.mp3?$media,domain=imdb.com
 @@||googletagmanager.com/gtm.js$script,domain=lavanguardia.com
 |https://$script,3p,domain=cloudvideo.tv,badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=meilleurpronostic.fr
@@ -1973,7 +1970,6 @@ bing.com##:matches-path(~/shop) a[href*="/aclick?"]:not(.vsp_ads)
 bing.com##+js(nosiif, logQueue, 10000)
 ||cpmstar.com^$badfilter
 ||cpmstar.com^$3p
-||appsflyer.com^$badfilter
 ||appsflyer.com^$3p
 ||cdn.shopify.com/*assets/pixel.gif$image,redirect=1x1.gif,domain=metrovac.com,important
 ||actonsoftware.com^$badfilter
@@ -2084,7 +2080,6 @@ unito.life##+js(acis, KeenTracking)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=newsweek.com
 ||google-analytics.com/analytics.js$script,redirect-rule=noopjs,domain=hudsonvalleypost.com|seacoastcurrent.com|popcrush.com,important
 ||googletagmanager.com/gtm.js$script,redirect-rule=noopjs,domain=hudsonvalleypost.com|seacoastcurrent.com|popcrush.com,important
-@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=techrepublic.com
 @@||google-analytics.com/analytics.js$script,3p,redirect-rule,domain=k2radio.com|kowb1290.com|koel.com|loudwire.com
 @@||googletagmanager.com/gtm.js$script,3p,redirect-rule,domain=k2radio.com|kowb1290.com|koel.com|loudwire.com
 @@||googletagmanager.com/gtm.js$script,domain=megacritic.ru
@@ -2402,7 +2397,6 @@ fontspace.com#@#.container-ads
 ||fwcdn2.com^$badfilter
 ||minute.ly^$3p,badfilter
 ||tldw.me^$3p,badfilter
-@@||cdn.branch.io/branch-latest.min.js$script,domain=ecwid.com
 @@||app.link/_r?sdk$script,domain=ecwid.com
 @@||api2.branch.io/v1/url$xhr,domain=ecwid.com
 @@||cdn.appdynamics.com/adrum/adrum-*.js$domain=santander.cl
@@ -2652,4 +2646,3 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 @@||api2.branch.io/v1/open$xhr,domain=fluz.app
 wnynewsnow.com#@#.ez-video-wrap
 @@||videosvc.ezoic.com/play$xhr,domain=wnynewsnow.com
-
