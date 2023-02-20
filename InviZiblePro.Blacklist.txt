@@ -4006,3 +4006,4 @@ ampproject.net
 cdn.ampproject.org
 i.mxplayer.j2inter.com
 rev.poneytelecom.eu
+convergeict.com
