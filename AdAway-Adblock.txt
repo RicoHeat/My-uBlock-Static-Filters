@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
 ! Title: 🛑 AdAway-Adblocker
 ! Blocking Ads, Popups, Popunders, and some tracking-analytics for additional security.
-! Version: 20230126T0100
+! Version: 20230304T0000
 !
 ! ☆ ---- Easy-Assets ---- ☆
 !#include Easy-Assets.txt
