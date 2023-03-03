@@ -3,8 +3,8 @@
 ! Blocking Ads, Popups, Popunders, and some tracking-analytics for additional security.
 ! Version: 20230304T0000
 !
-! ☆ ---- Easy-Assets ---- ☆
-!#include Easy-Assets.txt
+! ☆ ---- Adult Easylist Optimized ---- ☆
+!#include Adult.Easylist.Optimized.txt
 ! ☆ ---- Anti-BS ---- ☆
 !#include Anti-BS-List.txt
 ! ☆ ---- Cosmetic Filter ---- ☆
