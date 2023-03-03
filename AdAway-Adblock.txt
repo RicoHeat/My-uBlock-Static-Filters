@@ -17,3 +17,5 @@
 !#include CleanURL-AntiTrack.txt
 ! ☆ ---- NoCryptoCoins ---- ☆
 !#include NoCryptoCoins.txt
+! ☆ ---- Unbreak-Fixes ---- ☆
+!#include Unbreak-Fixes.txt
