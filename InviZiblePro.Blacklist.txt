@@ -1,4 +1,8 @@
 [Blacklist]
+! Title: InviZible Pro Blacklist
+! Version: 20230306T0100
+! My personal condensed blacklist for an android app named InviZible Pro Beta.
+
 *.surf
 *.rest
 *.monster
