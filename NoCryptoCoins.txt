@@ -1,6 +1,6 @@
-[Adblock Plus 2.0; uBlock Origin]
+[Adblock Plus 2.0]
 ! Title: ☢️ No Crypto Coins
-! Version: 20230223T0600
+! Version: 20230309T1600
 
 ! Filter Data imported from <https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt>
 ||1pool.org^
@@ -798,60 +798,44 @@ $script,websocket,domain=pirateproxy.buzz|pirateproxy.ist|pirateproxy.mx|thepira
 ||dynamo-kiev.com/jquerys.js
 ||dengiua.com/jquerys.js
 ||bilsh.com/jquerys.js
-||cdn.monero-miner.net^
+||trustisimportant.fun^
 ||dontbeevils.de^$websocket
-||lasimakiz.xyz^
 ||ecstatic-hoover-50a7b7.netlify.com/pYrqEw.js
 ||ecstatic-hoover-50a7b7.netlify.com/LXWzre.js
 ||jsfiddle.net^$important,domain=7torr.com
 ||pornsfw.com/assets/application-*.js
 ||omine.org^$third-party
-||jwuqescfqa.xyz^
 ://mine.torrent.pw^
 ||besstahete.info^
-||sentemanactri.com^
 ||nahnoji.cz/compact_miner^
-||005.0x1f4b0.com^
 ||play*.videos.vidto.me^
-||nextbdom.ru^
 vkcdnservice.appspot.com^$third-party
 ||archer0*.tk:*/
 $websocket,domain=300mbfilms.io|lib.rus.ec
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
 ||analytics.blue^
-||azvjudwr.info^$third-party
-||cdn.jquery-uim.download^
 ||gridiogrid.com^
-||jroqvbvw.info^$third-party
-||jyhfuqoh.info^$third-party
-||kdowqlpt.info^$third-party
 ||kinohabr.net/*.php?id=*&type=
 ||ppoi.org^$third-party
 ||projectpoi.com^$third-party
 ||questionfly.com^$third-party
 ||s3.amazonaws.com/imgint/aaz.js
-||xbasfbno.info^$third-party
 ||uptostream.com/assets/coinif.php$important
 ||habd.as/js/modules/toxic-swamp/webminer.min.js
 ||play*.flashx.pw/filter
-||plugin.brfiles.com/lib/ch64.min.js
 ||thepiratebay-proxylist.se/filter$websocket
 ||seminarski-diplomski.co.rs/js/custom.js
 ||cdn-102.statdynamic.com/filter
 ||zona.plus/*.php|
 ||sweetbook.net/templates/skin/sweetnew/js/internal.js
 ||s*.skencituer.com^
-||cdn.akubebas.com/js/ch.js
 ||kickass.cd/*/m.js
 ||firmware.center/.coinhive.min.js
-||foxx.to/wp-content/plugins/aj-cryptominer^
 ||intersportv.com/canli-mac-yayinlari/wp-content/uploads/*/jZxl_2.js
 ||intersportv.com/canli-mac-yayinlari/wp-content/uploads/*/intersportv.js
 ||gaypornwave.com/wp-content/plugins/simple-miner-tweaks^
 ||techhome-js.github.io/main.js^$third-party
 ||techhome-js.github.io/code.wsm^$third-party
-||estream.to/amo.js
-||estream.to^$websocket
 ||vidzi.tv/plays.js
 ||hiy.vidzi.tv/socket.io^
 ||futeboltv.com/js/coinhiveminer.js
