@@ -1,8 +1,10 @@
 [Adblock Plus 2.0]
-!! Title: 💋 Cosmetic Filter List
-! Version: 20230214T0200
 !
-! ☆ ---- Generichide Rules ---- ☆
+! Title: 💋 Cosmetic Filter List
+! Version: 20230323T0100
+!
+! ☆ ---- Generic Rules ---- ☆
+!
 ##.Ad-adhesive
 ##.ggads
 ##.top250Ad
@@ -126,6 +128,26 @@
 ##div[id^="google_ads_iframe_"]
 ##img[title^="advertisement"]
 !
+www.tabootube.xxx##.item-adv-1.item
+www.tabootube.xxx##.item-adv-2.item
+www.tabootube.xxx##.item-adv-5.item
+www.tabootube.xxx##.item-adv-6.item
+www.tabootube.xxx##.item-adv-7.item
+www.tabootube.xxx##.item-adv-8.item
+www.tabootube.xxx##.item-adv-4.item
+www.tabootube.xxx##.item-adv-3.item
+www.porn00.tv##.member-links > ul > li:nth-of-type(3)
+www.porn00.tv##.member-links > ul > li:nth-of-type(2)
+www.porn00.tv##.member-links > ul > li:nth-of-type(1)
+www.porn00.tv##.footer-margin > .content > .bottom-adv.box
+@@||wp.com^$domain=watchpornx.com
+www.xfreehd.com##.visible-sm.visible-xs.center > div
+www.xfreehd.com##.indexMiddleX0
+www.xfreehd.com##.cp-7.container > div > .center > div
+@@||tnaflix.com/assets/
+||milfnut.net/sources15/43354d4b384d346e553663467c7c387176716d7735386e3132677c7c5a794e343166736f343976427c7c73747265616d7362$xhr,1p
+@@||appcdn01.xyz/vast.js$script,domain=milfnut.net
+github.com##.rounded-1.border.blankslate-spacious.blankslate
 www.tabootube.xxx##.webcam_widget
 www.tabootube.xxx##.false.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
 www.tabootube.xxx##.bottom-adv.box
@@ -1206,11 +1228,9 @@ porndoe.com,tube8.es,tube8.fr,youjizz.com,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 tabooporns.com##[href="https://tabuporns.com/"]
-fullporner.com##.col-md-right
-fullporner.com##.ad-inline-box.col-md-12
-fullporner.com##.live-embed
 ! ☆ ---- Advanced element hiding rules for Adblock Plus ---- ☆
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-1:-abp-has(> div[class^="inside-list-boxes"])
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-2:-abp-has(.duration-ad)
 erofus.com#?#div:-abp-has(> .ad)
 pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
+!
