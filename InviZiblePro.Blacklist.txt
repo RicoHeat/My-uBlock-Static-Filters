@@ -1,6 +1,6 @@
 [Blacklist]
 ! Title: InviZible Pro Blacklist
-! Version: 20230401T0500
+! Version: 20230401T0510
 ! My personal condensed blacklist for an android app named InviZible Pro Beta.
 
 *.daraz.*
@@ -15,6 +15,7 @@ bongacams10.com
 gtm.oasisfeng.com
 i.mxplayer.j2inter.com
 rev.poneytelecom.eu
+deltadna.net
 ads[0-9]*
 *analytics*
 creatives.*
@@ -3816,8 +3817,8 @@ moatads
 unityads.unity3d.com
 adc3-launch
 mobile-static.adsafeprotected
-applovin.
-applvn.
+applovin.*
+applvn.*
 appnext.hs
 live.chartboost.com
 www.dummy.com
