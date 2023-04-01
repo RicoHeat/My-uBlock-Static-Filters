@@ -1,6 +1,9 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: ☢ NoCryptoCoins Filterlist
-! Version: 20230328T0400
+! Version: 20230402T0500
+
+! Fixed due to video playback problems on a few NSFW websites like milfnuts.net
+@@||wss.commentsengine.com:8443^$websocket,domain=hqq.tv
 
 ||go.bestmobiworld.com^$third-party
 ||sunnimiq2.cf^$third-party
