@@ -1,29 +1,9 @@
 [uBlock Origin; AdGuard]
 ! Title: ☠️ My User Rules
-! Version: 20230408T0100
+! Version: 20230408T0400
 
-! ☆ ---- Additional Rules ---- ☆
-||flat-ads-com^
-||flat-ads.com^
-||war.ukraine.ua^
-||ms.applvn.
-||d.applvn.
-||bongacams10.com^
-||mt2.cn^
-||rt.applvn.
-||firebase-settings.crashlytics.
-||rt.applovin.
-||ms.applovin.
-||d.applovin.
-||adr.api.vungle.
-||telemetry.sdk.inmobi.
-||config.inmobi.
-||gtm.oasisfeng.com^
-||graph.facebook.com^
-||amp.cloudflare.com^
-||ampproject.net^
-||cdn.ampproject.org^
-||rayjump.com^
+! Testing
+|stun://
 
 ! ☆ ---- Top Level Domains ---- ☆
 *$all,domain=surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club
@@ -223,9 +203,6 @@ player.tabooporns.com##+js(aopr, BetterJsPop)
 player.tabooporns.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 player.tabooporns.com##a[onclick="openAuc();"]
 
-! 2022-10-05 https://m.hqporner.com
-||www.google-analytics.com^$script
-
 ! 2022-10-16 https://xgroovy.com
 xgroovy.com###top_links &gt; .second-menu-links
 xgroovy.com##.headZ.headA
@@ -294,9 +271,6 @@ fxpornhd.com##.happy-header-mobile
 @@||povcum.net^$1p
 @@||povcum.net^$generichide
 
-! 2022-12-30 https://milfprime.com
-milfprime.com##.bZSnCh.style__LinkHeader-sc-1adl0tj-3
-
 ! 2022-12-16 https://www.yespornplease.sexy
 www.yespornplease.sexy##div.row:nth-of-type(7) > .col-sm-12 > .row
 www.yespornplease.sexy##.container > center
@@ -307,10 +281,6 @@ www.yespornplease.sexy##[href="https://www.camworms.com/en/"]
 ! 2022-12-16 https://www.trendyxxx.com
 www.trendyxxx.com##div.row:nth-of-type(6)
 www.trendyxxx.com##.mb-3.well-filters
-
-! 2023-01-02 https://pornwiss.com
-||pornwiss.com/wp-content/uploads/2020/10/vpn-notice.png$image
-pornwiss.com##.happy-under-player
 
 ! 2023-01-25 https://pornobae.net
 @@||pornobae.net^$generichide
@@ -333,11 +303,194 @@ milfnuts.net##a[title="Free money easy"]
 ! 2023-02-11 https://www.trendyxxx.com
 www.trendyxxx.com##body > .ad-content > center > .ad-body.well
 
-! 2023-02-12 https://www.porn00.tv
-
 ! 2023-02-13 https://www.letmejerk.net
 www.letmejerk.net##.item-container
 www.letmejerk.net##.slick-slider.slick-initialized.slide-webcams.thumbs
 www.letmejerk.net##div.heading:nth-of-type(8)
 letmejerk.*##+js(abort-on-property-read, ExoLoader)
 letmejerk.*##div[class^="lmj"]
+
+! 2023-02-02 https://pornjuices.com
+pornjuices.com##.active.adde_modal-overlay
+
+! 2023-02-02 https://pornmedium.com
+@@||pornmedium.com^$generichide
+@@||porntrex.com^$generichide
+
+! 2023-02-04 https://android-zone.ws
+android-zone.ws##.ipsJS_hide.ipsPad_half
+
+! 2023-02-07 https://www.pornktube.tv
+@@||www.pornktube.tv^$1p
+
+! 2023-02-12 https://onetvplus.xyz
+@@||onetvplus.xyz^$generichide
+
+! 2023-02-12 https://familypornhd.com
+@@||familypornhd.com^$generichide
+
+! 2023-02-12 https://www.katestube.com
+www.katestube.com##.main > .top-spot
+www.katestube.com##.long.video-options > .top-spot
+www.katestube.com##.nav-mobile
+
+! 2023-02-12 https://www.tiava.com
+||www.google-analytics.com^$script
+||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js
+
+! 2023-02-14 https://yandexcdn.com
+@@||yandexcdn.com^$generichide
+*/images/adblock.jpg$image
+yandexcdn.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+
+! 2023-02-18 https://latestpornvideo.com
+@@||latestpornvideo.com^$generichide
+@@||strdef.world^$generichide
+
+! 2023-02-19 https://milfprime.com
+@@||milfprime.com^$generichide
+@@||cdn.milfprime.com^
+milfprime.com##.bZSnCh.style__LinkHeader-sc-1adl0tj-3
+
+! 2023-02-21 https://tawk.to
+@@||va.tawk.to^
+
+! 2023-02-21 https://realityripple.com
+realityripple.com##.donate
+
+##a[onclick="openAuc();"]
+##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+##[onclick="openAuc();"]
+##a[title="Free money easy"]
+##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
+##[title="Free money easy"]
+##+js(aopr, BetterJsPop)
+##+js(acis, document.querySelectorAll, popMagic)
+##+js(set-constant, adblockcheck, false)
+##+js(set-constant, doSecondPop, noopFunc)
+##+js(nofab)
+
+! 2023-03-01 https://www.xvideos.com
+www.xvideos.com##.remove-ads
+
+! 2023-03-02 https://sxyprn.com
+@@||yps.link^
+
+! 2023-03-02 https://tabooporns.com
+||tabooporns.com^$popup
+
+! 2023-03-03 https://github.com
+github.com##.rounded-1.border.blankslate-spacious.blankslate
+
+! 2023-03-11 https://play.google.com
+@@||www.gstatic.com^$script,domain=play.google.com
+
+! 2023-03-22 https://player.tabooporns.com
+||vast.yomeno.xyz^$xhr,redirect-rule=nooptext
+||syndication.realsrv.com/splash.php?$redirect-rule=nooptext
+
+! 2023-03-22 https://xfantazy.com
+@@||xfantazy.com^$generichide
+
+! 2023-03-22 https://a.adtng.com
+||justincestporn.com^$popup,domain=adtng.com,important
+
+! 2023-03-22 https://justincestporn.com
+||justincestporn.com^$popup,important
+
+! 2023-03-23 https://xmoviesforyou.net
+||xmoviesforyou.net^$popup
+
+! 2023-03-27 https://pornwiss.com
+pornwiss.com##.col-xl-4.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
+||pornwiss.com/wp-content/uploads/2020/10/vpn-notice.png$image
+
+! 2023-04-05 https://fxpornhd.com
+@@||fxpornhd.com^$generichide
+@@||vjs.zencdn.net^
+
+! 2023-03-31 https://www.eporner.com
+www.eporner.com###admobilefoot
+
+! 2023-03-31 https://www.porngo.com
+www.porngo.com##li.menu-list__row:nth-of-type(9)
+
+! 2023-04-01 https://hqq.tv
+@@||wss.commentsengine.com:8443^$websocket,domain=hqq.tv
+
+! 2023-04-03 https://watchpornx.com
+@@||wp.com^
+
+! 2023-04-03 https://www.porn00.tv
+www.porn00.tv##.member-links > ul
+
+! ☆ ---- Additional Rules ---- ☆
+||flat-ads-com^
+||flat-ads.com^
+||war.ukraine.ua^
+||ms.applvn.
+||d.applvn.
+||bongacams10.com^
+||mt2.cn^
+||rt.applvn.
+||firebase-settings.crashlytics.
+||rt.applovin.
+||ms.applovin.
+||d.applovin.
+||adr.api.vungle.
+||telemetry.sdk.inmobi.
+||config.inmobi.
+||gtm.oasisfeng.com^
+||graph.facebook.com^
+||amp.cloudflare.com^
+||ampproject.net^
+||cdn.ampproject.org^
+||rayjump.com^
+
+! Testing strict popup blocking
+/popup3.$document
+/popup_ad.$document,domain=~webopedia.com
+/popup_code.$document
+/popupads.$document
+/popupdfp.$document
+/popuplog/*$document
+/popupunder.$document
+/promoredirect?*&campaign=*&zone=$document
+/punder.php$document
+/puopen$document
+/realmedia/ads/*$document
+/rotator.php?$document
+/sendspace-pop.$document
+/servlet/ajrotator/*$document
+/servlet/view/*$document
+/showads/*$document
+/spopunder^$document
+/srvclk.php?$document
+/static/js/pop*.$document
+/streamatepop.$document
+/werbepopup/*$document
+/wp-popup-scheduler/*$document
+/wp-super-popup-pro/*$document
+/wp-super-popup/*$document
+/wp_actionpop/*$document
+/yesbaby.$document
+=popunder&$document
+=popunders&$document
+?AdUrl=$document
+?PopAd=$document
+?bannerid=*&punder=$document
+?iiadext=$document
+?popup:msp_$document
+?popupiniframe=$document
+?type=oas_pop&$document
+?zoneid=*_bannerid=$document
+^utm_medium=pops^$document
+^utm_medium=popunder^$document
+_pop_ad.$document
+_pop_ad/$document
+_pop_under.$document
+_popunder&$document
+_popunder+$document
+_popunder.$document
+_popunder_$document
+_popupunder.$document
