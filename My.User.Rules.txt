@@ -1,23 +1,23 @@
 [uBlock Origin; AdGuard]
 ! Title: ☠️ My User Rules
-! Version: 20230214T0700
+! Version: 20230408T0100
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
 ||flat-ads.com^
 ||war.ukraine.ua^
-||ms.applvn.*^
-||d.applvn.*^
+||ms.applvn.
+||d.applvn.
 ||bongacams10.com^
 ||mt2.cn^
-||rt.applvn.*^
-||firebase-settings.crashlytics.*^
-||rt.applovin.*^
-||ms.applovin.*^
-||d.applovin.*^
-||adr.api.vungle.*^
-||telemetry.sdk.inmobi.*^
-||config.inmobi.*^
+||rt.applvn.
+||firebase-settings.crashlytics.
+||rt.applovin.
+||ms.applovin.
+||d.applovin.
+||adr.api.vungle.
+||telemetry.sdk.inmobi.
+||config.inmobi.
 ||gtm.oasisfeng.com^
 ||graph.facebook.com^
 ||amp.cloudflare.com^
@@ -26,7 +26,7 @@
 ||rayjump.com^
 
 ! ☆ ---- Top Level Domains ---- ☆
-*$doc,domain=surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club
+*$all,domain=surf|rest|monster|beauty|associates|cricket|financial|discount|fit|life|icu|tokyo|cf|casa|ci|cyou|pw|top|gq|cn|ga|tk|space|shop|cam|link|live|biz|buzz|ml|club
 
 ! ☆ ---- 2022 OCT 23 User Rules ---- ☆
 ||reddit.com/counters/$xmlhttprequest
@@ -63,16 +63,13 @@
 ||itspsmup.com^
 @@/favicon.ico
 @@||google.com/recaptcha/$frame,script
-||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$important,script,third-party
 @@/ad/api/popunder.js|$script,~third-party
 @@/js/adv/fuckadblock.js?$script,~third-party
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
-@@||tabooporns.com^$ghide
 ://ads.$domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.finance|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.*|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ||m2.nsimg.net^
 pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
-@@||raw.githubusercontent.com^
 ||qrlsx.com^
 ||adsessionserv.com^
 ||impactserving.com^
@@ -215,6 +212,16 @@ hqq.tv##+js(nofab)
 *##+js(set-constant, adblockcheck, false)
 *##+js(set-constant, doSecondPop, noopFunc)
 *##+js(nofab)
+/^(.+[_.-])?vast([\d]+)?[_.-]/
+
+! 2022-10-04 tabooporns.com
+||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
+@@||tabooporns.com^$generichide
+tabooporns.com##+js(acis, document.querySelectorAll, popMagic)
+tabooporns.com##+js(aopw, _pop)
+player.tabooporns.com##+js(aopr, BetterJsPop)
+player.tabooporns.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+player.tabooporns.com##a[onclick="openAuc();"]
 
 ! 2022-10-05 https://m.hqporner.com
 ||www.google-analytics.com^$script
@@ -316,12 +323,12 @@ pornobae.net##a[title="Free money easy"]
 
 ! 2023-01-30 https://milfnuts.net
 @@||milfnuts.net^$generichide
+milfnuts.net.net##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+milfnuts.net.net##a[onclick="openAuc();"]
+milfnuts.net##a[title="Free money easy"]
 
 ! 2023-02-07 https://www.pornhits.com
 @@||data.rdtk.io^$popup,domain=www.pornhits.com
-
-! 2023-02-07 https://hqq.tv
-/^(.+[_.-])?vast([\d]+)?[_.-]/
 
 ! 2023-02-11 https://www.trendyxxx.com
 www.trendyxxx.com##body > .ad-content > center > .ad-body.well
