@@ -1,7 +1,7 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: ☢️ NoCryptoCoins Filterlist
 ! Version: 20230418T1300
-! Description: A compilation of crypto mining protection lists with redundancies removed
+! Description: A crypto mining protection list compiled from various sources with redundancies removed
 
 ! Fixed due to video playback problems on a few NSFW websites like milfnuts.net
 @@||wss.commentsengine.com:8443^$websocket,domain=hqq.tv
