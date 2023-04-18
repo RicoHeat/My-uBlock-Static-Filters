@@ -1,6 +1,6 @@
 [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20230418T2300
+! Version: 20230419T0200
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 gtm.oasisfeng
@@ -8,6 +8,7 @@ graph.facebook.com
 *-settings.crashlytics-*
 *google-analytics*
 *trafficjunky*
+*tapjoy*
 *rayjump*
 *beacon*
 *.abbp1.*
@@ -15,7 +16,7 @@ graph.facebook.com
 *.ads.*
 *adcolony*
 *adj.st*
-*adjust*
+*.adjust.*
 *.adserver.*
 *.adspaces.*
 *.adserving.*
