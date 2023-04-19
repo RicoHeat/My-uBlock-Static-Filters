@@ -1,8 +1,39 @@
 [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20230419T0200
+! Version: 20230419T1800
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
+! ☆ ---- Personal CNAME tracking ---- ☆
+*.exoclick.*
+*.lookinews.*
+*.reminews.*
+*.lootynews.*
+*.gofenews.*
+*.shockynews.*
+*.luronews.*
+*.deeginews.*
+*.jumronews.*
+*.jemonews.*
+*.loopanews.*
+*.guesswhatnews.*
+*.groovinews.*
+*.rookinews.*
+*.notifysrv.*
+*.sifenews.*
+*.tegronews.*
+*.popmonetizer.*
+*.selornews.*
+*.newsvot.*
+*.rtnews.*
+*.ezmob.*
+*.poprtb.*
+*.popxml.*
+explorads
+*.popunder.*
+*.rtb.*
+*.rtb2.*
+*.xml.*
+! ☆ ---- Personal Ads Tracking and Other ---- ☆
 gtm.oasisfeng
 graph.facebook.com
 *-settings.crashlytics-*
@@ -261,6 +292,8 @@ graph.facebook.com
 *.zedo.*
 *.zooplus.*
 *.zzux.*
+! ☆ ---- End Personal Condensed ---- ☆
+
 *.counter.insales.com
 *.owox.com
 *.adswerve.com
@@ -469,7 +502,6 @@ graph.facebook.com
 *.pop-under.*
 *.popclck.*
 *.poptraf.*
-*.popunder.*
 *.popupclick.*
 *.popuptraf.*
 *.swa.postnl.*
