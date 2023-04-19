@@ -1,6 +1,6 @@
 [uBlock Origin; AdGuard]
 ! Title: ☠️ My User Rules
-! Version: 20230408T0400
+! Version: 20230419T1400
 
 ! Testing
 |stun://
@@ -37,8 +37,30 @@
 ||com/banners/$image,object,subdocument,domain=~pingdom.com|~thetvdb.com|~tooltrucks.com
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||xvideos-games.com^$app=com.wg.xvideos.app
+www.reddit.com##.XPromoPopupRpl
+www.reddit.com##xpromo-new-app-selector
+www.reddit.com##.bottom-bar, .XPromoBottomBar
+www.reddit.com##.useApp,.TopNav__promoButton
+www.reddit.com##body:style(pointer-events:auto!important;)
+reddit.com##.XPromoPopup
+reddit.com##body.scroll-disabled:style(overflow: visible!important; position: static!important;)
+reddit.com##.XPromoInFeed
+amp.reddit.com##.AppSelectorModal__body
+amp.reddit.com##.upsell_banner
+www.reddit.com##xpromo-app-selector
+www.reddit.com##body.scroll-is-blocked:style(overflow: visible!important; position: static!important;)
+www.reddit.com##+js(aeld, touchmove)
+www.reddit.com##.XPromoPopupRplNew
 
 ! ☆ ---- Older User Rules ---- ☆
+@@||account.firefox.com^
+@@||account.google.com^
+@@||injections.adguard.org^
+@@||local.adguard.org^
+@@||login.yandex.ru^
+@@||metrika.yandex.*^
+@@||oauth.yandex.ru^
+@@||passport.yandex.*^
 .doublepimp.com^$third-party
 ||itspsmup.com^
 @@/favicon.ico
@@ -174,7 +196,6 @@ beeg.com##.GreyFox--under.GreyFox
 @@||unpkg.com^
 ||unpkg.com/videojs-vast-vpaid$domain=hqq.*
 hqq.*##a[onclick*="openAuc();"]
-hqq.tv##a[title="Free money easy"]
 ||hqq.*/cdn-cgi/trace$xhr,1p,important
 hqq.tv##+js(set-constant, adblockcheck, false)
 hqq.tv##+js(set-constant, doSecondPop, noopFunc)
@@ -200,8 +221,6 @@ hqq.tv##+js(nofab)
 tabooporns.com##+js(acis, document.querySelectorAll, popMagic)
 tabooporns.com##+js(aopw, _pop)
 player.tabooporns.com##+js(aopr, BetterJsPop)
-player.tabooporns.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-player.tabooporns.com##a[onclick="openAuc();"]
 
 ! 2022-10-16 https://xgroovy.com
 xgroovy.com###top_links &gt; .second-menu-links
@@ -228,7 +247,6 @@ watchporn.to#@#.ads-iframe
 watchporn.to,bravoerotica.net,thothd.com,hairyerotica.com,theporngod.com,sexoverdose.com,bestpornflix.com,4porn4.com,kuxxx.com,gettubetv.com,hoes.tube,cluset.com,xtits.*,pornsai.com,jizzberry.com,63290r.com,love4porn.com,cartoonprn.com,celebwhore.com,sexcams-24.com,camwhorescloud.com,bigtitslust.com,camfox.com,camflow.tv,pornchimp.com,xmegadrive.com,tubsexer.*,theyarehuge.com,yourporngod.com,thebussybandit.com##.table
 
 ! 2022-10-30 https://www.reddit.com
-www.reddit.com##.TopNav__promoButton
 
 ! 2022-11-09 https://m.hqporner.com
 ||go.xlivrdr.com/smartpop/*
@@ -284,18 +302,12 @@ www.trendyxxx.com##.mb-3.well-filters
 
 ! 2023-01-25 https://pornobae.net
 @@||pornobae.net^$generichide
-pornobae.net##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-pornobae.net##a[onclick="openAuc();"]
-pornobae.net##a[title="Free money easy"]
 
 ! 2023-01-25 https://fullporner.org
 @@||fullporner.org^$generichide
 
 ! 2023-01-30 https://milfnuts.net
 @@||milfnuts.net^$generichide
-milfnuts.net.net##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-milfnuts.net.net##a[onclick="openAuc();"]
-milfnuts.net##a[title="Free money easy"]
 
 ! 2023-02-07 https://www.pornhits.com
 @@||data.rdtk.io^$popup,domain=www.pornhits.com
@@ -341,7 +353,6 @@ www.katestube.com##.nav-mobile
 ! 2023-02-14 https://yandexcdn.com
 @@||yandexcdn.com^$generichide
 */images/adblock.jpg$image
-yandexcdn.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 
 ! 2023-02-18 https://latestpornvideo.com
 @@||latestpornvideo.com^$generichide
@@ -358,11 +369,8 @@ milfprime.com##.bZSnCh.style__LinkHeader-sc-1adl0tj-3
 ! 2023-02-21 https://realityripple.com
 realityripple.com##.donate
 
-##a[onclick="openAuc();"]
 ##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 ##[onclick="openAuc();"]
-##a[title="Free money easy"]
-##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
 ##[title="Free money easy"]
 ##+js(aopr, BetterJsPop)
 ##+js(acis, document.querySelectorAll, popMagic)
@@ -416,13 +424,15 @@ www.eporner.com###admobilefoot
 www.porngo.com##li.menu-list__row:nth-of-type(9)
 
 ! 2023-04-01 https://hqq.tv
-@@||wss.commentsengine.com:8443^$websocket,domain=hqq.tv
 
 ! 2023-04-03 https://watchpornx.com
 @@||wp.com^
 
 ! 2023-04-03 https://www.porn00.tv
 www.porn00.tv##.member-links > ul
+
+! 2023-04-13 https://github.com
+@@||github.com/disconnectme/*
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
