@@ -1,6 +1,6 @@
-¹[Blacklist]
+[Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20230420T1200
+! Version: 20230420T1300
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal CNAME tracking ---- ☆
