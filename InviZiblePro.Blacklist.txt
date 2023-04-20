@@ -1,6 +1,6 @@
-[Blacklist]
+¹[Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20230419T1800
+! Version: 20230420T1200
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal CNAME tracking ---- ☆
@@ -33,6 +33,7 @@ explorads
 *.rtb.*
 *.rtb2.*
 *.xml.*
+
 ! ☆ ---- Personal Ads Tracking and Other ---- ☆
 gtm.oasisfeng
 graph.facebook.com
@@ -320,6 +321,7 @@ graph.facebook.com
 *.seotraff.team
 *.pushvip.ru
 *.surveysparrow.com
+*.growsumo.com
 *.uniads.net
 *.domainanalyticsapi.com
 *.widgets.mango-office.ru
@@ -379,7 +381,7 @@ graph.facebook.com
 *.ssc.blurb.*
 *.sadobemarketing.boden.*
 *.insights.bodog.*
-*.bondzgi*.
+*.bondzgi.*
 *.sstats.bookingbuddy.*
 *.emetrics.bose.*
 *.ba.brandalley.*
@@ -521,7 +523,7 @@ graph.facebook.com
 *.rusrestbest.*
 *.bsna.saks-off-5th.*
 *.secmetrics.schaefer-shop.*
-*.scr888*.
+*.scr888.*
 *.sstats.seat.*
 *.sax*.sina.*
 *.sitebro.*
@@ -547,7 +549,7 @@ graph.facebook.com
 *.pulse.toyota.*
 *.tags.toyota.*
 *.rusads.toysrus.*
-*.truehits*.
+*.truehits.*
 *.tracker.twenga.*
 *.under-click.*
 *.underclick.*
@@ -644,6 +646,7 @@ graph.facebook.com
 *.sbbe.group-ib.ru
 *.retailrocket.ru
 *.28p5qq8mm.de
+*.cake025.ru
 *.redirector.googlevideo.com
 *.leadgenic.ru
 *.zestat.ru
@@ -731,6 +734,7 @@ graph.facebook.com
 *.osdkupdatenw.com
 *.parking.reg.ru
 *.2d6g0ag5l.de
+*.cake017.ru
 *.tags.f5.com
 *.1mrmsp0ki.de
 *.insights.gog.com
@@ -741,6 +745,7 @@ graph.facebook.com
 *.aplaut.io
 *.riseup-inpp-code.com
 *.cpamotor.ru
+*.aj2396.online
 *.evlsn.com
 *.badgerstat.com
 *.nogravity.fun
@@ -842,6 +847,7 @@ graph.facebook.com
 *.5pi13h3q.de
 *.dmp.one
 *.nqn7la7.de
+*.heatmap.openresty.com
 *.cpa.hh.ru
 *.amc.yandex.*
 *.algoaspace.ru
@@ -867,6 +873,7 @@ graph.facebook.com
 *.forethought.ai
 *.rum.*.amazonaws.com
 *.trk.crozdesk.com
+*.googleadservices.com
 *.a.adwolf.ru
 *.a.sellpoint.net
 *.ac.ebis.ne.jp
@@ -878,16 +885,20 @@ graph.facebook.com
 *.api-v*.trbo.com
 *.app-advertise.zhihuishu.com
 *.artifactory.appodeal.com
+*.awin1.com
 *.brm-core-*.brsrvr.com
 *.buyad.bi-xenon.cn
 *.cdnbc-wup.hsbc.com.hk
 *.cindyholbrook.lpages.co
+*.citiintl.122.2o7.net
 *.classliving.lpages.co
 *.click.appcast.io
 *.click.simba.taobao.com
 *.click.trafficguard.ai
 *.click.virt.exacttarget.com
 *.click.virt.s*.exacttarget.com
+*.clj.valuecommerce.com
+*.clk*.tradedoubler.com
 *.cloud.notification-naviextras.com
 *.cm-widget.nakanohito.jp
 *.contents*.00110.citi.com
@@ -898,6 +909,9 @@ graph.facebook.com
 *.go.scorptec.com.au
 *.googleadapis.l.google.com
 *.grp07.ias.rakuten.co.jp
+*.gs.statcounter.com
+*.h-sdk.online-metrix.net
+*.hb.afl.rakuten.co.jp
 *.health.halodoc.com
 *.home.focusatwill.com
 *.ia.hit.interia.pl
@@ -920,6 +934,7 @@ graph.facebook.com
 *.pt.afl.rakuten.co.jp
 *.r.sascdn.com
 *.radiofrance.targetspot.com
+*.redir.tradedoubler.com
 *.stash.roistat.com
 *.static-v*.trbo.com
 *.str.hit.gemius.pl
@@ -930,6 +945,7 @@ graph.facebook.com
 *.validate.perfdrive.com
 *.vcentry3.valuecommerce.ne.jp
 *.wup-7b4df495.santander.cl
+*.jdoqocy.com
 *.rssad.jp
 *.febrare.ru
 *.pay4results24.eu
@@ -958,6 +974,7 @@ graph.facebook.com
 *.amptracker.viqeo.tv
 *.collector.facecast.net
 *.fstrk.io
+*.stat.playfamily.ru
 *.events.auth.gid.ru
 *.stat.vb17121coramclean.pw
 *.stat.ntv.ru
@@ -996,6 +1013,7 @@ graph.facebook.com
 *.logging-aor.services.goto.com
 *.trrr.life
 *.h5ep50lm.de
+*.dgads.cc
 *.9cbj41a5.de
 *.tracker.osci.io
 *.yeps.io
@@ -1044,7 +1062,10 @@ graph.facebook.com
 *.1g46ls536.de
 *.2gg6ebbhh.de
 *.simpleanalytics.com
-! ☆ ---
+*.operate-sdk-telemetry.unity3d.com
+*.events.maps.mail.ru
+
+! ☆ ---- other ---- ☆
 /cake[0-9]{3}\.ru/
 /aj[0-9]{4}\.online/
 /heatmap/
