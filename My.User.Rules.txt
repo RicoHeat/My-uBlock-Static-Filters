@@ -1,6 +1,5 @@
-[uBlock Origin; AdGuard]
 ! Title: ☠️ My User Rules
-! Version: 20230420T0800
+! Version: 20230501T0100
 
 ! Testing
 |stun://
@@ -31,6 +30,7 @@
 /v/*/vast.js$script
 @@||crazycloud.ru^$script,xmlhttprequest,domain=biqle.ru|daxab.com
 /ad.min.
+/bugsnag.
 @@||daxab.com/player/*$domain=daft.sex
 ||adtng.com^
 ||static.hotjar.com^$third-party
@@ -58,9 +58,9 @@ www.reddit.com##.XPromoPopupRplNew
 @@||injections.adguard.org^
 @@||local.adguard.org^
 @@||login.yandex.ru^
-@@||metrika.yandex.*^
+@@||metrika.yandex.
 @@||oauth.yandex.ru^
-@@||passport.yandex.*^
+@@||passport.yandex.
 .doublepimp.com^$third-party
 ||itspsmup.com^
 @@/favicon.ico
@@ -69,7 +69,7 @@ www.reddit.com##.XPromoPopupRplNew
 @@/ad/api/popunder.js|$script,~third-party
 @@/js/adv/fuckadblock.js?$script,~third-party
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
-://ads.$domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.finance|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.*|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.finance|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ||m2.nsimg.net^
 pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
 ||qrlsx.com^
@@ -97,7 +97,7 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 @@||github.com^$generichide
 @@||github.githubassets.com^$script
 ||id.google.com/verify/
-/gen_204?$image,other,ping,script
+/gen_204?$image,other,script
 @@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||anti-ad.net^
 @@||ahcdn.com^$media
@@ -193,14 +193,13 @@ beeg.com##.GreyFox--under.GreyFox
 ! 2022-10-03 https://hqq.tv
 @@||commentsengine.com^
 ||commentsengine.com^$3p,script,redirect=noopjs
-@@||unpkg.com^
-||unpkg.com/videojs-vast-vpaid$domain=hqq.*
-hqq.*##a[onclick*="openAuc();"]
-||hqq.*/cdn-cgi/trace$xhr,1p,important
+||unpkg.com/videojs-vast-vpaid$domain=hqq.tv
+hqq.tv##a[onclick*="openAuc();"]
+||hqq.tv/cdn-cgi/trace$xhr,1p,important
 hqq.tv##+js(set-constant, adblockcheck, false)
 hqq.tv##+js(set-constant, doSecondPop, noopFunc)
 hqq.tv##+js(nofab)
-@@||hqq.*^$script,xhr,1p
+@@||hqq.tv^$script,xhr,1p
 ||hqq.tv/cdn-cgi/trace
 *##a[onclick="openAuc();"]
 *##[href="https://t.me/Russia_Vs_Ukraine_War3"]
@@ -246,8 +245,6 @@ watchporn.to#@#.ads-iframe
 ||watchporn.to/banners.php
 watchporn.to,bravoerotica.net,thothd.com,hairyerotica.com,theporngod.com,sexoverdose.com,bestpornflix.com,4porn4.com,kuxxx.com,gettubetv.com,hoes.tube,cluset.com,xtits.*,pornsai.com,jizzberry.com,63290r.com,love4porn.com,cartoonprn.com,celebwhore.com,sexcams-24.com,camwhorescloud.com,bigtitslust.com,camfox.com,camflow.tv,pornchimp.com,xmegadrive.com,tubsexer.*,theyarehuge.com,yourporngod.com,thebussybandit.com##.table
 
-! 2022-10-30 https://www.reddit.com
-
 ! 2022-11-09 https://m.hqporner.com
 ||go.xlivrdr.com/smartpop/*
 ||mc.yandex.ru^$script
@@ -255,11 +252,6 @@ hqporner.com##.black_friday
 
 ! 2022-12-18 https://wbgame.jlwinwin.com
 @@||wbslot-platform.sssjlsss.com/webservice/event/trigger$xhr
-
-! 2022-12-19 https://www.tmtplay.net
-www.tmtplay.net##.add-arrow.num-12.LIVETABLE
-www.tmtplay.net##.live_game
-||dl.lfyanwei.com^$script
 
 ! 2022-12-22 https://porntn.com
 ||srv.dropkickmedia.com^$script
@@ -422,8 +414,6 @@ www.eporner.com###admobilefoot
 
 ! 2023-03-31 https://www.porngo.com
 www.porngo.com##li.menu-list__row:nth-of-type(9)
-
-! 2023-04-01 https://hqq.tv
 
 ! 2023-04-03 https://watchpornx.com
 @@||wp.com^
@@ -709,3 +699,4 @@ http://www.ads.$third-party
 ?tid=*&red=1&*&abt=
 /?&pid=*&subid=
 /?&subid=*&pid=
+
