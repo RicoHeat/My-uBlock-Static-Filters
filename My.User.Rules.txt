@@ -1,8 +1,11 @@
 ! Title: ☠️ My User Rules
-! Version: 20230501T0100
+! Version: 20230504T0500
 
 ! Testing
 |stun://
+||stun.
+*.stun.*
+.local^
 
 ! ☆ ---- Top Level Domains Regex ---- ☆
 \*\.agency\^\n\*\.autos\^\n\*\.bar\^\n\*\.beauty\^\n\*\.bid\^\n\*\.biz\^\n\*\.boutique\^\n\*\.buzz\^\n\*\.cf\^\n\*\.cfd\^\n\*\.degree\^\n\*\.discount\^\n\*\.fit\^\n\*\.fun\^\n\*\.fyi\^\n\*\.ga\^\n\*\.gdn\^\n\*\.gq\^\n\*\.haus\^\n\*\.life\^\n\*\.loan\^\n\*\.loans\^\n\*\.ml\^\n\*\.monster\^\n\*\.okinawa\^\n\*\.online\^\n\*\.ooo\^\n\*\.pw\^\n\*\.quest\^\n\*\.rest\^\n\*\.sbs\^\n\*\.site\^\n\*\.surf\^\n\*\.tk\^\n\*\.top\^\n\*\.uno\^\n\*\.work\^\n\*\.zone\^\n
