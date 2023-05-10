@@ -1,5 +1,5 @@
-! Title: ⚓ Working List
-! Version: 20230511T0300
+! Title: 🛠 Working List
+! Version: 20230511T0400
 ! Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
 ! Source: uBlock₀ filters – Annoyances
 
