@@ -1,7 +1,7 @@
 ! Title: 🛠 Working List
-! Version: 20230511T0400
+! Version: 20230512T0500
 ! Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
-! Source: uBlock₀ filters – Annoyances
+! Source: uBlock filters – Annoyances
 
 nerdmaldito.com##+js(ra, onselectstart)
 nerdmaldito.com##+js(aopw, document.onselectstart)
