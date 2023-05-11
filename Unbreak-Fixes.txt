@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: ⛑ Unbreak Fixes
-! Version: 20230511T1700
+! Version: 20230511T1730
 
 ! ☆ ---- Brave Unbreak ---- ☆
 @@||ads.brave.software^$~third-party
@@ -64,7 +64,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||pdfjs.robwu.nl
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
 igniteunmc.com##.preloader
-!
 ||graph.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||static.ak.connect.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||connect.facebook.net^*/sdk.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
@@ -121,7 +120,6 @@ igniteunmc.com##.preloader
 ##.widget_ione-outbrain
 ##.widget_outbrain
 ##.yom-outbrain
-!
 @@||connect.facebook.net^*/sdk/$tag=fb-embeds
 @@||connect.facebook.net^*/sdk.js$tag=fb-embeds
 @@||connect.facebook.net^*/all.js$tag=fb-embeds
@@ -561,11 +559,10 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||valuecommerce.com^$third-party,badfilter
 ||linksynergy.com^$third-party,badfilter
 ||tradedoubler.com^$image,script,subdocument,xmlhttprequest,third-party
-||doubleclick.net^$image,subdocument,script,subdocument,xmlhttprequest,third-party
+||doubleclick.net^$image,script,subdocument,xmlhttprequest,third-party
 ||atdmt.com^$image,script,subdocument,xmlhttprequest
 ||demdex.net^$image,script,subdocument,xmlhttprequest
 ||linksynergy.com^$image,script,xmlhttprequest,subdocument,third-party
-!
 ||blockthrough.com^$badfilter
 ||criteo.com^$badfilter
 ||app.pendo.io^$badfilter
