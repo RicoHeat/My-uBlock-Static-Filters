@@ -1,10 +1,13 @@
 ! Title: ☠️ My User Rules
-! Version: 20230510T2000
+! Version: 20230517T0400
 
 ! Testing
 |stun://
+
 ||stun.
-*.stun.*
+
+.stun.*
+
 .local^
 
 ! ☆ ---- 2022 OCT 23 User Rules ---- ☆
@@ -82,7 +85,7 @@ pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
 ||239.255.255.250:1900^$app=com.playit.videoplayer
 @@||api.nextdns.io^
 @@||gitlab.com^$generichide
-@@||play.google.com^
+@@||play.google.com^$~third-party
 @@||pgl.yoyo.org/adservers^
 172.67.178.5$network,app=com.streamdev.aiostreamer
 realsrv.com##iframe[src^="https://a.adtng.com/"]
@@ -400,7 +403,7 @@ www.eporner.com###admobilefoot
 www.porngo.com##li.menu-list__row:nth-of-type(9)
 
 ! 2023-04-03 https://watchpornx.com
-@@||wp.com^
+@@||wp.com^$domain=watchpornx.com
 
 ! 2023-04-03 https://www.porn00.tv
 www.porn00.tv##.member-links > ul
