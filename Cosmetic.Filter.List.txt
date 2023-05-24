@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230420T0700
+! Version: 20230524T2000
 
 ! Test
 ##.adv-cat-
@@ -39,6 +39,7 @@ www.tabootube.xxx##.adv-cat-6-7.item
 ! 2023-04-12 https://familyporn.tv
 familyporn.tv##li.menu_item:nth-of-type(4)
 familyporn.tv##li.menu_item:nth-of-type(6)
+familyporn.tv##.media_spot
 
 ! ☆ ---- Mostly Adult Websites ---- ☆
 www.tabootube.xxx##.item-adv-1.item
