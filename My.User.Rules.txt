@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230517T0400
+! Version: 20230524T2000
 
 ! Testing
 |stun://
@@ -9,6 +9,8 @@
 .stun.*
 
 .local^
+
+=fpbanner^
 
 ! ☆ ---- 2022 OCT 23 User Rules ---- ☆
 ||reddit.com/counters/$xmlhttprequest
