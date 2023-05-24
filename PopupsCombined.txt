@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: 🍾 Popups Combined
-! Version: 20230522T1800
+! Version: 20230524T0900
 
 ||www.builtdozenprospects.com^
 ||drdtfilwendej.com^
@@ -2751,7 +2751,6 @@
 ||stage1-remaps.co.uk^
 ||steelbluebc.us^
 ||hoh168.net^
-||thehouseofportable.com/download/js.js$replace=/(\('\?id=bcn[\s\S]*?else{var	_0x[\s\S]*?)=await	_0x[\s\S]*?\(\)/\$1=false/
 ||branddnewcode1.me^
 ||df.fugacygarner.com^
 ||ercsklxgfbhwped.com^
@@ -2773,7 +2772,6 @@
 ||www.triggersinclude.com^
 ||e3recruitment.co.uk^
 ||maculedfalls.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication-adsbygoogle,important,domain=mazmorra.io
 ||go2affise.com^$popup
 ||utkwxdspomg.xyz^
 ||heedenglish.com^
@@ -3133,7 +3131,6 @@
 ||sterisjobs.com^
 ||studentsoftarot.us^
 ||swagnepal.tech^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication-adsbygoogle,important,domain=jefawk.com
 ||www.strike.coop^
 ||www.meta11webservices.com^
 ||ongoingfitfullacerate.com^
@@ -4082,7 +4079,6 @@
 ||wineanddandy.co.uk^
 ||saemmvhnn.xyz^
 ||ta123.app^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=muzolandia.pl
 ||vleaddesignservice.com^
 ||click-v4.expdiremdia.com^
 ||meo257na3rch.com^
@@ -5528,7 +5524,6 @@
 ||43137c93a82b0e81da.com^
 ||getsthis.com^
 ||maddeningpowder.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=zkillboard.com,important
 ||7ebdf2f967.com^
 ||iwwiv.com^
 ||pl17708984.highcpmrevenuenetwork.com^
@@ -5849,7 +5844,6 @@
 ||rocknrollmystic.us^
 ||disableadblock.com^
 ||altrk.net^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=mifirm.net
 ||profitabletrustednetwork.com^
 ||atedlittleme.xyz^
 ||immersony.co.in^
@@ -7613,7 +7607,6 @@
 ||goredi.com^
 ||insidehoarse.com^$popup
 ||asyndiesserged.xyz^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=ebookdz.com
 ||iweapon.uk^
 ||kprfjlywmp.com^
 ||dacenba.sk^
@@ -9550,7 +9543,6 @@
 ||gibam.us^
 ||popbyepenthouse.com^
 ||radvany205.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,important,domain=namerobot.de
 ||helpwithmybook.com^
 ||iamsimplyhealthy.com^
 ||yy8fgl2bdv.com^$popup
@@ -14455,7 +14447,6 @@
 ||tvsvvruwcx.com^
 ||sprintainokeg.xyz^
 ||kemelkilicdaroglu.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,script,redirect=noopjs,domain=zeelandnet.nl
 ||mfk-cpm.com^
 ||indictmentspan.com^
 ||laceratecoast.com^
@@ -16393,7 +16384,6 @@
 ||degaswassail.website^
 ||platebhmwfndajq.com^
 ||jubnaadserve.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=derechadiario.com.ar
 ||standoffslimew.site^
 ||potedly.co^
 ||academyblocked.com^
@@ -17396,7 +17386,6 @@
 ||comparativelynanny.com^
 ||otnolatrnup.com^$popup
 ||gredraus.net^
-||ok.ru/res/js/app/FriendsOnline4thColumn_*.js$replace=/fourthColumnWrapper//
 ||relationhector.com^
 ||myecosphere.life^
 ||zqxwxcb.com^
@@ -23334,7 +23323,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||www.gravitationobserve.com^
 ||youngasianshemales.com^
 ||deltasecurityandlossprevention.ca^
-[$path=/images/]yandex.*
 ||ewaighee.xyz^
 ||picklesadamantempire.com^
 ||secureinfotechs.in^
@@ -23518,7 +23506,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||dipakgaba.com^
 ||nlargeconsu.info^
 ||web3-0.ru^
-||akamaihd.net/static/build/*/main.*.es6.min.js$replace=/Air\.import\("module\.page"\)/Air\.import\(""\)/,domain=dtf.ru|vc.ru
 ||d72gb9oukw3j.com^
 ||mainerbristowusedcars.com^
 ||raghavbuilders.com^
@@ -24024,7 +24011,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||rhxleigaroo.com^
 ||notusomnia.com^
 ||www.deathdetectives.com^
-||tpc.googlesyndication.com/pagead/images/x_button_blue2.svg$image,redirect=1x1-transparent.gif,domain=diep.io
 ||uncesoredlibrary.com^
 ||examswrath.com^
 ||get-express-vpn.online^$popup
@@ -25385,7 +25371,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||auspiciousyard.com^$third-party
 ||analogousmindlesshonour.com^
 ||jujaufur.net^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=randomlists.com
 ||publicgovco.site^
 ||travotrend.com^
 ||rus-news.club^$popup
@@ -26965,7 +26950,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||planningunavoidablenull.com^
 ||www.onfreedom.ru^
 ||scswlgxttvekd.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=9xbuddy.com
 ||indexesinsist.com^
 ||clk.extyoneplus-3.com^
 ||watwait.com^
@@ -28663,7 +28647,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||practitionermonsieurstable.com^
 ||entrepreneurrestorationthereby.com^
 ||worcation.co.uk^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noopjs,domain=texture-packs.com|xdarom.com
 ||fatsosjogs.com^
 ||sportsjunkie.in.net^
 ||7xbet.guru^
@@ -29641,7 +29624,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||www.h--m.net^
 ||dridderpfunde.life^
 ||hali-gali.cc^
-||st1.kp.yandex.net/js/main.js$replace=/t._state=true;t._adbType=e;/t._state=false;t._adbType=null;/
 ||www.hry-zadarmo.com^
 ||elotributeband.com^
 ||level23.nl^
@@ -30064,7 +30046,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||harriscomputer.nexus^
 ||mattressdinosaurcausing.com^
 ||seximedia.com^
-||thehouseofportable.com/download/js.js$replace=/(!!\[\]\);if)\(!_0x[\s\S]*?\)/\$1(true)/
 ||cloudcrib.live^
 ||pixaine.com^
 ||olderdeserved.com^
@@ -30170,7 +30151,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||loveoem.parts^
 ||engagedthicketforeman.com^
 ||protestsedatevisited.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=te4h.ru
 ||montanavista.net^
 ||scoreyourtalent.in^
 ||tfzznclztl.com^
@@ -32010,7 +31990,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||miraclemilesbook.com^
 ||webmotos.store^
 ||www.xigua800.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=diffnow.com
 ||pubpowerplatform.io^
 ||trackingtraffo.com^
 ||cg20000.com.mx^
@@ -32751,7 +32730,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||familywealthms.com^
 ||jgqypsjxbkpgd.com^
 ||hns95.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=alpinforum.com
 ||solerez.com^
 ||gregbeck.xyz^
 ||nghan.com^
@@ -33020,7 +32998,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||360popads.com^
 ||conferencecast.co.uk^
 ||hebai1.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=comnuan.com
 ||zmjagawa.com^
 ||bdnetworks.net^
 ||thickshortwage.com^
@@ -34044,7 +34021,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||psychicbowel.com^
 ||crossmedianet.me^
 ||wewkrtciffvk.com^
-||zeelandnet.nl/static/js/footer.*.js$replace=/(=new	Request\(")https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js(")/\$1\$2/
 ||aigeno.com^
 ||antlersolidthrilled.com^
 ||karsauwi.xyz^
@@ -34623,7 +34599,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||stobartoilgas.com^
 ||www.yinhe630.com^
 ||interseksi.org^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=diynetwork.com
 ||wwww.emjcd.com^
 ||voweldeck.com^
 ||e702fa7de9d35c37.com^$popup
@@ -40953,7 +40928,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||mdcosmedicalsolutions.com^
 ||writespruce.com^
 ||belexglokmpld.com^
-||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noopframe,domain=thehouseofportable.com
 ||filter.fastdmr.com^
 ||reewituhinlar.com^
 ||www.ontarioinsurancebroker.com^
@@ -42797,7 +42771,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||www.rfactoracingweb.it^
 ||colanderofficiallycase.com^
 ||pussymass.com^
-||tpc.googlesyndication.com/pagead/images/x_button_blue2.svg$image,redirect=1x1-transparent.gif,domain=tpc.googlesyndication.com
 ||wafwuoymuqhu.com^
 ||mfm03.com^
 ||latasitadecafe.com^
@@ -45598,7 +45571,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||patentkarma.co.uk^
 ||residentialrlp.com^
 ||smre.sk^
-[$path=/games]yandex.*
 ||atmyeducat.xyz^
 ||id68-0b49.online^
 ||samabeshisanchar.com^
@@ -45715,7 +45687,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||fin-vector.ru^$popup
 ||gustilyoblate.uno^
 ||or.glottisuproute.com^
-[$path=/pogoda]yandex.*
 ||elecaser.com^
 ||zealotsick.com^
 ||remanufacturedink.us^
@@ -46011,7 +45982,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||earnify.com^
 ||morefireouternational.com^
 ||www.moneyspeakslouder.com^
-||ytmp3.eu/*/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,important,domain=ytmp3.eu
 ||qianbitv.com^
 ||decisivecalculated.com^
 ||tata-playsmartsecure.net.in^
@@ -47149,7 +47119,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||oalsauwy.net^$popup
 ||eyfivnokubyhmy.xyz^
 ||atwvkphx.xyz^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=slideshare.net,redirect=googlesyndication-adsbygoogle,important
 ||dieved.com^
 ||cliclo-useraction.ru^$popup
 ||brilliantpooldeckin.com^
@@ -47191,7 +47160,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||webassembly.stream^
 ||www.woodygarlicdraw.com^
 ||www.aloftlarge.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=diep.io
 ||ezjhhapcoe.com^
 ||www.kkoohkade.com^
 ||previv.com^
@@ -47467,7 +47435,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||www.worrycrevicewholly.com^
 ||filter.eximdigital.com^
 ||dizzyincome.pro^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=ping.eu
 ||rugbymentalads.com^
 ||gabyscaferhinebeck.com^
 ||petsandoral.com^
@@ -47539,7 +47506,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||join-admaven.com^$popup
 ||harrisonbundrock.de^
 ||dysnyplus.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=vectorizer.io
 ||sorryhorngait.com^
 ||wwww.jdoqocy.com^
 ||astehaub.net^
@@ -49501,7 +49467,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||yovendo.love^
 ||greetpanda.org^
 ||stopsmokingnow.us^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noopjs,domain=computerbase.de
 ||sitisaoukn.com^
 ||bhagyodayengineering.com^
 ||teambuildconstructiongrp.com^
@@ -54023,7 +53988,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||croplake.com^
 ||gamesliga76.com^
 ||cdn-promote.weebly.com/js/dist/lead-form.js$third-party
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=duolingo.com,redirect=noopjs,important
 ||buizzinsight.com^
 ||sarahmasters.net^
 ||tramcontact.com^
@@ -54690,7 +54654,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||japanmicrosoft.online^
 ||chalkedsuperherorex.com^
 ||weworkinthreed.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=battlestick2.net
 ||www.demandedhalfmoon.com^
 ||youtubeactivatetv.com^
 ||gacosngktw.top^
@@ -55703,7 +55666,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||horseuptown.com^
 ||ironerswhse.digital^
 ||www.jobs4students.org^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=freefilesync.org
 ||mynunu.net^
 ||www.firearmsunset.com^
 ||mb-npltfpro.com^$popup
@@ -57162,7 +57124,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||ntvpever.com^
 ||foolishcheek.pro^
 ||www.paintoppo.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=nv.ua
 ||thelocaldistro.com^
 ||mozgvya.com^
 ||phumpauk.com^$popup
@@ -58773,7 +58734,6 @@ $popup,third-party,domain=asianclub.tv|hentai2read.com|porn-tube-club.com
 ||practicallyfire.com^
 ||opsaupsa.com^
 ||bemobtrcks.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=abcya.com
 ||data-data-vac.com^
 ||crestviewpublicaffairs.com^
 ||heartofwelcome.net^
@@ -62735,7 +62695,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 ||fafaa11041.943e401be2.com^
 ||constrvoided.com^
 ||www.chumbalitecasino.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=vimm.net
 ||ad9i3.com^
 ||cupcakesufferheave.com^
 ||cyclistassuredness.com^
@@ -63307,7 +63266,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 ||ebelfarew.com^
 ||afflictionpetulant.com^
 ||rundfinkbeitrag.de^
-[$path=/weather]yandex.*
 ||sundersetrgh.site^
 ||gamesrevenue.com^
 ||jeanhookerassociates.site^
@@ -66806,7 +66764,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 ||ildwicqrqazgjz.com^
 ||iosjump.com^
 ||caomei2468.com^
-||abcya.com/client/main-*.js$script,replace=/\,n.src=s.ri.adDetect//
 ||agmlgsusttcyil.top^
 ||lfydytolvlfvp.com^
 ||tradeviasetup.com^
@@ -67876,7 +67833,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 ||leptaasellus.digital^
 ||businessstoragecornwall.co.uk^
 ||disrespectpreceding.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=it-actual.ru,important
 ||tamannasdailylife.com^
 ||zo.thurgirerobe.com^
 ||financialmarketworld.com^
@@ -68275,7 +68231,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 ||caprissandhi.website^
 ||munshiganjmart.com^
 ||pharmmonkey.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=studopedia.info|infopedia.su|studopedia.net|studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org|mydocx.ru
 ||mobiledevel.com^
 ||8x308x.com^
 ||l4oecosq.com^
@@ -70870,7 +70825,6 @@ $script,redirect-rule=noopjs,domain=aternos.org
 ||accountsadultssane.com^
 ||piupiucreed.life^
 ||www.thequalitygroup.biz^
-||googleads.g.doubleclick.net/pagead/$redirect=nooptext,important,domain=maxedtech.com
 ||bestialjames.com^
 ||www.dramechecker.tech^
 ||brighteroption.com^
