@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230524T2000
+! Version: 20230526T0200
 
 ! Testing
 |stun://
@@ -9,8 +9,6 @@
 .stun.*
 
 .local^
-
-=fpbanner^
 
 ! ☆ ---- 2022 OCT 23 User Rules ---- ☆
 ||reddit.com/counters/$xmlhttprequest
@@ -194,17 +192,14 @@ www.pornhits.com##.video-header
 beeg.com##.GreyFox--under.GreyFox
 *##.ad-unit:not(.text-ad)
 
+[Adblock]
 ! 2022-10-03 https://hqq.tv
 @@||commentsengine.com^
 ||commentsengine.com^$third-party,script,redirect=noopjs
-||unpkg.com/videojs-vast-vpaid$domain=hqq.tv
 hqq.tv##a[onclick*="openAuc();"]
-||hqq.tv/cdn-cgi/trace$xhr,~third-party
 hqq.tv##+js(set-constant, adblockcheck, false)
 hqq.tv##+js(set-constant, doSecondPop, noopFunc)
 hqq.tv##+js(nofab)
-@@||hqq.tv^$script,xhr,~third-party
-||hqq.tv/cdn-cgi/trace
 ##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 ##[onclick="openAuc();"]
 ##[title="Free money easy"]
@@ -214,6 +209,32 @@ hqq.tv##+js(nofab)
 ##+js(set-constant, doSecondPop, noopFunc)
 ##+js(nofab)
 /^(.+[_.-])?vast([\d]+)?[_.-]/
+hqq.*##+js(aopr, adBlockDetected)
+hqq.*##+js(aopw, smrtSB)
+hqq.*##+js(aopw, smrtSP)
+hqq.*##+js(popads-dummy)
+hqq.*##+js(set, sadbl, false)
+hqq.*##+js(nowoif)
+hqq.*##+js(aopr, arrvast)
+hqq.*##+js(aopr, doSecondPop)
+||hqq.*/cdn-cgi/trace$xhr,~third-party,important
+@@||deliver.vkcdnservice.com/vast-im.js$domain=hqq.to
+@@||hqq.*^$generichide
+@@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
+hqq.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+hqq.*##a[onclick="openAuc();"]
+abysscdn.com,hqq.ac,hqq.to,hqq.tv,linris.xyz,megaplay.cc,meucdn.vip,netuplayer.top,ntvid.online,oceanplay.xyz,playertoast.uno,plushd.bio,waaw.to,watchonlinehd123.sbs,wiztube.xyz##a[title="Free money easy"]
+||hqq.tv/js/counters.js
+||hqq.tv/js/gcounter.js
+||hqq.tv/js/amung_counter.js
+||hqq.to/js/script-*js
+fastvid.co,hqq.*,player.koreanpornmovie.xyz,imsdb.pw##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
+@@/fuckadblock.js$domain=uniqueten.net|topcryptoz.net|allcryptoz.net|openload.casa|meucdn.vip|yandexcdn.com|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
+@@||vkcdnservice.com/api/spots/$domain=waaw.to|hindipix.in|hindipix.in|waaw1.tv|waaw.tv|czxxx.org|newhost.me|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv
+@@||deliver.vkcdnservice.com/api/spots^$domain=hqq.tv
+@@||storage.googleapis.com/vkcdnservice.appspot.com/script$domain=hqq.tv
+dogemate.com,sejasaudavel.net,viajarhoje.com,clubinvest.top,divnil.com,animefire.net,sejasaudavel.net,toolss.net,teamxmanga.com,sudoroot.net,netfile.cc,uvnc.com,vijesti.me,automotur.club,techmody.io,mcrypto.club,earningradar.com,exxen.com,manyvids.com,openload.casa,downfile.site,tricksplit.io,tipslearn.com,meucdn.vip,androidnougatapk.com,yandexcdn.com,honeyhunterworld.com,siberuang.com,assiatv.com,waaw.to,upstream.to,hukumonline.com,techsprobe.com,persianhive.com,subtitletools.com,click2win.xyz,iade.com,ebesucher.ru,streamporn.pw,javpornsex.com,habblet.city,miniroyale2.io,ad-doge.com,bitminer.biz,blkom.com,devactual.com,fshost.me,androidgreek.com,moneyexcel.com,playtube.ws,novagente.pt,vod-platform.net,essek.gen.tr,filmozercy.com,nightpoint.io,panjiachen.gitee.io,kangkimin.com,pdd.by,teepr.com,crypto-lovers.club,mangadods.com,getmega.net,dj-figo.com,animeblkom.net,arabianbusiness.com,innemedium.pl,ntsafelink.blogspot.com,tv8.com.tr,onlinetvrecorder.com,mypussydischarge.com,mshares.co,start.u-cdn.top,ustreamy.co,oemdtc.com,healthymaster.xyz,newdeaf.club,wwwfotografgotlin.blogspot.com,bitfaucet.ru,fivemleak.com,724indir.com,ivg.it,studyqueries.com,nightfallnews.com,clicads.fr,tutorialforlinux.com,imedikament.de,laufpix.de,kochamjp.pl,m3u-cdn.live,mp4upload.com,technologywindow.com,freebcc.org,pestleanalysis.com,yabiladi.com,claimcoins.cc,servedez.com,maxservicesi.com,why-tech.it,mangahost.site,firefile.cc,koinfire.com,apkgalaxy.top,hd-streams.org,xnalgas.com,imgtorrnt.in,xpaja.net,enterinit.com,habbokritik.de,suj.nu,net4ts.com,como5.com,macx.cn,plugincim.com,urlpay.net,digitallearn.online,u-play.pro,lightnovelworld.com,pspstation.org,exfaucet.com,sh7.ch,musicradar.com,thaiphysicsteacher.com,leechpremium.link,klyker.com,neuroeconomia.net,infotelematico.com,cdnvideo.me,playhydrax.com,compressnow.com,bkksnews.xyz,hydrax.net,radiotunes.com,fruitlab.com,turkcedersi.net,formasyonhaber.net,inf
 
 ! 2022-10-04 tabooporns.com
 ||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
