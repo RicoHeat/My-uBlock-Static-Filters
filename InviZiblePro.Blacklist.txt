@@ -1,6 +1,6 @@
-[Blacklist]
+! [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20230420T1300
+! Version: 20230526T2300
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal CNAME tracking ---- ☆
@@ -37,7 +37,6 @@ explorads
 ! ☆ ---- Personal Ads Tracking and Other ---- ☆
 gtm.oasisfeng
 graph.facebook.com
-*-settings.crashlytics-*
 *google-analytics*
 *trafficjunky*
 *tapjoy*
@@ -48,7 +47,6 @@ graph.facebook.com
 *.ads.*
 *adcolony*
 *adj.st*
-*.adjust.*
 *.adserver.*
 *.adspaces.*
 *.adserving.*
@@ -89,7 +87,6 @@ graph.facebook.com
 *-collector-*
 *-loggers-*
 *-metrics-*
-*-telemetry-*
 *.vortex.*
 *a4p.adpartner*
 *.cnzz.*
@@ -97,9 +94,6 @@ graph.facebook.com
 *.tracking.*
 *.ads-vungle.*
 *.vungle.*
-*.crashlytics.*
-*.-telemetry.*
-*.telemetry.*
 *.-ads.*
 *.ad-.*
 *.-ad.*
@@ -178,7 +172,6 @@ graph.facebook.com
 *.contextweb.*
 *.coremetrics.*
 *.crazyegg.*
-*.criteo.*
 *.crittercism.*
 *.crwdcntrl.*
 *.cryptonight.*
@@ -187,7 +180,6 @@ graph.facebook.com
 *.districtm.*
 *.domdex.*
 *.dotomi.*
-*.doubleclick.*
 *.doublepimp.*
 *.dynamicyield.*
 *.easyrencontre.*
@@ -204,7 +196,6 @@ graph.facebook.com
 *.g2afse.*
 *.getclicky.*
 *.go2affise.*
-*.googlead.*
 *.hitbox.*
 *.hyprmx.*
 *.igexin.*
@@ -238,7 +229,6 @@ graph.facebook.com
 *.mpstat.*
 *.offerstrack.*
 *.omtrdc.*
-*.openx.*
 *.optimove.*
 *.outbrain.*
 *.pagead.*
@@ -397,12 +387,10 @@ graph.facebook.com
 *.engage.3m.com.*
 *.ea.corsair.*
 *.p2.danskebank.*
-*.datapremium.*
 *.data.decathlon.*
 *.t.delfi.*
 *.adtd.douglas.*
 *.wttd.douglas.*
-*.downloadwap.*
 *.securecookies.dustin.*
 *.securecookies.dustinhome.*
 *.saa.dyson.*
@@ -434,7 +422,6 @@ graph.facebook.com
 *.sstats.girls1st.*
 *.goodadvert.*
 *.events.google.*
-*.id.google.*
 *.partner-ts.groupon.*
 *.omni.holidaycheck.*
 *.somni.holidaycheck.*
@@ -447,7 +434,6 @@ graph.facebook.com
 *.icq-window.*
 *.icqwindow.*
 *.inbet24.*
-*.innity.*
 *.instana.*
 *.elqtrk.intel.*
 *.www90.intel.*
@@ -475,7 +461,6 @@ graph.facebook.com
 *.sstats.libresse.*
 *.linkexchange.*
 *.t.locasun.*
-*.matomo.*
 *.dialogue.mazda.*
 *.mdws.*
 *.mediacontext.*
@@ -489,8 +474,6 @@ graph.facebook.com
 *.sc.mtv.*
 *.ssc.mtv.*
 *.t.nordea.*
-*.nr-data.*
-*.nuffnang.*
 *.oascentral.*
 *.ot.obi.*
 *.trac.oferting.*
@@ -502,7 +485,6 @@ graph.facebook.com
 *.piwik.*
 *.pop-parad.*
 *.pop-under.*
-*.popclck.*
 *.poptraf.*
 *.popupclick.*
 *.popuptraf.*
@@ -512,8 +494,6 @@ graph.facebook.com
 *.sstats.provident.*
 *.redslit.*
 *.repdata.*
-*.report-to.*
-*.report-uri.*
 *.rgfftupf.*
 *.o.rosettastone.*
 *.s.rosettastone.*
@@ -523,7 +503,6 @@ graph.facebook.com
 *.rusrestbest.*
 *.bsna.saks-off-5th.*
 *.secmetrics.schaefer-shop.*
-*.scr888.*
 *.sstats.seat.*
 *.sax*.sina.*
 *.sitebro.*
@@ -549,7 +528,6 @@ graph.facebook.com
 *.pulse.toyota.*
 *.tags.toyota.*
 *.rusads.toysrus.*
-*.truehits.*
 *.tracker.twenga.*
 *.under-click.*
 *.underclick.*
@@ -646,8 +624,6 @@ graph.facebook.com
 *.sbbe.group-ib.ru
 *.retailrocket.ru
 *.28p5qq8mm.de
-*.cake025.ru
-*.redirector.googlevideo.com
 *.leadgenic.ru
 *.zestat.ru
 *.olark.com
@@ -734,7 +710,6 @@ graph.facebook.com
 *.osdkupdatenw.com
 *.parking.reg.ru
 *.2d6g0ag5l.de
-*.cake017.ru
 *.tags.f5.com
 *.1mrmsp0ki.de
 *.insights.gog.com
@@ -745,7 +720,6 @@ graph.facebook.com
 *.aplaut.io
 *.riseup-inpp-code.com
 *.cpamotor.ru
-*.aj2396.online
 *.evlsn.com
 *.badgerstat.com
 *.nogravity.fun
@@ -847,7 +821,6 @@ graph.facebook.com
 *.5pi13h3q.de
 *.dmp.one
 *.nqn7la7.de
-*.heatmap.openresty.com
 *.cpa.hh.ru
 *.amc.yandex.*
 *.algoaspace.ru
@@ -873,10 +846,8 @@ graph.facebook.com
 *.forethought.ai
 *.rum.*.amazonaws.com
 *.trk.crozdesk.com
-*.googleadservices.com
 *.a.adwolf.ru
 *.a.sellpoint.net
-*.ac.ebis.ne.jp
 *.adcdn.pingan.com
 *.admin.dable.io
 *.adsterra.com
@@ -890,7 +861,6 @@ graph.facebook.com
 *.buyad.bi-xenon.cn
 *.cdnbc-wup.hsbc.com.hk
 *.cindyholbrook.lpages.co
-*.citiintl.122.2o7.net
 *.classliving.lpages.co
 *.click.appcast.io
 *.click.simba.taobao.com
@@ -899,15 +869,12 @@ graph.facebook.com
 *.click.virt.s*.exacttarget.com
 *.clj.valuecommerce.com
 *.clk*.tradedoubler.com
-*.cloud.notification-naviextras.com
 *.cm-widget.nakanohito.jp
 *.contents*.00110.citi.com
 *.cs.silverpop.com
-*.daikoku.ebis.ne.jp
 *.envato.market
 *.feed.adrelayer.com
 *.go.scorptec.com.au
-*.googleadapis.l.google.com
 *.grp07.ias.rakuten.co.jp
 *.gs.statcounter.com
 *.h-sdk.online-metrix.net
@@ -993,7 +960,6 @@ graph.facebook.com
 *.www-analytics.ripe.net
 *.ads-live-lbs-1947742752.us-west-1.elb.amazonaws.com
 *.moduleanalysis.aliexpress.com
-*.leadcamp.io
 *.blinger.io
 *.counter.unian.net
 *.device-provisioning.googleapis.com
@@ -1062,7 +1028,6 @@ graph.facebook.com
 *.1g46ls536.de
 *.2gg6ebbhh.de
 *.simpleanalytics.com
-*.operate-sdk-telemetry.unity3d.com
 *.events.maps.mail.ru
 
 ! ☆ ---- other ---- ☆
@@ -1071,3 +1036,395 @@ graph.facebook.com
 /heatmap/
 /sentry/
 /tiktok-web-ads/
+
+! [personalDNSFilter]
+! Title: 🔄 Custom hosts for personalDNSFilter
+! Version: 20230526T2300
+
+! Localhost rebinding protection
+0.0.0.0
+127.0.0.*
+
+! RFC1918 rebinding protection
+172.16.*
+172.17.*
+172.18.*
+172.19.*
+172.20.*
+172.21.*
+172.22.*
+172.23.*
+172.24.*
+172.25.*
+172.26.*
+172.27.*
+172.28.*
+172.29.*
+172.30.*
+172.31.*
+192.168.*
+
+! [Unneccessary protocol] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
+EMPTY
+WPAD
+http://*
+https://*
+! Note: Just found certain months ago that some `Google` domains throw log that they actual use `https://` and seems safe to keep blocking them, most of all times, every domains that pDNSF handle doesn't have any `http://` or `https://` prefix!
+
+
+! [Wildcards area]  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
+*88*.tk
+*horo.space
+38th*.*
+account-th.*
+adasiatagmanager.*
+adjust.*
+adsby*.*
+alert-*.*
+bigfun*
+byteark-analytics.*
+criteo.*
+datapremium.*
+downloadwap.*
+g00.*
+g01.*
+g02.*
+g03.*
+g04.*
+g05.*
+g06.*
+g07.*
+g08.*
+g09.*
+gak.*
+geniee*.*
+innity.*
+matomo.*
+mtburn.*
+nordvpn.*
+notice-*.*
+notification-*.*
+nr-data.*
+nuffnang.*
+openx.*
+parkingcrew.*
+popclck.*
+protection-*.*
+report-to.*
+report-uri.*
+scr888*.*
+secure-guard.*
+secure-mobile.*
+secure.*0*.com
+secure.*1*.com
+secure.*2*.com
+secure.*3*.com
+secure.*4*.com
+secure.*5*.com
+secure.*6*.com
+secure.*7*.com
+secure.*8*.com
+secure.*9*.com
+snowpole.*.gitlab.*
+ss*.mobilelife.co.th
+th-help.*
+th-info.*
+tons*.com
+truehits.*
+trx.gitlab.*
+vpn*plus*.*
+ww*.mobilelife.co.th
+yengo.*
+
+! [Domain-wide] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
+! Abusive DNS Cloaking (Don't forget to set 'checkCNAME = true' in 'DNSFilter.conf')
+! Credits: https://github.com/nextdns/cname-cloaking-blocklist/raw/master/domains
+0i0i0i0.com
+2o7.net
+a8.net
+actionlink.jp
+ad-cloud.jp
+adobedc.net
+affex.org
+at-o.net
+ati-host.net
+bnc.lt
+bp01.net
+branch.io
+dataunlocker.com
+dnsdelegation.io
+ebis.ne.jp
+eloqua.com
+eulerian.net
+fathomdns.com
+ghochv3eng.trafficmanager.net
+httpjames.space
+inscname.net
+intent.com
+intentmedia.net
+keyade.com
+oghub.io
+omtrdc.net
+pardot.com
+plausible.io
+shrfbdg004.com
+storetail.io
+tagcommander.com
+tracedock.com
+webtrekk.net
+wizaly.com
+wt-eu02.net
+
+! Hola Block (See also: https://github.com/lightswitch05/hosts/issues/129)
+hola.org
+l-agent.me
+lum-sdk.io
+luminati-china.io
+luminati.io
+luminatinet.com
+lumtest.com
+
+! Other unwanted
+1-cl0ud.com
+app.link
+booking.com
+bstatic.com
+cliqz.com
+csp.withgoogle.com
+hotspotshield.com
+mon-com-01.com
+nyctrl32.com
+orpheusdroid.com
+pdxor02.com
+snta0034.com
+tm1-001.com
+
+! [Wound ashes fox] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
+! Wildcard for this section!
+*-experiment*.mozilla.*
+*-report.mozilla.*
+*-reports.mozilla.*
+*-settings.moz*.*
+*-settings.thunderbird.*
+activations.cdn.mozilla.*
+crash-stats.mozilla.*
+data.mozilla.*
+detectportal.*
+experiment.mozilla.*
+experiments.mozilla.*
+fhr.*.mozilla.*
+getpocket.*
+input.mozilla.*
+normandy*moz*
+ostats.mozilla.*
+qsurvey.mozilla.*
+reporter.mozilla.*
+self-repair.mozilla.*
+services*moz*
+snippets.*
+telemetry*
+tiles.*.mozilla*
+
+! Plain domain lists
+cloudflare-dns.com
+cloudflareresearch.com
+ciscobinary.openh264.org
+mozillamessaging.com
+
+! [Big Brother - Non-Google fanboy] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
+! MASTER SWITCH
+! *-pa.googleapis.com
+! google
+! l.google.com
+! mtalk.google.com
+
+! Connectivity check block
+! connectivitycheck.android.com
+! connectivitycheck.gstatic.com
+
+! GVT (Play Store CDN usage {and also beacons})
+! gvt1.com
+gvt2.com
+gvt3.com
+gvt4.com
+gvt5.com
+! gvt*.com
+
+! Wildcard section!
+*-2mdn-*
+*-chrome*-pa.*
+! *-google*.l.google.com
+! *-safebrowsing.google*
+2mdn-*.*
+2mdn.*
+adgoogle.*
+adservice.google.*
+! alt*-mtalk.google.com
+amp.*
+ampproject.*
+appinvite*.google*
+chrome*-pa.googleapis.com
+! content-*.googleapis.com
+crashlytic*
+cryptauth*.google*
+doubleclick.*
+firebase*.*
+fundingchoice*
+googlead*
+googletag*
+http*-pa.googleapis.com
+id.google.*
+metric*google*
+metric*gstatic.com
+pagead*.l.google.com
+recommender.*.google.com
+redirector.gvt*
+! safebrowsing.google*
+safeframe.*
+securetoken*
+! suggestqueries.google.*
+www.*-pa.googleapis.com
+
+! Domain-wide
+admob.com
+admobclick.com
+adsensecustomsearchads.com
+advanced-web-analytics.com
+adwords.com
+dartsearch.net
+fabric.io
+googleanalytics.com
+googleoptimize.com
+googlesyndication.com
+googletraveladservices.com
+googlevads.com
+redirector.googlevideo.com
+urchin.com
+
+! Coverage for chinese...? (Related to https://github.com/lightswitch05/hosts/issues/290)
+admob-cn.com
+app-measurement-cn.com
+dartsearch-cn.net
+doubleclick-cn.net
+googleoptimize-cn.com
+googlesyndication-cn.com
+googletraveladservices-cn.com
+googlevads-cn.com
+! gvt*-cn.com
+! gvt1-cn.com
+gvt2-cn.com
+gvt3-cn.com
+gvt4-cn.com
+gvt5-cn.com
+
+! CNAME Penetration
+gstaticadssl.l.google.com
+id.l.google.com
+mail-ads.google.com
+stun.l.google.com
+stun1.l.google.com
+stun2.l.google.com
+stun3.l.google.com
+! sb.l.google.com
+video-stats.l.google.com
+
+! API connections
+acceleratedmobilepageurl.googleapis.com
+autofill.googleapis.com
+clouderrorreporting.googleapis.com
+dataprep.googleapis.com
+datasaver.googleapis.com
+digitalassetlinks.googleapis.com
+! play-fe.googleapis.com
+recommender.googleapis.com
+! suggestqueries.googleapis.com
+
+! PA(ranoid) connections
+androidauto-pa.googleapis.com
+androidsuggesthub-pa.googleapis.com
+auditrecording-pa.googleapis.com
+datamixer-pa.googleapis.com
+deviceintegritytokens-pa.googleapis.com
+dialercallinfolookup-pa.googleapis.com
+discover-pa.googleapis.com
+exploresites-pa.googleapis.com
+footprints-pa.googleapis.com
+geller-pa.googleapis.com
+geomobileservices-pa.googleapis.com
+gmbmobile-pa.googleapis.com
+growth-pa.googleapis.com
+infinitedata-pa.googleapis.com
+instantmessaging-pa.googleapis.com
+lens-pa.googleapis.com
+lensphotos-pa.googleapis.com
+mdh-pa.googleapis.com
+mobiledataplan-pa.googleapis.com
+mobilenetworkscoring-pa.googleapis.com
+myphonenumbers-pa.googleapis.com
+newslegacy-pa.googleapis.com
+notifications-pa.googleapis.com
+offlinepages-pa.googleapis.com
+! people-pa.googleapis.com
+! personalsafety-pa.googleapis.com
+phonedeviceverification-pa.googleapis.com
+! photosdata-pa.googleapis.com
+playatoms-pa.googleapis.com
+plusmixer-pa.googleapis.com
+regioninfo-pa.googleapis.com
+! reminders-pa.googleapis.com
+sticker-pa.googleapis.com
+! subscriptionsmanagement-pa.googleapis.com
+! telephonyspamprotect-pa.googleapis.com
+ulp1p-pa.googleapis.com
+voledevice-pa.googleapis.com
+
+! Other plains
+assistant.google.com
+dns.google
+! sb-ssl.google.com
+
+! [Big Brother - This is so zucky!] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
+! Facebook Connect are needed for login through third party apps, however, use at your own risk because Facebook will match apps
+! data and capture analytics and/or usage data to generating ads and related contents that more related to yourself!
+connect.facebook.net
+
+! Wildcard section
+*-pixel.facebook.*
+*-pixel.freebasics.*
+*-pixel.messenger.*
+*-stun.facebook.*
+headers-*.facebook.*
+headers-*.fbcdn.*
+headers-*.fbsbx.*
+headers-*.messenger.*
+stun.*.facebook.*
+z-*.facebook.*
+z-*.fbcdn.*
+z-*.fbsbx.*
+z-*.messenger.*
+
+! Facebook Zero Substances (aka. "Free Basics", wait, no! "Free BaZUCKS")
+0.facebook.com
+discoverapp.com
+expresswifi.com
+free.facebook.com
+freebasics.com
+i.org
+internet.org
+mobile.facebook.com
+o.facebook.com
+p.facebook.com
+vvv.facebook.com
+web.facebook.com
+z.facebook.com
+
+! Others
+fbpigeon.com
+gateway.facebook.com
+lookaside.facebook.com
+pixel.facebook.com
+pixel.messenger.com
+stun.facebook.com
+update.fbsbx.com
+
+! [Cutoff for staging with your previous custom config] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
