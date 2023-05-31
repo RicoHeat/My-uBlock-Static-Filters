@@ -1,6 +1,6 @@
 ! [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20230526T2300
+! Version: 20230531T1300
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal CNAME tracking ---- ☆
@@ -283,7 +283,7 @@ graph.facebook.com
 *.zedo.*
 *.zooplus.*
 *.zzux.*
-! ☆ ---- End Personal Condensed ---- ☆
+! ☆ ---- ENDS Personal Ads Tracking and Other ---- ☆
 
 *.counter.insales.com
 *.owox.com
@@ -1039,7 +1039,7 @@ graph.facebook.com
 
 ! [personalDNSFilter]
 ! Title: 🔄 Custom hosts for personalDNSFilter
-! Version: 20230526T2300
+! Version: 20230531T1300
 
 ! Localhost rebinding protection
 0.0.0.0
@@ -1063,14 +1063,6 @@ graph.facebook.com
 172.30.*
 172.31.*
 192.168.*
-
-! [Unneccessary protocol] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
-EMPTY
-WPAD
-http://*
-https://*
-! Note: Just found certain months ago that some `Google` domains throw log that they actual use `https://` and seems safe to keep blocking them, most of all times, every domains that pDNSF handle doesn't have any `http://` or `https://` prefix!
-
 
 ! [Wildcards area]  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
 *88*.tk
