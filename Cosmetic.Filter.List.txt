@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230527T0000
+! Version: 20230602T0800
 
 ! Test
 ##.adv-cat-
@@ -54,16 +54,34 @@ www.tabootube.xxx##.item-adv-7.item
 www.tabootube.xxx##.item-adv-8.item
 www.tabootube.xxx##.item-adv-4.item
 www.tabootube.xxx##.item-adv-3.item
-www.porn00.tv##.member-links > ul > li:nth-of-type(3)
-www.porn00.tv##.member-links > ul > li:nth-of-type(2)
-www.porn00.tv##.member-links > ul > li:nth-of-type(1)
-www.porn00.tv##.footer-margin > .content > .bottom-adv.box
+! 2023-05-22 https://familyporn.tv
+familyporn.tv##.media_spot_holder
+
+! 2023-05-25 https://redporn.tv
+! redporn.tv##.bb_mobile_top
+! redporn.tv##span.bb_show_2
+
+! 2023-05-26 https://d3ward.github.io
+||browser.sentry-cdn.com^
+||metrika.yandex.ru^$domain=d3ward.github.io
+
+! 2023-06-01 https://www.porn00.*
+www.porn00.*##[href="https://www.porn00.*/brazzers/low-price"]
+www.porn00.*##.member-links > ul
+www.porn00.*##.footer-margin > .content > .bottom-adv.box
+www.porn00.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
+www.porn00.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+www.porn00.*##+js(window.open-defuser)
+www.porn00.*##+js(abort-on-property-write, __htapop)
+www.porn00.*##div.headline[style]
+www.porn00.*##div.bottom-adv.box
+
 @@||wp.com^$domain=watchpornx.com
 www.xfreehd.com##.visible-sm.visible-xs.center > div
 www.xfreehd.com##.indexMiddleX0
 www.xfreehd.com##.cp-7.container > div > .center > div
 @@||tnaflix.com/assets/
-||milfnut.net/sources15/43354d4b384d346e553663467c7c387176716d7735386e3132677c7c5a794e343166736f343976427c7c73747265616d7362$xhr,1p
+||milfnut.net/sources15/43354d4b384d346e553663467c7c387176716d7735386e3132677c7c5a794e343166736f343976427c7c73747265616d7362$xhr,~third-party
 @@||appcdn01.xyz/vast.js$script,domain=milfnut.net
 github.com##.rounded-1.border.blankslate-spacious.blankslate
 www.tabootube.xxx##.false.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
@@ -99,12 +117,11 @@ taboohome.com##.video-comments
 taboohome.com##div.video-wrapper:nth-of-type(3)
 www.erome.com##.hidden-lg.hidden-md.hidden-sm.sp-mob
 www.erome.com##div.sp:nth-of-type(1)
-www.porn00.tv##[href="https://www.porn00.org/brazzers/low-price"]
 www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
-daftsex.com##.now
-daftsex.com##.font-weight-bold.twitter
-@@||daxab.com/player/*$domain=daftsex.com
-daftsex.com##iframe[src^="https://a.adtng.com/"]
+dsex.to##.now
+dsex.to##.font-weight-bold.twitter
+@@||daxab.com/player/*$domain=dsex.to
+dsex.to##iframe[src^="https://a.adtng.com/"]
 @@||dood.so^$domain=stepmomsx.com
 stepmomsx.com##.happy-sidebar
 stepmomsx.com##.one-column-footer > .widget_text.widget
@@ -191,12 +208,7 @@ m.facebook.com##li._53_-:nth-of-type(2) > .touchable._52x6
 m.facebook.com##h3._52x1:nth-of-type(1)
 m.facebook.com##li._53_-:nth-of-type(4)
 xfantasy.su###listing-ba
-pornwild.to##a[href^="https://www.rabbits.webcam/?id="]
-pornwild.to##.bottom-adv
-pornwild.to##div.container:last-child > div.header:first-child > nav:nth-child(2) > div.navigation > div.bottomNav:nth-child(2)
-pornwild.to#%#//scriptlet("abort-current-inline-script", "window.onload")
-pornwild.to##p:empty
-|about:$popup,domain=player.tabooporns.com,important
+|about:$popup,domain=player.tabooporns.com
 watchporn.to##.player-related-videos
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
@@ -760,10 +772,10 @@ pornlib.com##a[href*="/linkout/"]
 mansurfer.com##a[href*="/out/"]
 avgle.com##a[href*="/redirect"]
 4tube.com,fux.com,pornerbros.com,porntube.com##a[href*="/redirect-channel/"]
-daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.*,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
+dsex.to,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.*,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
 adultdvdempire.com##a[href*="?partner_id="][href*="&utm_"]
 taxidrivermovie.com##a[href*="mrskin.com/"]
-adultfilmdatabase.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,cutscenes.net,daftsex.com,devporn.net,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,motherless.com,myporn.club,pandamovies.pw,planetsuzy.org,pussyspace.com,redgifs.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,thefappeningblog.com,vintage-erotica-forum.com,vipergirls.to,waxtube.com,xfantazy.com,yeapornpls.com##a[href*="theporndude.com"]
+adultfilmdatabase.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,cutscenes.net,dsex.to,devporn.net,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,motherless.com,myporn.club,pandamovies.pw,planetsuzy.org,pussyspace.com,redgifs.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,thefappeningblog.com,vintage-erotica-forum.com,vipergirls.to,waxtube.com,xfantazy.com,yeapornpls.com##a[href*="theporndude.com"]
 bravotube.net##a[href^="/cs/"]
 sexhd.pics##a[href^="/direct/"]
 analpornpix.com##a[href^="/go/"]
@@ -851,8 +863,6 @@ pornbaker.com##.inside-list-boxes-mobile
 pornbaker.com##.after-boxes-mobile
 pornbaker.com##.footer-boxes-mobile
 pornbaker.com##.related-video-box
-pornwild.com##.bottomNav
-pornwild.com##.footer-margin
 player.tabooporns.com##+js(aopr, BetterJsPop)
 player.tabooporns.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 www.pornhits.com##.header__bn
@@ -889,7 +899,7 @@ stepmomsx.com##.entry-header > .button
 fuckamouth.com##body > div:nth-of-type(3)
 fuckamouth.com##.alert
 ||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
-@@||userapi.com^$image,domain=daftsex.com
+@@||userapi.com^$image,domain=dsex.to
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 pornhegemon.com###post-80996 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 yandexcdn.*##+js(set-constant, adBlockDetected, noopFunc)
