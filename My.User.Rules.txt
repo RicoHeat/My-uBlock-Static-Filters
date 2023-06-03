@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230526T0240
+! Version: 20230603T1800
 
 ! Testing
 |stun://
@@ -109,7 +109,7 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 ||daft.sex/js/app.$script
 ||daxab.com/logger^
 $script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="25000"]
-/^https?:\/\/[a-z]{6,14}\.com?\/[acd][-\.\/_A-Za-z][DHWm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6wyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xhr,third-party,match-case
+/^https?:\/\/[a-z]{6,14}\.com?\/[acd][-\.\/_A-Za-z][DHWm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6wyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xmlhttprequest,third-party,match-case
 @@||sentry.adguard.com^
 */api/spots/$frame
 @@||ssl.p.jwpcdn.com/player/v/*$script
@@ -161,13 +161,13 @@ hulu.com##.ad-choices
 @@||gogoplay*.com/js/jw*/jwplayer.js$script
 @@||gogoplay*.com/player/js/jquery.min.js$script
 @@||gogoplay*.com/js/crypto-js/crypto-js.js$script
-@@||youtube.com/api/stats/qoe$xhr,domain=youtube.com
+@@||youtube.com/api/stats/qoe$xmlhttprequest,domain=youtube.com
 @@||mzzcloud.life/embed-*/
 @@||mzzcloud.life/ajax/embed-*/
 @@||mzzcloud.life/css/*$stylesheet
 @@||*.mzzcloud.life/*/*.m3u8
 @@||mzzcloud.life/js/player/*$script
-@@||vidstream.pro^$xhr
+@@||vidstream.pro^$xmlhttprequest
 vidstream.pro/ping/
 @@||gogohd.net/js/jw*/jwplayer.js$script
 @@||gogohd.net/js/player*.min.js$script
@@ -216,7 +216,7 @@ hqq.*##+js(set, sadbl, false)
 hqq.*##+js(nowoif)
 hqq.*##+js(aopr, arrvast)
 hqq.*##+js(aopr, doSecondPop)
-||hqq.*/cdn-cgi/trace$xhr,~third-party,important
+||hqq.*/cdn-cgi/trace$xmlhttprequest,~third-party,important
 @@||deliver.vkcdnservice.com/vast-im.js$domain=hqq.to
 @@||hqq.*^$generichide
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
@@ -269,7 +269,7 @@ watchporn.to,bravoerotica.net,thothd.com,hairyerotica.com,theporngod.com,sexover
 hqporner.com##.black_friday
 
 ! 2022-12-18 https://wbgame.jlwinwin.com
-@@||wbslot-platform.sssjlsss.com/webservice/event/trigger$xhr
+@@||wbslot-platform.sssjlsss.com/webservice/event/trigger$xmlhttprequest
 
 ! 2022-12-22 https://porntn.com
 ||srv.dropkickmedia.com^$script
@@ -396,7 +396,7 @@ github.com##.rounded-1.border.blankslate-spacious.blankslate
 @@||www.gstatic.com^$script,domain=play.google.com
 
 ! 2023-03-22 https://player.tabooporns.com
-||vast.yomeno.xyz^$xhr,redirect-rule=nooptext
+||vast.yomeno.xyz^$xmlhttprequest,redirect-rule=nooptext
 ||syndication.realsrv.com/splash.php?$redirect-rule=nooptext
 
 ! 2023-03-22 https://xfantazy.com
