@@ -1,9 +1,12 @@
 [Adblock Plus 2.0]
 ! Title: 🆎️ The Anti-BS List
-! Version: 20230531T0200
+! Version: 20230604T0500
 ! Description: bogachenko's fuckfuckadblock, Yuki2718's Anti Anti-Adblock and Adblock Warning Removal list combined with redundancies removed
 
-! ☆ ---- 🖕 Fuck Fuckadblock ---- ☆
+! ☆ ---- 🖕Fuck Fuckadblock ---- ☆
+000! @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$script,xmlhttprequest
+! @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?([0-9-_]{1,5})?\.js/$script,xmlhttprequest
+
 ###AdBlockDialog
 ###ab--notification-ribbon
 ###abDetected
@@ -19,6 +22,7 @@
 ###adBlockerAlert
 ###adBlockerModal
 ###adPopUpContainer
+###adTeaser
 ###ad_blocker
 ###ad_lightbox
 ###adb-actived
@@ -100,6 +104,7 @@
 ##.adBlockNotificationOverlay
 ##.adBlockWarning
 ##.adTeaser
+##.ad_before.happy-inside-player
 ##.ad_blocker
 ##.adb-def
 ##.adb-enabled
@@ -528,7 +533,9 @@ pl#@#.advert
 ##a[href*="/afu.php"]
 ##button[data-openuri="|BTN_URL|"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
+##div[style^="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
+##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01;"][style*="cursor:pointer"]
 ##div[style^="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##div[style^="position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:2147483647"]
@@ -555,6 +562,7 @@ dragontea.ink##html, body:style(overflow: visible !important;)
 jpopsingles.eu##style[id$="-css"]:remove()
 wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 nopay.info##body:style(visibility:visible !important)
+nopay.info###babasbmsgx
 
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net##+js(refresh-defuser.js)
 
@@ -686,6 +694,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xmlhttprequest,third-party,important
 /^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/[^\s]{300,}$/$script,third-party,important
 |http*:*/choipanwendy/adsblock$important,script,third-party
+||jsdelivr.net/*/levelmaxblock.js$script,third-party
 /\/vki\/[0-9]{7}\/[a-z0-9]{8}\.js$/$important,script,third-party,match-case
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
@@ -776,9 +785,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,image,xmlhttprequest
 @@/^https?:\/\/(www\.)?[^\s]+\/[a-z]{1,15}[-_]?ad[svbxo]?(\.min)?\.js/$script,xmlhttprequest
 @@/^https?:\/\/(www\.)?[^\s]+\/[a-z]{1,15}[-_]?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest,script
-@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$script,xmlhttprequest
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?[-_]?[a-z]{1,15}\.js/$xmlhttprequest,script
-@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?([0-9-_]{1,5})?\.js/$script,xmlhttprequest
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([0-9]{1,3})?\.js/$xmlhttprequest,script
 @@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$xmlhttprequest,script,third-party
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
