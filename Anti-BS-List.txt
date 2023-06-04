@@ -4,7 +4,7 @@
 ! Description: bogachenko's fuckfuckadblock, Yuki2718's Anti Anti-Adblock and Adblock Warning Removal list combined with redundancies removed
 
 ! ☆ ---- 🖕Fuck Fuckadblock ---- ☆
-000! @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$script,xmlhttprequest
+! @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$script,xmlhttprequest
 ! @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?([0-9-_]{1,5})?\.js/$script,xmlhttprequest
 
 ###AdBlockDialog
