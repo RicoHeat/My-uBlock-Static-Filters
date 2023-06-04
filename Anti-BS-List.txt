@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 🆎️ The Anti-BS List
-! Version: 20230604T0500
+! Version: 20230604T2300
 ! Description: bogachenko's fuckfuckadblock, Yuki2718's Anti Anti-Adblock and Adblock Warning Removal list combined with redundancies removed
 
 ! ☆ ---- 🖕Fuck Fuckadblock ---- ☆
