@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230603T1800
+! Version: 20230609T0400
 
 ! Testing
 |stun://
@@ -425,9 +425,6 @@ www.porngo.com##li.menu-list__row:nth-of-type(9)
 
 ! 2023-04-03 https://watchpornx.com
 @@||wp.com^$domain=watchpornx.com
-
-! 2023-04-03 https://www.porn00.tv
-www.porn00.tv##.member-links > ul
 
 ! 2023-04-13 https://github.com
 @@||github.com/disconnectme/*
