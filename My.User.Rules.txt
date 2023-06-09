@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230609T0400
+! Version: 20230609T1300
 
 ! Testing
 |stun://
@@ -9,6 +9,37 @@
 .stun.*
 
 .local^
+
+! Punycode TLDs
+/(^|\.)xn--.*$/
+
+! TikTok Fingerprinting
+/.*(analytics|frontier|gecko|mon|log|mssdk|mcs|pitaya).*\.(tiktok(v|cdn)?|byteoversea|snssdk)\.com$/
+
+! Analytics - Metrics - Telemetry
+/^(s|[a-z0-9\-]*\-)?analytics?(\-[a-z0-9\-]*)?\.[a-z0-9\-]*\./
+/^(s|[a-z0-9\-]*\-)?metrics?(\-[a-z0-9\-]*)?\.[a-z0-9\-]*\./
+/^([a-z0-9\-]*\-)?telemetry(\-[a-z0-9\-]*)?\.[a-z0-9\-]*\./
+/^piwik\.[a-z0-9\-]*\./
+
+! Tracking
+/^(error|g|bug|[a-z0-9\-]*\-)?track(er|ing)?(\-[a-z0-9\-]*)?\.[a-z0-9\-]*\./
+/^trk\.[a-z0-9\-]*\./
+
+! Sentry
+/^sentry\.[a-z0-9\-]*\./
+
+! Clarity
+/^clarity\.[a-z0-9\-]*\./
+
+! Allow Referral Links
+@@/^clicks?\.[a-z0-9\-]*\./
+@@/^e?mails?(\-[a-z0-9]*)?\.[a-z0-9\-]*\./
+@@/^go(to)?\.[a-z0-9\-]*\./
+@@/^(news)?links?\.[a-z0-9\-]*\./
+@@/^redirect\.[a-z0-9\-]*\./
+@@/^target\.[a-z0-9\-]*\./
+@@/^open\.[a-z0-9\-]*\./
 
 ! ☆ ---- 2022 OCT 23 User Rules ---- ☆
 ||reddit.com/counters/$xmlhttprequest
@@ -703,6 +734,10 @@ http://www.ads.$third-party
 ?tid=*&red=1&*&abt=
 /?&pid=*&subid=
 /?&subid=*&pid=
+
+||ang-content.com/*.mp4$media,redirect=noopmp3-0.1s,domain=porn00.org
+
+||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|adshort.club|newepisodes.co|megaup.net|ckk.ai|uploadas.com|gounlimited.to|streamtajm.com|yesmovies.to|thehouseofportable.com|kanqite.com|oke.io|xmovies8.pl|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|drhtv.com.pl|srt.am|estrenos10.com|dancingastronaut.com|mixing.dj|gamesofpc.com|adf.ly|ay.gy|tinyical.com|mmoity.com|vizer.tv|itdmusic.com|cloudyfiles.org|prefiles.com|cloudyfiles.co|anime-odcinki.pl|clicknupload.link|unblocked.lol|suprafiles.co|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|feliratozz.hu|filescdn.com|javgo.me|katcr.co|katfile.com|keeplinks.eu|leporno.org|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sadeemapk.com|salefiles.com|sankakucomplex.com|shink.in|uplod.it|uplod.ws|uptostream.com|userscloud.com|watchers.to|zone.telechargementz.tv|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|mrpcgamer.co|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|allmoviesforyou.net|soap2day.ac|torrentgalaxy.mx|igg-games.co|manganelo.tv|ziperto.com|bluemediafile.*|oxtorrent.sk
 
 ! ☆ ---- Fanboy's Enhanced Tracking List (removed redundancies) ---- ☆
 ! License: http://creativecommons.org/licenses/by/3.0/
