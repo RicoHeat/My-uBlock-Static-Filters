@@ -2609,7 +2609,7 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||valuecommerce.com^$third-party,badfilter
 ||linksynergy.com^$third-party,badfilter
 ||tradedoubler.com^$image,script,subdocument,xmlhttprequest,third-party
-||doubleclick.net^$image,subdocument,script,subdocument,xmlhttprequest,third-party
+||doubleclick.net^$image,subdocument,script,xmlhttprequest,third-party
 ||atdmt.com^$image,script,subdocument,xmlhttprequest
 ||demdex.net^$image,script,subdocument,xmlhttprequest
 ||linksynergy.com^$image,script,xmlhttprequest,subdocument,third-party
@@ -6703,7 +6703,7 @@ mathb-ege.sdamgia.ru##.content >div[style="margin-bottom:20px"] > div[style="wid
 @@||broadbandforum.co$generichide
 @@||xpicw.top/*.js$script
 @@||xpicw.top/ajax/
-@@||thaivisa.com^$generichide,content
+@@||thaivisa.com^$generichide
 @@||thaivisa.com/js/fuckadblock.js
 @@||jkwaveblog.com^$generichide
 @@||mackungfu.org$generichide
