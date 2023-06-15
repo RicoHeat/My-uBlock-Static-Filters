@@ -1,14 +1,19 @@
 ! Title: ☠️ My User Rules
-! Version: 20230609T1300
+! Version: 20230615T2330
 
 ! Testing
 |stun://
-
 ||stun.
-
 .stun.*
-
 .local^
+stun.l.google.com
+stun1.l.google.com
+stun2.l.google.com
+stun3.l.google.com
+stun.facebook.com
+*-stun.facebook.*
+stun.*.facebook.*
+global.stun.twilio.com
 
 ! Punycode TLDs
 /(^|\.)xn--.*$/
