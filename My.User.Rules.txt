@@ -1,11 +1,12 @@
 ! Title: ☠️ My User Rules
-! Version: 20230615T2330
+! Version: 20230616T0000
 
 ! Testing
 |stun://
 ||stun.
 .stun.*
 .local^
+|stun://45.11.104.186:3478
 stun.l.google.com
 stun1.l.google.com
 stun2.l.google.com
