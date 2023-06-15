@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230609T1300
+! Version: 20230615T2200
 
 ! Test
 ##.adv-cat-
@@ -85,6 +85,9 @@ porn00.*##.table
 www.peekvids.com##.block-advert-top.block-advert
 www.peekvids.com##.block-advert-bottom.block-advert
 www.peekvids.com##div.block-advert:nth-of-type(3)
+
+! 2023-06-15 https://en.xtapes.to
+xtapes.to##.backtotopinstance.border-radius-5.backTopLink
 
 @@||wp.com^$domain=watchpornx.com
 www.xfreehd.com##.visible-sm.visible-xs.center > div
