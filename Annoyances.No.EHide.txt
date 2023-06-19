@@ -1,8 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Annoyances without Elementhide
-! Version: 20230615T1900
+! Version: 20230620T0200
 
-! ☆ ---- Adguard Annoyances No Element Hide ---- ☆
+! ☆ ---- AdGuard Annoyances filter (Optimized) No Elementhide ---- ☆
+||cmp.datasign.co^
+||datasign.co/js/opn.js
 ||soglkuki.prolexgroup.ru^
 ||clickiocmp.com^$third-party
 /simple-cookies_for_hu.js
@@ -25,7 +27,6 @@
 ||prod-origin.truendo.com^
 ||policy.cookiereports.com^
 ||app.secureprivacy.ai^$third-party
-||cmp.redge.media^$third-party
 ||tarteaucitron.io^$third-party
 ||smart.idmnet.pl^$third-party
 ||gravito.net/cmp$script
@@ -109,7 +110,6 @@
 .cookiepolicy.
 .cookiesdirective.
 .cookiesdirective_
-.cookiesPolicy.
 .divascookies-
 .EuCookieCompliance.
 /media/plg_system_eprivacy
@@ -274,7 +274,6 @@ _europecookielaw.
 ||cookiemanager.wirth-horn.de^$third-party
 ||consent.trustarc.com^$third-party
 ||onetrust.com^$third-party
-||consent.dumont.de^$third-party
 ||metomic.io^$third-party
 ||privacy-center.org^$third-party
 ||policy*.cookieinformation.com^$third-party
@@ -288,8 +287,10 @@ _europecookielaw.
 ||quantcast.mgr.consensu.org^$third-party
 ||consent.*.de^$other
 /\/wp-content\/[a-f0-9]{32}.js/$domain=tecsafe.de|viel-unterwegs.de|ahorn-camp.de|mmo-sankar.de|der-windows-papst.de|audiovision.de|indibit.de|technikshavo.de|emojiszumkopieren.de|wagenheber24.de|fcportables.com|noobguides.de|vampster.com|geekguide.de
-/wrapperMessagingWithoutDetection.js$script,domain=sir-apfelot.de|romfordrecorder.co.uk|maclife.de|chesterstandard.co.uk|vkz.de|rheinpfalz.de|lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|thescottishsun.co.uk|thesun.co.uk|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info|badoo.com|eiu.com|7sur7.be|flugrevue.de|playpilot.com|kachelmannwetter.com|muehlacker-tagblatt.de|hobbyconsolas.com|roadbike.de|finanzen100.de|cavallo.de|lepoint.fr|swmh.de|zvw.de|gladbachlive.de|noz.de|thepeoplesperson.com|whats-on-netflix.com|krzbb.de|reisefrage.net|capital.de|bikeradar.com|theloadout.com|autotrader.co.uk|bbcgoodfood.com|discoverwildlife.com|pcgamesn.com|chefkoch.de|sciencefocus.com|macworld.com|brighttalk.com|carthrottle.com|pcworld.es|carmagazine.co.uk|aktuality.sk|sportsmole.co.uk|unnuetzes.com|vrt.be|classical-music.com|vice.com|wieistmeineip.de|prad.de|techtarget.com|computerweekly.com|fussballfieber.de|soundis.gr|clever-tanken.de|azet.sk|kkuriren.se|bistro.sk|qz.com|thechelseachronicle.com|cinema.de|meteologix.com|gardenersworld.com|autobild.es|charlieintel.com|67hailhail.com
+/wrapperMessagingWithoutDetection.js$script,domain=sir-apfelot.de|romfordrecorder.co.uk|maclife.de|chesterstandard.co.uk|vkz.de|rheinpfalz.de|lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|thescottishsun.co.uk|thesun.co.uk|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info|badoo.com|eiu.com|7sur7.be|flugrevue.de|playpilot.com|kachelmannwetter.com|muehlacker-tagblatt.de|hobbyconsolas.com|roadbike.de|finanzen100.de|cavallo.de|lepoint.fr|swmh.de|zvw.de|gladbachlive.de|noz.de|thepeoplesperson.com|whats-on-netflix.com|krzbb.de|reisefrage.net|capital.de|bikeradar.com|theloadout.com|autotrader.co.uk|bbcgoodfood.com|discoverwildlife.com|pcgamesn.com|chefkoch.de|sciencefocus.com|macworld.com|brighttalk.com|carthrottle.com|pcworld.es|carmagazine.co.uk|aktuality.sk|sportsmole.co.uk|unnuetzes.com|vrt.be|classical-music.com|vice.com|wieistmeineip.de|prad.de|techtarget.com|computerweekly.com|fussballfieber.de|soundis.gr|clever-tanken.de|azet.sk|kkuriren.se|bistro.sk|qz.com|thechelseachronicle.com|cinema.de|meteologix.com|gardenersworld.com|autobild.es|charlieintel.com|67hailhail.com|om-online.de
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
+||gomez.pl/js/plugins/cookify.js
+||servis-whirlpool.cz/js/checkConsents.min.js
 ||platform.illow.io/banner.js
 ||eestatic.com/eprivacy/
 ||doz.pl/skin/assets/bundle/default/js/elements/cookie-wall.js
@@ -308,12 +309,14 @@ _europecookielaw.
 /privacy-layer$domain=teufel.de|teufel.ch|teufelaudio.*
 ||cookies.openticket.tech/latest/cookies.js
 ||resources.jetbrains.com/storage/ui/cookies-banner-
+||panini.com.br/*/Amasty_GdprCookie/
 ||consent.a24films.com^
 ||blacknut.com/scripts/a/cmp.js
 ||hepster.com/js/cookies.js
 ||jobup.ch/public/scripts/modern/chunk-cookie-consent-modal.*.js
 ||jimms.fi/Scripts/jimmsconsent.min.js
 ||pmc-pp-tou.*.amazonaws.com/privacy-notice.js
+||terre.tv/wp-content/plugins/mrdev-cmp/
 ||securiti.ai/consent/
 ||mobile.de/api/consent/static/js/loader.js
 ||wp.pl^$script,domain=dobregry.pl|jastrzabpost.pl
@@ -324,7 +327,6 @@ _europecookielaw.
 ||cdn.privacy-mgmt.com/consent/$domain=ariva.de,important
 ||tags.tiqcdn.com/utag/*/prod/utag.js$domain=hs.fi|radissonhotels.com|louisvuitton.com|simplybusiness.co.uk|vivimilano.corriere.it|lineadirecta.com|modernatx.com
 ||blu.com.pl/modules/sohoshopcookies/
-||cdn*.comvalue.com/common/scripts/privacydialog.min.js
 ||tttd.douglas.de/www-douglas-de/prod/utag
 ||cdn.snigelweb.com^
 ||geo.dailymotion.com/cookie.js
@@ -345,14 +347,11 @@ _europecookielaw.
 ||2nt.com/share/js/gdpr/
 ||api.workwise.io/cookieConsents
 ||kayak.co.kr/s/horizon/common/gdpr/
-||maxi-pet.ro/Script/cookieseubox.js
-||maxi-pet.ro/Skins/RO_BU_PETCENTAR/css/cookieseubox.css
 ||lexar.com/wp-content/plugins/lexar-cookie-accept/cookie.accept.js
 ||privacy-sdk.talent-soft.com^
 ||spreadshirt.de/resources/cookie/js/consent.js
 ||ccm.abload.de^
 ||tools.pdf24.org/static/js/consent-manager/site.js
-||goettgen.de/cookieajx.php
 ||cdn.cookiecode.nl/dist/latest.js
 ||say-move.org/style/js/gdpr/
 ||static1.lacoste.com/static/*/js/dist-refit/framework/templates/adblockers.tpl.js
@@ -365,6 +364,7 @@ _europecookielaw.
 ||fileinfo.*/js/iCookie.js
 ||meine.aok.de/*/oscare-ogs-webcom-cookie-consent-aok.js
 ||cdn.braintrust.at/libs/bt-cookieconsent/$domain=berufslexikon.at
+||webshop.burgerme.de/theme/js/Widgets/cookieWidget.min.js
 ||consent.cookiebot.eu/uc.js
 ||consent.dropbox.com^
 ||webcdn.asafe.com/assets/js/cookies.bundle.js
@@ -429,9 +429,11 @@ _europecookielaw.
 ||noticiasdatv.uol.com.br/static/js/ntv-policy-alert.min.js
 ||cornelsen.de/*/consent-manager/cornelsen-consent-manager.js
 ||medizin.uni-tuebingen.de/theme/*/privacy.js
+/theme/js/Widgets/cookieWidget.min.js$domain=losteria.de|amrit.de|pizza-hut-lieferservice.de|farinadinonna.pizza
 ||tauschticket.de/js/cnst.js
 ||seitenbacher.de/sites/all/modules/custom/sb_cookie_compliance/
 ||tm.jsuol.com.br/modules/policy-banner.js
+/borlabs-cookie.min.js$domain=mobil-ganz-einfach.de|schwebheim.de
 ||policy.app.cookieinformation.com^$domain=glamox.com|captureone.com
 ||sp-consent.stuttgarter-zeitung.de^
 ||elefacts.de/js/cookie-consent-*.js
@@ -458,6 +460,7 @@ oetker.*/static/js/privacy-dialog/
 ||telia.se/.resources/telia-sitewide-resources/website-cookie-consent/
 ||peterburg2.ru/js/alex/cookiePopup-js.js
 ||content.gallup.com/ux/gcb/gcb.en-us.min.js
+||economictimes.indiatimes.com/gdpr_consent.cms
 ||cdn.ethyca.com/org/*/cookie.js
 ||lg.com/lg5-common-gp/js*/e-privacy.min.js
 ||static-artifact.heg-cp.com/upm/*privacy-manager*.js
@@ -465,7 +468,6 @@ oetker.*/static/js/privacy-dialog/
 /privacy/popup.js$domain=cdaction.pl|pcformat.pl
 ||nanosystems.it/js/nanoGDPR.min.js
 ||consent.prismamedia.com^
-||cookie.avt.pl/cookie-script
 /pp-t-a-c.js$domain=bmi-online.pl|dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|forum-kulturystyka.pl|odkrzychadoronaldo.pl|swistak.pl|toplista.pl|torrent.top-100.pl|trizer.pl|jestemfit.pl|kobiety.pl|e-gym.pl
 ||cdn.bnnvara.nl/projects/cookie-module/index.js
 ||forumsamochodowe.pl/js/jquery.cookie.js
@@ -498,7 +500,6 @@ oetker.*/static/js/privacy-dialog/
 ||friendlyfold.com^$third-party
 ||knitstamp.com^$third-party
 ||aliasanvil.com^$third-party
-||shiveringspot.com^$third-party
 ||carvecakes.com^$third-party
 ||measlymiddle.com^$third-party
 ||vengefulgrass.com^$third-party
@@ -515,7 +516,6 @@ oetker.*/static/js/privacy-dialog/
 ||childlikecrowd.com^$third-party
 ||stretchsister.com^$third-party
 ||expansioneggnog.com^$third-party
-||laughablelizards.com^$third-party
 ||floweryflavor.com^$third-party
 ||fearlessfaucet.com^$third-party
 ||childlikeform.com^$third-party
@@ -556,6 +556,7 @@ oetker.*/static/js/privacy-dialog/
 ||overconfidentfood.com^$third-party
 ||honorableland.com^
 ||courier-js.dallasnews.com/dist/courier.min.js
+||hocgeese.com^$third-party
 ||curvycry.com^$third-party
 /plugins/ad-blocking-advisor/*
 /wp-content/*/javascripts/*.passive_display_adblock.js$~third-party
@@ -569,6 +570,7 @@ oetker.*/static/js/privacy-dialog/
 ||radio-online.com.ua/scripts/ads.js
 /google-funding-choices.js$domain=foxnews.com|foxbusiness.com
 /google.funding.choices.js$domain=foxnews.com|foxbusiness.com
+||absorbingprison.com^$third-party
 ||adfree-stat.p3g.hu/detect/detect.min.js
 ||adfree-stat.p3g.hu/layer/
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js
@@ -738,7 +740,6 @@ oetker.*/static/js/privacy-dialog/
 ||news.dn.ua/templates/defau/js/jquery-modal.js
 ||obukhiv.info/site/assets/pwpc/pwpc-*.js
 ||macmost.com/wp-content/themes/*/awpop-subscribe-*.js
-||academyfx.ru/media/mod_quick_subscription/
 ||messengers.insales.ru/widget/script.js$domain=xn--80aaadf9a6agjohr9n.xn--p1ai
 ||o.prod.theintercept.com/api/tinypass.min.js
 /jquery.slick-modals.min.js^$domain=wotspeak.org
@@ -748,7 +749,6 @@ oetker.*/static/js/privacy-dialog/
 ||zotabox.com^$domain=playpcesor.com|taiphanmempc.net
 ||geva.co.il/wp-content/themes/geva/js/geva-modal.js
 ||vote.sibnet.ru^
-||ubembed.com^$domain=brokerdeal.de|bulbapedia.bulbagarden.net|pctipp.ch|computerworld.ch
 ||cache.ltn.com.tw/js/fb_mask.js
 ||mail.ru/manifest.json
 ||m.lenta.ru/manifest.json
@@ -863,6 +863,7 @@ oetker.*/static/js/privacy-dialog/
 ||meladonicum.com^$third-party
 ||moengage.com^$third-party
 ||motbw.com^$third-party
+||mp3lofts.com^$third-party
 ||nativesubscribe.pro^
 ||netmera-web.com^$third-party
 ||news-hefoja.cc^$third-party
@@ -933,7 +934,6 @@ oetker.*/static/js/privacy-dialog/
 ||truepush.com^$third-party
 ||u21drwj6mp.com^
 ||viapush.com^$third-party
-||vistoolr.net^$third-party
 ||vkonrakte.com^$third-party
 ||web-sdk.urbanairship.com/notify/
 ||webpush.ria.com^
@@ -978,6 +978,7 @@ oetker.*/static/js/privacy-dialog/
 ||assets.alicdn.com/*/webpush-ui.js
 ||image.sendsay.ru/app/js/forms/forms.min.js
 ||image.sendsay.ru/app/js/sdk/sdk.min.js
+||localmemphis.com/notifications
 ||ozmall.co.jp/scripts/js/user-notification.js
 /notification.js$domain=jauns.lv|rt.com
 ||boredpanda.com/blog/wp-content/themes/boredpanda/push/sw.js
@@ -1004,7 +1005,6 @@ oetker.*/static/js/privacy-dialog/
 ||redditstatic.com/*/PushNotifications.
 ||pcdn.dengage.com/p/push/
 ||uol.com.br/webalert-notification*.js
-||static.folha.uol.com.br/folha/js/push/
 ||youla.ru/build/pwa/platform/services/WebPush-*.js
 ||uploadrar.com/sw.js
 ||townwork.net/js/register_sw.js
@@ -1024,6 +1024,7 @@ oetker.*/static/js/privacy-dialog/
 ||signup.e2ma.net^$third-party
 /e2ma.js
 ||static-cdn.e2ma.net/signups/$third-party
+||nikkansports.com/mod2015/js/piano/members_only.js
 ||kyivindependent.com/ghost/api/content/newsletters/
 ||assets.flodesk.com/universal.mjs$domain=barefootuniverse.com
 ||static.hokkaido-np.co.jp/*/bnr_news_letter_small.png
@@ -1089,6 +1090,7 @@ oetker.*/static/js/privacy-dialog/
 ||engine.findaphd.com^
 ||feeds.intoday.in/newsletter/
 ||gizmodo.uol.com.br/wp-content/blogs.dir/*/gizmodo-newsletter-
+||alertme.news^$third-party
 ||email.osp.ru/view_webform_*.js
 ||golem.de/microsite
 ||mailerlite.com^$third-party,domain=~howtosucceed.at|~riavrn.ru|~masterborn.com
@@ -1143,6 +1145,7 @@ oetker.*/static/js/privacy-dialog/
 /mobiquo/smartbanner/appbanner.js
 ||bokete.jp/images/banner_over_w640.png
 ||dumskaya.net/js/appbanner/
+||gooddo.jp/magazine/wp-content/themes/bd2019ver1/js/bookmark_bubble.js
 ||s.cosme.net/images/spn/cnt/static_banner/app_appeal/app_bnr_
 ||weather.nifty.com/images/weather_smp.gif
 ||booklog.jp/img/device/pc-app-banner.png
@@ -1185,7 +1188,6 @@ oetker.*/static/js/privacy-dialog/
 ||cdn.tinypass.com/api/tinypass.min.js$domain=seekingalpha.com
 ||jiosaavn.com/embed/$domain=ndtv.com
 ||silvergames.com/div/own.php?
-||codestudyblog.com/ref/myscripts.js
 ||ilenta.com/images/banner/
 /bugsnag.min.js$domain=adblock-tester.com
 ||sentry-cdn.com^$domain=adblock-tester.com
@@ -1234,7 +1236,6 @@ oetker.*/static/js/privacy-dialog/
 ||taboola.com^$domain=sankei.com
 ||radiko.jp/static/image/half_banner.gif
 ||news.sod.co.jp/wp-content/uploads/*/prime_cp_$image,~third-party
-/random_affiliate.js$domain=elog.tokyo|freegame-mugen.jp
 ||rakuten-static.com/1/grp/banner/js/create.js
 ||brocardi.it/frontend/images/banner-quesito-libero-pensoso.gif
 ||mora.jp/pc/img/jack/
@@ -1245,6 +1246,7 @@ oetker.*/static/js/privacy-dialog/
 ||cdn.r10.net/r10/i/r10.gif
 ||flashondemand.top-ix.org/video-omg/channels/vvvvid.mp4
 ||myshows.me/shared/img/fe/banners/pro-*.gif
+||nim.ru/i/1920_1101/banner/
 ||contributions.guardianapis.com^
 ||go2senkyo.com/img/cmn/recuit_banner.jpg
 ||mornlong.com/zb_users/upload/images_ads/
@@ -1270,6 +1272,7 @@ oetker.*/static/js/privacy-dialog/
 ||gameguru.ru/static/core/img/for-lootguru/banner2.png
 ||itest.5ch.net/assets/img/ronin_premium_640x100.png
 ||ec.geo-online.co.jp/img/usr/cotegory/risumaho_
+||smafi.info/assets/images/advertising/
 ||tenor.com/*/search-entrypoint-optimized.gif
 ||blog.esuteru.com/js/azrank/swiper.min.js
 ||aurora.network/images/banners/
@@ -1397,7 +1400,6 @@ oetker.*/static/js/privacy-dialog/
 ||asianoneta.blog.jp/rss$subdocument,~third-party
 ||anicobin.ldblog.jp^$subdocument,~third-party
 ||slotlog.blog.jp/rss_top2.html
-||kateich.net/headline.html
 ||2chnewsblog.blog.jp/imgrss_$subdocument
 ||doucolle-kako.livedoor.biz/kiji_link/
 ||doucolle-kako.livedoor.biz/pick-$subdocument
@@ -1447,7 +1449,9 @@ _rss.html$domain=blog.livedoor.jp
 _rss2.html$domain=blog.livedoor.jp
 ||leaked.jp/blogroll.html
 ||gazounabi.com/toprss1.html
+||mv-mindhack2ch.up.seesaa.net/common/image_feed.js
 ||tb.53kf.com/code/$script
+||s.net-public.com/js/b.js
 ||kami-ch.com/blogparts/
 ||hayamimi-hobby.com/gen-rss/
 ||feed.mikle.com^$domain=gensen5ch.blog.jp|blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|hayamimi-gunpla.com|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
@@ -1479,8 +1483,6 @@ _rss2.html$domain=blog.livedoor.jp
 ||4pd.org/js/fpd-rss.
 .ru/proxy_*.php?init_form=$script
 .ru/proxy_*.php?init_widget=$script
-.net/proxy_*.php?init_widget=$script
-.ru/proxy_*.php?init_button=$script
 .az/livechat/
 /crm/site_button/loader_*.js
 /edugram_chat.js
@@ -1521,7 +1523,6 @@ _rss2.html$domain=blog.livedoor.jp
 ||edialog24.com^$third-party
 ||embed.doorbell.io^$third-party
 ||acobot.ai^$third-party
-||api-pravoved.s3.amazonaws.com^$third-party
 ||api.autopilothq.com^$third-party
 ||api.cloudleadia.com^$third-party
 ||api.leadiacloud.com^$third-party
@@ -1633,6 +1634,7 @@ _rss2.html$domain=blog.livedoor.jp
 ||content.astro7.ru/js/chat-bot-
 ||formcs.globalso.com^$domain=voopoo.com
 ||hello.zonos.com/hello.js
+||kasikornbank.com/SiteCollectionDocuments/js/LiveChat.js
 ||ladesk.com/scripts/track.js
 ||livechat.chat2desk.com$third-party
 ||livetex.ru/js/client.js$third-party,domain=~tele2.ru|~linline-clinic.ru|~lg.com
@@ -1736,7 +1738,6 @@ _rss2.html$domain=blog.livedoor.jp
 ||carambo.la^$third-party
 ||sharpay.io^$third-party
 ||care2.com/petitions/$third-party,domain=~thepetitionsite.com
-||tracdelight.com^$third-party
 ||l.getsitecontrol.com^$domain=nv.ua
 ||youtube.com/embed/?enablejsapi=1&origin=*3dnews.ru&widgetid=1
 ||kinoafisha.ua/widget/$third-party
@@ -1748,7 +1749,6 @@ _rss2.html$domain=blog.livedoor.jp
 ||civey.com^$third-party
 ||compass.pressekompass.net/compasses^$third-party
 ||app.mycountrytalks.org^$third-party
-||js-seeker.newjobs.com^$domain=monster.com
 ||js.jebbit.com/companion/*/widget.js$third-party
 ||widgets.jobbio.com^
 ||widgets.coingecko.com^$third-party
@@ -1772,7 +1772,7 @@ _rss2.html$domain=blog.livedoor.jp
 ||yoomoney.ru/quickpay/shop-widget$domain=ovgorskiy.ru|blog.themarfa.name
 ||funding.webmoney.ru/widgets/$domain=ovgorskiy.ru|demek.ru|скачатьофис.рф
 
-! ☆ ---- Fanboy's Annoyances No Element Hide ---- ☆
+! ☆ ---- Fanboy's Annoyances (Optimized) No Elementhide ---- ☆
 /arscode-ninja-popups/*$~stylesheet
 /christmas-snow.js
 /devtools-detector.
@@ -1793,6 +1793,7 @@ _rss2.html$domain=blog.livedoor.jp
 /snow-falling.js
 /snowfall-master.min.js
 /snowfall.jquery.
+/snowstorm-min.js
 /snowstorm.js
 /tapatalkdetect.
 /upprev.js
@@ -1835,6 +1836,7 @@ _rss2.html$domain=blog.livedoor.jp
 /to_pagetop.
 /topbutton.js
 /ui.totop_
+/wpfront-scroll-top.
 _backToTop.
 /jquery.particleground.
 /particles-sel.js
@@ -1927,7 +1929,6 @@ _backToTop.
 -social-post-sharer/$~stylesheet
 -social-share.$~stylesheet
 -social-share/
--social-share_
 -social-sidebar.
 -social-slider/
 -sociaux.$domain=~centres-sociaux.fr
@@ -1966,7 +1967,6 @@ _backToTop.
 /facebook_sidebar.
 /facebook_social.
 /Facebook_Social_
-/facebookred.
 /facebookshare.
 /fb-pixel.js
 /fb_share.
@@ -2041,9 +2041,6 @@ _backToTop.
 /ic_twitter_
 /icon_share_
 /icon_sns_
-/icon_social1.
-/icon_social2.
-/icon_social3.
 /icon_social_
 /instagram-footer-
 /instagram-widget-
@@ -2059,6 +2056,7 @@ _backToTop.
 /mobile-share-
 /mod_socialmedialinks/*
 /modeles_facebook/*
+/myshare/*
 /needsharebutton.
 /news_share_
 /newSideShare/*
@@ -2070,7 +2068,6 @@ _backToTop.
 /pinterest-share.
 /PinterestIcon.
 /plugins/add-to-any/*$~stylesheet
-/plugins/digg-digg/*$~stylesheet
 /plugins/easy-facebook-likebox/*
 /plugins/easy-twitter-
 /plugins/facebook-button-plugin/*
@@ -2154,8 +2151,8 @@ _backToTop.
 /sharer.js
 /sharestats.cache.php?
 /shareStyle.
-/sharethis-buttons.
 /sharethis.js
+/sharethis_
 /shareTools.js
 /sharetools/*$image
 /sharetools/*$script
@@ -2256,7 +2253,6 @@ _backToTop.
 /SocialSprite.
 /socialsprites.
 /socialstat?
-/socshapri.min.js
 /sprite-share.
 /sprite-social-
 /sprite-social.
@@ -2288,7 +2284,6 @@ _backToTop.
 /twitter-timeline-
 /twitter-v2.
 /twitter-widget-
-/twitter-widget.
 /twitter_follow.
 /twitter_footer.
 /twitter_header.
@@ -2296,11 +2291,11 @@ _backToTop.
 /twitter_share_
 /twitter_square.
 /twitterFetcher_
+/twitterfollow.
 /twitterfollowbadge/*
 /twitterwidget.
 /videojs-share.
 /view/share_
-/vk_button.
 /weiboshare.
 /whatsapp-button.
 /whatsapp_icon.
@@ -2314,10 +2309,9 @@ _backToTop.
 /wptelegram/*
 /xnapp/share/*
 /ya-share.
-/youtube_follow.
 _facebook_social_
 _facebook_white.
-_footer_share_
+_fbshare.
 _footer_twitter.
 _header_share.
 _instagram_hover.
@@ -2359,7 +2353,6 @@ _social_share_
 /ajax/dataconsentcookies
 /AjaxStyleJamHeaderCookiesMessage?
 /amp-consent-
-/analytics_cookie.
 /approvazione-gdpr/*
 /avada-privacy.js
 /avia-snippet-cookieconsent.
@@ -2410,6 +2403,7 @@ _social_share_
 /cookie.notice.
 /cookie.pack.
 /cookie.umd.min.
+/cookie.umdaac.
 /cookie/cookies.
 /cookie/main.
 /cookie/require-
@@ -2433,6 +2427,7 @@ _social_share_
 /cookiecuttr.
 /cookiecuttr/*
 /cookiedisclaimer.
+/CookieGDPR.
 /CookieInfo/*$~script
 /cookiejs/*
 /cookielaw/*$domain=~cookielaw.org
@@ -2440,7 +2435,6 @@ _social_share_
 /cookielayer/*
 /cookiemessage.
 /cookieModal.
-/cookienotif.
 /CookieNotification/*
 /CookieNotifier.
 /cookieNSCconsent.
@@ -2471,7 +2465,6 @@ _social_share_
 /cookiestatement.
 /cookiewarn.js
 /cookiewarning*.js
-/cookieWidget.
 /css/gdpr.$~stylesheet
 /designil-pdpa/*
 /dl.cmp.min.js
@@ -2504,15 +2497,14 @@ _social_share_
 /gdpr/assets/*$domain=~hartmanngruppe.net
 /gdpr/cmp/*
 /gdpr/cookie-
+/gdpr/cookies/*
 /gdpr/gdpr-
 /gdpr/gdpr.$script
 /gdpr/gdpr_
-/gdpr/img/*
 /gdpr/snack-
-/gdpr_consent.
 /gdpr_css/*
-/gdpr_footer.
 /gdpr_js/*
+/gdpr_plugin.
 /gdprcookie.
 /gdprcookie/*
 /gdprnotice.
@@ -2525,9 +2517,7 @@ _social_share_
 /initCookiebanner.
 /jcookie.js
 /jcookie/*
-/jquery.cookie-alert.
 /jquery.cookieBar.
-/jquery.eu-cookie-consent.
 /js/cookie-popup
 /js/CookieManager.js
 /js/onetrust/*
@@ -2608,10 +2598,8 @@ _cookie_law.js
 _cookie_notice.
 _cookie_optin/
 _cookie_widget.
-_cookiebar.
 _CookieConsent.js
 _cookieconsent/
-_CookiePolicy.$~stylesheet
 _eu_cookie.
 _gdpr_cookie_
 /as24-cmp/*
@@ -2637,7 +2625,6 @@ _gdpr_cookie_
 -newsletter-popup.
 -newsletter-subscription-
 -newsletter_signup.
--subscription-popup/
 -wpplugin-newsletter/
 /amp-article/newsletter/*
 /assets/newsletter-
@@ -2675,7 +2662,6 @@ _gdpr_cookie_
 /newsletter/style.
 /newsletter/subscriber/*
 /newsletter/subscription/*
-/newsletter2011_
 /newsletter_background_
 /newsletter_banner.
 /newsletter_popup/*
@@ -2749,7 +2735,6 @@ _newsletter_right_
 ||georiot.com^$third-party
 ||getdrip.com^$third-party
 ||getwoohoo.com^$third-party
-||goemotify.com^$third-party
 ||goodreads.com/review/custom_widget/$third-party
 ||google.com/shopping/customerreviews/$subdocument,third-party
 ||gravityrd-services.com^$third-party
@@ -2843,23 +2828,21 @@ _newsletter_right_
 ||yottos.com^$third-party
 ||youtube.com/v/*autoplay$third-party,domain=7chan.org|boards.4chan.org
 ||zdassets.com/ekr/snippet.js
-||zfacts.com^$third-party
 ||zoomanalytics.co^$third-party
 ||zotabox.com^*/widgets.js$third-party
 ||apex.live/media/$media
 ||app.chaport.com/sounds/
 ||bac-assets.com/chat/spa-assets/$media,domain=bankofamerica.com
 ||bac-assets.com/spa/widgets/www-chat/$media,domain=bankofamerica.com
-||callback24.io/sounds/
 ||cdn-widget.callpage.io/build/sounds/
 ||chatango.com/pcache/sounds/
 ||cliengo.com^$media
 ||cloudfront.net/prod/media/$domain=birdeye.com
 ||goftino.com/static/assets/$media
+||gubagoo.io/v4/media/
 ||jivo.ru/sounds/
 ||jivosite.com/sounds/
 ||js.intercomcdn.com/audio/
-||kommunicate.io/kommunicate/$media
 ||livebeep.com/visitor/events/$media
 ||lpsnmedia.net/le_unified_window/$media
 ||qualified.com/packs/$media
@@ -2891,7 +2874,6 @@ _newsletter_right_
 ||krakenoptimize.com^$third-party
 ||notification.tubecup.net^
 ||notix.io^$third-party
-||push.bytesignal.com^
 ||push.getbeamer.com^
 ||push.reamaze.com^
 ||push.rollout.io^$third-party
@@ -2949,12 +2931,10 @@ _newsletter_right_
 ||buttons.googlesyndication.com^$third-party
 ||connect.ok.ru^$third-party
 ||digg.com^$script,subdocument,third-party
-||facebook.com/plugins/facepile.php?$third-party
 ||facebook.com/plugins/follow.php$third-party
 ||facebook.com/plugins/like.php?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
-||facebook.com/widgets/like.php?$third-party
 ||facebook.com^*/plugins/like.php?$third-party
 ||facebook.com^*/plugins/page.php?$third-party
 ||feedly.com/img/follows/$third-party
@@ -2964,6 +2944,7 @@ _newsletter_right_
 ||flipboard.com/web/buttons/$third-party
 ||friends2follow.com^$subdocument,third-party
 ||fwcdn3.com^$third-party
+||getsocial.io/widget/$third-party
 ||getsocial.io^*/gs_async.js$third-party
 ||google.com/_/+1/$third-party
 ||google.com^*/fastbutton?$third-party
@@ -3052,13 +3033,14 @@ _newsletter_right_
 ||efilli.com/efl.js
 ||freeprivacypolicy.com^$third-party
 ||gatekeeperconsent.com^$third-party
-||gdpr-settings.s3.amazonaws.com^
 ||gdpr.es^$third-party
 ||gdpr.studybreakmedia.com^
 ||getsitecontrol.com^$third-party
 ||grvmedia.com^$third-party
+||hu-manity.co/hu-banner.min.js
 ||illow.io/public/cookies/
 ||incomaker.b-cdn.net/wpjcz.js
+||lgpdy.com^$third-party
 ||microsoft.com/mscc/
 ||network-n.com^$third-party
 ||optanon.blob.core.windows.net^
@@ -3098,7 +3080,6 @@ _newsletter_right_
 ||secondstreetapp.com/audience_signup_widgets/
 ||sendlane.com^$third-party
 ||sparkloop.app^$script,third-party
-||targetbay.com^$third-party
 ||wheelioapp.azureedge.net^
 ||yourmarketingemail.com^$third-party
 ||api.qwant.com/*/homepage/trends?
@@ -3134,7 +3115,6 @@ _newsletter_right_
 ||cmp.focus.de^
 ||cmp.huffingtonpost.fr^
 ||cmp.lemonde.fr^
-||cmp.nouvelobs.com^
 ||cmp.uniconsent.com^
 ||cmp.vg.no^
 ||consent.cmp.oath.com^
@@ -3162,11 +3142,9 @@ _newsletter_right_
 ||vinted.*/api/*/banners
 ||yimg.com^*/guce.js
 /privacy/providers/CookiesDataProvider
-||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
 ||cfa.fidelity.com^
 ||citi.com^*/fp.js
 ||clear.wallapop.com^
-||content22.citibank.com.sg^$script
 ||contents2.00110.citi.com^
 ||customer.homedepot.com^$script
 ||drfdisvc.walmart.com^
@@ -3186,7 +3164,6 @@ _newsletter_right_
 ||u44.pnc.com^
 ||u47.pnc.com^
 ||w-profiling.cibc.com^$script
-||w-profiling.simplii.com^
 ||bankofamerica.com/cookie-id.js
 ||bup.bankofamerica.com^
 ||cdn1.skrill.com^
@@ -3247,7 +3224,6 @@ _newsletter_right_
 ||traffic.styria.hr^
 ||lagazzettadelmezzogiorno.it/js/update.js
 ||smiling.video^$third-party
-||superguidatv.it^*/head-tgCom.
 ||share.gree.jp^$third-party
 ||kodcad.kr^$third-party
 ||getreview.pl^$third-party
@@ -3282,7 +3258,6 @@ _newsletter_right_
 ||krookmedia.fi/wp-content/plugins/cookie-law-info/$script,domain=krookmedia.fi
 ||storage.googleapis.com/om-gravito-cmp/$script
 ||vpd.fi/datalayer/index/cookieContent/$xmlhttprequest,domain=vpd.fi
-||atmedia.hu/hirtv.hu_consent.js
 ||credit-agricole.it/cookies/cookies.min.js
 ||interia.pl/rodo-iframe
 ||bricodepot.ro^*/cookie-wrapper.js
