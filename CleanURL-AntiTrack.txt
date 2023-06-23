@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 🆑️ Clean URLs Anti-Track
-! Version: 20230616T1800
+! Version: 20230623T2000
 ! Sources: https://filters.adtidy.org/android/filters/212_optimized.txt; https://filters.adtidy.org/android/filters/251_optimized.txt; https://filters.adtidy.org/android/filters/17_optimized.txt; https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
 
 ! ☆ ---- Legitimate URL Shortener (Optimized) ---- ☆
@@ -3284,7 +3284,6 @@ utm_$document,removeparam=ig_rid,domain=instagram.com
 @@|https://www.sravni.ru/$subdocument,removeparam=utm_content
 @@|https://www.sravni.ru/$subdocument,removeparam=utm_medium
 @@|https://www.sravni.ru/$subdocument,removeparam=utm_source
-
 
 ! ☆ ---- uBlock Privacy ---- ☆
 ||taboola.com^$third-party
