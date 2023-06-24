@@ -1,13 +1,14 @@
 [Adblock Plus 2.0; uBlock Origin]
-! Title: ☢ NoCryptoCoins Filterlist
-! Version: 20230616T1400
-! Description: A crypto mining protection list compiled from various sources and redundancies removed
+! Title: ☢️ NoCryptoCoins Filterlist
+! Version: 20230624T1900
+! Description: A crypto mining protection list compiled from various sources with redundancies removed
 
 ! Fixed due to video playback problems on a few NSFW websites like milfnuts.net
 @@||wss.commentsengine.com:8443^$websocket,domain=hqq.tv
 
-! ☆ ---- hoshsadiq NoCoin Filter List ---- ☆
-! https://github.com/hoshsadiq/adblock-nocoin-list/raw/master/nocoin.txt
+! ☆ ---- NoCoin Filter List ---- ☆
+! https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+! Third Party blocking
 ||1q2w3.fun^$third-party
 ||1q2w3.top^$third-party
 ||23.83.114.131^$third-party
@@ -272,6 +273,7 @@
 ||yololike.space^
 ||zlx.com.br^$third-party
 
+! coinimp.com
 ||blockchained.party
 ||hostcontent.live
 ||wasm.stream
@@ -284,6 +286,7 @@
 ||webassembly.stream
 ||zymerget.win
 
+! General blocking
 -coin-hive.js
 -crypto-miner/*
 -monero-miner-
@@ -369,23 +372,29 @@
 ?proxy=ws://$script,websocket
 ?proxy=wss://$script,websocket
 
-/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|sh|site|space(?!(/socket\/websocket\?vsn\=))|stream|tk|top|trade|webcam|win|xyz|zone)(\.)?\/(.*)/$third-party,websocket,domain=~arium.events|~file.pizza|~instant.io|~kli.one|~mellivora.pro|~mellivora.trade|~myinterview.com|~polkadot.js.org|~proctoredu.com|~proctoredu.ru|~spaceship.media.mit.edu|~webtorrent.io|~yorbbackend.xyz|~redirect-ads.com
+! TLD blocking
+/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|site|space(?!(/socket\/websocket\?vsn\=))|stream|tk|top|trade|webcam|win|xyz|zone)(\.)?\/(.*)/$third-party,websocket,domain=~arium.events|~file.pizza|~instant.io|~kli.one|~mellivora.pro|~mellivora.trade|~myinterview.com|~polkadot.js.org|~proctoredu.com|~proctoredu.ru|~spaceship.media.mit.edu|~webtorrent.io|~yorbbackend.xyz|~redirect-ads.com
 /^https?:\/\/([0-9a-z\.-_]+)\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|sh|site|space|stream|tk|top|trade|webcam|win|xyz|zone)(\.)\/(.*)/$script,third-party
 .info^$domain=sleeptimer.org
 .website/lib/*.wasm$xmlhttprequest,third-party
 
+! Regex blocking
 /^((?!(^https?):\/\/((www\.)?(dailymotion\.com|google\.com|gstatic\.com|rapidvideo\.com|recaptcha\.net|youtube\.com)|clipwatching\.com|docs\.google\.com|content\.googleapis\.com|ebd\.cda\.pl|estream\.to|freedisc\.pl|gamedor\.usermd\.net|gounlimited\.to|harajuku\.pl|hqq\.tv|myvi\.ru|nowvideo\.sx|ok\.ru|rutube\.ru|sendvid\.com|st\.chatango\.com|staty\.portalradiowy\.pl|supervideo\.tv|tune\.pk|upstream\.to|uptostream\.com|video\.sibnet\.ru|vidfile\.net|vidoza\.net)\/).)*$/$subdocument,domain=123telugu.com|centrum-dramy.pl|love-drama.pl|netiap.com|funtik.tv|vev.io|vidfile.net|vidoza.co|vidoza.net
 
 /^((?!(^https?):\/\/((www\.)?(recaptcha\.net)|ajax\.googleapis\.com|cdn\.jsdelivr\.net|cdn\.vidoza\.(co|net)|cdnjs\.cloudflare\.com|code\.jquery\.com|code\.responsivevoice\.org|codeorigin\.jquery\.com|content\.jwplatform\.com|dualstack\.f3\.shared\.global\.fastly\.net|embed\.tawk\.to|(maxcdn|netcdn|stackpath)\.bootstrapcdn\.com|p\.jwpcdn\.com|player\.twitch\.tv|player\.vimeo\.com|releases\.flowplayer\.org|s\.ytimg\.com|static\.escdn\.co|vjs\.zencdn\.net|vk\.com|(www\.)(google\.com|gstatic\.com))\/).)*$/$script,third-party,domain=animeteatr.ru|arnaques-internet.info|atk-exotics.com|atkebony.com|babyjav.com|bitcoincashfaucet.co|btstors.com|bustrain.net|chemikino.ru|cinemafacil.com|citypaintsupplyghana.com|clipwatching.com|coinfaucet.eu|coinhub.win|cracklists.com|crimedocumentary.com|deltabit.co|descargas2020.com|domnuleprimar.ro|dragonballzpolo.blogspot.com|emuleed2k.com|filmovix.com|filmovix.net|filmovix.org|filmstreamvk.site|filmyhd.cz|firstone.tv|firstonetv.eu|firstonetv.live|fruithosts.net|funtik.tv|genashowalter.com|hdvid.life|hdvid.tv|hdvid.xyz|ianimes.co|javdl.co|kinokong.cc|kinokrad.co|lafmacun.net|neurozinzin.com|novator.az|novoscrb.ru|openload.cc|pelisplus.online|pezeshk.us|pinoyrewind.info|povwideo.net|powvideo.cc|powvideo.net|protect-iframe.com|protect-link.biz|rednubes.de|seriesenlinea.net|severita-service.ru|skytorrents.me|sleeptimer.org|studio100.it|tapemovie.com|thepiratebay.org|thisjav.com|torrentrapid.com|tpbay.xyz|vev.io|videodwn.com|vidoza.co|vidtodo.me|vidtudu.com|voirfilms.mx|wallpoper.com|watchfreemovies.tv|wearesaudis.net|xmovies8.nl|yourjav.com
 
 /^https?:\/\/([0-9a-z\.-_]+)\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$script,third-party
 
+! Websocket blocking
 $websocket,domain=123telugu.com|300mbfilms.co|ajplugins.com|animeteatr.ru|arnaques-internet.info|atk-exotics.com|atkebony.com|babyjav.com|bigspeeds.com|bitcoincashfaucet.co|btstors.com|bustrain.net|byter.tv|centrum-dramy.pl|chemikino.ru|cinemafacil.com|citypaintsupplyghana.com|clipwatching.com|coinfaucet.eu|coinhub.win|coinminingonline.com|cracklists.com|crictime.com|crictime.is|crimedocumentary.com|ddmix.net|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|domnuleprimar.ro|dragonballzpolo.blogspot.com|drama-cool.me|eduardolegatti.blogspot.com|emuleed2k.com|fileone.tv|filmai.ws|filmonet.com|filmovix.com|filmovix.net|filmovix.org|filmstreamvk.co|filmstreamvk.com|filmstreamvk.io|filmstreamvk.me|filmstreamvk.net|filmstreamvk.org|filmstreamvk.site|filmstreamvk.ws|filmyhd.cz|firstone.tv|firstonetv.eu|firstonetv.live|fruithosts.net|funtik.tv|genashowalter.com|hdvid.life|hdvid.tv|hdvid.xyz|hqq.tv|ianimes.co|inside-out.xyz|javdl.co|jkanime.net|kickass.cd|kinohabr.net|kinokongo.cc|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|lewd.ninja|love-drama.pl|luckybitco.in|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mrunlock.icu|myfeed4u.net|nahnoji.cz|netiap.com|neurozinzin.com|nod-key.su|novator.az|novoscrb.ru|oipeirates.online|onlinevideoconverter.com|openload.cc|pebx.pl|peliculas24.me|pelisplus.online|pezeshk.us|pinoyrewind.info|piratebay.tel|potomy.ru|povwideo.net|powvideo.cc|powvideo.net|protect-iframe.com|protect-link.biz|rapidvideo.com|reactor.cc|rednubes.de|salon.com|seriesenlinea.net|severita-service.ru|sherlockonline.ru|shrink-service.it|shush.se|sickrage.ca|skytorrents.me|sleeptimer.org|sorteosrd.com|studio100.it|tainies.online|tapemovie.com|tarntercum.ru|theappguruz.com|thisjav.com|tomadivx.tv|torrentrapid.com|tpbay.xyz|tubetitties.com|tugaanimado.net|uptobox.com|uptostream.com|vev.io|videodwn.com|vidfile.net|vidgg.to|vidoza.co|vidoza.net|vidtodo.me|vidtudu.com|vidup.me|void.cat|voirfilms.mx|wallpoper.com|watchfreemovies.tv|wearesaudis.net|xmovies8.nl|yourjav.com|zona.plus
 
+! XMLHttpRequest blocking
 $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.cc|powvideo.net|sorteosrd.com|tainies.online|vidfile.net|vidgg.to
 
+! CSP blocking
 $csp=worker-src 'none',domain=123telugu.com|300mbfilms.co|agp.com.pk|ajplugins.com|animeteatr.ru|arnaques-internet.info|atk-exotics.com|atkebony.com|aulaplus.com.br|babyjav.com|bigspeeds.com|bitcoincashfaucet.co|btstors.com|bustrain.net|byter.tv|centrum-dramy.pl|chemikino.ru|cinemafacil.com|citypaintsupplyghana.com|clicktabs.net|clipwatching.com|coinfaucet.eu|coinhub.win|coinminingonline.com|cracklists.com|crictime.com|crictime.is|crimedocumentary.com|ddmix.net|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|domnuleprimar.ro|dragonballzpolo.blogspot.com|drama-cool.me|eduardolegatti.blogspot.com|empirenews.org|emuleed2k.com|esudog.top|fileone.tv|filmai.ws|filmonet.com|filmovix.com|filmovix.net|filmovix.org|filmstreamvk.co|filmstreamvk.com|filmstreamvk.io|filmstreamvk.me|filmstreamvk.net|filmstreamvk.org|filmstreamvk.site|filmstreamvk.ws|filmyhd.cz|firstone.tv|firstonetv.eu|firstonetv.live|fruithosts.net|funtik.tv|genashowalter.com|hdvid.life|hdvid.tv|hdvid.xyz|ianimes.co|inside-out.xyz|javdl.co|jkanime.net|jpdress.com|kickass.cd|kinohabr.net|kinokongo.cc|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|lewd.ninja|love-drama.pl|luckybitco.in|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mozakrah.com|mrunlock.icu|myfeed4u.net|nahnoji.cz|netiap.com|neurozinzin.com|nod-key.su|novator.az|novoscrb.ru|oipeirates.online|onlinevideoconverter.com|openload.cc|pebx.pl|peliculas24.me|pelisplus.online|pezeshk.us|pinoyrewind.info|piratebay.tel|potomy.ru|povwideo.net|powvideo.cc|powvideo.net|protect-iframe.com|protect-link.biz|rapidvideo.com|reactor.cc|rednubes.de|rahunas.org|salon.com|seriesenlinea.net|severita-service.ru|sherlockonline.ru|shrink-service.it|shush.se|sickrage.ca|skytorrents.me|sleeptimer.org|sorteosrd.com|studio100.it|tainies.online|tapemovie.com|tarntercum.ru|theappguruz.com|thevideo.website|thisjav.com|tomadivx.tv|torrentrapid.com|tpbay.xyz|tubetitties.com|tugaanimado.net|uptobox.com|uptostream.com|videodwn.com|vidfile.net|vidgg.to|vidoza.co|vidoza.net|vidtodo.me|vidtudu.com|vidup.me|void.cat|voirfilms.mx|wallpoper.com|watchfreemovies.tv|wearesaudis.net|xmovies8.nl|yourjav.com|zona.plus
 
+! Specific blocking
 ||dekoder.ws^*?proxy=
 ||mine.torrent.pw^
 ||cryptobara.com/client/worker.js
@@ -409,11 +418,14 @@ $csp=worker-src 'none',domain=123telugu.com|300mbfilms.co|agp.com.pk|ajplugins.c
 ||shush.se/loader/load.js
 ||uptostream.com/assets/$subdocument
 
+! TPB
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=pirateproxy.ist|pirateproxy.mx|thepiratebay.by|thepiratebay.cr|thepiratebay.org|thepiratebay.rocks|thepiratebay10.org|unblocktheship.org
 $script,websocket,domain=pirateproxy.ist|pirateproxy.mx|thepiratebay.by|thepiratebay.cr|thepiratebay.org|thepiratebay.rocks|thepiratebay10.org|unblocktheship.org
 
+! Pools
 ||grf.easyhash.io^
 
+! Whitelists to fix broken sites
 @@||api.nyda.pro^$websocket
 @@||ws.webcaster.pro^$websocket
 @@||broadcastt.xyz/apps/$websocket
@@ -422,7 +434,9 @@ $script,websocket,domain=pirateproxy.ist|pirateproxy.mx|thepiratebay.by|thepirat
 @@||live.api.stream^$websocket
 @@||quiknode.pro^$websocket
 
-! ☆ ---- Filters optimized for uBlock ---- ☆
+![uBlock Origin]
+! ☆ ---- NoCoin filter list optimized for uBlock ---- ☆
+! https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin-ublock.txt
 csgoconfigs.com##+js(acis, m, CH.Anonymous)
 djs.sk,mladipodnikatelia.sk,tubettajat.net##+js(aopr, miner)
 tasma.ru,vidzi.tv##+js(aopw, decodeURIComponent)
@@ -432,88 +446,7 @@ thepiratebay.*##+js(aopr, _wm)
 hqq.tv##+js(aopr,  mscript)
 descargas2020.com##+js(acis, atob, _0x)
 
-! ☆ ---- AdGuard Base Cryptominers ---- ☆
-! https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/cryptominers.txt
-.n.2.1.js^$third-party
-.n.2.1.l60.js^$third-party
-.1.1.1.l80.js^$third-party
-.3.n.2.1.l50.js
-.3.n.2.2.l30.js
-
-.info/jquerys.js
-.net/jquerys.js
-.org/jquerys.js
-.ru/jquerys.js
-.su/jquerys.js
-.ua/jquerys.js
-||vnebi.com/jquerys.js
-||vkulake.com/jquerys.js
-||usetrans.com/jquerys.js
-||sup-idea.com/jquerys.js
-||orbita-lviv.com/jquerys.js
-||newsinmir.com/jquerys.js
-||nakapote.com/jquerys.js
-||marafonec.com/jquerys.js
-||kaspianchoob.com/jquerys.js
-||fotochki.com/jquerys.js
-||dynamo-kiev.com/jquerys.js
-||dengiua.com/jquerys.js
-||bilsh.com/jquerys.js
-
-||trustisimportant.fun^
-||bmwebm.org^
-||dontbeevils.de^$websocket
-||ecstatic-hoover-50a7b7.netlify.com/pYrqEw.js
-||ecstatic-hoover-50a7b7.netlify.com/LXWzre.js
-||jsfiddle.net^$important,domain=7torr.com
-||pornsfw.com/assets/application-*.js
-||omine.org^$third-party
-://mine.torrent.pw^
-||besstahete.info^
-||nahnoji.cz/compact_miner^
-||play*.videos.vidto.me^
-vkcdnservice.appspot.com^$third-party
-||archer0*.tk:*/
-$websocket,domain=300mbfilms.io|lib.rus.ec
-/cdn-cgi/pe/bag2?r[]=*eth-pocket.de
-||analytics.blue^
-||kinohabr.net/*.php?id=*&type=
-||ppoi.org^$third-party
-||projectpoi.com^$third-party
-||questionfly.com^$third-party
-||s3.amazonaws.com/imgint/aaz.js
-||smartoffer.site^$third-party
-
-! don't add `^` to these rules
-||freecontent.date
-||freecontent.stream
-
-||uptostream.com/assets/coinif.php$important
-||habd.as/js/modules/toxic-swamp/webminer.min.js
-||play*.flashx.pw/filter
-||thepiratebay-proxylist.se/filter$websocket
-||seminarski-diplomski.co.rs/js/custom.js
-||cdn-102.statdynamic.com/filter
-||zona.plus/*.php|
-||sweetbook.net/templates/skin/sweetnew/js/internal.js
-||s*.skencituer.com^
-||kickass.cd/*/m.js
-||firmware.center/.coinhive.min.js
-||intersportv.com/canli-mac-yayinlari/wp-content/uploads/*/jZxl_2.js
-||intersportv.com/canli-mac-yayinlari/wp-content/uploads/*/intersportv.js
-||gaypornwave.com/wp-content/plugins/simple-miner-tweaks^
-||techhome-js.github.io/main.js^$third-party
-||techhome-js.github.io/code.wsm^$third-party
-||vidzi.tv/plays.js
-||hiy.vidzi.tv/socket.io^
-||futeboltv.com/js/coinhiveminer.js
-||goodkino.biz/*.2.1.2.js|
-||audioknigi.club/templates/skin/aclub/js/m/bgd.js
-||d1e1rbybdt265x.cloudfront.net/mmfb2.html
-||fili.tv/assets/libs/mino.min.js
-||dekoder.ws/*/m.js
-
-! ☆ ---- bogachenko Fuck Fuckadblock: Mining ---- ☆
+! ☆ ---- Fuck Fuckadblock: Mining ---- ☆
 ! https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt
 ||1pool.org^
 ||2miners.com^
@@ -533,6 +466,7 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||blockwarepool.com^
 ||bmpool.org^
 ||my2coins.com^
+||bmwebm.org^
 ||bohemianpool.com^
 ||bit2021.com^
 ||braiins.com^
@@ -552,18 +486,18 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||collective-b.net^
 ||crionic.org^
 ||cruxpool.com^
-||crypto-loot.
+||crypto-loot.*^
 ||crypto-pool.fr^
-||cryptobrowser.
+||cryptobrowser.*^
 ||cryptocoin.ddns.net^
 ||cryptohamstr.com^
 ||cryptomineros.com^
 ||cryptonote.social^
 ||cryptopowered.club^
 ||duckiepool.com^
-||dxpool.
+||dxpool.*^
 ||emcd.io^
-||ethereum-pocket.
+||ethereum-pocket.*^
 ||ethermine.org^
 ||f2pool.com^
 ||fairhash.org^
@@ -575,7 +509,7 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||flexpool.io^
 ||flockpool.com^
 ||flypool.org^
-||freecontent.
+||freecontent.*^
 ||getmonero.org^
 ||gorillapool.io^
 ||graftpool.net^
@@ -584,11 +518,11 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||happypool.co^
 ||hashvault.pro^
 ||herominers.com^
-||hostingcloud.
-||intensecoin.
+||hostingcloud.*^
+||intensecoin.*^
 ||itnspool.net^
 ||jsecoin.com^
-||jshosting.
+||jshosting.*^
 ||k1pool.com^
 ||kano.is^
 ||kriptokyng.com^
@@ -656,7 +590,7 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||supportxmr.com^
 ||suprnova.cc^
 ||titan.io^
-||trustpool.
+||trustpool.*^
 ||ukrpool.com^
 ||ultimuspool.com^
 ||uunigate.com^
@@ -664,7 +598,7 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||webmine.cz^
 ||xmr.pt^
 ||xmrminingproxy.com^
-||xmrpool.
+||xmrpool.*^
 ||kupool.com^
 ||yourpool.uk^
 ||nimiq.watch^
@@ -683,12 +617,89 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 /\/(miners?|cryptonight.*)\/(worker(\.min)?|cn)\.js/$script,xmlhttprequest
 /\/cryptonight\-worker\.js/$script
 /\/crypt[ao](cpu)?\.js/$script
-/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com
-
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com
 
 /^wss:\/\/(min(er?|ing)|pool[0-9]?|xmr|c(rypto|n))\..*\.[a-z]{3}:[0-9]{2,5}/$websocket
 
-! ☆ ---- LanikSJ ubo-filters cryptomining domains ---- ☆
+! ☆ ---- AdGuard Cryptominers ---- ☆
+! https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/cryptominers.txt
+.n.2.1.js^$third-party
+.n.2.1.l60.js^$third-party
+.1.1.1.l80.js^$third-party
+.3.n.2.1.l50.js
+.3.n.2.2.l30.js
+
+.info/jquerys.js
+.net/jquerys.js
+.org/jquerys.js
+.ru/jquerys.js
+.su/jquerys.js
+.ua/jquerys.js
+||vnebi.com/jquerys.js
+||vkulake.com/jquerys.js
+||usetrans.com/jquerys.js
+||sup-idea.com/jquerys.js
+||orbita-lviv.com/jquerys.js
+||newsinmir.com/jquerys.js
+||nakapote.com/jquerys.js
+||marafonec.com/jquerys.js
+||kaspianchoob.com/jquerys.js
+||fotochki.com/jquerys.js
+||dynamo-kiev.com/jquerys.js
+||dengiua.com/jquerys.js
+||bilsh.com/jquerys.js
+
+||trustisimportant.fun^
+||dontbeevils.de^$websocket
+||ecstatic-hoover-50a7b7.netlify.com/pYrqEw.js
+||ecstatic-hoover-50a7b7.netlify.com/LXWzre.js
+||jsfiddle.net^$important,domain=7torr.com
+||pornsfw.com/assets/application-*.js
+||omine.org^$third-party
+://mine.torrent.pw^
+||besstahete.info^
+||nahnoji.cz/compact_miner^
+||play*.videos.vidto.me^
+vkcdnservice.appspot.com^$third-party
+||archer0*.tk:*/
+$websocket,domain=300mbfilms.io|lib.rus.ec
+/cdn-cgi/pe/bag2?r[]=*eth-pocket.de
+||analytics.blue^
+||kinohabr.net/*.php?id=*&type=
+||ppoi.org^$third-party
+||projectpoi.com^$third-party
+||questionfly.com^$third-party
+||s3.amazonaws.com/imgint/aaz.js
+||smartoffer.site^$third-party
+! don't add `^` to these rules
+
+! first-party miners
+||uptostream.com/assets/coinif.php$important
+||habd.as/js/modules/toxic-swamp/webminer.min.js
+||play*.flashx.pw/filter
+||thepiratebay-proxylist.se/filter$websocket
+||seminarski-diplomski.co.rs/js/custom.js
+||cdn-102.statdynamic.com/filter
+||zona.plus/*.php|
+||sweetbook.net/templates/skin/sweetnew/js/internal.js
+||s*.skencituer.com^
+||kickass.cd/*/m.js
+||firmware.center/.coinhive.min.js
+||intersportv.com/canli-mac-yayinlari/wp-content/uploads/*/jZxl_2.js
+||intersportv.com/canli-mac-yayinlari/wp-content/uploads/*/intersportv.js
+||gaypornwave.com/wp-content/plugins/simple-miner-tweaks^
+||techhome-js.github.io/main.js^$third-party
+||techhome-js.github.io/code.wsm^$third-party
+||vidzi.tv/plays.js
+||hiy.vidzi.tv/socket.io^
+||futeboltv.com/js/coinhiveminer.js
+||goodkino.biz/*.2.1.2.js|
+||audioknigi.club/templates/skin/aclub/js/m/bgd.js
+||d1e1rbybdt265x.cloudfront.net/mmfb2.html
+||fili.tv/assets/libs/mino.min.js
+||dekoder.ws/*/m.js
+
+! ☆ ---- Crypto Mining Domains Filter List ---- ☆
 ! https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/cryptomining-domains.txt
 ||0x1f4b0.com^
 ||35.194.26.233^
@@ -789,7 +800,8 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||zymerget.bid
 
 ! ☆ ---- MinerBlock Filters ---- ☆
-! https://github.com/xd4rker/MinerBlock
+! https://raw.githubusercontent.com/xd4rker/MinerBlock/master/assets/filters.txt
+! Wildcard blocking
 *://*/*cryptonight.wasm
 *://*/*deepMiner.min.js
 *://*/*?proxy=wss://*
@@ -815,6 +827,7 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 *://*/*bitrix/js/main/core/core_tasker.js*
 *://*/*bitrix/js/main/core/core_loader.js*
 
+! Specific blocking
 *://load.jsecoin.com/*
 *://*.coin-hive.com/lib*
 *://*.coin-hive.com/proxy*
@@ -1327,23 +1340,14 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 *://*.hostingcloud.racing/*
 *://*.gxbrowser.net/*
 
-wss://*.coin-hive.com/proxy*
-wss://*.coinhive.com/proxy*
+! Websocket blocking
 wss://*.crypto-loot.com/proxy*
 wss://*.webmine.cz/*
 wss://*.minr.pw/*
-wss://*.d-ns.ga/*
-wss://*.hk.rs/*
-wss://*.cieh.mx/*
-wss://*.rove.cl/*
 wss://*.sparechange.io/*
 ws://*.sparechange.io/*
 wss://*.webminerpool.com/*
 ws://*.webminerpool.com/*
-wss://*.xmrm.pw/*
-ws://*.xmrm.pw/*
-wss://*.bmnr.pw/*
-ws://*.bmnr.pw/*
 wss://chainblock.science/*
 wss://hodling.faith/*
 wss://*.cryptoloot.pro/*
@@ -1352,159 +1356,35 @@ wss://*.xmrminingproxy.com/*
 wss://*.webmine.pro/*
 ws://*.webmine.pro/*
 wss://*.hodlers.party/*
-wss://*.cpu2cash.link/*
-wss://*.coinpirate.cf/*
-wss://*.ogrid.org/*
-wss://*.nathetsof.com/*
-wss://*.insdrbot.com/*
-wss://*.l33tsite.info/*
-wss://*.myadstats.com/*
-wss://*.yuyyio.com/*
-wss://*.ajplugins.com/*
-wss://*.analytics.blue/*
-wss://cfceu.duckdns.org/*
-wss://*.ledhenone.com/*
-ws://*.crypto-webminer.com/*
 wss://*.monerise.com/*
 wss://*.webminepool.tk/*
 wss://*.minero.cc/*
 wss://*.coinrail.io/*
-wss://*.coin-service.com/*
-ws://*.cfcnet.gdn/*
-wss://*.cfcnet.gdn/*
-ws://cfcs1.duckdns.org/*
-wss://cfcs1.duckdns.org/*
-wss://greenindex.dynamic-dns.net/*
 wss://*.sighash.info/*
 wss://*.coiner.site/*
 wss://*.zlx.com.br/*
-ws://*.cfcnet.top/*
-wss://*.cfcnet.top/*
-ws://gustaver.ddns.net/*
-wss://gustaver.ddns.net/*
-wss://*.graftpool.ovh/*
-wss://*.staticsfs.host/*
-wss://*.cdn-code.host/*
-ws://*.bmst.pw/*
-wss://*.bmst.pw/*
-wss://webwidgetz.duckdns.org/*
 wss://nunu-001.now.sh/*
-wss://*.unrummaged.com/*
-wss://*.realnetwrk.com/*
-wss://*.altavista.ovh/*
-wss://*.synconnector.com/*
 wss://*.estream.to/*
-wss://*.0x1f4b0.com/*
-wss://*.1q2w3.website/*
 wss://*.nablabee.com/*
-wss://*.oinkinns.tk/*
-wss://*.adrenali.gq/*
 wss://*.adless.io/*
-wss://*.stati.bid/*
-wss://*.minescripts.info/*
-wss://*.aalbbh84.info/*
-wss://*.bhzejltg.info/*
-wss://*.pzoifaum.info/*
-wss://*.ajcryptominer.com/*
-wss://*.mepirtedic.com/*
-wss://*.appelamule.com/*
-wss://*.ulnawoyyzbljc.ru/*
-wss://*.averoconnector.com/*
-wss://*.scaleway.ovh/*
-wss://bauersagtnein.myeffect.net/*
-wss://carry.myeffect.net/*
 wss://open-hive-server-1.pp.ua/*
-wss://mxcdn1.now.sh/*
-wss://mxcdn2.now.sh/*
-wss://npcdn1.now.sh/*
-wss://sxcdn02.now.sh/*
-wss://sxcdn3.now.sh/*
-wss://sxcdn4.now.sh/*
-wss://sxcdn6.now.sh/*
-ws://*.allfontshere.press/*
-ws://31.187.64.216/*
-wss://*.freecontent.bid/*
-wss://*.freecontent.stream/*
-wss://*.freecontent.date/*
-wss://*.freecontent.loan/*
-wss://*.freecontent.racing/*
-wss://*.freecontent.win/*
-wss://*.encoding.ovh/*
-wss://*.eth-pocket.de/*
-wss://thelifeisbinary.ddns.net/*
-ws://thelifeisbinary.ddns.net/*
-wss://*.irrrymucwxjl.ru/*
-wss://*.gnrdomimplementation.com/*
-wss://*.ltstyov.ru/*
-wss://*.pcejuyhjucmkiny.ru/*
 wss://*.sickrage.ca/ch/*
 wss://*.adfreetv.ch/*
-wss://*.ksimdw.ru/*
-wss://*.wrxgandsfcz.ru/*
-wss://*.jwduahujge.ru/*
-wss://*.ogondkskyahxa.ru/*
-wss://*.zavzlen.ru/*
-wss://*.vzzexalcirfgrf.ru/*
-wss://*.amhixwqagiz.ru/*
-wss://*.wmemsnhgldd.ru/*
-wss://*.hlpidkr.ru/*
-wss://*.hrfziiddxa.ru/*
-wss://*.ihdvilappuxpgiv.ru/*
-wss://*.ivuovhsn.ru/*
-wss://*.ixvenhgwukn.ru/*
-wss://*.jqxrrygqnagn.ru/*
-wss://*.oxwwoeukjispema.ru/*
-wss://*.svivqrhrh.ru/*
-wss://*.vpzccwpyilvoyg.ru/*
-wss://*.wmwmwwfmkvucbln.ru/*
-wss://*.ziykrgc.ru/*
-wss://*.hide.ovh/*
-wss://*.aster18cdn.nl/*
 wss://*.aster18prx.nl/*
-wss://*.coinwebmining.com/*
 wss://*.nimiqpool.com/*
 wss://*.s7ven.com/*
 wss://*.mmc.center/*
 wss://*.flnqmin.org/*
-wss://*.arizona-miner.tk/*
 wss://*.laferia.cr/*
-wss://*.uoldid.ru/*
-wss://*.imhvlhaelvvbrq.ru/*
-wss://*.herphemiste.com/*
-wss://*.minercry.pt/*
 wss://*.adplusplus.fr/*
 wss://*.streamplay.to/*
-wss://*.eth-pocket.eu/*
-wss://*.eth-pocket.com/*
-wss://*.ethtrader.de/*
-wss://*.munero.me/*
-wss://*.istlandoll.com/*
-wss://*.jqwww.download/*
-wss://*.jqrcdn.download/*
-wss://*.proj2018.xyz/*
-wss://*.jqassets.download/*
-wss://*.dataservices.download/*
-wss://*.jqr-cdn.download/*
-wss://*.jquerrycdn.download/*
 wss://*.avero.xyz/*
 ws://185.193.38.148/*
-wss://*.ruvuryua.ru/*
-wss://*.cryptaloot.pro/*
-wss://*.directprimal.com/*
 wss://*.omine.org/*
 wss://*.mollnia.com/*
-wss://*.thersprens.com/*
-wss://*.sentemanactri.com/*
 wss://wbmwss.beetv.net/*
 wss://*.wmtech.website/*
 wss://*.vidoza.net/*
-wss://*.f1tbit.com/*
-wss://*.soodatmish.com/*
-wss://*.reauthenticator.com/*
-wss://*.ethereum-pocket.eu/*
-wss://*.cashbeet.com/*
-wss://*.1q2w3.life/*
-wss://*.ethereum-pocket.de/*
 wss://*.mininghub.club/*
 wss://pool.nimiq.watch/*
 wss://pool.porkypool.com/*
@@ -1512,10 +1392,6 @@ wss://pool.nimiqchain.info/*
 wss://eu.nimpool.io/*
 wss://node.philpool.com/*
 wss://eu.sushipool.com/*
-wss://*.olecintri.com/*
-wss://*.onvid.club/*
 wss://*.coin-services.info/*
 wss://*.jscoinminer.com/*
-wss://*.tercabilis.info/*
 wss://*.hostingcloud.win/*
-wss://*.statdynamic.com/*
