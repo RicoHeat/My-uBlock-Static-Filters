@@ -1,10 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230615T2200
+! Version: 20230626T2000
 
 ! Test
 ##.adv-cat-
 ##.adv-cat
+##.mob_view.header-download
 ! End Test
 
 ! 2023-04-09 https://chaturbate.com
@@ -88,6 +89,13 @@ www.peekvids.com##div.block-advert:nth-of-type(3)
 
 ! 2023-06-15 https://en.xtapes.to
 xtapes.to##.backtotopinstance.border-radius-5.backTopLink
+
+! 2023-06-25 https://www.trendyporn.com
+www.trendyporn.com##center:nth-of-type(1)
+www.trendyporn.com##center > div
+www.trendyporn.com##div:nth-of-type(25)
+www.trendyporn.com##div.row:nth-of-type(5)
+www.trendyporn.com##div.row:nth-of-type(6)
 
 @@||wp.com^$domain=watchpornx.com
 www.xfreehd.com##.visible-sm.visible-xs.center > div
