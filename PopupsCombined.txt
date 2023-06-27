@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: 🍾 Popups Combined
-! Version: 20230627T0800
+! Version: 20230627T0830
 
 ||saktismberakes.space^$popup
 ||webredir.net^$popup
@@ -203,7 +203,6 @@
 ||eighthwaspish.com^$popup
 /^https?:\/\/(35|104)\.(\d){1,3}\.(\d){1,3}\.(\d){1,3}\//$popup,third-party
 ||fentent.streampiay.me^$popup
-||thehouseofportable.com/download/js.js$replace=/(\('\?id=bcn[\s\S]*?else{var	_0x[\s\S]*?)=await	_0x[\s\S]*?\(\)/\$1=false/
 ||rusnewsclub.ru^$popup
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication-adsbygoogle,important,domain=mazmorra.io
 ||go2affise.com^$popup
@@ -1225,7 +1224,6 @@
 ||penholderlossfrontage.com^$popup
 ||adobe.com/td_redirect.html$popup
 ||otnolatrnup.com^$popup
-||ok.ru/res/js/app/FriendsOnline4thColumn_*.js$replace=/fourthColumnWrapper//
 ||smi10.ru^$popup
 ||h8vzwpv.com^$popup
 ||getalltraffic.com^$popup
@@ -1633,7 +1631,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||1redirb.com^$popup
 ||wisehowronspar.com^$popup
 ||livebloggs.com^$popup
-||akamaihd.net/static/build/*/main.*.es6.min.js$replace=/Air\.import\("module\.page"\)/Air\.import\(""\)/,domain=dtf.ru|vc.ru
 ||get-browseprotection.com^$popup
 ||oefanyorgagetn.info^$popup
 ||tapinvited.com^$popup
@@ -2091,7 +2088,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||adforyounews.com^$popup
 ||quadrinhoseroticos.net^$popup
 ||redeemcodes.me^$popup
-||st1.kp.yandex.net/js/main.js$replace=/t._state=true;t._adbType=e;/t._state=false;t._adbType=null;/
 ||dailyc24.com^$popup
 ||cretgate.com^$popup
 ||trustedgatetocontent.com^$popup
@@ -2119,7 +2115,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||cloudpsh.top^$popup
 ||w-raza.com^$popup
 ||peeredgerman.com^$popup
-||thehouseofportable.com/download/js.js$replace=/(!!\[\]\);if)\(!_0x[\s\S]*?\)/\$1(true)/
 ||exonews.ru^$popup
 ||skiptheadz.com^$popup
 ||thinadmitted.com^$popup
@@ -2407,7 +2402,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||onhadintrepha.info^$popup
 ||yearbookhobblespinal.com^$popup
 ||av-page.icu^$popup
-||zeelandnet.nl/static/js/footer.*.js$replace=/(=new	Request\(")https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js(")/\$1\$2/
 ||fbmedia-bls.com^$popup
 ||kingtrck1.com^$popup
 ||ridgephysique.com^$popup
@@ -4637,7 +4631,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 ||proffering.xyz^$popup
 ||ashoupsu.com^$popup
 ||shoko-slim.biz^$popup
-||abcya.com/client/main-*.js$script,replace=/\,n.src=s.ri.adDetect//
 ||premium4kflix.website^$popup
 ||taroads.com^$popup
 ||witalfieldt.com^$popup
@@ -6641,21 +6634,3 @@ ndtv.com/js/notify.js
 @@||prussiabier.activehosted.com/proc.php?$domain=loja.prussiabier.com.br
 @@||sibforms.com/serveUnsub/
 @@||sibforms.com/serve/$domain=camelactive.com
-
-! ☆ ---- AdGuard Annoyances Popups Anti-Adblock ---- ☆
-spletnik.ru$$script[wildcard="*insertAfter*params*"][min-length="500"][max-length="7000"]
-fosspost.org,portalvirtualreality.ru,pingvin.pro,bonobono.com,curbsideclassic.com,wpgutenberg.top,3dmodelshare.org,turkishfoodchef.com,itechua.com,blowxtube.com,orhanbhr.com,testosterontr.com,criptomonedaseico.com,downloadsachmienphi.com,fimico.de,manhuaplus.com,canyoublockit.com,freeallcourse.com,congressoemfoco.uol.com.br,dogalvadi.com,kompukter.ru,paragezegeni.com,gatevidyalay.com,corgit.xyz,freefincal.com,dsogaming.com,bordoklavyeli.net,newonce.net,gpcoder.com,androidexplained.com,borodavsem.ru,czechavfree.com,karaokes.com.ar,kulturalnemedia.pl,magazeta.com,mur.tv,o365info.com,proswift.ru,sovetolog.com,tehnobzor.ru,thelongdark.ru,thewindowsclub.thewindowsclubco.netdna-cdn.com,xiaomitech.net$$script[tag-content="anOptionAdsSelectors"][max-length="4000"]
-chefkoch.de$@$script[tag-content="Flags.networkListener"][min-length="20000"][max-length="150000"]
-escripts.club$$script[tag-content="wutime-adblocktracker"][max-length="150000"]
-glav.su$$script[tag-content="Nosferatu"][max-length="6000"]
-radiopotok.ru$$script[tag-content="ga('send', 'event', 'AdBlock',"][max-length="1650"]
-techobest.com$$script[tag-content="adback_configuration"][min-length="100000"][max-length="360000"]
-tvfeed.in$$script[tag-content="adblock"][max-length="500"]
-venge.io/905193.json$replace=/"name":"Support"\,"tags":\["DesktopOnly"]\,"enabled":true\,/"name":"Support"\,"tags":\["DesktopOnly"]\,"enabled":false\,/,domain=venge.io
-washingtonpost.com$$script[wildcard="*TWP.abchecker*_0x*"][min-length="25000"][max-length="35000"]
-||thehouseofportable.com/download/js.js$replace=/(\('\?id=bcn[\s\S]*?else{var _0x[\s\S]*?)=await _0x[\s\S]*?\(\)/\$1=false/
-||zeelandnet.nl/static/js/footer.*.js$replace=/(=new Request\(")https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js(")/\$1\$2/
-@@||s1.adform.net^$app=ee.rus.delfi
-||aternos.org/panel/ajax/reportDetection.php?$xmlhttprequest,1p
-vladan.fr$$script[tag-content="svg .adback-shape"][min-length="94000"][max-length="102000"]
-notebookcheck-hu.com,notebookcheck-tr.com,notebookcheck-ru.com,notebookcheck.*$$script[wildcard="*!document.getElementById*innerHTML*insertBefore*"][min-length="1000"][max-length="1500"]
