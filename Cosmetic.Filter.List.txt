@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230702T0200
+! Version: 20230702T0215
 
 ! Test
 ##.adv-cat-
@@ -77,14 +77,6 @@ familyporn.tv,mywebcamsluts.com##.side_spot
 ! 2023-05-25 https://redporn.tv
 redporn.tv##.bb_mobile_top
 redporn.tv##span.bb_show_2
-
-! 2023-05-25 https://redporn.tv
-! redporn.tv##.bb_mobile_top
-! redporn.tv##span.bb_show_2
-
-! 2023-05-26 https://d3ward.github.io
-||browser.sentry-cdn.com^
-||metrika.yandex.ru^$domain=d3ward.github.io
 
 ! 2023-06-01 https://www.porn00.*
 www.porn00.*##.member-links > ul > li:nth-of-type(1)
