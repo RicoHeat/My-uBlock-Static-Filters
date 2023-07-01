@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230626T2000
+! Version: 20230702T0200
 
 ! Test
 ##.adv-cat-
@@ -36,17 +36,6 @@ www.tabootube.xxx##.adv-cat-3-6.item
 www.tabootube.xxx##.adv-cat-5-2.item
 www.tabootube.xxx##.adv-cat-5-7.item
 www.tabootube.xxx##.adv-cat-6-7.item
-
-! 2023-04-12 https://familyporn.tv
-familyporn.tv##li.menu_item:nth-of-type(4)
-familyporn.tv##li.menu_item:nth-of-type(6)
-familyporn.tv##.media_spot
-
-! 2023-05-25 https://redporn.tv
-redporn.tv##.bb_mobile_top
-redporn.tv##span.bb_show_2
-
-! ☆ ---- Mostly Adult Websites ---- ☆
 www.tabootube.xxx##.item-adv-1.item
 www.tabootube.xxx##.item-adv-2.item
 www.tabootube.xxx##.item-adv-5.item
@@ -55,8 +44,39 @@ www.tabootube.xxx##.item-adv-7.item
 www.tabootube.xxx##.item-adv-8.item
 www.tabootube.xxx##.item-adv-4.item
 www.tabootube.xxx##.item-adv-3.item
-! 2023-05-22 https://familyporn.tv
+www.tabootube.xxx##.false.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
+www.tabootube.xxx##.bottom-adv.box
+www.tabootube.xxx##.mobile-links
+www.tabootube.xxx##div.col:nth-of-type(3)
+www.tabootube.xxx##div.col:nth-of-type(4)
+www.tabootube.xxx##.true.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
+www.tabootube.xxx##.brs.second.spot-primary > [href="#"]
+www.tabootube.xxx##[src="https://www.tabootube.xxx/player/html.php?aid=start_html&video_id=1218&cs_id=3794&category_ids=&referer=https%3A%2F%2Fwww.tabootube.xxx%2Fmy%2Ffavorites%2Fvideos%2F&rnd=1634782534132"]
+www.tabootube.xxx##[src="https://www.tabootube.xxx/player/html.php?aid=pause_html&video_id=1218&cs_id=3794&category_ids=&referer=https%3A%2F%2Fwww.tabootube.xxx%2Fmy%2Ffavorites%2Fvideos%2F&rnd=1634782815512"]
+www.tabootube.xxx##.fp-ui > div:nth-of-type(3)
+www.tabootube.xxx##.fade.top.text.fp-logo
+www.tabootube.xxx##.content > .headline
+
+! 2023-04-12 https://familyporn.tv
+familyporn.tv##[href^="https://myfamilypies.com/"]
+familyporn.tv##[href="https://familyporn.tv/livesex"]
+familyporn.tv##[href="https://www.mrporngeek.com/review/family-sex-games/"]
+familyporn.tv##[href="https://familyporn.tv/link/kinkyfamily/"]
+familyporn.tv##[href^="https://brattymilf.com/"]
+familyporn.tv##[href^="https://brattysis.com/"]
+familyporn.tv##.textlink
 familyporn.tv##.media_spot_holder
+familyporn.tv##.media_spot
+familyporn.tv##.spot
+familyporn.tv##li.menu_item:nth-of-type(4)
+familyporn.tv##li.menu_item:nth-of-type(6)
+familyporn.tv##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
+familyporn.tv,mywebcamsluts.com##.side_spot
+||familyporn.tv/images/mtsban.jpg$image
+
+! 2023-05-25 https://redporn.tv
+redporn.tv##.bb_mobile_top
+redporn.tv##span.bb_show_2
 
 ! 2023-05-25 https://redporn.tv
 ! redporn.tv##.bb_mobile_top
@@ -105,18 +125,6 @@ www.xfreehd.com##.cp-7.container > div > .center > div
 ||milfnut.net/sources15/43354d4b384d346e553663467c7c387176716d7735386e3132677c7c5a794e343166736f343976427c7c73747265616d7362$xhr,~third-party
 @@||appcdn01.xyz/vast.js$script,domain=milfnut.net
 github.com##.rounded-1.border.blankslate-spacious.blankslate
-www.tabootube.xxx##.false.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
-www.tabootube.xxx##.bottom-adv.box
-www.tabootube.xxx##.mobile-links
-www.tabootube.xxx##div.col:nth-of-type(3)
-www.tabootube.xxx##div.col:nth-of-type(4)
-www.tabootube.xxx##.true.index-0.big-thumb-block > .thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.Test-B.thumb-list-mobile-item > .mobile-video-thumb.wio-vcams-thumb-widget > .mobile-video-thumb__preview.item-container.thumb-image-container
-www.tabootube.xxx##.brs.second.spot-primary > [href="#"]
-www.tabootube.xxx##[src="https://www.tabootube.xxx/player/html.php?aid=start_html&video_id=1218&cs_id=3794&category_ids=&referer=https%3A%2F%2Fwww.tabootube.xxx%2Fmy%2Ffavorites%2Fvideos%2F&rnd=1634782534132"]
-www.tabootube.xxx##[src="https://www.tabootube.xxx/player/html.php?aid=pause_html&video_id=1218&cs_id=3794&category_ids=&referer=https%3A%2F%2Fwww.tabootube.xxx%2Fmy%2Ffavorites%2Fvideos%2F&rnd=1634782815512"]
-www.tabootube.xxx##.fp-ui > div:nth-of-type(3)
-www.tabootube.xxx##.fade.top.text.fp-logo
-www.tabootube.xxx##.content > .headline
 @@||cdn60741912.ahacdn.me^$image,domain=pornktube.vip
 hardcoreincest.net##div.headline:nth-of-type(2)
 android-zone.ws##li.ipsDataItem:nth-of-type(2)
@@ -865,7 +873,6 @@ crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
 youporn.com#?#aside:-abp-has(a.ad-remove)
 josporn.com##.preview_screen > .preview_title
-||familyporn.tv/images/mtsban.jpg$image
 m.facebook.com###u_5r_5_73 > ._6ra0._5909
 mtouch.facebook.com###u_5r_5_73 > ._6ra0._5909
 pornbaker.com##.before-list-boxes-mobile-singl
@@ -883,11 +890,6 @@ player.tabooporns.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 www.pornhits.com##.header__bn
 www.pornhits.com##.partial-header > .s-container > .s-list
 onlycestporn.com##.happy-header-mobile
-familyporn.tv##[href^="https://brattymilf.com/"]
-familyporn.tv##[href^="https://brattysis.com/"]
-familyporn.tv##[href^="https://myfamilypies.com/"]
-familyporn.tv##.textlink
-familyporn.tv##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 taboodaddy.com##.chp_ads_block_modal_content
 taboodaddy.com###chp_ads_block_modal_newUMMGSZrlP3Tm3txqYcXr0kik2vvMAs
 m.facebook.com###u_17_5_xY > ._6ra0._5909
@@ -1111,7 +1113,6 @@ jizzbunker.com,xxxdan.com,xxxdan3.com##.rzx1
 forum.lewdweb.net,forums.socialmediagirls.com##.samCodeUnit
 gay-streaming.com##.sgpb-popup-dialog-main-div-wrapper
 gay-streaming.com##.sgpb-popup-overlay
-familyporn.tv,mywebcamsluts.com##.side_spot
 supjav.com##.simpleToast
 18porn.sex,amateur8.com,anyporn.com,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,hentai-moon.com,pervertslut.com,porngem.com,porntop.com,sexpornimages.com,sexvid.xxx,sortporn.com,xhamster.com##.sponsor
 teenpornvideo.fun##.sponsor-link-desk
