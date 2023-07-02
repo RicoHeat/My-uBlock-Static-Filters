@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230702T0215
+! Version: 20230702T2300
 
 ! Test
 ##.adv-cat-
@@ -108,6 +108,11 @@ www.trendyporn.com##center > div
 www.trendyporn.com##div:nth-of-type(25)
 www.trendyporn.com##div.row:nth-of-type(5)
 www.trendyporn.com##div.row:nth-of-type(6)
+
+! 2023-07-02 https://netpornsex.net
+netpornsex.net##+js(aopr, BetterJsPop)
+netpornsex.net##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+netpornsex.net##a[onclick="openAuc();"]
 
 @@||wp.com^$domain=watchpornx.com
 www.xfreehd.com##.visible-sm.visible-xs.center > div
