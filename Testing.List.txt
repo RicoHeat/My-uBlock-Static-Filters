@@ -1,6 +1,6 @@
 [Adblock Plus 3.1]
-! Title: 🧪 Testing List (AdGuard Multi-Regional Specific))
-! Version: 20230707T0300
+! Title: 🧪 Testing List (AdGuard Multi-Regional Specific)
+! Version: 20230707T0400
 
 ! Filter Data imported from <https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/specific.txt>
 /abl.php$domain=sunporno.com
