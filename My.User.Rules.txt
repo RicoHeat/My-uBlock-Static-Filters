@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230616T0000
+! Version: 20230708T0800
 
 ! Testing
 |stun://
@@ -465,6 +465,29 @@ www.porngo.com##li.menu-list__row:nth-of-type(9)
 
 ! 2023-04-13 https://github.com
 @@||github.com/disconnectme/*
+
+! 2023-07-07 https://m.hqporner.com
+! Testing uBlock Rules Creator via Logger
+m.hqporner.com##.black_friday_wrapper
+m.hqporner.com##html > body
+m.hqporner.com##div#black_friday.black_friday
+m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper
+m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > div.black_friday_close
+m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > div.black_friday_close > i.fa.fa-close
+m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > iframe[src^="https\:\/\/a\.adtng\.com\/get\/"]
+m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.currentPage > a.click-trigger[href="\/"]
+m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.currentPage > a[href="https\:\/\/war\.ukraine\.ua\/support-ukraine\/"]
+m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.color5 > a.click-trigger[href^="https\:\/\/go\.xxxvjmp\.com\/smartpop\/"]
+m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.color4 > a.click-trigger[href^="https\:\/\/engine\.mustachemaddam\.com\/"]
+m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.color1 > a.click-trigger[href^="https\:\/\/a\.medfoodsafety\.com\/loader"]
+m.hqporner.com##html > body > div.websiteWrapper > div > span.altPlayerButton > a[href^="https\:\/\/go\.xxxvjmp\.com\/smartpop\/"]
+m.hqporner.com##html > body
+m.hqporner.com##div#black_friday.black_friday
+m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper
+m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > div.black_friday_close
+m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > div.black_friday_close > i.fa.fa-close
+m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > iframe[src^="https\:\/\/a\.adtng\.com\/get\/"]
+m.hqporner.com##html > body > div.websiteWrapper
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
