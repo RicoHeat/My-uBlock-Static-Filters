@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230708T0800
+! Version: 20230711T1400
 
 ! Testing
 |stun://
@@ -47,7 +47,7 @@ global.stun.twilio.com
 @@/^target\.[a-z0-9\-]*\./
 @@/^open\.[a-z0-9\-]*\./
 
-! ☆ ---- 2022 OCT 23 User Rules ---- ☆
+! ☆ ---- 2022-10-23 User Rules ---- ☆
 ||reddit.com/counters/$xmlhttprequest
 ||redditmedia.com/gtm/jail?
 ||reddit.com/timings/
@@ -77,20 +77,223 @@ global.stun.twilio.com
 ||com/banners/$image,object,subdocument,domain=~pingdom.com|~thetvdb.com|~tooltrucks.com
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||xvideos-games.com^$app=com.wg.xvideos.app
-www.reddit.com##.XPromoPopupRpl
-www.reddit.com##xpromo-new-app-selector
-www.reddit.com##.bottom-bar, .XPromoBottomBar
-www.reddit.com##.useApp,.TopNav__promoButton
-www.reddit.com##body:style(pointer-events:auto!important;)
-reddit.com##.XPromoPopup
-reddit.com##body.scroll-disabled:style(overflow: visible!important; position: static!important;)
-reddit.com##.XPromoInFeed
-amp.reddit.com##.AppSelectorModal__body
-amp.reddit.com##.upsell_banner
-www.reddit.com##xpromo-app-selector
-www.reddit.com##body.scroll-is-blocked:style(overflow: visible!important; position: static!important;)
-www.reddit.com##+js(aeld, touchmove)
-www.reddit.com##.XPromoPopupRplNew
+
+! 2022-10-03 https://hqq.tv
+@@||commentsengine.com^
+||commentsengine.com^$third-party,script,redirect=noopjs
+/^(.+[_.-])?vast([\d]+)?[_.-]/
+||hqq.*/cdn-cgi/trace$xmlhttprequest,~third-party,important
+@@||deliver.vkcdnservice.com/vast-im.js$domain=hqq.to
+@@||hqq.*^$generichide
+@@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
+||hqq.tv/js/counters.js
+||hqq.tv/js/gcounter.js
+||hqq.tv/js/amung_counter.js
+||hqq.to/js/script-*js
+fastvid.co,hqq.*,player.koreanpornmovie.xyz,imsdb.pw##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
+@@/fuckadblock.js$domain=uniqueten.net|topcryptoz.net|allcryptoz.net|openload.casa|meucdn.vip|yandexcdn.com|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
+@@||vkcdnservice.com/api/spots/$domain=waaw.to|hindipix.in|waaw1.tv|waaw.tv|czxxx.org|newhost.me|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv
+@@||deliver.vkcdnservice.com/api/spots^$domain=hqq.tv
+@@||storage.googleapis.com/vkcdnservice.appspot.com/script$domain=hqq.tv
+dogemate.com,sejasaudavel.net,viajarhoje.com,clubinvest.top,divnil.com,animefire.net,sejasaudavel.net,toolss.net,teamxmanga.com,sudoroot.net,netfile.cc,uvnc.com,vijesti.me,automotur.club,techmody.io,mcrypto.club,earningradar.com,exxen.com,manyvids.com,openload.casa,downfile.site,tricksplit.io,tipslearn.com,meucdn.vip,androidnougatapk.com,yandexcdn.com,honeyhunterworld.com,siberuang.com,assiatv.com,waaw.to,upstream.to,hukumonline.com,techsprobe.com,persianhive.com,subtitletools.com,click2win.xyz,iade.com,ebesucher.ru,streamporn.pw,javpornsex.com,habblet.city,miniroyale2.io,ad-doge.com,bitminer.biz,blkom.com,devactual.com,fshost.me,androidgreek.com,moneyexcel.com,playtube.ws,novagente.pt,vod-platform.net,essek.gen.tr,filmozercy.com,nightpoint.io,panjiachen.gitee.io,kangkimin.com,pdd.by,teepr.com,crypto-lovers.club,mangadods.com,getmega.net,dj-figo.com,animeblkom.net,arabianbusiness.com,innemedium.pl,ntsafelink.blogspot.com,tv8.com.tr,onlinetvrecorder.com,mypussydischarge.com,mshares.co,start.u-cdn.top,ustreamy.co,oemdtc.com,healthymaster.xyz,newdeaf.club,wwwfotografgotlin.blogspot.com,bitfaucet.ru,fivemleak.com,724indir.com,ivg.it,studyqueries.com,nightfallnews.com,clicads.fr,tutorialforlinux.com,imedikament.de,laufpix.de,kochamjp.pl,m3u-cdn.live,mp4upload.com,technologywindow.com,freebcc.org,pestleanalysis.com,yabiladi.com,claimcoins.cc,servedez.com,maxservicesi.com,why-tech.it,mangahost.site,firefile.cc,koinfire.com,apkgalaxy.top,hd-streams.org,xnalgas.com,imgtorrnt.in,xpaja.net,enterinit.com,habbokritik.de,suj.nu,net4ts.com,como5.com,macx.cn,plugincim.com,urlpay.net,digitallearn.online,u-play.pro,lightnovelworld.com,pspstation.org,exfaucet.com,sh7.ch,musicradar.com,thaiphysicsteacher.com,leechpremium.link,klyker.com,neuroeconomia.net,infotelematico.com,cdnvideo.me,playhydrax.com,compressnow.com,bkksnews.xyz,hydrax.net,radiotunes.com,fruitlab.com,turkcedersi.net,formasyonhaber.net,inf
+
+! 2022-10-04 tabooporns.com
+||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
+@@||tabooporns.com^$generichide
+tabooporns.com##+js(acis, document.querySelectorAll, popMagic)
+tabooporns.com##+js(aopw, _pop)
+player.tabooporns.com##+js(aopr, BetterJsPop)
+
+! 2022-10-16 https://xgroovy.com
+xgroovy.com###top_links &gt; .second-menu-links
+xgroovy.com##.headZ.headA
+xgroovy.com##.headZ.headB
+
+! 2022-10-17 https://www.pornhub.com
+www.pornhub.com##.topAdContainter &gt; .clearfix.adContainer
+
+! 2022-10-17 https://justincestporn.com
+justincestporn.com##[href="https://a.adtng.com/get/10012927"]
+
+! 2022-10-17 https://watchporn.to
+@@||watchporn.to^$domain=watchporn.to
+watchporn.to##+js(nostif, offsetWidth)
+watchporn.to##[style][href][target="_blank"]
+watchporn.to##.top-links
+@@||watchporn.to^$~third-party
+||xlirdr.com^
+watchporn.to#@#.ads-iframe
+||watchporn.to/banners.php
+watchporn.to,bravoerotica.net,thothd.com,hairyerotica.com,theporngod.com,sexoverdose.com,bestpornflix.com,4porn4.com,kuxxx.com,gettubetv.com,hoes.tube,cluset.com,xtits.*,pornsai.com,jizzberry.com,63290r.com,love4porn.com,cartoonprn.com,celebwhore.com,sexcams-24.com,camwhorescloud.com,bigtitslust.com,camfox.com,camflow.tv,pornchimp.com,xmegadrive.com,tubsexer.*,theyarehuge.com,yourporngod.com,thebussybandit.com##.table
+
+! 2022-11-09 https://m.hqporner.com
+||go.xlivrdr.com/smartpop/*
+||mc.yandex.ru^$script
+hqporner.com##.black_friday
+
+! 2022-12-16 https://www.yespornplease.sexy
+www.yespornplease.sexy##div.row:nth-of-type(7) > .col-sm-12 > .row
+www.yespornplease.sexy##.container > center
+www.yespornplease.sexy##.well-filters.well
+www.yespornplease.sexy##[href="https://amateurcam4u.com/"]
+www.yespornplease.sexy##[href="https://www.camworms.com/en/"]
+
+! 2022-12-16 https://www.trendyxxx.com
+www.trendyxxx.com##div.row:nth-of-type(6)
+www.trendyxxx.com##.mb-3.well-filters
+
+! 2022-12-18 https://wbgame.jlwinwin.com
+@@||wbslot-platform.sssjlsss.com/webservice/event/trigger$xmlhttprequest
+
+! 2022-12-22 https://porntn.com
+||srv.dropkickmedia.com^$script
+
+! 2022-12-22 https://dailyxvideo.com
+||lyricslocusvaried.com^$script
+
+! 2022-12-22 https://nsfwzone.xyz
+||prd.jwpltx.com^
+
+! 2022-12-22 https://milfprime.com
+||static.cloudflareinsights.com^$script
+
+! 2022-12-22 https://upornia.com
+upornia.com##.mmqkmmjduji
+
+! 2022-12-29 https://onlyfullporn.video
+@@||onlyfullporn.video^$generichide
+
+! 2022-12-30 https://fxpornhd.com
+@@||fxpornhd.com^$generichide
+fxpornhd.com##.happy-related-videos-mobile
+fxpornhd.com##.happy-header-mobile
+@@||fxpornhd.com^$~third-party
+
+! 2022-12-30 https://povcum.net
+@@||povcum.net^$~third-party
+@@||povcum.net^$generichide
+
+! 2023-01-25 https://pornobae.net
+@@||pornobae.net^$generichide
+
+! 2023-01-25 https://fullporner.org
+@@||fullporner.org^$generichide
+
+! 2023-01-30 https://milfnuts.net
+@@||milfnuts.net^$generichide
+
+! 2023-02-07 https://www.pornhits.com
+@@||data.rdtk.io^$popup,domain=www.pornhits.com
+
+! 2023-02-11 https://www.trendyxxx.com
+www.trendyxxx.com##body > .ad-content > center > .ad-body.well
+
+! 2023-02-13 https://www.letmejerk.net
+www.letmejerk.net##.item-container
+www.letmejerk.net##.slick-slider.slick-initialized.slide-webcams.thumbs
+www.letmejerk.net##div.heading:nth-of-type(8)
+letmejerk.*##+js(abort-on-property-read, ExoLoader)
+letmejerk.*##div[class^="lmj"]
+
+! 2023-02-02 https://pornjuices.com
+pornjuices.com##.active.adde_modal-overlay
+
+! 2023-02-02 https://pornmedium.com
+@@||pornmedium.com^$generichide
+@@||porntrex.com^$generichide
+
+! 2023-02-04 https://android-zone.ws
+android-zone.ws##.ipsJS_hide.ipsPad_half
+
+! 2023-02-07 https://www.pornktube.tv
+@@||www.pornktube.tv^$~third-party
+
+! 2023-02-12 https://onetvplus.xyz
+@@||onetvplus.xyz^$generichide
+
+! 2023-02-12 https://familypornhd.com
+@@||familypornhd.com^$generichide
+
+! 2023-02-12 https://www.katestube.com
+www.katestube.com##.main > .top-spot
+www.katestube.com##.long.video-options > .top-spot
+www.katestube.com##.nav-mobile
+
+! 2023-02-12 https://www.tiava.com
+||www.google-analytics.com^$script
+||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js
+
+! 2023-02-14 https://yandexcdn.com
+@@||yandexcdn.com^$generichide
+*/images/adblock.jpg$image
+
+! 2023-02-18 https://latestpornvideo.com
+@@||latestpornvideo.com^$generichide
+@@||strdef.world^$generichide
+
+! 2023-02-19 https://milfprime.com
+@@||milfprime.com^$generichide
+@@||cdn.milfprime.com^
+milfprime.com##.bZSnCh.style__LinkHeader-sc-1adl0tj-3
+
+! 2023-02-21 https://tawk.to
+@@||va.tawk.to^
+
+! 2023-02-21 https://realityripple.com
+realityripple.com##.donate
+
+! 2023-03-01 https://www.xvideos.com
+www.xvideos.com##.remove-ads
+
+! 2023-03-02 https://sxyprn.com
+@@||yps.link^
+
+! 2023-03-02 https://tabooporns.com
+||tabooporns.com^$popup
+
+! 2023-03-03 https://github.com
+github.com##.rounded-1.border.blankslate-spacious.blankslate
+
+! 2023-03-11 https://play.google.com
+@@||www.gstatic.com^$script,domain=play.google.com
+
+! 2023-03-22 https://player.tabooporns.com
+||vast.yomeno.xyz^$xmlhttprequest,redirect-rule=nooptext
+||syndication.realsrv.com/splash.php?$redirect-rule=nooptext
+
+! 2023-03-22 https://xfantazy.com
+@@||xfantazy.com^$generichide
+
+! 2023-03-22 https://a.adtng.com
+
+! 2023-03-22 https://justincestporn.com
+||justincestporn.com^$popup
+
+! 2023-03-23 https://xmoviesforyou.net
+||xmoviesforyou.net^$popup
+
+! 2023-03-27 https://pornwiss.com
+pornwiss.com##.col-xl-4.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
+||pornwiss.com/wp-content/uploads/2020/10/vpn-notice.png$image
+
+! 2023-03-31 https://www.eporner.com
+www.eporner.com###admobilefoot
+
+! 2023-03-31 https://www.porngo.com
+www.porngo.com##li.menu-list__row:nth-of-type(9)
+
+! 2023-04-03 https://watchpornx.com
+@@||wp.com^$domain=watchpornx.com
+
+! 2023-04-05 https://fxpornhd.com
+@@||vjs.zencdn.net^
+
+! 2023-04-09 https://chaturbate.com
+||static-assets.highwebmedia.com^$script,domain=chaturbate.com
+
+! 2023-04-13 https://github.com
+@@||github.com/disconnectme/*
 
 ! ☆ ---- Older User Rules ---- ☆
 @@||account.firefox.com^
@@ -212,282 +415,6 @@ vidstream.pro/ping/
 @@||gogohd.net/js/crypto-js/crypto-js.js$script
 animepahe.*###iframe:not([src])
 savelinks.me###adbox,#banner_ad,a[href*='wowmasti.com']
-
-! 2022-09-12 https://www.xvideos2.com
-www.xvideos2.com###ad-header-mobile
-www.xvideos2.com##.live-cams.red-label.label.btn-default.btn
-www.xvideos2.com###mobile-slogan &gt; .mobile-slogan-games.btn
-www.xvideos2.com###mobile-slogan &gt; .btn.live-cams
-www.xvideos2.com##li.clicked:nth-of-type(5) &gt; .red-label.label.btn-default.btn
-
-! 2022-09-14 https://www.pornhits.com
-www.pornhits.com##.sponsor
-pornhits.com##+js(abort-current-script, ACtMan)
-www.pornhits.com##.video-header
-
-! 2022-09-25 https://beeg.com
-beeg.com##.GreyFox--under.GreyFox
-*##.ad-unit:not(.text-ad)
-
-! 2022-10-03 https://hqq.tv
-@@||commentsengine.com^
-||commentsengine.com^$third-party,script,redirect=noopjs
-hqq.tv##a[onclick*="openAuc();"]
-hqq.tv##+js(set-constant, adblockcheck, false)
-hqq.tv##+js(set-constant, doSecondPop, noopFunc)
-hqq.tv##+js(nofab)
-##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-##[onclick="openAuc();"]
-##[title="Free money easy"]
-##+js(aopr, BetterJsPop)
-##+js(acis, document.querySelectorAll, popMagic)
-##+js(set-constant, adblockcheck, false)
-##+js(set-constant, doSecondPop, noopFunc)
-##+js(nofab)
-/^(.+[_.-])?vast([\d]+)?[_.-]/
-hqq.*##+js(aopr, adBlockDetected)
-hqq.*##+js(aopw, smrtSB)
-hqq.*##+js(aopw, smrtSP)
-hqq.*##+js(popads-dummy)
-hqq.*##+js(set, sadbl, false)
-hqq.*##+js(nowoif)
-hqq.*##+js(aopr, arrvast)
-hqq.*##+js(aopr, doSecondPop)
-||hqq.*/cdn-cgi/trace$xmlhttprequest,~third-party,important
-@@||deliver.vkcdnservice.com/vast-im.js$domain=hqq.to
-@@||hqq.*^$generichide
-@@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
-hqq.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-hqq.*##a[onclick="openAuc();"]
-||hqq.tv/js/counters.js
-||hqq.tv/js/gcounter.js
-||hqq.tv/js/amung_counter.js
-||hqq.to/js/script-*js
-fastvid.co,hqq.*,player.koreanpornmovie.xyz,imsdb.pw##a[href="https://t.me/Russia_Vs_Ukraine_War3"]
-@@/fuckadblock.js$domain=uniqueten.net|topcryptoz.net|allcryptoz.net|openload.casa|meucdn.vip|yandexcdn.com|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
-@@||vkcdnservice.com/api/spots/$domain=waaw.to|hindipix.in|waaw1.tv|waaw.tv|czxxx.org|newhost.me|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv
-@@||deliver.vkcdnservice.com/api/spots^$domain=hqq.tv
-@@||storage.googleapis.com/vkcdnservice.appspot.com/script$domain=hqq.tv
-dogemate.com,sejasaudavel.net,viajarhoje.com,clubinvest.top,divnil.com,animefire.net,sejasaudavel.net,toolss.net,teamxmanga.com,sudoroot.net,netfile.cc,uvnc.com,vijesti.me,automotur.club,techmody.io,mcrypto.club,earningradar.com,exxen.com,manyvids.com,openload.casa,downfile.site,tricksplit.io,tipslearn.com,meucdn.vip,androidnougatapk.com,yandexcdn.com,honeyhunterworld.com,siberuang.com,assiatv.com,waaw.to,upstream.to,hukumonline.com,techsprobe.com,persianhive.com,subtitletools.com,click2win.xyz,iade.com,ebesucher.ru,streamporn.pw,javpornsex.com,habblet.city,miniroyale2.io,ad-doge.com,bitminer.biz,blkom.com,devactual.com,fshost.me,androidgreek.com,moneyexcel.com,playtube.ws,novagente.pt,vod-platform.net,essek.gen.tr,filmozercy.com,nightpoint.io,panjiachen.gitee.io,kangkimin.com,pdd.by,teepr.com,crypto-lovers.club,mangadods.com,getmega.net,dj-figo.com,animeblkom.net,arabianbusiness.com,innemedium.pl,ntsafelink.blogspot.com,tv8.com.tr,onlinetvrecorder.com,mypussydischarge.com,mshares.co,start.u-cdn.top,ustreamy.co,oemdtc.com,healthymaster.xyz,newdeaf.club,wwwfotografgotlin.blogspot.com,bitfaucet.ru,fivemleak.com,724indir.com,ivg.it,studyqueries.com,nightfallnews.com,clicads.fr,tutorialforlinux.com,imedikament.de,laufpix.de,kochamjp.pl,m3u-cdn.live,mp4upload.com,technologywindow.com,freebcc.org,pestleanalysis.com,yabiladi.com,claimcoins.cc,servedez.com,maxservicesi.com,why-tech.it,mangahost.site,firefile.cc,koinfire.com,apkgalaxy.top,hd-streams.org,xnalgas.com,imgtorrnt.in,xpaja.net,enterinit.com,habbokritik.de,suj.nu,net4ts.com,como5.com,macx.cn,plugincim.com,urlpay.net,digitallearn.online,u-play.pro,lightnovelworld.com,pspstation.org,exfaucet.com,sh7.ch,musicradar.com,thaiphysicsteacher.com,leechpremium.link,klyker.com,neuroeconomia.net,infotelematico.com,cdnvideo.me,playhydrax.com,compressnow.com,bkksnews.xyz,hydrax.net,radiotunes.com,fruitlab.com,turkcedersi.net,formasyonhaber.net,inf
-
-! 2022-10-04 tabooporns.com
-||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
-@@||tabooporns.com^$generichide
-tabooporns.com##+js(acis, document.querySelectorAll, popMagic)
-tabooporns.com##+js(aopw, _pop)
-player.tabooporns.com##+js(aopr, BetterJsPop)
-
-! 2022-10-16 https://xgroovy.com
-xgroovy.com###top_links &gt; .second-menu-links
-xgroovy.com##.headZ.headA
-xgroovy.com##.headZ.headB
-
-! 2022-10-17 https://www.pornhub.com
-www.pornhub.com##.topAdContainter &gt; .clearfix.adContainer
-
-! 2022-10-17 https://justincestporn.com
-justincestporn.com##[href="https://a.adtng.com/get/10012927"]
-
-! 2022-10-17 https://watchporn.to
-@@||watchporn.to^$domain=watchporn.to
-watchporn.to##+js(nostif, offsetWidth)
-watchporn.to##[style][href][target="_blank"]
-watchporn.to##.top-links
-@@||watchporn.to^$~third-party
-||xlirdr.com^
-watchporn.to#@#.ads-iframe
-||watchporn.to/banners.php
-watchporn.to,bravoerotica.net,thothd.com,hairyerotica.com,theporngod.com,sexoverdose.com,bestpornflix.com,4porn4.com,kuxxx.com,gettubetv.com,hoes.tube,cluset.com,xtits.*,pornsai.com,jizzberry.com,63290r.com,love4porn.com,cartoonprn.com,celebwhore.com,sexcams-24.com,camwhorescloud.com,bigtitslust.com,camfox.com,camflow.tv,pornchimp.com,xmegadrive.com,tubsexer.*,theyarehuge.com,yourporngod.com,thebussybandit.com##.table
-
-! 2022-11-09 https://m.hqporner.com
-||go.xlivrdr.com/smartpop/*
-||mc.yandex.ru^$script
-hqporner.com##.black_friday
-
-! 2022-12-18 https://wbgame.jlwinwin.com
-@@||wbslot-platform.sssjlsss.com/webservice/event/trigger$xmlhttprequest
-
-! 2022-12-22 https://porntn.com
-||srv.dropkickmedia.com^$script
-
-! 2022-12-22 https://dailyxvideo.com
-||lyricslocusvaried.com^$script
-
-! 2022-12-22 https://nsfwzone.xyz
-||prd.jwpltx.com^
-
-! 2022-12-22 https://milfprime.com
-||static.cloudflareinsights.com^$script
-
-! 2022-12-22 https://upornia.com
-upornia.com##.mmqkmmjduji
-
-! 2022-12-29 https://onlyfullporn.video
-@@||onlyfullporn.video^$generichide
-
-! 2022-12-30 https://fxpornhd.com
-@@||fxpornhd.com^$generichide
-fxpornhd.com##.happy-related-videos-mobile
-fxpornhd.com##.happy-header-mobile
-@@||fxpornhd.com^$~third-party
-
-! 2022-12-30 https://povcum.net
-@@||povcum.net^$~third-party
-@@||povcum.net^$generichide
-
-! 2022-12-16 https://www.yespornplease.sexy
-www.yespornplease.sexy##div.row:nth-of-type(7) > .col-sm-12 > .row
-www.yespornplease.sexy##.container > center
-www.yespornplease.sexy##.well-filters.well
-www.yespornplease.sexy##[href="https://amateurcam4u.com/"]
-www.yespornplease.sexy##[href="https://www.camworms.com/en/"]
-
-! 2022-12-16 https://www.trendyxxx.com
-www.trendyxxx.com##div.row:nth-of-type(6)
-www.trendyxxx.com##.mb-3.well-filters
-
-! 2023-01-25 https://pornobae.net
-@@||pornobae.net^$generichide
-
-! 2023-01-25 https://fullporner.org
-@@||fullporner.org^$generichide
-
-! 2023-01-30 https://milfnuts.net
-@@||milfnuts.net^$generichide
-
-! 2023-02-07 https://www.pornhits.com
-@@||data.rdtk.io^$popup,domain=www.pornhits.com
-
-! 2023-02-11 https://www.trendyxxx.com
-www.trendyxxx.com##body > .ad-content > center > .ad-body.well
-
-! 2023-02-13 https://www.letmejerk.net
-www.letmejerk.net##.item-container
-www.letmejerk.net##.slick-slider.slick-initialized.slide-webcams.thumbs
-www.letmejerk.net##div.heading:nth-of-type(8)
-letmejerk.*##+js(abort-on-property-read, ExoLoader)
-letmejerk.*##div[class^="lmj"]
-
-! 2023-02-02 https://pornjuices.com
-pornjuices.com##.active.adde_modal-overlay
-
-! 2023-02-02 https://pornmedium.com
-@@||pornmedium.com^$generichide
-@@||porntrex.com^$generichide
-
-! 2023-02-04 https://android-zone.ws
-android-zone.ws##.ipsJS_hide.ipsPad_half
-
-! 2023-02-07 https://www.pornktube.tv
-@@||www.pornktube.tv^$~third-party
-
-! 2023-02-12 https://onetvplus.xyz
-@@||onetvplus.xyz^$generichide
-
-! 2023-02-12 https://familypornhd.com
-@@||familypornhd.com^$generichide
-
-! 2023-02-12 https://www.katestube.com
-www.katestube.com##.main > .top-spot
-www.katestube.com##.long.video-options > .top-spot
-www.katestube.com##.nav-mobile
-
-! 2023-02-12 https://www.tiava.com
-||www.google-analytics.com^$script
-||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js
-
-! 2023-02-14 https://yandexcdn.com
-@@||yandexcdn.com^$generichide
-*/images/adblock.jpg$image
-
-! 2023-02-18 https://latestpornvideo.com
-@@||latestpornvideo.com^$generichide
-@@||strdef.world^$generichide
-
-! 2023-02-19 https://milfprime.com
-@@||milfprime.com^$generichide
-@@||cdn.milfprime.com^
-milfprime.com##.bZSnCh.style__LinkHeader-sc-1adl0tj-3
-
-! 2023-02-21 https://tawk.to
-@@||va.tawk.to^
-
-! 2023-02-21 https://realityripple.com
-realityripple.com##.donate
-
-
-! 2023-03-01 https://www.xvideos.com
-www.xvideos.com##.remove-ads
-
-! 2023-03-02 https://sxyprn.com
-@@||yps.link^
-
-! 2023-03-02 https://tabooporns.com
-||tabooporns.com^$popup
-
-! 2023-03-03 https://github.com
-github.com##.rounded-1.border.blankslate-spacious.blankslate
-
-! 2023-03-11 https://play.google.com
-@@||www.gstatic.com^$script,domain=play.google.com
-
-! 2023-03-22 https://player.tabooporns.com
-||vast.yomeno.xyz^$xmlhttprequest,redirect-rule=nooptext
-||syndication.realsrv.com/splash.php?$redirect-rule=nooptext
-
-! 2023-03-22 https://xfantazy.com
-@@||xfantazy.com^$generichide
-
-! 2023-03-22 https://a.adtng.com
-
-! 2023-03-22 https://justincestporn.com
-||justincestporn.com^$popup
-
-! 2023-03-23 https://xmoviesforyou.net
-||xmoviesforyou.net^$popup
-
-! 2023-03-27 https://pornwiss.com
-pornwiss.com##.col-xl-4.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
-||pornwiss.com/wp-content/uploads/2020/10/vpn-notice.png$image
-
-! 2023-04-05 https://fxpornhd.com
-@@||vjs.zencdn.net^
-
-! 2023-03-31 https://www.eporner.com
-www.eporner.com###admobilefoot
-
-! 2023-03-31 https://www.porngo.com
-www.porngo.com##li.menu-list__row:nth-of-type(9)
-
-! 2023-04-03 https://watchpornx.com
-@@||wp.com^$domain=watchpornx.com
-
-! 2023-04-13 https://github.com
-@@||github.com/disconnectme/*
-
-! 2023-07-07 https://m.hqporner.com
-! Testing uBlock Rules Creator via Logger
-m.hqporner.com##.black_friday_wrapper
-m.hqporner.com##html > body
-m.hqporner.com##div#black_friday.black_friday
-m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper
-m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > div.black_friday_close
-m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > div.black_friday_close > i.fa.fa-close
-m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > iframe[src^="https\:\/\/a\.adtng\.com\/get\/"]
-m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.currentPage > a.click-trigger[href="\/"]
-m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.currentPage > a[href="https\:\/\/war\.ukraine\.ua\/support-ukraine\/"]
-m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.color5 > a.click-trigger[href^="https\:\/\/go\.xxxvjmp\.com\/smartpop\/"]
-m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.color4 > a.click-trigger[href^="https\:\/\/engine\.mustachemaddam\.com\/"]
-m.hqporner.com##html > body > div.websiteWrapper > ul.mainMenuWrapper > li.color1 > a.click-trigger[href^="https\:\/\/a\.medfoodsafety\.com\/loader"]
-m.hqporner.com##html > body > div.websiteWrapper > div > span.altPlayerButton > a[href^="https\:\/\/go\.xxxvjmp\.com\/smartpop\/"]
-m.hqporner.com##html > body
-m.hqporner.com##div#black_friday.black_friday
-m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper
-m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > div.black_friday_close
-m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > div.black_friday_close > i.fa.fa-close
-m.hqporner.com##div#black_friday.black_friday > div.black_friday_wrapper > iframe[src^="https\:\/\/a\.adtng\.com\/get\/"]
-m.hqporner.com##html > body > div.websiteWrapper
 
 ! ☆ ---- Additional Rules ---- ☆
 ||flat-ads-com^
