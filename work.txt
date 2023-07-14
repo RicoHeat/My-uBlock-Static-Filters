@@ -1,11 +1,7 @@
-! 2023-07-13 https://hqq.tv
-@@||wss.commentsmodule.com:8443^$websocket,domain=hqq.tv
-
-[Adblock Plus 2.0]
-! Title: 乘风 小众视频过滤规则
-! Version: 202307051
-! Expires: 1 day
-! Homepage: https://github.com/xinggsf/Adblock-Plus-Rule/issues
+! Title: 🛠 Working List (xinggsf combined list)
+! Version: 20230714T0900
+! Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
+! Source: https://github.com/xinggsf
 
 ##a.disabled
 
@@ -141,12 +137,6 @@ yhdm.nl###x-play::before
 |https://abb.$script,3p
 prplads.com
 搜狐网络科技.中国
-
-[Adblock Plus 2.0]
-! Title: 乘风 广告过滤规则
-! Version: 202306251
-! Expires: 2 days
-! Homepage: https://github.com/xinggsf/Adblock-Plus-Rule/issues
 
 !--------------------------百度----------------------------------
 @@||bdstatic.com/static/common/widget/ui/admanager/$script,domain=image.baidu.com
@@ -1410,12 +1400,6 @@ xshellcn.com
 yihuifu.cn
 www.zhzzx.com
 
-[Adblock Plus 2.0]
-! Title: 乘风 视频过滤规则
-! Version: 202307122
-! Expires: 1 day
-! Homepage: https://github.com/xinggsf/Adblock-Plus-Rule/issues
-
 ! 屏蔽P2P
 yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
@@ -1614,4 +1598,3 @@ bixinlive.com
 orgaorg.com
 quandangdang.net
 stgowan.com
-
