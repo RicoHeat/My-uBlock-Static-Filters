@@ -1,5 +1,5 @@
 ! Title: 🛠 Working List (xinggsf combined list)
-! Version: 20230714T0900
+! Version: 20230715T0800
 ! Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
 ! Source: https://github.com/xinggsf
 
@@ -78,7 +78,7 @@ www.citydy.com##.dplayer-web-fullscreen-fix #player-shrink,#citybanner
 
 ! 低端影视 ddys.art .one
 ddys.*##+js(set, Object.prototype.ads, null)
-! ddys.*##+js(set, Object.prototype.nopreroll_, true)
+! ddys.*##+js(set, .prototype.nopreroll_, true)
 ddys.*##.cfa_popup:remove()
 ddys.*###sajdhfbjwhe:remove()
 ddys.*##main.site-main > div:first-child:remove()
@@ -350,7 +350,7 @@ pcbeta.com###sitefocus
 ||pcgames.com.cn/g/extlin/pcdownpic/$script
 ||pcgames.com.cn/adpuba/show?
 ||pcgames.com.cn/g/*/fz/
-||img0.pcgames.com.cn^$object,object-subrequest
+||img0.pcgames.com.cn^$
 
 pconline.com.cn##div.jcztl,div.box.best,div.ivy-330
 ||buy.pconline.com.cn/$script
@@ -404,7 +404,7 @@ zol.com.cn##.down-h4,span.down-alink,div[class^=ad_],div[class*=-ad],div[id^=AD_
 @@||res.wx.qq.com/mmbizwap/$script
 ||adsrich.qq.com/
 ||games.qq.com/playgame/videoweb/
-||games.qq.com/playgame/gamesad/js/swfobject.js
+||games.qq.com/playgame/gamesad/js/swf.js
 @@||c.gdt.qq.com/gdt_click.
 @@||v.gdt.qq.com/gdt_stats.fcg?
 ||gdt.qq.com/
@@ -698,7 +698,7 @@ erebor.douban.com
 ! https://www.ygdy8.com/
 ||ygdy8.com/jsy1/
 !------------------精简自adbyby规则------------------
-*/7mad.$image,object,object-subrequest
+*/7mad.$image,object
 */9vads
 */acadv
 */adadmin
@@ -718,7 +718,7 @@ erebor.douban.com
 */cc222ads
 */cpv123
 */cwjad
-*/ejia360$image,object,object-subrequest
+*/ejia360$image,object
 */fhHYTagNew
 */fkunion
 */gao.
@@ -726,7 +726,7 @@ erebor.douban.com
 */ggad
 */ggao.
 */gghead
-*/gguangg$image,object,object-subrequest
+*/gguangg$image,object
 */googlevideoads
 */gvodad
 */headbiggg_hq
@@ -736,7 +736,7 @@ erebor.douban.com
 */messagetip.
 */mier168
 */mopgg
-*/mygg$image,object,object-subrequest
+*/mygg$image,object
 */nadScreenFloat
 */nadTimeFlashLayer
 */newSNDAPop
@@ -754,7 +754,7 @@ erebor.douban.com
 */tcgg
 */tomFlashAdChanel
 */tttccc.
-*/tyad_$image,object,object-subrequest
+*/tyad_$image,object
 */ugcad
 */ulinkdir
 */ulinkjs
@@ -762,7 +762,7 @@ erebor.douban.com
 */w-z1.
 */wafp.
 */wcast
-*/weige.$image,object,object-subrequest
+*/weige.$image,object
 */wFloat.
 */wwwcpm
 */xiazaiyoudao
@@ -774,7 +774,7 @@ erebor.douban.com
 */zhifubao
 *&adsc_typpe=
 *-160-600.jpg|$image
-*-300X250.$image,object,object-subrequest
+*-300X250.$image,object
 *-980x60.gif$image
 *.91ivr.
 *.91wan.
@@ -998,7 +998,7 @@ erebor.douban.com
 */178acg/
 */198game_
 */2345float
-*/300250.swf$object,object-subrequest
+*/300250.swf$object
 */300X250.gif$image
 */300x250.swf
 */300x250_
@@ -1016,7 +1016,7 @@ erebor.douban.com
 */740_60.jpg
 */760.js|$script
 */760_*.js|$script
-*/778_110.$image,object,object-subrequest
+*/778_110.$image,object
 */789uc/sb.
 */8976_360100$subdocument
 */900x250.$subdocument
@@ -1036,8 +1036,8 @@ erebor.douban.com
 */a_d_c
 */a_d_s
 */aaadddd/2.js$script
-*/aadd/$image,object,object-subrequest
-*/acho/280x$image,object,object-subrequest
+*/aadd/$image,object
+*/acho/280x$image,object
 */acmsd/thea15
 */acmsd/thea17
 */acmsd/thea5
@@ -1048,7 +1048,7 @@ erebor.douban.com
 */adfshow?user=
 */adgg/
 */adiframe/
-*/adimages/$image,object,object-subrequest
+*/adimages/$image,object
 */adjs.
 */adjs/
 */adplayer/*.swf?v=
@@ -1100,7 +1100,7 @@ erebor.douban.com
 */code/popjs.asp?
 */code_img/
 */codepic/
-*/common/cf/$image,object,object-subrequest,domain=~wifi.liebao.cn|~96fei.com
+*/common/cf/$image,object,domain=~wifi.liebao.cn|~96fei.com
 */cont_adL
 */cont_adr
 */cont_bottom.js|
@@ -1119,14 +1119,14 @@ erebor.douban.com
 */displayAd.js?
 */doublePop.js
 */duilian_
-*/dzx/forum$image,object,object-subrequest
+*/dzx/forum$image,object
 */ead/union/
 */ejia/$domain=~189.cn
 */enkj.gif$image
 */eptgoal/
 */external/public126
 */fbookad/
-*/fdad/$image,object,object-subrequest
+*/fdad/$image,object
 */files/adv/
 */floatad.js|$script,domain=~fwxgx.com
 */floatadv.js|$script
@@ -1151,7 +1151,7 @@ erebor.douban.com
 */gg_search_
 */ggao/
 */ggaotp/
-*/ggg/$image,object,object-subrequest
+*/ggg/$image,object
 */gggg
 */ggimages/
 */ggjs/
@@ -1173,14 +1173,14 @@ erebor.douban.com
 */html/cbjs.html?id=$subdocument
 */html/hot_s
 */html/yuedu$subdocument
-*/hxli/$image,object,object-subrequest
+*/hxli/$image,object
 */i.js^$script,third-party
 */icast/
 */idcgg/
 */if/07top-new
 */ikb/js/t.js|
 */image/banner/$image
-*/images/169$object,object-subrequest
+*/images/169$object
 */images/ad960.
 */images/bbsad/
 */images/ping.js|
@@ -1191,8 +1191,8 @@ erebor.douban.com
 */indexAD.js
 */inner_center1
 */intf/bbs_expert
-*/ja486$image,object,object-subrequest
-*/jbk.gif^$image,object,object-subrequest
+*/ja486$image,object
+*/jbk.gif^$image,object
 */js/1.htm$subdocument
 @@||wago.io/js/118.$script
 */js/118.
@@ -1242,7 +1242,7 @@ erebor.douban.com
 */jsgg/
 */jump.js|
 */kdjl_306x200
-*/kwgg/$image,object,object-subrequest
+*/kwgg/$image,object
 */lm/iframe/js/blognew2011
 */lmt_v
 */lsgg/
@@ -1252,7 +1252,7 @@ erebor.douban.com
 */mini/01.$subdocument
 */mlfoot.js|
 */mynicedd/
-*/nc.jpg$image,object,object-subrequest
+*/nc.jpg$image,object
 */nettv/adp/
 */newhuagg/
 */news_ad$subdocument
@@ -1271,10 +1271,10 @@ erebor.douban.com
 */pu_nocap_cn
 */push_n.php
 */pushcar.php
-*/rdidc.gif$image,object,object-subrequest
+*/rdidc.gif$image,object
 */RichMedia.js|
 */rightCornerPop/
-*/rnad/$image,object,object-subrequest
+*/rnad/$image,object
 */rsdowngood_
 */scad.h$subdocument
 */scad1.h$subdocument
@@ -1288,7 +1288,7 @@ erebor.douban.com
 */sluke/ml
 */soft_mid_
 */soqidian/
-*/svnad/$subdocument,image,object,object-subrequest
+*/svnad/$subdocument,image,object
 */sygg/$subdocument
 */tan/
 */tan1/
@@ -1313,7 +1313,7 @@ erebor.douban.com
 */union/link_
 */union/union_
 */upcontent.js|
-*/upfile/myshow$image,object,object-subrequest
+*/upfile/myshow$image,object
 */uuzu_
 */verycms/
 */view-960x90
@@ -1325,8 +1325,8 @@ erebor.douban.com
 */wizard.js^
 */www/deliver/
 */www/delivery/
-*/wzduilian/$image,object,object-subrequest
-*/wzygg/$image,object,object-subrequest
+*/wzduilian/$image,object
+*/wzygg/$image,object
 */xy/js/
 */yingsu*.gif$image
 */yinsu$image
@@ -1428,7 +1428,7 @@ m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
 apisgame.iqiyi.com
 static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
-||ssports.iqiyi.com/app/$media,object-subrequest
+||ssports.iqiyi.com/app/$media
 show.ssports.com
 
 !v.qq.com###player .txp_zt_content
@@ -1502,7 +1502,7 @@ tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 ||17173.com/if/$script,subdocument
 
 le.com##+js(set, isAdLoaded, true)
-*/letv-gug/$media,object-subrequest,xhr
+*/letv-gug/$media,xhr
 ||letvimg.com/$object,xhr
 ||letvimg.com/*_gugwl/$image
 ||js.letvcdn.com/*_banner_$script
