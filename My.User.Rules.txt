@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230711T1400
+! Version: 20230730T1400
 
 ! Testing
 |stun://
@@ -7,14 +7,14 @@
 .stun.*
 .local^
 |stun://45.11.104.186:3478
-stun.l.google.com
-stun1.l.google.com
-stun2.l.google.com
-stun3.l.google.com
-stun.facebook.com
+||stun.l.google.com^
+||stun1.l.google.com^
+||stun2.l.google.com^
+||stun3.l.google.com^
+||stun.facebook.com^
 *-stun.facebook.*
-stun.*.facebook.*
-global.stun.twilio.com
+||stun.*.facebook.*
+||stun.twilio.com^
 
 ! Punycode TLDs
 /(^|\.)xn--.*$/
