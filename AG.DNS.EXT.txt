@@ -1,5 +1,5 @@
 # Title: 🛡 AdGuard DNS Extended
-# Version: 20230801T1600
+# Version: 20230802T0400
 
 ||analytics.dashboard.fingerprint.com^
 ||dewlapescudo.space^
@@ -70027,3 +70027,149 @@ vkcdnservice.appspot.com^
 ||119.113.248.74^
 ||loaglait.com^
 ||grandmotherunit.com^
+
+! Frequently changed domains with the same IPs
+57.128.71.215$network
+
+! Frequently changed domains with the same IPs
+185.246.188.125$network
+185.246.188.124$network
+194.63.140.103$network
+194.63.143.61$network
+194.63.143.96$network
+
+! Frequently changed domains with the IP range
+/^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/$network
+
+! Frequently changed domains with the same IP
+! For example: https://pornxp.com/videos/77778518360
+||188.72.219.36^
+188.72.219.36^$network
+
+! $document blocks
+||bet365.com/*?affiliate=$document
+||dianomi.com^$document
+||maquiags.com^$document
+||paid.outbrain.com^$document
+||popcash.net^$document
+||popmyads.com^$document
+||vpn-offers.org^$document
+
+! Chinese google (https://github.com/easylist/easylist/issues/15643)
+||2mdn-cn.net^
+||admob-cn.com^
+||doubleclick-cn.net^
+||googleads-cn.com^
+||googleadservices-cn.com^
+||googleadsserving.cn^
+||googlevads-cn.com^
+! Samsung/LG/Philips smart-TV ad domains
+||ad.lgappstv.com^
+||ad.nettvservices.com^
+||ads.samsung.com^
+||lgad.cjpowercast.com.edgesuite.net^
+||lgsmartad.com^
+||samsungacr.com^
+! anime47.com / nettruyen.com
+/(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
+! IP addresses
+/(https?:\/\/)104\.154\..{100,}/
+/(https?:\/\/)104\.197\..{100,}/
+/(https?:\/\/)104\.198\..{100,}/
+/(https?:\/\/)130\.211\..{100,}/
+/(https?:\/\/)142\.91\.159\..{100,}/
+/(https?:\/\/)213\.32\.115\..{100,}/
+/(https?:\/\/)216\.21\..{100,}/
+/(https?:\/\/)217\.182\.11\..{100,}/
+/(https?:\/\/)51\.195\.31\..{100,}/
+||142.91.159.139^
+||142.91.159.147^
+||142.91.159.164^
+||142.91.159.169^
+||142.91.159.179^
+||142.91.159.201^
+||142.91.159.223^
+||142.91.159.244^
+||162.252.214.4^
+||167.99.31.227^
+||172.255.6.137^
+||172.255.6.139^
+||172.255.6.150^
+||172.255.6.152^
+||172.255.6.199^
+||172.255.6.248^
+||172.255.6.254^
+||172.255.6.2^
+||188.42.84.110^
+||188.42.84.162^
+||188.42.84.21^
+||188.42.84.23^
+||203.195.121.0^
+||203.195.121.103^
+||203.195.121.11^
+||203.195.121.134^
+||203.195.121.195^
+||203.195.121.1^
+||203.195.121.209^
+||203.195.121.217^
+||203.195.121.219^
+||203.195.121.224^
+||203.195.121.24^
+||203.195.121.28^
+||203.195.121.29^
+||203.195.121.34^
+||203.195.121.36^
+||203.195.121.40^
+||203.195.121.46^
+||203.195.121.72^
+||203.195.121.74^
+||23.109.150.208^
+||23.109.150.253^
+||23.109.248.125^
+||23.109.248.129^
+||23.109.248.130^
+||23.109.248.135^
+||23.109.248.139^
+||23.109.248.149^
+||23.109.248.14^
+||23.109.248.183^
+||23.109.248.229^
+||23.109.248.29^
+||23.109.82.173^
+||23.109.82.202^
+||23.109.87.101^
+||23.109.87.127^
+||23.109.87.14^
+||23.109.87.182^
+||23.109.87.192^
+||23.109.87.217^
+||23.109.87.42^
+||23.109.87.45^
+||23.109.87.47^
+||23.109.87.55^
+||23.109.87.74^
+||34.102.137.201^
+||35.227.234.222^
+||35.232.188.118^
+||37.1.209.213^
+||51.77.227.100^
+||51.77.227.101^
+||51.77.227.102^
+||51.77.227.103^
+||51.77.227.96^
+||51.77.227.97^
+||51.77.227.98^
+||51.77.227.99^
+||51.89.187.136^
+||51.89.187.137^
+||51.89.187.138^
+||51.89.187.139^
+||51.89.187.140^
+||51.89.187.141^
+||51.89.187.142^
+||51.89.187.143^
+! Altice / Optimum / CableVision injects ads
+! https://github.com/ryanbr/fanboy-adblock/issues/816
+||167.206.10.148^
+! Non-English (instead of allowlisting ads)
+||atresadvertising.com^$third-party
