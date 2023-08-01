@@ -1,6 +1,6 @@
 ! [Blacklist]
-! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20230531T1300
+! Title: 🔐 InviZiblePro Beta Blacklist
+! Version: 20230802T0500
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal CNAME tracking ---- ☆
@@ -1036,33 +1036,6 @@ graph.facebook.com
 /heatmap/
 /sentry/
 /tiktok-web-ads/
-
-! [personalDNSFilter]
-! Title: 🔄 Custom hosts for personalDNSFilter
-! Version: 20230531T1300
-
-! Localhost rebinding protection
-0.0.0.0
-127.0.0.*
-
-! RFC1918 rebinding protection
-172.16.*
-172.17.*
-172.18.*
-172.19.*
-172.20.*
-172.21.*
-172.22.*
-172.23.*
-172.24.*
-172.25.*
-172.26.*
-172.27.*
-172.28.*
-172.29.*
-172.30.*
-172.31.*
-192.168.*
 
 ! [Wildcards area]  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
 *88*.tk
