@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: 🦁 Brave Specific Rules
-! Version: 20230726T0600
+! Version: 20230805T0600
 
 ! Specific filters (Tracking or ads) for Brave
 ||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
@@ -22,7 +22,7 @@ google.*##+js(de-amp)
 youtube.*##+js(brave-youtube-theater-fix)
 
 ! Used for Brave QA tests
-?335962573013224749$image,xhr,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
+?335962573013224749$image,xmlhttprequest,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
 ! Rules for testing cosmetic filters in frames
 dev-pages.brave.software,dev-pages.bravesoftware.com##+js(set, window.BRAVE_TEST_VALUE, true)
 
@@ -1057,7 +1057,7 @@ autoevolution.com##.bgcutgrad
 /batch/1/oe/*
 /batch/1/op/*
 /beacon/stats
-/cdn-cgi/apps/head/*$first-party,script
+/cdn-cgi/apps/head/*$~third-party,script
 /cls_report?
 /comscore_beacon/*
 /events/analytics/*
@@ -1538,25 +1538,25 @@ cnn.com##.ad-feedback__modal
 
 ! Brave Unbreak
 ! brave.com specfic filters
-@@||ads.brave.software^$first-party
-@@||ads-admin.bravesoftware.com^$first-party
-@@||ads.bravesoftware.com^$first-party
-@@||ads-admin.brave.com^$first-party
-@@||ads-admin.brave.software^$first-party
-@@||ads.brave.com^$first-party
-@@||brave.com^$image,stylesheet,first-party
+@@||ads.brave.software^$~third-party
+@@||ads-admin.bravesoftware.com^$~third-party
+@@||ads.bravesoftware.com^$~third-party
+@@||ads-admin.brave.com^$~third-party
+@@||ads-admin.brave.software^$~third-party
+@@||ads.brave.com^$~third-party
+@@||brave.com^$image,stylesheet,~third-party
 ! basicattentiontoken.org specfic filters
-@@||basicattentiontoken.org^$ghide
-@@||basicattentiontoken.org^$first-party
+@@||basicattentiontoken.org^$generichide
+@@||basicattentiontoken.org^$~third-party
 ! search.brave.com specfic filters
 !
-@@||search.brave.com^$ghide
-@@||search.brave.com/api/$first-party
+@@||search.brave.com^$generichide
+@@||search.brave.com/api/$~third-party
 search.brave.com#@#+js(no-fetch-if, body:browser)
 ! stats.brave.com
-@@||stats.brave.com^$ghide
-@@||stats.brave.com^$first-party
-! Temp fix of first-party cosmetic filtering on Brave Search on IOS.
+@@||stats.brave.com^$generichide
+@@||stats.brave.com^$~third-party
+! Temp fix of f1rst-party cosmetic filtering on Brave Search on IOS.
 ! Will be removed when brave/brave-ios#7294 is rolled out to everyone
 ! Exception added to un-break Amazon results and integration on Brave Search. 
 ! The Amazon integration does not involve collecting user data, profiling, or sharing information with Amazon.
@@ -1565,7 +1565,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||search.brave.com/serp/v1/static/serp-js/shopping/
 search.brave.com#@##shopping
 ! community.brave.com
-@@||community.brave.com^$ghide
+@@||community.brave.com^$generichide
 ! Remove google login popup nag
 ###credential_picker_container
 ###credential_picker_iframe
@@ -1582,9 +1582,9 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 @@||taboola.map.fastly.net^$domain=linkvertise.com
 ! CNAME: https://api.atlassian.com/metal/ingest
 !
-@@||api.atlassian.com^$first-party
+@@||api.atlassian.com^$~third-party
 ! CNAME: https://yab.yomiuri.co.jp/adv/presage/3.html
-@@||yab.yomiuri.co.jp/adv/$first-party
+@@||yab.yomiuri.co.jp/adv/$~third-party
 @@||omicroncdn.net^$domain=yab.yomiuri.co.jp
 ! CNAME: https://www.imdb.com/video/vi935705113?playlistId=tt1568346
 @@||cloudfront.net^$domain=imdb.com|media-imdb.com
@@ -1734,8 +1734,8 @@ jcrew.com##+js(cookie-remover.js, dns_cookie)
 ! Allow doubleclick clickthrough (ios)
 @@||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ! google adsettings (ios)
-@@||www.google.com/ads/preferences/$first-party
-@@||adssettings.google.com^$first-party
+@@||www.google.com/ads/preferences/$~third-party
+@@||adssettings.google.com^$~third-party
 ! Fix nordpass/protomail clickthrough on ios
 @@/aff_c?offer_id=
 @@?offer_id=*&aff_id=
@@ -1775,10 +1775,10 @@ wetter.com,spiegel.de##[referrerpolicy]
 ||spiegel.de/public/shared/generated/3rdparty/js/msg_without_detection.
 !! -- ported from uBO Annoyances filters (START)
 ! Anti-adblock message codehelppro.com
-@@||codehelppro.com^$ghide
+@@||codehelppro.com^$generichide
 codehelppro.com##.adsbygoogle
 ! Anti-adblock message ckk.ai
-@@||ckk.ai^$ghide
+@@||ckk.ai^$generichide
 !
 tusubtitulo.com###bannerAdBlock
 !
@@ -1795,7 +1795,7 @@ stoneyroads.com##.ad-container
 !
 discord.club##+js(acis, document.getElementById, adsChecker)
 !
-||navcomic.com/wp-content/uploads/*/ad-blocking.gif$image,1p
+||navcomic.com/wp-content/uploads/*/ad-blocking.gif$image,~third-party
 !
 steptalk.org##+js(nostif, (), 3000)
 !
@@ -1808,7 +1808,7 @@ pokemonforever.com##+js(set, google_jobrunner, true)
 keybr.com##+js(nostif, , 5000)
 keybr.com##+js(nostif, [native code])
 ! edmontonjournal .com anti adb warning
-@@||edmontonjournal.com^$ghide
+@@||edmontonjournal.com^$generichide
 ! gamebanana anti adblock notice
 gamebanana.com##+js(aopr, adBlockDetected)
 !
@@ -1816,15 +1816,15 @@ includehelp.com##+js(acis, document.getElementById, banner)
 !
 hedgeaccordingly.com##+js(aopw, ABD)
 !
-@@||linux.org^$ghide
+@@||linux.org^$generichide
 !
-@@||queer.pl^$ghide
+@@||queer.pl^$generichide
 queer.pl#@#[class^="ad-"]
 queer.pl##.box-adv
 !
 mocospace.com##+js(nostif, adblocker)
 ! bigten .org anti adb warning
-@@||bigten.org^$xhr,1p
+@@||bigten.org^$xmlhttprequest,~third-party
 !
 strangermeetup.com##+js(set, adsEnabled, true)
 ! mt07-forum/auto-treff anti-adb
@@ -1833,7 +1833,7 @@ mt07-forum.de,auto-treff.com##+js(acis, $, offsetHeight)
 handball-world.news,mobiflip.de,titanic-magazin.de,mimikama.org,langweiledich.net,der-postillon.com,perlentaucher.de,lwlies.com,serieslyawesome.tv,critic.de,mediotejo.net,nahrungsmittel-intoleranz.com##+js(nostif, Delay)
 handball-world.news##small
 ! fiscomania .com anti adb notice 
-@@||fiscomania.com^$ghide
+@@||fiscomania.com^$generichide
 ! playbill .com anti adb warning
 playbill.com##+js(nostif, offsetHeight)
 ! thegatewaypundit .com anti adb warning
@@ -1890,7 +1890,7 @@ audiostereo.pl##+js(nostif, adb)
 fauxid.com##+js(aeld, error)
 !
 babiato.co##+js(acis, $, test)
-@@||babiato.co^$ghide
+@@||babiato.co^$generichide
 babiato.co##.adsbygoogle
 !
 buondua.com##.noblock-modal
@@ -1900,20 +1900,20 @@ meteoblue.com##+js(set, mb.advertisingShouldBeEnabled, false)
 !
 funnygames.eu##.is-blocked
 !
-@@||coinpayu.com^$ghide
+@@||coinpayu.com^$generichide
 ! Anti-adblock message geektyper.com
 geektyper.com###itemz[style^="position:fixed; top:10px"]
 !  Anti-adblock message dhd24.com 
 dhd24.com#@#.adunit
 !
-@@||timeanddate.com^$ghide
+@@||timeanddate.com^$generichide
 timeanddate.com###ad300
 ! Anti-adblock message allmusic.com 
 allmusic.com##+js(abort-current-script, $, adblock)
 ! Anti-adblock message cinemablend.com 
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 ! Anti-adblock message topspeed.com
-@@||topspeed.com^$ghide
+@@||topspeed.com^$generichide
 topspeed.com##.txt-ad
 topspeed.com##.daily-vid-ad
 topspeed.com##.top-horizontal-ad-content
@@ -1929,11 +1929,11 @@ light.gg###ad-blocker-nudge
 ! e-words.jp anti-adb
 e-words.jp###forvisitors
 !
-||digital.elmercurio.com/assets/js/detectPrivateMode.js$script,1p
+||digital.elmercurio.com/assets/js/detectPrivateMode.js$script,~third-party
 !
 telewebgram.com#@#.adsbygoogle
 !
-||dl.gmx.*/uim/connector/live/v2/nonfriendlyiframe.html$frame,1p
+||dl.gmx.*/uim/connector/live/v2/nonfriendlyiframe.html$frame,~third-party
 ! techus. website anti adb soft
 techus.website##+js(nostif, ai_)
 ! waves4you. com anti adblock
@@ -1945,7 +1945,7 @@ valid.x86.fr##.widget-advert-300-600
 !
 unidivers.fr##+js(no-xhr-if, googlesyndication)
 ! allthingsvegas. com anti adb warning
-@@||allthingsvegas.com^$ghide
+@@||allthingsvegas.com^$generichide
 ! fnbrjp.com anti-adb
 fnbrjp.com##+js(nostif, 広告)
 !
@@ -1966,12 +1966,12 @@ allhorror.com##.ad-placeholder-wrapper
 photopea.com##+js(no-fetch-if, /googlesyndication|uniconsent/)
 photopea.com##+js(set, console.clear, noopFunc)
 !
-@@||ruyamanga.com^$ghide
+@@||ruyamanga.com^$generichide
 !
 northwestfirearms.com,techkings.org##+js(set, samDetected, true)
 cafesaxophone.com##+js(aopw, XF)
 !
-@@||enfsolar.com^$ghide
+@@||enfsolar.com^$generichide
 !
 hayum.in##+js(set, detectAdBlock, noopFunc)
 !
@@ -1979,13 +1979,13 @@ bronze-bravery.com,ultimate-bravery.net##+js(nostif, (), 2000)
 !
 fabricjs.com##+js(nostif, (), 4000)
 !
-@@||brightonandhovenews.org^$ghide
+@@||brightonandhovenews.org^$generichide
 !
 japancamerahunter.com##+js(acis, jQuery, ads)
 !
 remotelyawesomejobs.com###ad-plea
 !
-@@||rightwingtribune.com^$ghide
+@@||rightwingtribune.com^$generichide
 !
 htmlreference.io##+js(nostif, (), 2000)
 htmlreference.io##.header-carbon
@@ -1994,13 +1994,13 @@ wildstarlogs.com##+js(nostif, (), 1000)
 !
 zwei-euro.com##+js(nostif, Delay)
 !
-@@||html-online.com^$ghide
+@@||html-online.com^$generichide
 !
-@@||socialblade.com^$ghide
+@@||socialblade.com^$generichide
 !
 sportsnet.ca##+js(aopr, uxGuid)
 ! phys.org anti-adblock nag
-@@||phys.org^$ghide
+@@||phys.org^$generichide
 phys.org##.amp-unresolved
 phys.org##.adsbygoogle
 phys.org##.ads-336x280
@@ -2011,11 +2011,11 @@ iskandinavya.com##+js(aopr, kan_vars.adblock)
 ! anti adb warning leekduck. com
 leekduck.com##+js(nostif, abp)
 !
-/wp-content/themes/*/public/js/detect-adblock.js$script,1p
+/wp-content/themes/*/public/js/detect-adblock.js$script,~third-party
 !
-*$xhr,redirect-rule=noopjs,domain=maxedtech.com
+*$xmlhttprequest,redirect-rule=noopjs,domain=maxedtech.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=maxedtech.com
-@@||googlesyndication.com^$xhr,domain=maxedtech.com
+@@||googlesyndication.com^$xmlhttprequest,domain=maxedtech.com
 !
 olarila.com##+js(nostif, offsetHeight)
 !
@@ -2053,7 +2053,7 @@ warcraftlogs.com##+js(aopr, onAdScriptFailure)
 !
 protopage.com##+js(aost, document.createElement, createAdblockFallbackSubscribeToProtopageAdDiv)
 !
-||georgiadogs.com/js/prebid-$xhr,1p,redirect=noop.txt
+||georgiadogs.com/js/prebid-$xmlhttprequest,~third-party,redirect=noop.txt
 !
 iphoneincanada.ca##.slbElement
 ! www.dailyprincetonian.com anti-adb
@@ -2068,7 +2068,7 @@ pixwox.com##+js(nostif, length, 3000)
 lamusica.com##.modal-open:style(overflow: auto !important;)
 lamusica.com##div[id$="___BV_modal_outer_"]
 !
-||profreehost.com/includes/js/customBottom.js$script,1p
+||profreehost.com/includes/js/customBottom.js$script,~third-party
 !
 modrinth.com##.info-wrapper[ethical-ads-big=""]
 modrinth.com##.content-wrapper[ethical-ads-big]
@@ -2081,16 +2081,16 @@ startpage.com#@#.ad.widget
 tarnkappe.info##+js(set, traffective, true)
 tarnkappe.info##section[style="min-height: 304px;"]
 !
-@@||discordbotlist.com^$ghide
+@@||discordbotlist.com^$generichide
 ! ganohr.net anti-adb
-@@||ganohr.net^$ghide
+@@||ganohr.net^$generichide
 ganohr.net###gnr-modal
 !
 memoryhackers.org##+js(acs, RegExp, googlebot)
 !
 hidemywp.co##+js(acs, jQuery, userAgent)
 ! grabify. link anti adb warning
-@@||grabify.link^$ghide
+@@||grabify.link^$generichide
 !
 steamcollector.com##+js(acs, document.querySelectorAll, adblock)
 steamcollector.com##.abg-card
@@ -2101,7 +2101,7 @@ virustotal.com##.alert-info
 ! sneakernews.com anti-adb
 sneakernews.com##+js(aopr, sneakerGoogleTag)
 ! twitcasting.tv anti-adb (login needed)
-@@||ads.twitcasting.tv/js/env_test/ads.js$script,1p
+@@||ads.twitcasting.tv/js/env_test/ads.js$script,~third-party
 !
 ||intergient.com^$script,domain=raider.io,redirect-rule=noopjs
 !
@@ -2123,11 +2123,11 @@ theblock.co##body:style(overflow: auto !important;)
 !! -- ported from uBO Quick Fixes --
 ! filecr.com
 *$image,domain=filecr.com,redirect-rule=1x1.gif
-@@||scriptcdn.net/code/$xhr,domain=filecr.com
+@@||scriptcdn.net/code/$xmlhttprequest,domain=filecr.com
 @@||googleads.g.doubleclick.net/pagead/ads$subdocument,domain=filecr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=filecr.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl*$script,domain=filecr.com
-@@||pagead2.googlesyndication.com/getconfig/sodar$xhr,domain=filecr.com
+@@||pagead2.googlesyndication.com/getconfig/sodar$xmlhttprequest,domain=filecr.com
 filecr.com#@#ins.adsbygoogle
 filecr.com##ins.adsbygoogle:style(height: 0px !important;)
 filecr.com##div[id^="aswift"]
@@ -2149,13 +2149,13 @@ autosport.com,motorsport.com##+js(aeld, load, length)
 canale.live##+js(set-constant, moneyAbovePrivacyByvCDN, true)
 canale.live##+js(no-setInterval-if, href)
 !
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=10play.com.au
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au
 @@||global.ssl.fastly.net^$domain=10play.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10play.com.au
-@@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xhr,domain=10play.com.au
+@@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xmlhttprequest,domain=10play.com.au
 10play.com.au##+js(m3u-prune, /^https?:\/\/redirector\.googlevideo\.com.*/, /.*m3u8/)
 ! luscious. net anti adb
-@@*$xhr,domain=luscious.net,3p
+@@*$xmlhttprequest,domain=luscious.net,third-party
 ! chip.de
 ||mms.chip.de^
 ! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
@@ -2171,13 +2171,13 @@ canale.live##+js(no-setInterval-if, href)
 twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
 twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
 ||concert.io/lib/adblock/$subdocument
-! ghide
-@@||compuhoy.com^$ghide
-@@||fluttercampus.com^$ghide
+! generichide
+@@||compuhoy.com^$generichide
+@@||fluttercampus.com^$generichide
 ! chp anti-adblock
 fresheroffcampus.com,cizzyscripts.com##+js(aopw, startCheckingAdblock)
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
-@@||rnbxclusive1.me^$ghide
+@@||rnbxclusive1.me^$generichide
 rnbxclusive1.me##+js(aopw, _pop)
 ! uBO-domain wildcard workaround fmovies.*
 fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.co##+js(aeld, , break;case $.)
@@ -2188,7 +2188,7 @@ crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopr, AaDetector)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(acis, JSON.parse, break;case $.)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopw, _pop)
 !  uBO-domain wildcard workaround lightnovelpub/webnovelpub.com/other mirrors
-@@*$ghide,domain=lightnovelpub.com|lightnovelworld.com|novelpub.com|webnovelpub.com
+@@*$generichide,domain=lightnovelpub.com|lightnovelworld.com|novelpub.com|webnovelpub.com
 lightnovelpub.com,webnovelpub.com,novelpub.com,lightnovelworld.com,lightnovelspot.com##.sticky-body
 lightnovelpub.com,webnovelpub.com##+js(no-setTimeout-if, =>)
 lightnovelpub.com,webnovelpub.com##+js(no-setTimeout-if, /appendChild|e\("/)
@@ -2205,11 +2205,11 @@ kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(windo
 kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
 kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(nostif, (), 45000)
 kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(set, check_adblock, true)
-@@||kissasian.pe^$ghide
-@@||kissasian.li^$ghide
-@@||kissasian.fan^$ghide
-@@||kissasian.com.ru^$ghide
-@@||kissasian.es^$ghide
+@@||kissasian.pe^$generichide
+@@||kissasian.li^$generichide
+@@||kissasian.fan^$generichide
+@@||kissasian.com.ru^$generichide
+@@||kissasian.es^$generichide
 ! Anti-adblock (https://old.reddit.com/r/brave_browser/comments/zjtfyg/adblock_adblockers/)
 !
 *$script,redirect-rule=noopjs,domain=kimcartoon.si|9animes.ru|kisscartoon.sh|kimcartoon.li|kisscartoon.nz|kissanime.com.ru|kissanime.sx|kissanime.org.ru|kissanime.co|gogoanime.gs|animesuge.to|kiss-anime.su|kissasian.pe|kissasian.li|kissasian.fan|kissasian.com.ru|kissasian.es
@@ -2236,15 +2236,15 @@ animepahe.com,kwik.cx##+js(aopr, open)
 animepahe.com,kwik.cx##+js(aopr, PopAds)
 pahe.li##+js(acis, JSON.parse, break;case $.)
 pahe.li##+js(aeld, , _0x)
-@@||pahe.li^$ghide
+@@||pahe.li^$generichide
 ! uBO-domain wildcard workaround (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
 vipbox.lc,v1sts.me##+js(acis, JSON.parse, break;case)
 vipbox.lc,tvply.me,v1sts.me,vipboxtv.se##+js(aopw, _pop)
 tvply.me,vipbox.lc,vipboxtv.se,viprow.me##+js(acis, JSON.parse, break;case $.)
 vipbox.lc##.position-absolute
 ! uBO-domain wildcard workaround
-*$script,3p,domain=igg-games.com
-*$xhr,subdocument,3p,domain=igg-games.com
+*$script,third-party,domain=igg-games.com
+*$xmlhttprequest,subdocument,third-party,domain=igg-games.com
 @@||cdn.fastcomments.com^$script,domain=igg-games.com
 @@||ajax.googleapis.com^$script,domain=igg-games.com
 ! uBO-domain wildcard workaround
@@ -2260,8 +2260,8 @@ ganohr.net,megacloud.tv,coingax.com,capitaloneshopping.com,comohoy.com,leak.sx,p
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
 ! EasyDutch https://github.com/EasyDutch-uBO/EasyDutch/blob/main/EasyDutch/Anti-Adblock.txt (START)
 !
-@@||kijk.nl^$ghide
-@@||ads-talpa.adhese.com/json/$xhr,domain=kijk.nl
+@@||kijk.nl^$generichide
+@@||ads-talpa.adhese.com/json/$xmlhttprequest,domain=kijk.nl
 *$image,domain=kijk.nl,redirect-rule=1x1.gif
 ! 2022-01-29
 autoweek.nl##+js(set, isAdBlockActive, false)
@@ -2274,12 +2274,12 @@ dumpert.nl#@#.ads_box
 ! 2021-08-09
 doorbraak.be,gowiththevlo.nl##+js(aopw, advanced_ads_check_adblocker)
 ! 2021-08-07
-@@||hb.improvedigital.com/pbw/headerlift.min.js$script,3p,domain=funnygames.be|funnygames.nl|spele.be|spele.nl
+@@||hb.improvedigital.com/pbw/headerlift.min.js$script,third-party,domain=funnygames.be|funnygames.nl|spele.be|spele.nl
 ! 2021-08-06
 funnygames.nl,funnygames.be,spele.be,spele.nl##.is-billboard
 funnygames.nl,funnygames.be,spele.be,spele.nl##.is-skyscraper
 marokko.nl##+js(set, ads_toegestaan, true)
-@@*$ghide,domain=modekoninginmaxima.nl|quickclaims.nl
+@@*$generichide,domain=modekoninginmaxima.nl|quickclaims.nl
 ! 2021-06-01
 notebookcheck.nl##+js(acis, document.getElementById, send)
 ! 2021-05-04
@@ -2293,7 +2293,7 @@ directwonen.nl#@#.adsbox
 girlscene.nl##+js(set, adblock, 0)
 ! EasyDutch https://github.com/EasyDutch-uBO/EasyDutch/blob/main/EasyDutch/Anti-Adblock.txt (END)
 ! globalnews.ca Anti-adblock
-@@||globalnews.ca^$ghide
+@@||globalnews.ca^$generichide
 globalnews.ca##.l-headerAd__container
 globalnews.ca##.c-newsletterSignup
 ! Fix yandex.ru blocking on 3dnews.ru
@@ -2308,7 +2308,7 @@ globalnews.ca##.c-newsletterSignup
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
 ! Temp fix for Google funding Yellow Bar (https://github.com/brave/brave-browser/issues/11945)
-! To counter $ghide in uBO
+! To counter $generichide in uBO
 ! Fix googlefunding issues (Android) https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt#L21331
 ! googlefunding (latimes.com) (fix scroll)
 latimes.com##body:style(overflow: auto !important;)
@@ -2373,8 +2373,8 @@ cbssports.com##+js(rc, skybox-top-wrapper, , stay)
 cbssports.com##+js(rc, leaderboard-wrap, , stay)
 cbssports.com##+js(rc, fixed-skybox-placeholder, , stay)
 ! Regex fix (counter complex ubo regex)
-$xhr,3p,domain=nxbrew.com
-$script,3p,domain=animixplay.to|animepahe.ru|nxbrew.com
+$xmlhttprequest,third-party,domain=nxbrew.com
+$script,third-party,domain=animixplay.to|animepahe.ru|nxbrew.com
 @@||disqus.com/count-data.js$script,domain=animixplay.to
 @@||disqus.com/embed.js$script,domain=animixplay.to
 ! Korean adblock (cosmetic) 
@@ -2397,7 +2397,7 @@ blockadblock.com##+js(nobab)
 mylivewallpapers.com,nsw2u.com,kbizoom.com##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
 ! thequint.com Anti-adblock (address thequint.com#@#span:has-text(ADVERTISEMENT))
 ! Also other generic exceptions
-@@||thequint.com^$ghide
+@@||thequint.com^$generichide
 ! Blank spaces aftonbladet.se (:upward)
 aftonbladet.se##.css-4thb3o
 aftonbladet.se##.css-1d3w5wq
