@@ -1,6 +1,6 @@
 ! [Blacklist]
 ! Title: 🔐 InviZiblePro Beta Blacklist
-! Version: 20230802T0500
+! Version: 20230806T1000
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal CNAME tracking ---- ☆
@@ -35,8 +35,9 @@ explorads
 *.xml.*
 
 ! ☆ ---- Personal Ads Tracking and Other ---- ☆
-gtm.oasisfeng
+gtm.oasisfeng.com
 graph.facebook.com
+*.stun.twilio.com
 *google-analytics*
 *trafficjunky*
 *tapjoy*
