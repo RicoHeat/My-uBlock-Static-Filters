@@ -1,6 +1,6 @@
 ! [Blacklist]
 ! Title: 🔐 InviZiblePro Beta Blacklist
-! Version: 20230806T1000
+! Version: 20230806T1300
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal CNAME tracking ---- ☆
@@ -161,6 +161,7 @@ graph.facebook.com
 *.bluehornet.*
 *.brandreachsys.*
 *.btttag.*
+*.bugsnag.*
 *.bumlam.*
 *.buysellads.*
 *.casalemedia.*
@@ -198,6 +199,7 @@ graph.facebook.com
 *.getclicky.*
 *.go2affise.*
 *.hitbox.*
+*.hotjar.*
 *.hyprmx.*
 *.igexin.*
 *.impactradius.*
@@ -214,12 +216,14 @@ graph.facebook.com
 *.localytics.*
 *.logger.*
 *.logging.*
+*.luckyorange.*
 *.marketo.*
 *.mathtag.*
 *.measurementapi.*
 *.metric.*
 *.meetrics.*
 *.metrics.*
+*.mistat.*
 *.mktoresp.*
 *.moatads.*
 *.moatpixel.*
@@ -253,6 +257,7 @@ graph.facebook.com
 *.smaato.*
 *.smetric.*
 *.smetrics.*
+*smetric*
 *.sonobi.*
 *.spotad.*
 *.spylog.*
