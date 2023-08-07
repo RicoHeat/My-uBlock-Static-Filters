@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Title: ⛑ Unbreak and Fixes
-! Version: 20230807T0300
+! Title: ⛑️ Unbreak and Fixes
+! Version: 20230808T0300
 
 ! Filter Data imported from <https://ublockorigin.github.io/uAssets/filters/unbreak.txt>
 @@||google-analytics.com/plugins/$script
