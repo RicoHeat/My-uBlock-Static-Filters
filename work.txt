@@ -1,5 +1,5 @@
 ! Title: 🛠 Working List (xinggsf combined list)
-! Version: 20230715T0800
+! Version: 20230809T0500
 ! Description: Uploading to uBlock as a user filter and then checking for validity using its internal log viewer to guarantee compatibility.
 ! Source: https://github.com/xinggsf
 
@@ -16,13 +16,13 @@ iqiyi.com##+js(set, Object.prototype.isSupportAI, false)
 ! le.com
 gentags.net
 gtags.net
-||webrtc.github.io^$script,3p
+||webrtc.github.io^$script,third-party
 
-! ||cp31.ott.cibntv.net/*/ad/X*.ts?$xhr,redirect=noop-0.1s.mp3,domain=v.youku.com
+! ||cp31.ott.cibntv.net/*/ad/X*.ts?$xmlhttprequest,redirect=noop-0.1s.mp3,domain=v.youku.com
 v.youku.com##.vip_info,#uerCenter,#youkubarrage-controller,li.fn-phonewatch
 ||acs.youku.com/h5/mopen.youku.danmu.
 
-||api.bilibili.com/x/click-interface/click/$xhr
+||api.bilibili.com/x/click-interface/click/$xmlhttprequest
 chat.bilibili.com
 ||hdslb.com/bfs/seed/log/report/log-reporter.js
 ||hdslb.com/bfs/seed/jinkela/short/cols/iframe.html$subdocument
@@ -33,7 +33,7 @@ v.qq.com##.wrapper.mod_vip_popup, #mask_layer
 ||video.qq.com^$subdocument
 ||mfm.video.qq.com/danmu
 dm.video.qq.com
-||video.qq.com/danmu_manage/$xhr
+||video.qq.com/danmu_manage/$xmlhttprequest
 tv.sohu.com###qflivetg,div.right>.adv
 
 www.douyu.com##.is-fullScreenPage .ToTopBtn, div.layout-Player~*, .multiBitRate-da4b60, .watermark-442a18, .player-dialog~*, .ChargeTask+div, .HeaderGif-right, .HeaderGif-left,#js-room-activity
@@ -134,7 +134,7 @@ yhdm.nl###x-play:style(height:600px)
 yhdm.nl###x-play::before
 
 ! www.dmtvw.com --> www.xyhdm.cc www.yhdmp.cc www.ttsp.tv www.idkdy.com
-|https://abb.$script,3p
+|https://abb.$script,third-party
 prplads.com
 搜狐网络科技.中国
 
@@ -210,7 +210,7 @@ tiebac.baidu.com,tieba.baidu.com,jump.bdimg.com,jump2.bdimg.com###thread_list>li
 ||adsense.
 */adsense/
 ||adserver.
-||cm.$image,script,xhr,3p
+||cm.$image,script,xmlhttprequest,third-party
 ||gg.
 ||ggg.
 ||greenet.cn/$popunder
@@ -269,14 +269,14 @@ pageMediaControl*$script
 */51ads/
 @@||img05.zhaopin.cn/2014/common/js/za/ga.js
 */ga.js^
-@@||bikroy.com/neo/bikroy-contactUs*-ads-$script,1p
+@@||bikroy.com/neo/bikroy-contactUs*-ads-$script,~third-party
 *-ads-$script
 *_ad.js|
 *_ads.js|
-*/adServer$script,xhr
-*/adService$script,xhr
-*/adSide/$script,xhr
-*/adSide.$script,xhr
+*/adServer$script,xmlhttprequest
+*/adService$script,xmlhttprequest
+*/adSide/$script,xmlhttprequest
+*/adSide.$script,xmlhttprequest
 */adwidget$script
 */gg.$script
 ||go.$domain=kickass.cd|thepiratebay.*|btsow.*
@@ -503,7 +503,7 @@ ifeng.com##div[class^=adList],div[class^=adbox],[class|=topAd],[class^=ad_],#cou
 mfp.deliver.ifeng.com
 qcvf.ifeng.com
 5hte21mz.com
-||ifengimg.com/*_guanggao_$script,xhr
+||ifengimg.com/*_guanggao_$script,xmlhttprequest
 ||ifengimg.com/mappa
 ||ifengimg.com/feather/images/$image
 ||x0.ifengimg.com/feprod/c/web/d/coupletFloat.js
@@ -530,7 +530,7 @@ tianyabooks.com##div[class^=bread_]
 
 ||img16.diyifanwen.com
 gushiwen.cn###threeWeixin2
-||gushiwen.cn/getTicket.aspx^$xhr
+||gushiwen.cn/getTicket.aspx^$xmlhttprequest
 ||yijiuningyia.gushiwen.org
 enennsa.gushiwen.cn
 ||a.lz13.cn/
@@ -574,7 +574,7 @@ www.epinv.com###container>#sidebar~*,div.huadong,div.epinv_f
 ||www.epinv.com/wp-content/themes/ep/tu/
 ||firefoxchina.cn/html/$subdocument
 
-||api.huaban.com/ads^$xhr,1p,redirect=noop.txt
+||api.huaban.com/ads^$xmlhttprequest,~third-party,redirect=noop.txt
 ||t1.hoopchina.com.cn/$subdocument
 hupu.com##[class|=sidebar-ad],[id|=div-gpt-ad],[class^=nba-ad],[class^=hp-ad],div[class^=ad],.topPub
 
@@ -1402,8 +1402,8 @@ www.zhzzx.com
 
 ! 屏蔽P2P
 yy.com,le.com##+js(nowebrtc)
-||tracker.$xhr,websocket,script,ping
-||p2p.$xhr,websocket,ping,domain=~huya.com|~binance.com
+||tracker.$xmlhttprequest,websocket,script,other
+||p2p.$xmlhttprequest,websocket,other,domain=~huya.com|~binance.com
 
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 !m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -1502,8 +1502,8 @@ tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 ||17173.com/if/$script,subdocument
 
 le.com##+js(set, isAdLoaded, true)
-*/letv-gug/$media,xhr
-||letvimg.com/$object,xhr
+*/letv-gug/$media,xmlhttprequest
+||letvimg.com/$object,xmlhttprequest
 ||letvimg.com/*_gugwl/$image
 ||js.letvcdn.com/*_banner_$script
 ||banana.le.com/
@@ -1539,7 +1539,7 @@ litix.io
 ||stripe.com^$script,domain=~nextdns.io|~obsidian.md
 
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
-*_ad_$media,domain=youtube.com,3p
+*_ad_$media,domain=youtube.com,third-party
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
@@ -1549,14 +1549,14 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 ||google.*/pagead/
 ||gstatic.com/shopping?
 
-*/preroll/$media,domain=91porn.com
+*/preroll/$media,domain=9orn.com
 91p20.space
 waust.at
 
 ||btsow.mom/app/jav$image
 jads.co
 |https://tellme.pw/go/jav$popup
-|https://$script,subdocument,popup,3p,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org
+|https://$script,subdocument,popup,third-party,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org
 !btsow.mom##+js(aeld, click, popunder)
 !btsow.*##body>div[id]:last-child>a:only-child
 ! 2022 https://rarbgprx.org
@@ -1573,7 +1573,7 @@ dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org#@#+js(nowebrtc)
 dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)
 wpadmngr.com
-|https://static.cloudflareinsights.com/beacon.min.js^$xhr,script
+|https://static.cloudflareinsights.com/beacon.min.js^$xmlhttprequest,script
 ||nunuyingyuan.tk/serviceworker.js^$script
 ||nunuyy.cf/serviceworker.js^$script
 
