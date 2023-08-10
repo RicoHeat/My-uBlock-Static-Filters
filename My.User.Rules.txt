@@ -1,5 +1,5 @@
 ! Title: ☠️ My User Rules
-! Version: 20230730T1400
+! Version: 20230811T0600
 
 ! Testing
 |stun://
@@ -15,6 +15,8 @@
 *-stun.facebook.*
 ||stun.*.facebook.*
 ||stun.twilio.com^
+
+||ahacdn.me^
 
 ! Punycode TLDs
 /(^|\.)xn--.*$/
@@ -183,19 +185,6 @@ fxpornhd.com##.happy-header-mobile
 ! 2023-01-30 https://milfnuts.net
 @@||milfnuts.net^$generichide
 
-! 2023-02-07 https://www.pornhits.com
-@@||data.rdtk.io^$popup,domain=www.pornhits.com
-
-! 2023-02-11 https://www.trendyxxx.com
-www.trendyxxx.com##body > .ad-content > center > .ad-body.well
-
-! 2023-02-13 https://www.letmejerk.net
-www.letmejerk.net##.item-container
-www.letmejerk.net##.slick-slider.slick-initialized.slide-webcams.thumbs
-www.letmejerk.net##div.heading:nth-of-type(8)
-letmejerk.*##+js(abort-on-property-read, ExoLoader)
-letmejerk.*##div[class^="lmj"]
-
 ! 2023-02-02 https://pornjuices.com
 pornjuices.com##.active.adde_modal-overlay
 
@@ -208,6 +197,12 @@ android-zone.ws##.ipsJS_hide.ipsPad_half
 
 ! 2023-02-07 https://www.pornktube.tv
 @@||www.pornktube.tv^$~third-party
+
+! 2023-02-07 https://www.pornhits.com
+@@||data.rdtk.io^$popup,domain=www.pornhits.com
+
+! 2023-02-11 https://www.trendyxxx.com
+www.trendyxxx.com##body > .ad-content > center > .ad-body.well
 
 ! 2023-02-12 https://onetvplus.xyz
 @@||onetvplus.xyz^$generichide
@@ -223,6 +218,13 @@ www.katestube.com##.nav-mobile
 ! 2023-02-12 https://www.tiava.com
 ||www.google-analytics.com^$script
 ||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js
+
+! 2023-02-13 https://www.letmejerk.net
+www.letmejerk.net##.item-container
+www.letmejerk.net##.slick-slider.slick-initialized.slide-webcams.thumbs
+www.letmejerk.net##div.heading:nth-of-type(8)
+letmejerk.*##+js(abort-on-property-read, ExoLoader)
+letmejerk.*##div[class^="lmj"]
 
 ! 2023-02-14 https://yandexcdn.com
 @@||yandexcdn.com^$generichide
@@ -265,15 +267,22 @@ github.com##.rounded-1.border.blankslate-spacious.blankslate
 ! 2023-03-22 https://xfantazy.com
 @@||xfantazy.com^$generichide
 
-! 2023-03-22 https://a.adtng.com
-
 ! 2023-03-22 https://justincestporn.com
 ||justincestporn.com^$popup
 
 ! 2023-03-23 https://xmoviesforyou.net
 ||xmoviesforyou.net^$popup
 
-! 2023-03-27 https://pornwiss.com
+! 2023-03-22 https://player.tabooporns.com
+||vast.yomeno.xyz^$xhr,redirect-rule=nooptext
+
+! 2023-03-22 https://a.adtng.com
+||justincestporn.com^$popup,domain=adtng.com,important
+
+! 2023-03-22 https://justincestporn.com
+||justincestporn.com^$popup,important
+
+ 2023-03-27 https://pornwiss.com
 pornwiss.com##.col-xl-4.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
 ||pornwiss.com/wp-content/uploads/2020/10/vpn-notice.png$image
 
@@ -289,11 +298,91 @@ www.porngo.com##li.menu-list__row:nth-of-type(9)
 ! 2023-04-05 https://fxpornhd.com
 @@||vjs.zencdn.net^
 
-! 2023-04-09 https://chaturbate.com
-||static-assets.highwebmedia.com^$script,domain=chaturbate.com
+! 2023-04-10 https://justincestporn.com
+||justincestporn.com/wp-content/themes/retrotube/assets/img/niches/filf/bg.jpg$image
+
+! 2023-04-11 https://watchporn.to
+@@||watchporn.to^$generichide
 
 ! 2023-04-13 https://github.com
 @@||github.com/disconnectme/*
+
+! 2023-04-19 https://hqq.tv
+@@||commentsmodule.com^$generichide
+@@||wss.commentsmodule.com:8443^$websocket
+
+! 2023-07-29 https://justincestporn.com
+justincestporn.com##.entry-header > .button
+
+! 2023-07-31 https://mydaddy.cc
+*/ads/banner.js
+
+! 2023-08-03 https://m.hqporner.com
+@@||mydaddy.cc/video/*$third-party
+
+! 2023-08-03 https://mydaddy.cc
+@@||bigcdn.cc/pubs/*$third-party
+
+! 2023-08-03 https://dooood.com
+@@||i.doodcdn.co^
+@@||img.doodcdn.co^
+@@||dood.video^
+
+! 2023-08-03 https://milfnuts.net
+@@||dood.re^
+
+! 2023-08-05 https://player.tabooporns.com
+@@||c26.netu.tv^$xhr,domain=player.tabooporns.com
+
+! 2023-08-06 https://www.pornhits.com
+@@||tn.onlyporn.tube/media/*$domain=www.pornhits.com
+
+! 2023-08-09 https://noodlemagazine.com
+@@||pvvstream.pro^
+
+! 2023-08-10 https://watchporn.to
+@@||zload.cc^$media,domain=watchporn.to
+
+! 2023-04-27 https://pornwiss.com
+@@||pornwiss.com/wp-admin/*$xhr
+||pornwiss.com^$popup,important
+
+! 2023-04-30 https://xgroovy.com
+xgroovy.com###top_links
+
+! 2023-04-30 https://bestporn4free.com
+@@||bestporn4free.com^$generichide
+
+! 2023-04-30 https://watchpornx.com
+@@||pandanetwork.club^$image,domain=watchpornx.com
+@@||watchpornx.com^$generichide
+
+! 2023-05-04 https://www.hd-easyporn.com
+www.hd-easyporn.com###ByYbAX5Pomi
+www.hd-easyporn.com###bRJDu1XglNpd
+
+! 2023-05-12 https://dxb.to
+@@||dxb.to^
+@@||acdcdn.com^
+
+! 2023-06-27 https://www.pornhits.com
+www.pornhits.com##.video-header
+
+! 2023-06-30 https://www.pornhits.com
+www.pornhits.com##.header__bn
+
+! 2023-06-30 https://pornx.to
+pornx.to##.ads-above-single-player
+@@||pornx.to^$generichide
+
+netpornsex.net##a[onclick="openAuc();"]
+netpornsex.net##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+netpornsex.net##+js(aopr, BetterJsPop)
+
+! 2023-07-10 https://familyporn.tv
+familyporn.tv##[href="https://familyporn.tv/link/brattymilf/"]
+
+player.tabooporns.com##+js(set-constant, console.clear, undefined)
 
 ! ☆ ---- Older User Rules ---- ☆
 @@||account.firefox.com^
