@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
-! Title: ⛑ Unbreak Fixes
-! Version: 20230815T0700
+! Title: ⛑ Unbreak and Fixes
+! Version: 20230815T0755
 
 
 ! ☆ ---- uBlock₀ filters – Unbreak ---- ☆
