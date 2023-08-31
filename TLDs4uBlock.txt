@@ -1,5 +1,5 @@
 ! Title: 🎩 Top Level Domains uBlock
-! Version: 2023.0820T1400
+! Version: 2023.0831T2300
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt
 ! Syntax: uBlock
 !
@@ -14,7 +14,7 @@
 ||boats^$all
 ||boston^$all
 ||boutique^$all
-||buzz^$all,domain=~allthe.buzz|~awful.buzz|~cliq.buzz|~montpellier.buzz|~sideb.buzz|~williamsonday.buzz
+||buzz^$all,domain=~allthe.buzz|~awful.buzz|~cliq.buzz|~montpellier.buzz|~sideb.buzz|~williamsonday.buzz|~tg777.buzz
 ||cf^$all,domain=~google.cf|~rths.cf|~acap.cf
 ||cfd^$all,domain=~frcoal.cfd
 ||cyou^$all
