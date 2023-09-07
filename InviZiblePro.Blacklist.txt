@@ -1,9 +1,9 @@
 ! [Blacklist]
-! Title: 🔐 InviZiblePro Beta Blacklist
-! Version: 20230806T1300
+! Title: 🔐 InviZible Pro Beta Blacklist
+! Version: 20230907T0900
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
-! ☆ ---- Personal CNAME tracking ---- ☆
+! ☆ ---- Personal CNAME ---- ☆
 *.exoclick.*
 *.lookinews.*
 *.reminews.*
@@ -281,6 +281,7 @@ graph.facebook.com
 *.vertamedia.*
 *.videoplaza.*
 *.vidible.*
+*.vivoglobal.*
 *.vizury.*
 *.voluumtrk.*
 *.webengage.*
