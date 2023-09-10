@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: 🍾 Popups Combined
-! Version: 20230910T1400
+! Version: 20230910T1450
 
 ! START: Popular clickunders
 !
@@ -83,7 +83,7 @@ unblocked.*,yifyhdtorrent.org,dudestream.com,webserver.one,eztv.yt,sanoybonito.c
 alotporn.com,amateurporn.co,onlinestars.net,someonesister.com,pornrabbit.com,lusttaboo.com,xhomealone.com,mangovideo.club,love4porn.com,hoes.tube,jizzonme.org,camclips.tv,partycelebs.com,jizzoncam.com,mrpeepers.net,cluset.com,celebwhore.com,sexcams-24.com,amateurporn.me,pornfay.org,fapnado.com,xgirls.webcam,cambay.tv##+js(set-constant, flashvars.popunder_url, '')
 fuckcelebs.net,perverttube.com,sexlist.tv,mangovideo.club,cwtvembeds.com##+js(set-constant, flashvars.video_click_url, '')
 ! END: Popular clickunders
-.
+
 |about:blank#$popup,domain=22pixx.xyz|adblockstrtape.link|animepahe.com|aniwave.to|bitporno.com|cdnqq.net|clipconverter.cc|czechvideo.io|dailyuploads.net|dood.la|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|flashx.net|fmovies.to|gospeljingle.com|gowatchseries.online|hqq.tv|imagetwist.com|kissanime-ru.ws|mixdrop.bz|mixdrop.ch|mixdrop.co|mixdrop.sx|mp4upload.com|mstream.xyz|onlystream.tv|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|sdmoviespoint.online|spcdn.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblock.me|strtpe.link|tapecontent.net|turboimagehost.com|upstream.to|uptostream.com|userload.co|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|vidoza.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 
 ! Filter Data imported from <https://github.com/easylist/easylist/raw/master/easylist/easylist_general_block_popup.txt>
