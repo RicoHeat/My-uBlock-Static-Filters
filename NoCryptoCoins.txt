@@ -1,10 +1,12 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: ☢️ NoCryptoCoins Filterlist
-! Version: 20230624T1900
+! Version: 20230914T1100
 ! Description: A crypto mining protection list compiled from various sources with redundancies removed
 
 ! Fixed due to video playback problems on a few NSFW websites like milfnuts.net
 @@||wss.commentsengine.com:8443^$websocket,domain=hqq.tv
+! Personal addition
+||hotcoin.com^
 
 ! ☆ ---- NoCoin Filter List ---- ☆
 ! https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
