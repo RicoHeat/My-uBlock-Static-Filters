@@ -1,9 +1,10 @@
 [Adblock]
 ! Title: AdAway Adblock Syntax
-! Version: 20230517T1300
+! Version: 20230918T0700
 ! Source: https://adaway.org/hosts.txt
 ! Description: AdAway hosts converted into Adblock Syntax and redundancies removed
 
+! ☆ ---- AdAway Default Blocklist ---- ☆
 ||analytics.163.com^
 ||crash.163.com^
 ||iad.g.163.com^
