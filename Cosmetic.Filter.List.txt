@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20230728T1300
+! Version: 20231005T0400
 
 ! Test
 ##.adv-cat-
@@ -11,9 +11,6 @@
 ! 2022-09-12 https://www.xvideos2.com
 www.xvideos2.com###ad-header-mobile
 www.xvideos2.com##.live-cams.red-label.label.btn-default.btn
-www.xvideos2.com###mobile-slogan &gt; .mobile-slogan-games.btn
-www.xvideos2.com###mobile-slogan &gt; .btn.live-cams
-www.xvideos2.com##li.clicked:nth-of-type(5) &gt; .red-label.label.btn-default.btn
 
 ! 2022-09-14 https://www.pornhits.com
 www.pornhits.com##.sponsor
