@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: 🦁 Brave Specific Rules
-! Version: 20231031T2200
+! Version: 20231102T1000
 
 ! Specific filters (Tracking or ads) for Brave
 ||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
@@ -2168,7 +2168,7 @@ e-words.jp###forvisitors
 ! https://github.com/uBlockOrigin/uAssets/issues/12861
 telewebgram.com#@#.adsbygoogle
 ! https://github.com/uBlockOrigin/uAssets/issues/12768
-||dl.gmx.*/uim/connector/live/v2/nonfriendlyiframe.html$frame,~third-party
+||dl.gmx.*/uim/connector/live/v2/nonfriendlyiframe.html$subdocument,~third-party
 ! techus. website anti adb soft
 techus.website##+js(nostif, ai_)
 ! waves4you. com anti adblock
@@ -2704,7 +2704,7 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||linksynergy.com^$third-party,badfilter
 ! Debounce fixes (image,script,xml) Which will allow the debounce.
 ||tradedoubler.com^$image,script,subdocument,xmlhttprequest,third-party
-||doubleclick.net^$image,subdocument,script,subdocument,xmlhttprequest,third-party
+||doubleclick.net^$image,subdocument,script,xmlhttprequest,third-party
 ||atdmt.com^$image,script,subdocument,xmlhttprequest
 ||demdex.net^$image,script,subdocument,xmlhttprequest
 ||awin1.com^$image,script,xmlhttprequest,subdocument,third-party
