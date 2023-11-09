@@ -1,5 +1,5 @@
 ! Title: Regex list for Adguard DNS
-! Version: 20231012T1200
+! Version: 20231109T2100
 
 ! ---- bogachenko's DNS Blacklist
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
@@ -75,6 +75,7 @@
 /^clarity\.[a-z0-9\-]*\./
 
 ! ---- CATS-TEAM AdRules Regex
+/^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
 /^adsage\./
@@ -101,4 +102,3 @@
 /^supersonicads\./
 /^wlmonitor\./
 /^zjtoolbar\./
-/^.+stat\.kugou\.com/
