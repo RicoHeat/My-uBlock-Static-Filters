@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20231005T0400
+! Version: 20231202T0800
 
 ! Test
 ##.adv-cat-
@@ -105,6 +105,8 @@ porn00.*##.table
 www.porn00.*##.member1link
 www.porn00.*##.member2link
 www.porn00.*##.member3link
+www.porn00.*##.member4link
+www.porn00.*##li:nth-of-type(4)
 
 ! 2023-06-02 https://www.peekvids.com
 www.peekvids.com##.block-advert-top.block-advert
@@ -122,9 +124,9 @@ www.trendyporn.com##div.row:nth-of-type(5)
 www.trendyporn.com##div.row:nth-of-type(6)
 
 ! 2023-07-02 https://netpornsex.net
-netpornsex.net##+js(aopr, BetterJsPop)
-netpornsex.net##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-netpornsex.net##a[onclick="openAuc();"]
+player.netpornsex.net##+js(aopr, BetterJsPop)
+player.netpornsex.net##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+player.netpornsex.net##a[onclick="openAuc();"]
 
 @@||wp.com^$domain=watchpornx.com
 www.xfreehd.com##.visible-sm.visible-xs.center > div
@@ -1719,6 +1721,8 @@ pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
 ##amp-sticky-ad
 ##body > style + div[id="ics"]
 
+
+player.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 ##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 ##[onclick="openAuc();"]
 ##[title="Free money easy"]
