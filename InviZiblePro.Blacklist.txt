@@ -1,9 +1,9 @@
 ! [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20231024T0600
+! Version: 20231213T1200
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
-! ☆ ---- Personal CNAME ---- ☆
+! ☆ ---- Personal Ads Tracking and Other ---- ☆
 *.exoclick.
 *.lookinews.
 *.reminews.
@@ -33,8 +33,6 @@ explorads
 *.rtb.
 *.rtb2.
 *.xml.
-
-! ☆ ---- Personal Ads Tracking and Other ---- ☆
 gtm.oasisfeng.com
 graph.facebook.com
 *.stun.twilio.com
@@ -160,6 +158,7 @@ graph.facebook.com
 *.batmobi.
 *.bluehornet.
 *.brandreachsys.
+*.braze.
 *.btttag.
 *.bugsnag.
 *.bumlam.
@@ -199,6 +198,7 @@ graph.facebook.com
 *.getclicky.
 *.go2affise.
 *.hitbox.
+*.hotcoin.
 *.hotjar.
 *.hyprmx.
 *.igexin.
@@ -210,12 +210,14 @@ graph.facebook.com
 *.keywordblocks.
 *.kochava.
 *.ksapisrv.
+*.kucoin.
 *.lgsmartad.
 *.lijit.
 *.linkbucks.
 *.localytics.
 *.logger.
 *.logging.
+*.logs.datadoghq.
 *.luckyorange.
 *.marketo.
 *.mathtag.
@@ -1231,6 +1233,7 @@ adservice.google.
 amp.
 ampproject.
 appinvite*.google*
+app-measurement.
 chrome*-pa.googleapis.com
 ! content-*.googleapis.com
 crashlytic*
@@ -1270,6 +1273,7 @@ redirector.googlevideo.com
 urchin.com
 
 ! Coverage for chinese...? (Related to https://github.com/lightswitch05/hosts/issues/290)
+cn.com
 admob-cn.com
 app-measurement-cn.com
 dartsearch-cn.net
@@ -1278,8 +1282,8 @@ googleoptimize-cn.com
 googlesyndication-cn.com
 googletraveladservices-cn.com
 googlevads-cn.com
-! gvt*-cn.com
-! gvt1-cn.com
+gvt*-cn.com
+gvt1-cn.com
 gvt2-cn.com
 gvt3-cn.com
 gvt4-cn.com
@@ -1387,6 +1391,7 @@ web.facebook.com
 z.facebook.com
 
 ! Others
+scontent.cdninstagram
 fbpigeon.com
 gateway.facebook.com
 lookaside.facebook.com
