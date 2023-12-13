@@ -1,6 +1,6 @@
 ! [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20231213T1230
+! Version: 20231213T2100
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal Ads Tracking and Other ---- ☆
@@ -33,6 +33,8 @@ explorads
 *.rtb.
 *.rtb2.
 *.xml.
+*.mt*.cn
+*.binmt.cc
 gtm.oasisfeng.com
 graph.facebook.com
 *.stun.twilio.com
@@ -1275,6 +1277,7 @@ urchin.com
 
 ! Coverage for chinese...? (Related to https://github.com/lightswitch05/hosts/issues/290)
 cn.com
+cn.net
 admob-cn.com
 app-measurement-cn.com
 dartsearch-cn.net
@@ -1392,7 +1395,8 @@ web.facebook.com
 z.facebook.com
 
 ! Others
-scontent.cdninstagram
+scontent.cdninstagram.
+v.whatsapp.net
 fbpigeon.com
 gateway.facebook.com
 lookaside.facebook.com
