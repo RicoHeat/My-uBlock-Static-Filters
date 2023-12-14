@@ -1,6 +1,6 @@
 ! [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20231213T2100
+! Version: 20231215T0600
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal Ads Tracking and Other ---- ☆
@@ -33,8 +33,6 @@ explorads
 *.rtb.
 *.rtb2.
 *.xml.
-*.mt*.cn
-*.binmt.cc
 gtm.oasisfeng.com
 graph.facebook.com
 *.stun.twilio.com
@@ -171,7 +169,6 @@ graph.facebook.com
 *.clicktale.
 *.clksite.
 *.cncluster.
-*.collector.
 *.contentabc.
 *.contextweb.
 *.coremetrics.
@@ -1276,8 +1273,57 @@ redirector.googlevideo.com
 urchin.com
 
 ! Coverage for chinese...? (Related to https://github.com/lightswitch05/hosts/issues/290)
-cn.com
-cn.net
+
+apps.cn
+sagemaker.com.cn
+amazonaws.com.cn
+*.cn
+ac.cn
+com.cn
+edu.cn
+gov.cn
+net.cn
+org.cn
+mil.cn
+公司.cn
+网络.cn
+網絡.cn
+ah.cn
+bj.cn
+cq.cn
+fj.cn
+gd.cn
+gs.cn
+gz.cn
+gx.cn
+ha.cn
+hb.cn
+he.cn
+hi.cn
+hl.cn
+hn.cn
+jl.cn
+js.cn
+jx.cn
+ln.cn
+nm.cn
+nx.cn
+qh.cn
+sc.cn
+sd.cn
+sh.cn
+sn.cn
+sx.cn
+tj.cn
+xj.cn
+xz.cn
+yn.cn
+zj.cn
+hk.cn
+mo.cn
+tw.cn
+*.cn.com
+*.cn.net
 admob-cn.com
 app-measurement-cn.com
 dartsearch-cn.net
@@ -1395,8 +1441,7 @@ web.facebook.com
 z.facebook.com
 
 ! Others
-scontent.cdninstagram.
-v.whatsapp.net
+scontent.cdninstagram
 fbpigeon.com
 gateway.facebook.com
 lookaside.facebook.com
