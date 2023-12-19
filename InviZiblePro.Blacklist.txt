@@ -1,6 +1,6 @@
 ! [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20231219T1700
+! Version: 20231219T1800
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal Ads Tracking and Other ---- ☆
@@ -35,6 +35,8 @@ explorads
 *.xml.
 gtm.oasisfeng.com
 graph.facebook.com
+serverg.apxor.com
+dsp-adcreative.
 *.stun.twilio.com
 *google-analytics*
 *trafficjunky*
@@ -133,6 +135,7 @@ graph.facebook.com
 *.adsafeprotected.
 *.adsame.
 *.adsco.re
+adsco.re
 *.adskeeper.
 *.adsplay.
 *.adswizz.
@@ -1445,6 +1448,8 @@ z.facebook.com
 
 ! Others
 scontent.cdninstagram.com
+v.whatsapp.net
+reg-e2ee.facebook.com
 fbpigeon.com
 gateway.facebook.com
 lookaside.facebook.com
