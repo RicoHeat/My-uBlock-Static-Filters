@@ -1,6 +1,6 @@
 ! [Blacklist]
 ! Title: 🔐 InviZible Pro Beta Blacklist
-! Version: 20231219T2200
+! Version: 20231219T2210
 ! My personal condensed blacklist for the android app InviZible Pro Beta
 
 ! ☆ ---- Personal Ads Tracking and Other ---- ☆
@@ -86,7 +86,7 @@ dsp-adcreative.
 *-adserver-*
 *-analytics-*
 *-collector-*
-*.collector.
+collector.
 *-loggers-*
 *-metrics-*
 *.vortex.
