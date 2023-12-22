@@ -1,10 +1,10 @@
 ! Title: ☠️ My User Rules
-! Version: 20231220T1800
+! Version: 20231222T0900
 
 ! Testing
 |stun://
 ||stun.
-.stun.*
+*.stun.*
 .local^
 |stun://45.11.104.186:3478
 ||stun.l.google.com^
@@ -426,7 +426,8 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 ||sefsdvc.com/en/us/media/dynamic/id$subdocument,app=com.streamdev.aiostreamer
 ||firebaseinstallations.googleapis.com^$app=com.playit.videoplayer
 @@||adguard-dns.io^
-.col^$app=com.playit.videoplayer
+*.col^$app=com.playit.videoplayer
+||cheerfulgames2023.
 /optimizely-
 @@||github.com^$generichide
 @@||github.githubassets.com^$script
