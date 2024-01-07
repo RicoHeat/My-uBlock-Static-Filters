@@ -1,5 +1,6 @@
+! [Adblock Plus 2.0]
 ! Title: ☠️ My User Rules
-! Version: 20231222T0900
+! Version: 20240107T1100
 
 ! Testing
 |stun://
@@ -231,7 +232,7 @@ letmejerk.*##div[class^="lmj"]
 
 ! 2023-02-14 https://yandexcdn.com
 @@||yandexcdn.com^$generichide
-*/images/adblock.jpg$image
+/images/adblock.jpg$image
 
 ! 2023-02-18 https://latestpornvideo.com
 @@||latestpornvideo.com^$generichide
@@ -276,9 +277,6 @@ github.com##.rounded-1.border.blankslate-spacious.blankslate
 ! 2023-03-23 https://xmoviesforyou.net
 ||xmoviesforyou.net^$popup
 
-! 2023-03-22 https://player.tabooporns.com
-||vast.yomeno.xyz^$xhr,redirect-rule=nooptext
-
 ! 2023-03-22 https://a.adtng.com
 ||justincestporn.com^$popup,domain=adtng.com,important
 
@@ -318,7 +316,7 @@ www.porngo.com##li.menu-list__row:nth-of-type(9)
 justincestporn.com##.entry-header > .button
 
 ! 2023-07-31 https://mydaddy.cc
-*/ads/banner.js
+/ads/banner.js
 
 ! 2023-08-03 https://m.hqporner.com
 @@||mydaddy.cc/video/*$third-party
@@ -335,7 +333,7 @@ justincestporn.com##.entry-header > .button
 @@||dood.re^
 
 ! 2023-08-05 https://player.tabooporns.com
-@@||c26.netu.tv^$xhr,domain=player.tabooporns.com
+@@||c26.netu.tv^$xmlhttprequest,domain=player.tabooporns.com
 
 ! 2023-08-06 https://www.pornhits.com
 @@||tn.onlyporn.tube/media/*$domain=www.pornhits.com
@@ -347,7 +345,7 @@ justincestporn.com##.entry-header > .button
 @@||zload.cc^$media,domain=watchporn.to
 
 ! 2023-04-27 https://pornwiss.com
-@@||pornwiss.com/wp-admin/*$xhr
+@@||pornwiss.com/wp-admin/*$xmlhttprequest
 ||pornwiss.com^$popup,important
 
 ! 2023-04-30 https://xgroovy.com
@@ -370,8 +368,6 @@ www.hd-easyporn.com###bRJDu1XglNpd
 
 ! 2023-06-27 https://www.pornhits.com
 www.pornhits.com##.video-header
-
-! 2023-06-30 https://www.pornhits.com
 www.pornhits.com##.header__bn
 
 ! 2023-06-30 https://pornx.to
@@ -399,7 +395,7 @@ player.tabooporns.com##+js(set-constant, console.clear, undefined)
 .doublepimp.com^$third-party
 ||itspsmup.com^
 @@/favicon.ico$~third-party
-@@||google.com/recaptcha/$frame,script
+@@||google.com/recaptcha/$subdocument,script
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,third-party
 @@/ad/api/popunder.js|$script,~third-party
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
@@ -410,10 +406,10 @@ pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
 ||adsessionserv.com^
 ||impactserving.com^
 @@||kb.adguard.com^
-@@||mtouch.facebook.com/watch^$domain=mtouch.facebook.com
+@@||facebook.com/watch^$domain=mtouch.facebook.com
 @@||d283001a7d.4415f05492.com^$app=com.mycompany.app.soulbrowser
 @@||static-*.com^
-@@||infinitedata-pa.googleapis.com^$app=com.google.android.gms
+@@||*.googleapis.com^$app=com.google.android.gms
 ||239.255.255.250:1900^$app=com.playit.videoplayer
 @@||api.nextdns.io^
 @@||gitlab.com^$generichide
@@ -424,9 +420,9 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 @@||objects.githubusercontent.com^
 @@||linkip.adguard-dns.com^
 ||sefsdvc.com/en/us/media/dynamic/id$subdocument,app=com.streamdev.aiostreamer
-||firebaseinstallations.googleapis.com^$app=com.playit.videoplayer
+||*.googleapis.com^$app=com.playit.videoplayer
 @@||adguard-dns.io^
-*.col^$app=com.playit.videoplayer
+||*.col^$app=com.playit.videoplayer
 ||cheerfulgames2023.
 /optimizely-
 @@||github.com^$generichide
@@ -444,7 +440,7 @@ realsrv.com##iframe[src^="https://a.adtng.com/"]
 $script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="25000"]
 /^https?:\/\/[a-z]{6,14}\.com?\/[acd][-\.\/_A-Za-z][DHWm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6wyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xmlhttprequest,third-party,match-case
 @@||sentry.adguard.com^
-*/api/spots/$frame
+/api/spots/$subdocument
 @@||ssl.p.jwpcdn.com/player/v/*$script
 ||goaserv.com^
 ||eporner.com/event.php
