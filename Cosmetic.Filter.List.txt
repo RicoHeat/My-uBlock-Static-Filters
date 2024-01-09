@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20231202T0800
+! Version: 20240109T1130
 
 ! Test
 ##.adv-cat-
@@ -1721,7 +1721,7 @@ pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
 ##amp-sticky-ad
 ##body > style + div[id="ics"]
 
-
+dirtyvideo.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 player.*##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 ##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 ##[onclick="openAuc();"]
