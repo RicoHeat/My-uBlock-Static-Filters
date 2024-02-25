@@ -1,6 +1,6 @@
 ! [Adblock Plus 2.0]
 ! Title: ☠️ My User Rules
-! Version: 20240108T0830
+! Version: 20240225T2330
 
 ! Testing
 |stun://
@@ -380,6 +380,9 @@ netpornsex.net##+js(aopr, BetterJsPop)
 
 ! 2023-07-10 https://familyporn.tv
 familyporn.tv##[href="https://familyporn.tv/link/brattymilf/"]
+
+! 2024-01-07 https://taboohome.com
+@@||*/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 
 player.tabooporns.com##+js(set-constant, console.clear, undefined)
 
