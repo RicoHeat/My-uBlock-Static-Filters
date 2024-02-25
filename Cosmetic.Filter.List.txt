@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20240124T0030
+! Version: 20240225T2300
 
 ! Test
 ##.adv-cat-
@@ -79,7 +79,6 @@ familyporn.tv##.spot
 familyporn.tv##li.menu_item:nth-of-type(4)
 familyporn.tv##li.menu_item:nth-of-type(6)
 familyporn.tv##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
-||familyporn.tv/images/mtsban.jpg$image
 
 ! 2023-05-25 https://redporn.tv
 redporn.tv##.bb_mobile_top
@@ -133,9 +132,6 @@ en.xhdporno.sexy##.promo
 ! 2024-01-01 https://pornerleak.com
 pornerleak.com##div.responsive-player:nth-of-type(1)
 
-! 2024-01-07 https://taboohome.com
-@@||*/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
-
 ! 2024-01-16 https://m.facebook.com
 m.facebook.com##.bottom.fixed-container.m
 
@@ -144,21 +140,14 @@ www.pornhits.com##.video-header
 pornhits.com###s-suggesters
 pornhits.com##.ft
 
-@@||wp.com^$domain=watchpornx.com
 www.xfreehd.com##.visible-sm.visible-xs.center > div
 www.xfreehd.com##.indexMiddleX0
 www.xfreehd.com##.cp-7.container > div > .center > div
-@@||tnaflix.com/assets/
-||milfnut.net/sources15/43354d4b384d346e553663467c7c387176716d7735386e3132677c7c5a794e343166736f343976427c7c73747265616d7362$xmlhttprequest,~third-party
-@@||appcdn01.xyz/vast.js$script,domain=milfnut.net
 github.com##.rounded-1.border.blankslate-spacious.blankslate
-@@||cdn60741912.ahacdn.me^$image,domain=pornktube.vip
 hardcoreincest.net##div.headline:nth-of-type(2)
 android-zone.ws##li.ipsDataItem:nth-of-type(2)
 onlycestporn.com##.entry-header > .button
 taboodaddy.com##.happy-header-mobile
-@@||ei.phncdn.com/www-static/css/*$stylesheet,domain=pornhub.com
-@@||di.phncdn.com/www-static/css/*$stylesheet,domain=pornhub.com
 hdsex.org##.player-section__promo
 hdsex.org##.second-navigation
 en.xhdporno.porn##div#preview:nth-of-type(9) > .innercont
@@ -176,9 +165,7 @@ www.erome.com##div.sp:nth-of-type(1)
 www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
 dsex.to##.now
 dsex.to##.font-weight-bold.twitter
-@@||daxab.com/player/*$domain=dsex.to
 dsex.to##iframe[src^="https://a.adtng.com/"]
-@@||dood.so^$domain=stepmomsx.com
 stepmomsx.com##.happy-sidebar
 stepmomsx.com##.one-column-footer > .widget_text.widget
 stepmomsx.com##.lazyloading
@@ -252,7 +239,6 @@ www.reddit.com##body.scroll-is-blocked:style(overflow: visible!important; positi
 www.reddit.com##+js(aeld, touchmove)
 www.reddit.com##.XPromoPopupRplNew
 xfantasy.su###listing-ba
-|about:$popup,domain=player.tabooporns.com
 watchporn.to##.player-related-videos
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
@@ -908,8 +894,6 @@ stepmomsx.com##.happy-header-mobile > .lazyloaded
 stepmomsx.com##.entry-header > .button
 fuckamouth.com##body > div:nth-of-type(3)
 fuckamouth.com##.alert
-||tabooporns.com/wp-content/themes/tabootube/images/loading-bert.gif$image
-@@||userapi.com^$image,domain=dsex.to
 pornhegemon.com###post-8360 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 pornhegemon.com###post-80996 > div.entry-content:nth-child(2) > div.code-block.code-block-10.ai-viewport-2.ai-viewport-3:first-child
 yandexcdn.*##+js(set-constant, adBlockDetected, noopFunc)
