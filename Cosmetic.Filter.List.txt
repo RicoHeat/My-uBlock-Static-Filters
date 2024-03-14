@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20240225T2300
+! Version: 20240314T1600
 
 ! Test
 ##.adv-cat-
@@ -139,6 +139,25 @@ m.facebook.com##.bottom.fixed-container.m
 www.pornhits.com##.video-header
 pornhits.com###s-suggesters
 pornhits.com##.ft
+
+! 2024-02-02 https://watchporn.to
+||watchporn.to/related_videos_html/*$xmlhttprequest,~third-party
+
+! 2024-03-04 https://pornxp.com
+@@||pornxp.com^$~third-party
+
+! 2024-03-07 https://xhdporno.name
+@@||xhdporno.name^$~third-party
+xhdporno.name##.promo
+
+! 2024-03-11 https://pornx.to
+||pornx.to/wp-content/uploads/billboard.png$image,~third-party
+||pornx.to/wp-content/uploads/ad*x*.png$image,~third-party
+
+! 2024-03-13 https://m.tg777.me
+m.tg777.me##.promotion-game
+m.tg777.me##.ng-star-inserted.promotion-game-list > .close.switch
+m.tg777.me##.ng-star-inserted > app-promotion-game
 
 www.xfreehd.com##.visible-sm.visible-xs.center > div
 www.xfreehd.com##.indexMiddleX0
