@@ -1,6 +1,6 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: ☢️ NoCryptoCoins Filterlist
-! Version: 20230914T1100
+! Version: 20240329T0500
 ! Description: A crypto mining protection list compiled from various sources with redundancies removed
 
 ! Fixed due to video playback problems on a few NSFW websites like milfnuts.net
@@ -15,17 +15,12 @@
 ||1q2w3.top^$third-party
 ||23.83.114.131^$third-party
 ||45.15.156.210^
-||45.32.105.134^$third-party
-||77.162.125.199^$third-party
 ||185.165.169.108^$third-party
 ||a-calc.com^$third-party
 ||a-calc.de^$third-party
 ||aalbbh84.info^$third-party
-||abc.pema.cl^$third-party
 ||acbp0020171456.page.tl^
 ||ad-miner.com^$third-party
-||adless.io^$third-party
-||adminer.com^$third-party
 ||aeros01.tk^$third-party
 ||aeros02.tk^$third-party
 ||aeros11.tk^$third-party
@@ -40,8 +35,6 @@
 ||axoncoho.tk^$third-party
 ||aymcsx.ru^$third-party
 ||bafybeidravcab5p3acvthxtwosm4rfpl4yypwwm52s7sazgxaezfzn5xn4.ipfs.infura-ipfs.io^
-||baiduccdn1.com^$third-party
-||becanium.com^$third-party
 ||beeppool.org^$third-party
 ||belicimo.pw^
 ||berateveng.ru^
@@ -63,13 +56,10 @@
 ||bmst.pw^
 ||brominer.com^$third-party
 ||browsermine.com^$third-party
-||candid.zone^$third-party
 ||cfcdist.gdn^$third-party
 ||cfcdist.loan^$third-party
 ||cfcnet.top^$third-party
-||clgserv.pro^$third-party
 ||cloud-miner.de^$third-party
-||cloud-miner.eu^$third-party
 ||cloudcdn.gdn^$third-party
 ||cloudflane.com^$third-party
 ||cnhv.co^$third-party
@@ -144,7 +134,6 @@
 ||jqwww.download^$third-party
 ||js.vidoza.co^
 ||jscdndel.com^$third-party
-||jscoinminer.com^$third-party
 ||jurty.ml^
 ||laserveradedomaina.com^$third-party
 ||ledhenone.com^$third-party
@@ -232,7 +221,6 @@
 ||sourcecode.pro^
 ||sparechange.io^$third-party
 ||srcips.com^$third-party
-||statdynamic.com^$third-party
 ||static-cnt.bid^$third-party
 ||staticsfs.host^$third-party
 ||statistic.date^$third-party
@@ -681,7 +669,6 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||play*.flashx.pw/filter
 ||thepiratebay-proxylist.se/filter$websocket
 ||seminarski-diplomski.co.rs/js/custom.js
-||cdn-102.statdynamic.com/filter
 ||zona.plus/*.php|
 ||sweetbook.net/templates/skin/sweetnew/js/internal.js
 ||s*.skencituer.com^
@@ -715,13 +702,10 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||bablace.com
 ||bewaslac.com
 ||biberukalap.com
-||bitclub.network^$third-party
-||bitclubnetwork.com^$third-party
 ||browsealoud.com/plus/scripts/$script
 ||cashbeet.com
 ||cdn-jquery.host^$third-party
 ||cdnfile.xyz^$third-party
-||chmproxy.bid^$third-party
 ||cloudcoins.co^$third-party
 ||coincheck.com^$third-party
 ||coinlab.biz^$third-party
@@ -800,6 +784,44 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||vidzi.tv/bootstrap.
 ||yuebofa.cc^$third-party
 ||zymerget.bid
+
+! ☆ ---- EasyPrivacy Tracking Servers Mining ---- ☆
+! https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_mining.txt
+.n.2.1.l50.js^$third-party
+||185.193.38.148^
+||45.32.105.134^
+||77.162.125.199^
+||abc.pema.cl^
+||adless.io^
+||adminer.com^
+||baiduccdn1.com^
+||becanium.com^
+||bitclub.network^
+||bitclubnetwork.com^
+||candid.zone^
+||chmproxy.bid^
+||clgserv.pro^
+||cloud-miner.eu^
+||cloudflareinsights.com^$third-party
+||coinwebmining.com^$third-party
+||coinzillatag.com^$third-party
+||directprimal.com^$third-party
+||ipinfo.io^$third-party
+||jscoinminer.com^
+||laferia.cr^$third-party
+||lmiutil.com^$third-party
+||mininghub.club^$third-party
+||mollnia.com^$third-party
+||mutinyhq.com^$third-party
+||nabaza.com^$third-party
+||nimpool.io^$third-party
+||openguid.org^$third-party
+||s7ven.com^$third-party
+||statdynamic.com^
+||static-sb.com^$third-party
+||sushipool.com^$third-party
+||tmmp.io^$third-party
+||wtmtrack.com^$third-party
 
 ! ☆ ---- MinerBlock Filters ---- ☆
 ! https://raw.githubusercontent.com/xd4rker/MinerBlock/master/assets/filters.txt
