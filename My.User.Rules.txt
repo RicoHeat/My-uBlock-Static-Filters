@@ -1,6 +1,6 @@
 ! [Adblock Plus 2.0]
 ! Title: ☠️ My User Rules
-! Version: 20240225T2330
+! Version: 20240328T2000
 
 ! Testing
 |stun://
@@ -16,6 +16,14 @@
 *-stun.facebook.*
 ||stun.*.facebook.*
 ||stun.twilio.com^
+
+! Facebook Crap
+*-fallback.facebook.*
+*-fallback.facebook.net
+*-fallback.xx.fbcdn.net
+*fallback.facebook*
+*fallback.*.fbcdn.*
+*-fallback.facebook.com
 
 ! Google Search Results DMCA Notifications Removal
 www.google.com##.Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac
@@ -52,6 +60,18 @@ www.google.com##.Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac
 @@/^redirect\.[a-z0-9\-]*\./
 @@/^target\.[a-z0-9\-]*\./
 @@/^open\.[a-z0-9\-]*\./
+
+! Anti anti-adb - general by Yuki2718 2024-03-28
+/\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
+/\/wp-content\/uploads\/[a-zA-Z]{12}\/[a-zA-Z]{12}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|j|public|scripts|static)\/[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,third-party,match-case,domain=~edu|~gov|~jp
+@@/ads-prebid.js$script,~third-party
+@@||ads.remix.es/advertisement.js|$script
+@@||g.adspeed.net/ad.php?do=detectadblocker|$script
+||doubleclick.net/favicon.ico$image,redirect=32x32.png
+! Incompatible with MV3
+/player/stats.php?$image,~third-party,redirect-rule=1x1.gif
+/popunder_$script,redirect-rule=noopjs
 
 ! ☆ ---- 2022-10-23 User Rules ---- ☆
 ||reddit.com/counters/$xmlhttprequest
@@ -397,7 +417,7 @@ player.tabooporns.com##+js(set-constant, console.clear, undefined)
 @@||passport.yandex.
 .doublepimp.com^$third-party
 ||itspsmup.com^
-@@/favicon.ico$~third-party
+@@/favicon.ico$~third-party,domain=~doubleclick.net
 @@||google.com/recaptcha/$subdocument,script
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,third-party
 @@/ad/api/popunder.js|$script,~third-party
