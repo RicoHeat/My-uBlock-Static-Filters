@@ -1,6 +1,6 @@
 ! [Adblock Plus 2.0]
 ! Title: ☠️ My User Rules
-! Version: 20240328T2000
+! Version: 20240615T2300
 
 ! Testing
 |stun://
@@ -102,7 +102,6 @@ www.google.com##.Pqkn2e.E6sCHc.vt6azd.Ww4FFb.ClPXac
 ||static.hotjar.com^$third-party
 ||com/banners/$image,object,subdocument,domain=~pingdom.com|~thetvdb.com|~tooltrucks.com
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
-||xvideos-games.com^$app=com.wg.xvideos.app
 
 ! 2022-10-03 https://hqq.tv
 @@||commentsengine.com^
@@ -404,6 +403,10 @@ familyporn.tv##[href="https://familyporn.tv/link/brattymilf/"]
 ! 2024-01-07 https://taboohome.com
 @@||*/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 
+! 2024-06-15 https://www.porndish.com
+packsporn.com,pahaplayers.click,pahe.*,palimas.org,pandafiles.com,papahd.club,papahd1.xyz,password69.com,pastemytxt.com,payskip.org,pctfenix.*,pctnew.*,peeplink.in,peliculas24.*,peliculasmx.net,pelisplus.*,pervertgirlsvideos.com,pervyvideos.com,phim12h.com,picdollar.com,pickteenz.com,pics4you.net,picsxxxporn.com,pinayscandalz.com,pinkueiga.net,piratebay.*,piratefast.xyz,piratehaven.xyz,pirateiro.com,pirlotvonline.org,playtube.co.za,plugintorrent.com,plyjam.*,plylive.*,plyvdo.*,pmvzone.com,porndish.com,pornez.net,pornfetishbdsm.com,pornfits.com,pornhd720p.com,pornhoarder.*,pornobr.club,pornobr.ninja,pornodominicano.net,pornofaps.com,pornoflux.com,pornotorrent.com.br,pornredit.com,pornstarsyfamosas.es,pornstreams.co,porntn.com,pornxbit.com,pornxday.com,portaldasnovinhas.shop,portugues-fcr.blogspot.com,poscishd.online,poscitesch.com,poseyoung.com,pover.org,prbay.*,projectfreetv.*,proxybit.*,proxyninja.org,psarips.*,pubfilmz.com,publicsexamateurs.com,punanihub.com,putlocker5movies.org,pxxbay.com##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
+packsporn.com,pahaplayers.click,pahe.*,palimas.org,pandafiles.com,papahd.club,papahd1.xyz,password69.com,pastemytxt.com,payskip.org,pctfenix.*,pctnew.*,peeplink.in,peliculas24.*,peliculasmx.net,pelisplus.*,pervertgirlsvideos.com,pervyvideos.com,phim12h.com,picdollar.com,pickteenz.com,pics4you.net,picsxxxporn.com,pinayscandalz.com,pinkueiga.net,piratebay.*,piratefast.xyz,piratehaven.xyz,pirateiro.com,pirlotvonline.org,playtube.co.za,plugintorrent.com,plyjam.*,plylive.*,plyvdo.*,pmvzone.com,porndish.com,pornez.net,pornfetishbdsm.com,pornfits.com,pornhd720p.com,pornhoarder.*,pornobr.club,pornobr.ninja,pornodominicano.net,pornofaps.com,pornoflux.com,pornotorrent.com.br,pornredit.com,pornstarsyfamosas.es,pornstreams.co,porntn.com,pornxbit.com,pornxday.com,portaldasnovinhas.shop,portugues-fcr.blogspot.com,poscishd.online,poscitesch.com,poseyoung.com,pover.org,prbay.*,projectfreetv.*,proxybit.*,proxyninja.org,psarips.*,pubfilmz.com,publicsexamateurs.com,punanihub.com,putlocker5movies.org,pxxbay.com##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP/)
+
 player.tabooporns.com##+js(set-constant, console.clear, undefined)
 
 ! ☆ ---- Older User Rules ---- ☆
@@ -430,22 +433,15 @@ pornhub.*^$script[tag-content="getCookieAdvanced"][max-length="262144"]
 ||impactserving.com^
 @@||kb.adguard.com^
 @@||facebook.com/watch^$domain=mtouch.facebook.com
-@@||d283001a7d.4415f05492.com^$app=com.mycompany.app.soulbrowser
 @@||static-*.com^
-@@||*.googleapis.com^$app=com.google.android.gms
-||239.255.255.250:1900^$app=com.playit.videoplayer
 @@||api.nextdns.io^
 @@||gitlab.com^$generichide
 @@||play.google.com^$~third-party
 @@||pgl.yoyo.org/adservers^
-172.67.178.5$network,app=com.streamdev.aiostreamer
 realsrv.com##iframe[src^="https://a.adtng.com/"]
 @@||objects.githubusercontent.com^
 @@||linkip.adguard-dns.com^
-||sefsdvc.com/en/us/media/dynamic/id$subdocument,app=com.streamdev.aiostreamer
-||*.googleapis.com^$app=com.playit.videoplayer
 @@||adguard-dns.io^
-||*.col^$app=com.playit.videoplayer
 ||cheerfulgames2023.
 /optimizely-
 @@||github.githubassets.com^$script
@@ -471,9 +467,17 @@ $script[wildcard="*adcashMacros*zoneSett*"][min-length="2000"][max-length="25000
 ||eporner.com/dot/
 &amp;action=js_stats&amp;
 
-! ☆ ---- cloned app ---- ☆
-@@||graph.facebook.com^$app=com.facebook.orka
-@@||b-graph.facebook.com^$app=com.facebook.orka
+! ☆ ---- app= for AdGuard Android---- ☆
+||graph.facebook.com^$app=com.facebook.orka
+||b-graph.facebook.com^$app=com.facebook.orka
+||sefsdvc.com/en/us/media/dynamic/id$subdocument,app=com.streamdev.aiostreamer
+172.67.178.5$network,app=com.streamdev.aiostreamer
+@@||*.googleapis.com^$app=com.google.android.gms
+@@||d283001a7d.4415f05492.com^$app=com.mycompany.app.soulbrowser
+||xvideos-games.com^$app=com.wg.xvideos.app
+||*.col^$app=com.playit.videoplayer
+||*.googleapis.com^$app=com.playit.videoplayer
+||239.255.255.250:1900^$app=com.playit.videoplayer
 
 ! ☆ ---- 1DM filters ---- ☆
 @@/jwplayer.core.controls.html5.js$script
@@ -551,52 +555,52 @@ savelinks.me###adbox,#banner_ad,a[href*='wowmasti.com']
 ||rayjump.com^
 
 ! Testing strict popup blocking
-/popup3.$document
-/popup_ad.$document,domain=~webopedia.com
-/popup_code.$document
-/popupads.$document
-/popupdfp.$document
-/popuplog/*$document
-/popupunder.$document
-/promoredirect?*&campaign=*&zone=$document
-/punder.php$document
-/puopen$document
-/realmedia/ads/*$document
-/rotator.php?$document
-/sendspace-pop.$document
-/servlet/ajrotator/*$document
-/servlet/view/*$document
-/showads/*$document
-/spopunder^$document
-/srvclk.php?$document
-/static/js/pop*.$document
-/streamatepop.$document
-/werbepopup/*$document
-/wp-popup-scheduler/*$document
-/wp-super-popup-pro/*$document
-/wp-super-popup/*$document
-/wp_actionpop/*$document
-/yesbaby.$document
-=popunder&$document
-=popunders&$document
-?AdUrl=$document
-?PopAd=$document
-?bannerid=*&punder=$document
-?iiadext=$document
-?popup:msp_$document
-?popupiniframe=$document
-?type=oas_pop&$document
-?zoneid=*_bannerid=$document
-^utm_medium=pops^$document
-^utm_medium=popunder^$document
-_pop_ad.$document
-_pop_ad/$document
-_pop_under.$document
-_popunder&$document
-_popunder+$document
-_popunder.$document
-_popunder_$document
-_popupunder.$document
+/popup3.$all
+/popup_ad.$all,domain=~webopedia.com
+/popup_code.$all
+/popupads.$all
+/popupdfp.$all
+/popuplog/*$all
+/popupunder.$all
+/promoredirect?*&campaign=*&zone=$all
+/punder.php$all
+/puopen$all
+/realmedia/ads/*$all
+/rotator.php?$all
+/sendspace-pop.$all
+/servlet/ajrotator/*$all
+/servlet/view/*$all
+/showads/*$all
+/spopunder^$all
+/srvclk.php?$all
+/static/js/pop*.$all
+/streamatepop.$all
+/werbepopup/*$all
+/wp-popup-scheduler/*$all
+/wp-super-popup-pro/*$all
+/wp-super-popup/*$all
+/wp_actionpop/*$all
+/yesbaby.$all
+=popunder&$all
+=popunders&$all
+?AdUrl=$all
+?PopAd=$all
+?bannerid=*&punder=$all
+?iiadext=$all
+?popup:msp_$all
+?popupiniframe=$all
+?type=oas_pop&$all
+?zoneid=*_bannerid=$all
+^utm_medium=pops^$all
+^utm_medium=popunder^$all
+_pop_ad.$all
+_pop_ad/$all
+_pop_under.$all
+_popunder&$all
+_popunder+$all
+_popunder.$all
+_popunder_$all
+_popupunder.$all
 
 /getjs?nadipdata$third-party,replace=/[\s\S]+openOriginalUrl[\s\S]+/openOriginalUrl()/
 /asset/angular.min.js?t=$xmlhttprequest,~third-party
@@ -807,7 +811,6 @@ http://www.ads.$third-party
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|adshort.club|newepisodes.co|megaup.net|ckk.ai|uploadas.com|gounlimited.to|streamtajm.com|yesmovies.to|thehouseofportable.com|kanqite.com|oke.io|xmovies8.pl|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|drhtv.com.pl|srt.am|estrenos10.com|dancingastronaut.com|mixing.dj|gamesofpc.com|adf.ly|ay.gy|tinyical.com|mmoity.com|vizer.tv|itdmusic.com|cloudyfiles.org|prefiles.com|cloudyfiles.co|anime-odcinki.pl|clicknupload.link|unblocked.lol|suprafiles.co|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|feliratozz.hu|filescdn.com|javgo.me|katcr.co|katfile.com|keeplinks.eu|leporno.org|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sadeemapk.com|salefiles.com|sankakucomplex.com|shink.in|uplod.it|uplod.ws|uptostream.com|userscloud.com|watchers.to|zone.telechargementz.tv|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|mrpcgamer.co|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|allmoviesforyou.net|soap2day.ac|torrentgalaxy.mx|igg-games.co|manganelo.tv|ziperto.com|bluemediafile.*|oxtorrent.sk
 
 ! Testing EFF.org Privacy Badger's Yellow list converted to @@*$generichide
-
 @@||cstaticdun.126.net^$generichide
 @@||nosdn.127.net^$generichide
 @@||bnet.163.com^$generichide
