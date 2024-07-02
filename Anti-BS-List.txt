@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: 🆎️ The Anti-BS List
-! Version: 20240624T0230
+! Version: 20240702T0830
 ! Description: bogachenko's fuckfuckadblock, Yuki2718's Anti Anti-Adblock and Adblock Warning Removal list combined with redundancies removed
-
+!
 ! ★ ---- 🖕 Fuck Fuckadblock
 !
 ###AdBlockDialog
@@ -1093,7 +1093,7 @@ mediafire.com##+js(addEventListener-defuser.js, click, ClickHandler)
 dragontea.ink##+js(remove-attr.js, style, body > div, stay)
 2ix2-alternative.de,2ix2com.de,2ix2tv.de,cryptstream.de,mysql2dumpcrypt.de,mysqlcryptnow.de,nydus.org,tv24livestream1.de,tv24livestream2.de##+js(no-setTimeout-if.js, /ab==|window\.getComputedStyle\(el\)/)
 fadedfeet.com,homeculina.com,ineedskin.com,kenzo-flowertag.com,lawyex.co,mdn.lol##+js(no-setTimeout-if.js, /adblock|isRequestPresent/)
-
+!
 ! ★ ---- Anti Anti-adblock Enhancer for AdGuard
 !
 &crc=1|$xmlhttprequest,third-party
@@ -1277,12 +1277,12 @@ fadedfeet.com,homeculina.com,ineedskin.com,kenzo-flowertag.com,lawyex.co,mdn.lol
 _spot_id=*&zone_id=$script,~third-party
 =%*&v=&m=|$popup
 =eyJ.js^$script
-
+!
 ||adclixx.net^$script,third-party,redirect=prevent-bab2,important
 ||adnetasia.com^$script,third-party,redirect=prevent-bab2,important
 ||adtrackers.net^$script,third-party,redirect=prevent-bab2,important
 ||bannertrack.net^$script,third-party,redirect=prevent-bab2,important
-
+!
 ###ad_300:not([style^="position: absolute; left: -5000px"])
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
@@ -1338,13 +1338,13 @@ _spot_id=*&zone_id=$script,~third-party
 ##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px"][style$="overflow: hidden; z-index: 2147483647;"]
 ##in-page-message[id][doskip]
 ##ins[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
-
+!
 #$#.div-gpt-ad { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 ~anydebrid.com,~colonist.io,~ff14angler.com,~downloads.descendant.me,~hotdebrid.com,~html5.gamedistribution.com,~paraphraser.io,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co#$#ins.adsbygoogle { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 #$#[class^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 ~dropgalaxy.com,~kurashiru.com,~saitama-np.co.jp#$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 #$#div[id^="div-gpt-"]:not([id^="div-gpt-ad"]) { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-
+!
 -prebid.$script,badfilter
 .com/ads.$subdocument,redirect-rule=noopframe
 .tv/ads.$xmlhttprequest,redirect-rule=prebid-ads
@@ -1464,7 +1464,7 @@ _spot_id=*&zone_id=$script,~third-party
 #@#div[id^="div-gpt-"]
 #@#[class^="div-gpt-ad"]
 #@#[id^="div-gpt-ad"]
-
+!
 /\/nb\/(?=[a-z]{0,9}[A-Z])[a-zA-Z]{10}\.js/$script,~third-party,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
 /^https:\/\/[a-z]{7,16}\.(?:buzz|com?|lol|one|xyz)\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,match-case,domain=~edu|~gov|~jp
@@ -1477,7 +1477,7 @@ _spot_id=*&zone_id=$script,~third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,third-party,match-case
-
+!
 ! ★ ---- Adblock Warning Removal List (Optimized)
 !
 /adb-watch.
@@ -1485,11 +1485,15 @@ _spot_id=*&zone_id=$script,~third-party
 /deadblocker/*
 /mod_ablockdetector/*
 /npsblocker/js/ads.
+!
 @@/adsbygoogle.js$script,domain=arabiaweather.com
+!
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=shahid4u1.vip|elktob.online
 @@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
+!
+!
 kimo.ma##.adb
 azrotv.com##.adbn-wrap
 freestore.app##.adbn2-wrap2
@@ -1499,15 +1503,22 @@ okanime.tv##.jconfirm
 fctvhd.com##.mw-adblock
 4algeria.com##.xenOverlay
 azrotv.com##div[id^="laoad_Adb"]
+!
+!
 @@||ency-educ.com^$generichide
 @@||shahid.mbc.net^$generichide
 @@||yacine-app.com^$generichide
+!
 bouweenpc.nl###header-banner
 koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
+!
+! General block
 /adblock-img.
 /adsmatcher-anti-adblock/*
 /arlinablock.js
+! General hide
 ##.main_adbalert
+! Specific block
 ||baeldung.com/*/library/dist/js/ad-recovery.min.js
 ||corrosif.science^$domain=filerev.cc|pencurimovie.pw
 ||rockradio.com^*/blockadblock-$script,domain=rockradio.com
@@ -1517,8 +1528,10 @@ koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
 ||tristoshink.online/libs/check.js
 ||venea.net/web/ab_message?
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
+! Third-party servers
 ||content-settings.com^$third-party
 ||site-config.com^$third-party
+! Admiral antiadb
 ||2znp09oa.com^$third-party
 ||4jnzhl0d0.com^$third-party
 ||5mcwl.pw^$third-party
@@ -2996,6 +3009,7 @@ koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
 ||zestycrime.com^$third-party
 ||zippywind.com^$third-party
 ||zlp6s.pw^$third-party
+! Specific hide
 llifle.com###ad_blocker_found
 flightradar24.com###bottomRightPanel
 audiotag.info###dclaim
@@ -3034,16 +3048,21 @@ playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px; 
 byzoo.org,videobug.net##div[style^="position: absolute; width: 300px;"]
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 homerun.re,strikeout.co,vipbox.sx,vipleague.ch,vipleague.co,vipleague.is,vipleague.me##span[id][style] > div[id]:first-child:last-child
+! NSFW
 redtube.com###as_131
 redtube.com###slidePanelContainerAB
 redtube.com##.qb
 shadbase.com##img[alt="adblock"]
+! Firstparty whitelist
 @@||ankrzkz.sbs/js/boxad.js?$script,~third-party
+! Thirdparty whitelist
 @@||alwingulla.com/88/tag.min.js$domain=darkino.online
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
+! Generichide
 @@||darkino.online^$generichide
 @@||docs.w3cub.com^$generichide
 @@||www.ifon.ca^$generichide
+!
 -adblock-notice-
 -adblock-notice/*
 /abb-msg.js
@@ -3092,6 +3111,7 @@ shadbase.com##img[alt="adblock"]
 /SvgAdblockDetected/*
 _adblocker_detected
 _adblock_killer.
+!
 ||bdgest.com/js/site.js?
 ||bleachmx.fr/wp-content/plugins/yeptmixnsykgrb/bjns-fcknj.js
 ||cmath.fr/images/fond2.gif
@@ -3106,9 +3126,11 @@ _adblock_killer.
 ||nrj.fr/nrj?Page=/rg.fake&
 ||sdefx.cloud/js/acheck.js
 ||skyrock.net/img/*/adblock/
+!
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
+!
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
 @@||ausujet.com/skins/common/ads.js
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
@@ -3145,6 +3167,7 @@ _adblock_killer.
 @@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
 @@||wamiz.com/css/ads.css
 @@||zagaz.com/img/blogads.css
+!
 ###aabl-container
 ###adbcontainer-popup
 ###adblock-honeypot
@@ -3200,6 +3223,7 @@ _adblock_killer.
 ##adblock-detect
 ##adblock-modal-component
 ##adblocker
+!
 nautiljon.com###cmsg
 wikihow.com###contribute_footer
 iphonesoft.fr,iphonetweak.fr###msgUser
@@ -3224,7 +3248,9 @@ forumdz.com##body .breadcrumb + center > [color="red"] > b
 forum.pcastuces.com##div > [src] + [id] + [class][style^="display: block;"]
 closermag.fr##div[id^="detection-block"]
 bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##div[style^="background:#444;"]
+!
 #@##adblocktest
+!
 fstore.biz#@##adblockinfo
 dz-android.com,freeiphone.fr,hommedumatch.fr,jetetroll.com,testious.com#@##adsense
 debrideurstream.fr#@##pubdirecte
@@ -3234,10 +3260,13 @@ hypebeast.com,hypebeast.kr#@#.ad-blocked
 forum.virtualdjing.com#@#.adFrame
 japscan.lol#@#.ad_slot
 comptoir-info.com#@#.textad
+!
 @@||jeux.meteocity.com^$generichide
+!
 ##.diysdk_webServices_banners1und1MainContent
 usgang.ch###rectangle-wrapper
 ||jappy.tv/i/wrbng/abb.png
+!
 patrioty.org.ua###ad_pu_modal
 i.factor.ua###adb-info
 sanstv.ru###adblock
@@ -3450,6 +3479,5 @@ bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
 ||rockstargame.su/adb_script$script
 ||rusnext.ru/advar.js$script
 ||shellcat.ru^$third-party
-||stroi-help.ru/forum/script_new.js
 ||vazhno.ru/cdn-cgi/apps/head/*.js
 ||vsthouse.ru/a-detector/
