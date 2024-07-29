@@ -1,6 +1,6 @@
 ! [Adblock Plus 2.0]
 ! Title: ☠️ My User Rules
-! Version: 20240709T0500
+! Version: 20240729T0500
 
 ! Testing
 |stun://
