@@ -1,5 +1,5 @@
 # Title: 🔒 InviZible Pro DNS Rebinding Protection iPs
-# Version: 20240104T0130
+# Version: 20240819T0700
 # Description: InviZible Pro's DNSCrypt feature can perform DNS rebinding protection with its IP Blacklist option. First download this list and then use the 'Import iP Blacklist' feature located at the DNSCrypt settings.
 # Sources: https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Filters#dns-rebinding-protection
 
