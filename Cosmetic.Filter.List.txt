@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20240512T0630
+! Version: 20240830T0130
 
 ! Test
 ##.adv-cat-
@@ -158,6 +158,10 @@ xhdporno.name##.promo
 m.tg777.*##.promotion-game
 m.tg777.*##.ng-star-inserted.promotion-game-list > .close.switch
 m.tg777.*##.ng-star-inserted > app-promotion-game
+
+! 2024-08-30 https://porndish.com
+porndish.com##a[href$="www.porndishcams.com/"]
+porndish.com##a[href$="www.porndudecams.com/"]
 
 www.xfreehd.com##.visible-sm.visible-xs.center > div
 www.xfreehd.com##.indexMiddleX0
