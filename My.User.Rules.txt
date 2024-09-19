@@ -1,6 +1,6 @@
 ! [Adblock Plus 2.0]
 ! Title: ☠️ My User Rules
-! Version: 20240729T0500
+! Version: 20240919T1725
 
 ! Testing
 |stun://
@@ -565,7 +565,7 @@ savelinks.me###adbox,#banner_ad,a[href*='wowmasti.com']
 /popup3.$all
 /popup_ad.$all,domain=~webopedia.com
 /popup_code.$all
-/popupads.$all,domain=~githubusercontent.com/hagezi/dns-blocklists/main/*/popupads
+/popupads.$all,domain=~github.com/hagezi/*|githubusercontent.com/hagezi/*
 /popupdfp.$all
 /popuplog/*$all
 /popupunder.$all
