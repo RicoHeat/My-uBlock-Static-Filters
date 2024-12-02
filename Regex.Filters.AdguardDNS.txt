@@ -1,8 +1,8 @@
 # Title: Regex list for Adguard DNS
-# Version: 20241012T1000
+# Version: 20241202T0930
 
 # [bogachenko's DNS Blacklist]
-/^(.+[_.-])?ad[sxv]?[_.-]/
+/^(.+[_.-])?ad[sxv]?[_.-]/$denyallow=ad-block.dns.adguard.com
 /^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?[_.-]/
 /^(.+[_.-])?ajx?[1-9]{3,4}\.(bid|online|xyz)$/
 /^(.+[_.-])?analy([\W\w]+)?([\d]+)?[_.-]/
