@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 🔘 Chromium Ads Detection
-! Version: 20241008V9.52.0
+! Version: 20241203V9.53.0
 ! Source: https://github.com/chromium/chromium-ads-detection/
 
 @@||icloud.com^$generichide
@@ -16,7 +16,6 @@ _468_60.
 ||adrecover.com^$third-party
 ||pemsrv.com^
 ||mnaspm.com^
-.ar/ads/
 @@||www.google.*/search?$generichide
 @@||mysmth.net/nForum/*/ADAgent_$~third-party
 @@||js.assemblyexchange.com/wana.$domain=worldstar.com
@@ -34,7 +33,6 @@ _468_60.
 @@||files.slack.com^$image,~third-party
 @@||contacts.google.com^$generichide
 ||admitad-connect.com^
-/300-250-
 @@||cloudfront.net/js/common/invoke.js
 /300-250.
 ||innity.com^$third-party
@@ -51,7 +49,6 @@ _468_60.
 ||dianomi.com^$third-party
 ||popads.net^
 ||linkslot.ru^$third-party
-||gloaphoo.net^
 /adimage.$script,image,stylesheet
 /468_60.
 ||quora.com/ads/
@@ -62,9 +59,9 @@ _468_60.
 @@||government-and-constitution.org/images/presidential-seal-300-250.gif$image,~third-party
 ||bngdin.com^
 ||instreamvideo.ru^$third-party
-@@||cdn.bidder.dev/clients/$script,domain=forces.net
 @@||yibada.com^$generichide
 @@||pinterest.com^$generichide
+@@||testufo.com^$generichide
 ||syndicatedsearch.goog^
 @@||akinator.mobi.cdn.ezoic.net^$domain=akinator.mobi
 @@||startrek.website/pictrs/image/$xmlhttprequest
@@ -79,8 +76,8 @@ _468_60.
 _728_90.
 @@||smartadserver.com/genericpost$domain=filmweb.pl
 ||deefauph.com^
-@@://192.168.$generichide
 ||avantisvideo.com^$third-party
+@@://192.168.$generichide
 ||cdntrf.com^
 /adtrack.$domain=~adtrack.yacast.fr|~adtrack.ca
 ||d3u598arehftfk.cloudfront.net^
@@ -121,15 +118,14 @@ _728_90.
 @@||duckduckgo.com/?q=$generichide
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 ||adjust.com^$third-party,script
-@@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
-||player.sendtonews.com^$third-party
+@@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
 ||metaffiliation.com^$third-party,domain=~netaffiliation.com
 @@||browserbench.org^$generichide
 @@||googleadservices.com/pagead/conversion.js$domain=ncsoft.jp
 ||canstrm.com^
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=sudokugame.org
-||myvideos.club/api/
+||5ea36e0eb5.com^
 ://banner.$third-party
 @@||ads.finance^$popup
 @@||wikinews.org^$generichide
@@ -140,6 +136,7 @@ _728_90.
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 ||bilsyndication.com^
 /wp-content/uploads/useful_banner_manager_banners/*
+||990828ab3d.com^
 ||pushprofit.net^
 ||deehalig.net^
 ||adnxs.com^
@@ -153,6 +150,7 @@ _728_90.
 @@||thepiratebay.*/static/js/details.js$domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
 ||fresh8.co^
+||cdntechone.com^
 ||d22xmn10vbouk4.cloudfront.net^
 @@||cloud.google.com^$generichide
 ||purpleads.io^
@@ -164,7 +162,7 @@ _728_90.
 ||rlcdn.com^
 ||rqtrk.eu^
 ||adapex.io^$third-party
-||sbs-ad.com^$third-party
+||ptwmcd.com^
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 ||ayads.co^
 ://pt.*?psid=$third-party
@@ -172,6 +170,7 @@ _728_90.
 ||smac-ad.com^$third-party
 ||playoncenter.com^$third-party
 ||highratecpm.com^
+||adrta.com^
 @@||web.basemark.com^$generichide
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=si.com
 ||groovinads.com^$third-party
@@ -181,6 +180,7 @@ _728_90.
 ||lycos.com/catman/
 ||flashb.id^
 ||browsiprod.com^
+||truoptik.com^
 /plugins/wp125/*$other,script,image,object,xmlhttprequest,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle
 @@||jobs.bg/front_job_search.php$~third-party
 @@||bauersecure.com/dist/js/prebid/$domain=carmagazine.co.uk
@@ -210,6 +210,7 @@ _728_90.
 @@||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js?$script,domain=wunderground.com
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|bestiefy.com|blastingnews.com|bloomberg.com|chromatographyonline.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|euronews.com|filmweb.pl|formularywatch.com|games.coolgames.com|gearpatrol.com|journaldequebec.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|olx.pl|physicianspractice.com|repretel.com|spiegel.de|standard.co.uk|telsu.fi|theta.tv|weather.com
 @@||cloud.mail.ru^$image,~third-party
+||2497may2024.com^
 ||videoroll.net^$third-party
 @@||promo.com/embed/$subdocument,third-party
 ://banners.$third-party
@@ -218,7 +219,6 @@ _728_90.
 ||ust-ad.com^
 ||r2b2.io^$third-party
 @@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
-||cdn.insurads.com^
 ||yieldlab.net^
 ||inter1ads.com^
 ||bidder.criteo.com^
@@ -234,6 +234,7 @@ _728_90.
 /160x600.
 @@||radiotimes.com/static/advertising/$script,~third-party
 @@||music.amazon.$generichide
+@@||kabumap.com/servlets/kabumap/html/common/img/ad/$~third-party
 @@||infotel.ca/images/ads/$image,~third-party
 ||eadsrv.com^$third-party
 /adverts/*$other,script,image,stylesheet,object,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle
@@ -243,17 +244,19 @@ _728_90.
 ||exitbee.com^$third-party
 ||advertica-cdn2.com^
 ||redintelligence.net^$third-party
+||clixtrac.com^$third-party
 ||adlook.me^$third-party
 @@||yaytrade.com^*/chunks/pages/advert/$~third-party
-.160x600.
 ||eskimi.com^
 ||adxpremium.services^
+||amnew.net^
 ||adipolo.com^$third-party
 ||intergient.com^
 ||awin1.com/cshow.php$third-party
 @@||image.shutterstock.com^$image,domain=icons8.com
 -160x600-
 _468x60.
+@@||ads-twitter.com/oct.js$domain=ncsoft.jp
 ||libs.outbrain.com/video/$third-party
 -160x600.
 ||steepto.com^
@@ -268,7 +271,6 @@ _468x60.
 @@||meet.google.com^$generichide
 ||hpyrdr.com^
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
-@@||banner.yt^$image,domain=socialblade.com
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
 @@||s0.2mdn.net/ads/studio/Enabler.js$domain=yuukinohana.co.jp
 @@||accuweather.com/bundles/prebid.$script
@@ -287,14 +289,13 @@ _468x60.
 ||33across.com^$third-party
 ||visiblemeasures.com^
 @@||p.d.1emn.com^$script,domain=hotair.com
-||serv-selectmedia.com^
-||go.ezodn.com^
 ||wasp-182b.com^
 ||socdm.com^
 ||pubtrky.com^
 ||jwpcdn.com/player/*/googima.js
 ||cnt.my^
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
+/adsimg/*$image
 ||chaturbate.com/in/
 @@||succeedscene.com^$script
 ||bmcdn6.com^
@@ -311,7 +312,6 @@ _468x60.
 ||xoalt.com^
 /img/ad/*$other,script,image,stylesheet,object,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle,domain=~weblio.jp
 @@||ad.doubleclick.net/clk*&destinationURL=$popup
-.com/4/js/$third-party
 ||bttrack.com^
 ||snigelweb.com^$third-party
 ||bliink.io^$third-party
@@ -326,7 +326,6 @@ _468x60.
 ||visariomedia.com^
 ||ads-twitter.com^
 ||xlviiirdr.com^
-||dj2550.com^
 ||bannerboo.com^$third-party
 /didna_config.js$script
 @@||ads.pinterest.com^$popup
@@ -334,8 +333,10 @@ _468x60.
 ||4wnetwork.com^
 @@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 ||lduhtrp.net^
+://ads.$other,script,stylesheet,object,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle,domain=~ads.atmosphere.copernicus.eu|~ads.elevateplatform.co.uk|~ads.mercadolivre.com.br|~ads.colombiaonline.com|~ads.viksaffiliates.com|~ads.socialtheater.com|~caravansforsale.co.uk|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.kazakh-zerno.net|~ads.adstream.com.ro|~ads.mojagazetka.com|~ads.studyplus.co.jp|~ads.8designers.com|~ads.bestprints.biz|~ads.scotiabank.com|~ads.cafebazaar.ir|~ads.instacart.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.pinterest.com|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.smartnews.com|~ads.us.tiktok.com|~seriouswheels.com|~ads.bikepump.com|~ads.doordash.com|~ads.jiosaavn.com|~ads.listonic.com|~ads.rohlik.group|~ads.safi-gmbh.ch|~ads.shopee.co.th|~ads.snapchat.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.harvard.edu|~ads.kaipoke.biz|~ads.luarmor.net|~ads.msstate.edu|~ads.spotify.com|~ads.taboola.com|~ads.twitter.com|~badassembly.com|~ads.allegro.pl|~ads.comeon.com|~ads.google.com|~ads.gurkerl.at|~ads.magalu.com|~ads.nipr.ac.jp|~ads.selfip.com|~ads.tiktok.com|~ads.typepad.jp|~ads.apple.com|~ads.brave.com|~ads.google.cn|~ads.knuspr.de|~ads.rohlik.cz|~ads.shopee.cn|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.watson.ch|~reempresa.org|~satmetrix.com|~ads.gree.net|~ads.kifli.hu|~ads.mgid.com|~ads.route.cc|~ads.cvut.cz|~ads.finance|~ads.amazon|~ads.mst.dk|~ads.olx.pl|~ads.vk.com|~ads.yandex|~ads.ac.uk|~ads.x.com|~ads.band|~fusac.fr|~memo2.nl|~ads.red|~ads.am|~ads.mt|~ads.nc
 /concert_ads-$script
 ||adlooxtracking.com^$third-party
+||slicedpickles.com^
 ||bannersnack.com^$third-party,domain=~bannersnack.dev
 ||poflix.com^
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
@@ -369,6 +370,7 @@ _468x60_
 ||taboola.com/vpaid/
 ||ipromote.com^$third-party
 @@||google.com/recaptcha/api.js
+||trmzum.com^
 ||springserve.com^$third-party,other,script,image,stylesheet,object,xmlhttprequest,object-subrequest,subdocument,ping,font,websocket,webtransport,webbundle
 @@||raw.githubusercontent.com^$domain=viewscreen.githubusercontent.com
 @@||gstatic.com/ads/external/images/$image,domain=support.google.com
@@ -400,6 +402,7 @@ _468x60_
 ||dtscout.com^
 @@||chaturbate.com/in/$subdocument,domain=cam-sex.net
 /300_250_
+||ppimdog.com^
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument
 @@||gstatic.com/recaptcha/
 ||betweendigital.com^$third-party
@@ -411,6 +414,7 @@ _468x60_
 @@||googleads.g.doubleclick.net/ads/preferences/$domain=googleads.g.doubleclick.net
 @@||js.assemblyexchange.com/videojs-skip-$domain=worldstar.com
 @@||disqus.com/embed/comments/$subdocument
+@@||ads-api.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
 /site=*/viewid=*/size=
 ||rtbhouse.com^$third-party
 ||pubfuture-ad.com^
@@ -439,8 +443,8 @@ _468x60_
 ||antiadblocksystems.com^
 ||segreencolumn.com^
 @@||s.ntv.io/serve/load.js$domain=titantv.com
-||xlivrdr.com^
 ||connatix.com^$third-party,domain=~olhardigital.com.br|~elnuevoherald.com|~miamiherald.com|~heraldsun.com|~deadline.com|~huffpost.com|~cheddar.tv|~lmaoden.tv|~sacbee.com|~loot.tv
+||aromaticunderstanding.pro^
 -sidebar-ad.
 @@||grapeshot.co.uk/main/channels.cgi$script,domain=telegraph.co.uk
 @@||google.com/recaptcha/enterprise.js
@@ -452,7 +456,6 @@ _468x60_
 ||spotible.com^$third-party
 ||google.com/adsense/domains/caf.js
 @@||schwab.com/scripts/appdynamic/adrum-ext.$script,~third-party
-||player.ex.co^$third-party
 /www/delivery/*$script,subdocument
 /tncms/ads/*$script
 ||push-sdk.com^
@@ -482,14 +485,15 @@ _468x60_
 ||teads.tv^
 /prebid_$third-party,script
 @@||cloudflare.com^$script,domain=rule34hentai.net
+@@||allpornstream.com/api/ads?type=thumbnail$~third-party
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||open.spotify.com^$generichide
 _728x90-
-@@||pornbraze.com^$generichide
 _728x90.
 @@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
 ||viadata.store^$third-party
 ||rcvlink.com^
+||datatechone.com^
 ||sape.ru^$third-party
 ||prf.hn^$third-party
 ||ad-nex.com^
@@ -510,6 +514,7 @@ _728x90.
 @@||bannersnack.com/banners/$document,subdocument,domain=adventcards.co.uk|charitychristmascards.org|christmascardpacks.co.uk|kingsmead.com|kingsmeadcards.co.uk|nativitycards.co.uk|printedchristmascards.co.uk
 ||yieldlove.com^$third-party
 @@||v.fwmrm.net/ad/g/1?*mtv_desktop$xmlhttprequest
+@@||dragontea.ink^$generichide
 ||b.xlineker.com^
 ||cabnnr.com^
 _300x250-
@@ -517,6 +522,7 @@ _300x250-
 @@||moatads.com^$script,domain=imsa.com|nascar.com
 @@||app.hubspot.com/api/ads/$~third-party
 _300x250.
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|ktla.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|maxpreps.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
 @@||thegay.com/assets/jwplayer-*/provider.hlsjs.js|$domain=thegay.com
 ||sub.xxx-porn-tube.com^
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp|gyutoro.com
@@ -533,7 +539,6 @@ _300x250.
 /728x90.
 /gpt.js$script,xmlhttprequest
 ||adtng.com^
-||360playvid.info^$third-party
 ||wpu.sh^
 ||innovid.com^$third-party
 @@||artnet.com^$generichide
@@ -542,7 +547,6 @@ _reklama_$domain=~youtube.com
 ||partner-ads.com^$third-party
 ||charltonmedia.com^$third-party
 ||alright.network^$third-party
-||sendwebpush.com^$third-party
 ||grsm.io^
 @@||aetv.com^$generichide
 ||modoro360.com^
@@ -569,12 +573,13 @@ _reklama_$domain=~youtube.com
 ||ad-m.asia^
 ||revenueflex.com^$third-party
 /greenoaks.gif?
-||go2speed.org^
 /banner.php$domain=~research.hchs.hc.edu.tw
 ||hpyjmp.com^
+/ceef/gdt3g0/tbt/*$third-party
 ||adfinity.pro^$third-party
-||gammaplatform.com^
+||dcbbwymp1bhlf.cloudfront.net^
 @@||ads.snapchat.com^$popup
+||admedia.com^$third-party
 ||mediavine.com^$third-party
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|chromatographyonline.com|formularywatch.com|journaldequebec.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
 _728x90_
@@ -587,8 +592,6 @@ _728x90_
 ||aniview.com^$third-party
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com
 @@||instagram.com/api/v1/ads/$~third-party,xmlhttprequest
-||thefacux.com^
-||gscontxt.net^
 @@||gomoplayer.com^$subdocument
 ||wpadmngr.com^
 @@||instawp.xyz^$generichide
@@ -598,16 +601,15 @@ _728x90_
 ||optad360.net^
 @@||github.io^$generichide
 ||deliman.net^
+||zeotap.com^
 @@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
 ||idealmedia.io^
 @@||codesandbox.io^$generichide
-||h12-media.com^
 ||pubnation.com^
 _300x250_
 ||serverbid.com^
 @@||schemeflood.com^$generichide
 @@||thegay.com/upd/*/assets/preview*.js|$domain=thegay.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|4029tv.com|bet.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|cc.com|embed.comicbook.com|gbnews.com|history.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 ||d13pxqgp3ixdbh.cloudfront.net^
 ||xxxivjmp.com^
 ||ukankingwithea.com^
@@ -618,19 +620,18 @@ _300x250_
 @@||player.ex.co/player/$script,domain=mm-watch.com|theautopian.com
 @@||ads.midwayusa.com^$popup
 @@||copilog2.jp/*/webroot/ad_img/$domain=ikkaku.net
-.com/ads?
 ||adplugg.com^$third-party
 /prebid?
-||lockerdome.com^$third-party
 ||eyeota.net^
 /728x90_
+||350c2478fb.com^
 @@||anitasrecipes.com/Content/Images/Recipes/$image,~third-party
 /RealMedia/ads/*$other,script,image,stylesheet,object,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle
 @@/api/models?$domain=tik.porn
 @@||h1g.jp/img/ad/ad_heigu.html$~third-party
+||dblks.net^$third-party
 ||adnitro.pro^$third-party
 ||doubleverify.com^$third-party
-||eunow4u.com^
 @@||tenki.jp/storage/static-images/top-ad/
 ||servw.bid^
 ||saambaa.com^$third-party
@@ -641,7 +642,6 @@ _300x250_
 ||nativery.com^$third-party
 ||crazyrocket.io^$third-party
 @@||cdn.vidoza.co/js/$script,domain=vidoza.co|vidoza.net
-||getsharedstore.com^
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com|allestoringen.be|allestoringen.nl|aussieoutages.com|canadianoutages.com|downdetector.ae|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.br|downdetector.dk|downdetector.es|downdetector.fi|downdetector.fr|downdetector.hk|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.no|downdetector.pl|downdetector.pt|downdetector.ru|downdetector.se|downdetector.sg|downdetector.tw|downdetector.web.tr|euronews.com|filmweb.pl|ictnews.org|journaldequebec.com|mediaite.com|spiegel.de|thestar.co.uk|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|yorkshirepost.co.uk
 ||googlesyndication.com/safeframe/
@@ -649,19 +649,20 @@ _300x250_
 ||admixer.net^
 ||clean.gg^
 @@||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com
+/tardisrocinante/surgeonv2.js$script
 ||fleraprt.com^
 @@||www.youtube.com^$generichide
 ||ybs2ffs7v.com^
 ||realsrv.com^
 /plugins/adsanity-$script,stylesheet
 @@||freeplayervideo.com^$subdocument
+||soumehoo.net^
 ||yceml.net^
 ||appollo-plus.com^
 /wp-bannerize/*$script,stylesheet
 ||videoo.tv^$third-party
 @@||cdn.ex.co^$domain=mm-watch.com|theautopian.com
 @@||web.telegram.org^$generichide
-||vihub.ru^
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||arukikata.com/images_ad/$image,~third-party
 @@||tradingview.com/adx/$subdocument,domain=adx.ae
@@ -670,6 +671,7 @@ _300x250_
 @@||freeride.se/img/admarket/$~third-party
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
+||srvtrck.com^
 ||google.com/pagead/1p-user-list/
 ||agency2.ru^
 ||pushnami.com^
@@ -679,6 +681,7 @@ _300x250_
 @@||z.moatads.com^$script,domain=standard.co.uk
 ||a64x.com^
 @@||publicwww.com^$generichide
+/adplayer.$script,domain=~adplayer.pro
 ||swinity.com^
 ||stickyadstv.com^
 ||onetag-sys.com^$third-party
@@ -730,7 +733,6 @@ _300x250_
 ||dotomi.com^$third-party
 @@||jsdelivr.net^*/videojs.ads.css$domain=irctc.co.in
 @@||wikiquote.org^$generichide
-||bbelements.com^$third-party
 ||suwytid.com^
 ||stackadapt.com^
 @@||doda.jp/cmn_web/img/brand/ad/ad_text_
@@ -754,13 +756,13 @@ _300x250_
 @@||ads.microsoft.com^$generichide
 ||lenmit.com^
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
-||uprimp.com^
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||google.com/recaptcha/$csp,subdocument
 ||aralego.com^$third-party
 ||borzjournal.ru^
 @@||pntrs.com/b/$image,domain=extrarebates.com
 @@||forexprostools.com^$subdocument,domain=fx-rashinban.com
+||2d1f81ac8e.com^
 @@||api.adinplay.com/libs/aiptag/pub/$domain=geotastic.net
 @@||wikiversity.org^$generichide
 @@||videosvc.ezoic.com/play?videoID=$domain=humix.com
@@ -780,7 +782,6 @@ _300x250_
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
 @@||ads.taboola.com^$popup
 ://a.ads.
-||sancdn.net^$third-party
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|tvinsider.com|washingtonexaminer.com
 ||reonews.pl^$third-party
 @@||embed.ex.co^$xmlhttprequest,domain=espncricinfo.com
@@ -798,9 +799,11 @@ _300x250_
 ||unrulymedia.com^
 ||adswizz.com^
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
+||bidclickmedia.com^
 ||rfihub.net^
 ||bbrdbr.com^
 ||technoratimedia.com^
+||adsxyz.com^
 @@||oisd.nl^$generichide
 @@||wordpress.org/plugins/$domain=wordpress.org
 ||rmhfrtnd.com^
@@ -851,6 +854,7 @@ _300x250_
 ||citydsp.com^
 ||iprom.net^
 @@||gelbooru.com^$generichide
+||creative-serving.com^
 @@||shreemaruticourier.com/banners/$~third-party
 ||hlmiq.com^
 _300x600.
@@ -904,7 +908,6 @@ _300x600.
 ||a-ads.com^
 ||cherrytv.media^$third-party
 ||wsimg.com/parking-lander/
-||45cb7b8453.com^
 ||xadsmart.com^
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
 ||alwingulla.com^
@@ -918,6 +921,7 @@ _300x600.
 ||sexad.net^$third-party
 @@||nascar.com/wp-content/themes/ndms-2023/assets/js/inc/ads/prebid8.$~third-party
 ||luxcdn.com^
+@@||g.doubleclick.net/gampad/ads?*%2Ftver.$xmlhttprequest,domain=imasdk.googleapis.com
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||banmancounselling.com/wp-content/themes/banman/
 ||netpub.media^$third-party
@@ -936,6 +940,7 @@ _300x600.
 ?adspot_$domain=~sponichi.co.jp
 _300x600_
 ||powerad.ai^
+||lemouwee.com^
 ||juicyads.me^
 @@||ad.linksynergy.com^$image,domain=extrarebates.com
 @@||gunosy.co.jp/img/ad/$image,~third-party
@@ -946,23 +951,21 @@ _300x600_
 ||sascdn.com/diff/$script,image
 ||acuityplatform.com^
 /tnt.ads.$script
+/detroitchicago/stickyfix.js$script
 ||underdog.media^
-||shoordaird.com^
+||chaseherbalpasty.com^
 ||earringsatisfiedsplice.com^
 @@||arnhemland-safaris.com/images/made/$image,~third-party
 @@||ads.emarketer.com/redirect.spark?$popup,domain=emarketer.com
-||temgthropositea.com^
 ||yieldoptimizer.com^
 @@||thepiratebay.org/static/main.js$script,~third-party
 ||prodmp.ru^
 ||connextra.com^
-://adserving.
 ||neodatagroup.com^$third-party
 ||blismedia.com^
 ||google.com/adsense/search/async-ads.js
 @@||ads.listonic.com^$popup
 ||massariuscdn.com^
-||camschat.net^
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
 ||ad-score.com^
 @@||userload.co/adpopup.js$script
@@ -983,9 +986,9 @@ _300x600_
 @@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||itv.com/itv/hserver/*/site=itv/$xmlhttprequest
 ||luyten-98c.com^
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|ktla.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
 @@||avclub.com^*/adManager.$script,~third-party
-://ads.$other,script,stylesheet,object,xmlhttprequest,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle,domain=~ads.atmosphere.copernicus.eu|~ads.elevateplatform.co.uk|~ads.mercadolivre.com.br|~ads.colombiaonline.com|~ads.viksaffiliates.com|~ads.socialtheater.com|~caravansforsale.co.uk|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.kazakh-zerno.net|~ads.adstream.com.ro|~ads.mojagazetka.com|~ads.studyplus.co.jp|~ads.8designers.com|~ads.bestprints.biz|~ads.scotiabank.com|~ads.cafebazaar.ir|~ads.instacart.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.pinterest.com|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.smartnews.com|~ads.us.tiktok.com|~seriouswheels.com|~ads.bikepump.com|~ads.doordash.com|~ads.jiosaavn.com|~ads.listonic.com|~ads.rohlik.group|~ads.safi-gmbh.ch|~ads.shopee.co.th|~ads.snapchat.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.harvard.edu|~ads.kaipoke.biz|~ads.luarmor.net|~ads.msstate.edu|~ads.spotify.com|~ads.taboola.com|~badassembly.com|~ads.allegro.pl|~ads.comeon.com|~ads.google.com|~ads.gurkerl.at|~ads.magalu.com|~ads.nipr.ac.jp|~ads.selfip.com|~ads.tiktok.com|~ads.typepad.jp|~ads.apple.com|~ads.brave.com|~ads.google.cn|~ads.knuspr.de|~ads.rohlik.cz|~ads.shopee.cn|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.watson.ch|~reempresa.org|~satmetrix.com|~ads.gree.net|~ads.kifli.hu|~ads.mgid.com|~ads.route.cc|~ads.cvut.cz|~ads.finance|~ads.amazon|~ads.mst.dk|~ads.olx.pl|~ads.vk.com|~ads.yandex|~ads.ac.uk|~ads.x.com|~ads.band|~fusac.fr|~memo2.nl|~ads.red|~ads.am|~ads.mt|~ads.nc
+/pagead/1p-user-list/*$image
+||twinrdsyn.com^
 @@||gmail.com^$generichide
 ||etargetnet.com^$third-party
 @@||sc2casts.com^$generichide
@@ -1009,12 +1012,12 @@ _300x600_
 @@||v.fwmrm.net/?$xmlhttprequest
 -housead-
 ||goomaphy.com^
-@@||ads3.xumo.com^$domain=2vnews.com|redbox.com
 @@||discord.com^$generichide
 ||digitalaudience.io^$third-party
 @@||jmedj.co.jp/files/$image,~third-party
 ||cdn.house^
 @@||tractorshed.com/photoads/upload/$~third-party
+||ofklefkian.com^
 ||digitaloceanspaces.com/woohoo/
 ||waqool.com^
 @@||ads.x.com^$popup
@@ -1022,6 +1025,7 @@ _300x600_
 /detroitchicago/boise.js$script
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 ||youradexchange.com^
+||lf8q.online^
 ||ad4989.co.kr^$third-party
 ||ad6media.fr^$third-party
 ||strossle.com^$third-party
@@ -1047,7 +1051,6 @@ _300x600_
 /adlog.php$image
 ||htlbid.com^
 ||sparteo.com^$third-party
-||surfe.pro^$third-party
 ||ktkjmp.com^
 ||adtarget.market^$third-party
 @@||up-load.io^$generichide
@@ -1061,11 +1064,13 @@ _300x600_
 @@||bihoku-minpou.co.jp/img/ad_top.jpg$~third-party
 @@||bigfishaudio.com/banners/$image,~third-party
 ||unblockia.com^$third-party
+@@||fluidplayer.com^$script,domain=rule34hentai.net
 ||js.surecart.com/v1/affiliates?
 ||jkha742.xyz^
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 ||tradedoubler.com^$third-party
+||skillsombineukdw.com^
 ||affec.tv^$third-party
 @@||ads.google.com^$popup
 ||prdredir.com^
@@ -1073,7 +1078,6 @@ _300x600_
 @@||torrindex.net/images/*.jpg$domain=thepiratebay.org
 ||ad-srv.net^
 ||postaffiliatepro.com^$third-party
-||councernedasesi.com^
 ||adskeeper.co.uk^
 ||spolecznosci.net^$third-party
 ||foremedia.net^$third-party
@@ -1094,7 +1098,6 @@ _300x600_
 @@||kotaku.com/x-kinja-static/assets/new-client/adManager.$~third-party
 ||highrevenuenetwork.com^
 @@||crystalmark.info/wp-content/uploads/sites/$image,~third-party
-@@||openai.com^$generichide
 ||tynt.com^
 ||eroterest.net^$third-party
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
@@ -1109,10 +1112,10 @@ _300x600_
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 ||openx.net^
-||conventionalsecond.pro^
 ||buzzoola.com^$third-party
 @@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
 ||profitablecreativeformat.com^
+||livejasmin.com^$third-party,domain=~awempire.com
 @@||doda.jp/cmn_web/img/brand/ad/ad_top_3.mp4
 _120x600.
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
@@ -1124,13 +1127,13 @@ _120x600.
 ||parking.godaddy.com^$third-party
 @@||adtraction.com^$image,domain=ebjudande.se
 /modules/ad/*$other,script,image,stylesheet,object,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle
-/page-links-to/dist/new-tab.js$script
 @@||payload.cargocollective.com^$image,~third-party
 @@||infotop.jp/html/ad/$image,~third-party
 ||medfoodsafety.com^
 ||juicyads.com^$third-party,script
 @@||island.lk/userfiles/image/danweem/island.gif
 ||bngprm.com^
+||srvupads.com^
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 ||cpmrevenuegate.com^
@@ -1140,7 +1143,6 @@ _120x600.
 /468-60.
 ||acscdn.com^
 /afr.php?
-/detroitchicago/vpp.gif?
 @@||uze-ads.com/ads/$~third-party
 -publicidad.
 @@||nc-myus.com/images/pub/www/uploads/merchant-logos/$image,~third-party
@@ -1153,6 +1155,7 @@ _120x600.
 @@||slack.com^$generichide
 ||seedtag.com^$third-party
 ||blurbreimbursetrombone.com^
+@@||thedailybeast.com/pf/resources/js/ads/arcads.js$~third-party
 ||pbxai.com^
 ||liqwid.net^$third-party
 /detroitchicago/tulsa.js$script
@@ -1190,6 +1193,7 @@ _120x600.
 ||sitewithg.com^
 /search/tsc.php?
 @@||ladsp.com/script-sf/$script,domain=str.toyokeizai.net
+||trafficbass.com^
 ||pubwise.io^$third-party
 ||zucks.net^
 @@||faculty.uml.edu/klevasseur/ads/
@@ -1199,7 +1203,6 @@ _120x600.
 ||rauvoaty.net^
 @@||developers.google.com^$domain=developers.google.com
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
-||rtbrenab.com^
 @@||receiveasms.com^$generichide
 /publicidad.$other,script,image,object,xmlhttprequest,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle
 ||displayvertising.com^
@@ -1221,6 +1224,7 @@ _120x600.
 ||glizauvo.net^
 @@||vms-players.minutemediaservices.com^$script,domain=si.com
 @@||googleapis.com^$script,stylesheet,domain=canyoublockit.com
+||convertexperiments.com^
 ||pro-market.net^
 ||lwgadm.com^
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
@@ -1229,7 +1233,6 @@ _120x600.
 ||adtelligent.com^
 -ads-manager/$domain=~wordpress.org
 @@||pinterest.it^$generichide
-||xlivesex.com^
 ||innity.net^
 @@||explainxkcd.com/wiki/images/$image,~third-party
 ||wtg-ads.com^
@@ -1240,6 +1243,7 @@ _120x600.
 ||ntv.io^
 /300x250_
 @@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
+||goaserv.com^
 ||ads.sportradar.com^
 ||zimg.jp^
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
@@ -1248,13 +1252,12 @@ _120x600.
 ||sda.seesaa.jp^
 -300x250_
 ||ethicalads.io^$third-party
-||adition.com^$third-party
 ||awltovhc.com^
+||adition.com^$third-party
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 ||mpsuadv.ru^
 ||journeymv.com^$third-party
 ||feedads.feedblitz.com^
-||agqoshfujku.com^
 ||richaudience.com^$third-party
 @@||catchapp.net/ad/img/$~third-party
 ||ssm.codes^$third-party
@@ -1269,7 +1272,6 @@ _120x600.
 @@||hwcdn.net^$domain=canyoublockit.com
 /ad/img/*$image,domain=~eki-net.com|~jiji.com
 @@||sciencechannel.com^$generichide
-/beardeddragon/gilamonster.js$script
 @@||adv.asahi.com^$popup
 @@||github.com^$generichide
 ||cookieless-data.com^
@@ -1280,7 +1282,6 @@ _120x600.
 ||ad.gt^
 ||adacado.com^$third-party
 @@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js$domain=yahoo.co.jp
-_prebid.js
 @@||optout.networkadvertising.org^$document
 ||marphezis.com^
 @@||g.doubleclick.net/gampad/ads?env=$xmlhttprequest,domain=wunderground.com
@@ -1288,12 +1289,14 @@ _prebid.js
 ||vidoomy.com^$third-party
 @@||google.com/adsense/search/ads.js$domain=news.biglobe.ne.jp
 ||fireworkadservices1.com^$third-party
+||axonix.com^
 ||genieedmp.com^
 ||sonobi.com^$third-party
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
 @@||go.xlirdr.com/api/models/vast$xmlhttprequest
 ||nichedlinks.com^
+||adtrafficquality.google^$third-party
 ||impact-ad.jp^$third-party
 @@||autotrader.co.uk^*/advert$~third-party
 @@||g.doubleclick.net/gampad/ads?*&prev_scp=kw%3Diqdspiegel%2Cdigtransform%2Ciqadtile4%2$xmlhttprequest,domain=spiegel.de
@@ -1303,7 +1306,6 @@ _prebid.js
 ://ad1.
 ||adm.shinobi.jp^$third-party
 @@||apple.com^$generichide
-||cdn.007moms.com^
 ||tapioni.com^
 /prebid8.$script
 @@||notion.so^$generichide
@@ -1312,11 +1314,10 @@ _prebid.js
 @@||tab.gladly.io/newtab/|$document,subdocument
 ||shareasale.com/image/$third-party
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|creditcard.com.au|debitcards.com.au|finder.com|finder.com.au|findershopping.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be|whatphone.com.au
-||interworksmedia.co.kr^$third-party
 @@||synchrobox.adswizz.com/register2.php$script,domain=player.amperwave.net|tunein.com
 @@||ads-i.org/images/ads3.jpg$~third-party
 /adserver3.$script,image
-||psoostelrupt.net^
+||mainadv.com^
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||dashboard.mgid.com^$popup
 ||alfasense.com^
@@ -1331,7 +1332,6 @@ _prebid.js
 ||unibots.in^$third-party
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||ads.shopee.*/$popup
-||redrotou.net^
 @@://localhost:$generichide
 ||highcpmcreativeformat.com^
 ||boomads.com^
@@ -1344,6 +1344,7 @@ _prebid.js
 ||jivox.com^$third-party
 ||infolinks.com^$third-party
 ||readpeak.com^$third-party
+||oritooep.win^
 @@||figma.com^$generichide
 /728-90.
 ||adline.com^$third-party
@@ -1367,7 +1368,6 @@ _prebid.js
 ||clickmon.co.kr^$third-party
 ||clickintext.net^$third-party
 ||clickcertain.com^$third-party
-/ad_banner/*$image,domain=~ccf.com.cn
 ||adgebra.co.in^
 ||api168168.com^
 @@||getjad.io/library/$script,domain=allocine.fr
@@ -1386,6 +1386,7 @@ _prebid.js
 @@||bbc.gscontxt.net^$script,domain=bbc.com
 ||app.clickfunnels.com^$other,script,image,object,xmlhttprequest,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle
 @@||thepiratebay.org/*.php$csp,~third-party
+||natsdk.com^
 ||diclotrans.com^
 ||bookmsg.com^
 ||4dsply.com^$third-party
@@ -1395,10 +1396,10 @@ _prebid.js
 ||minutemedia-prebid.com^$third-party
 ||greeter.me^
 ||partner.googleadservices.com^$third-party
-||caltat.com^$third-party
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
 @@||jwpcdn.com/player/plugins/googima/$script,domain=iheart.com|video.vice.com
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
+@@||ads-twitter.com/uwt.js$domain=aussiebum.com|factory.pixiv.net
 ||adquery.io^
 ||adsafeprotected.com^
 @@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
@@ -1413,12 +1414,14 @@ _prebid.js
 @@||biz.yelp.com/ads?$popup
 ||revcontent.com^
 ||bujerdaz.com^
+||notix.io^
 ||live.primis.tech^$third-party
 ||c2shb.pubgw.yahoo.com^
 @@||wikidata.org^$generichide
 ||mixpo.com^
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||brighteon.com^$generichide
+||vistaarts.site^
 ||brainlyads.com^
 ||adtraction.com^
 @@||material.io^$generichide
@@ -1430,8 +1433,8 @@ _prebid.js
 ||pagead2.googlesyndication.com^
 ||adhigh.net^$third-party
 _160x600.
+@@||ads3.xumo.com^$domain=2vnews.com
 @@||htlbid.com^*/htlbid.js$domain=hodinkee.com
-||highcpmrevenuegate.com^
 @@||fonts.googleapis.com^$stylesheet,domain=up-4ever.net
 @@||apkmirror.com^$generichide
 .ca/ads/
@@ -1440,6 +1443,7 @@ _160x600.
 @@||pub.doubleverify.com/dvtag/$script,domain=time.com
 ||crsspxl.com^
 ||intellipopup.com^
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|4029tv.com|bet.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|cc.com|clickorlando.com|embed.comicbook.com|gbnews.com|history.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 @@||ads.tiktok.com^$popup
 /publicidad/*$other,script,image,stylesheet,object,object-subrequest,subdocument,ping,media,font,websocket,webtransport,webbundle
 @@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
@@ -1452,7 +1456,9 @@ _160x600.
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 ||jads.co^
 @@||doubleclick.net/clk;$popup,domain=3g.co.uk|4g.co.uk|hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com
+/detroitchicago/reportads.js$script
 ||tremorhub.com^
+||mahimeta.com^$third-party
 @@||destinationamerica.com^$generichide
 @@||cdn.jsdelivr.net/npm/*/videojs-contrib-ads.min.js$domain=24ur.com
 @@||codepen.io^$generichide
@@ -1461,7 +1467,6 @@ _160x600.
 @@||paramountplus.com^$generichide
 @@||bbc.co.uk^*/adverts.js
 -468x60-
-||1b384556ae.com^
 @@||wikibooks.org^$generichide
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 -468x60.
@@ -1489,6 +1494,7 @@ _160x600.
 ||exdynsrv.com^
 .ads.css
 @@||tv.youtube.com^$generichide
+||graigloapikraft.net^
 @@||tcbk.com/application/files/4316/7521/1922/Q1-23-CD-Promo-Banner-Ad.png^$~third-party
 @@||instapundit.com^$generichide
 ||21wiz.com^
@@ -1502,11 +1508,12 @@ _160x600.
 ||advertserve.com^$third-party
 /parsonsmaize/mulvane.js$script
 ||multiview.com^$third-party
+@@||chatgpt.com^$generichide
 @@||fingerprintjs.com^$generichide
 @@||banner-hiroba.com/wp-content/uploads/$image,~third-party
 ://ads2.
 ||ibillboard.com^$third-party
-||bestcontentfund.top^
+||efef322148.com^
 @@||aone-soft.com/style/images/ad2.jpg
 @@||webbtelescope.org/files/live/sites/webb/$image,~third-party
 ||stunning-lift.com^
@@ -1530,13 +1537,14 @@ _160x600_
 ||system-notify.app^
 @@||pinterest.ph^$generichide
 @@://127.0.0.1$generichide
+@@||ads.atmosphere.copernicus.eu^$popup
 ||pubtm.com^
 @@||maxstream.video^$generichide
 @@||connect.facebook.net^$script,domain=up-4ever.net
 ||omnitagjs.com^
-@@||msubload.com/sub/$xmlhttprequest
 ||grabo.bg^$third-party
 @@||forum.miuiturkiye.net/konu/reklam.$~third-party,xmlhttprequest
+@@||morphic.sh^$generichide
 ||grmtas.com^
 @@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
 ||clmbtech.com^
@@ -1547,6 +1555,7 @@ _160x600_
 @@||nebula.tv^$generichide
 @@||archive.org/BookReader/$image,~third-party,xmlhttprequest
 ||r2b2.cz^$third-party
+||jullyambery.net^
 ||3lift.com^
 ||adsco.re^
 @@||tiktok.com^$generichide
@@ -1574,12 +1583,10 @@ _160x600_
 @@||ads.vk.com^$popup
 /ad/image/*$image
 ||sasinator.realestate.com.au^
-||ofleafeona.com^
 -prebid/
 ||o333o.com^
 ||monetixads.com^$third-party
 ||ftjcfx.com^
-||bulrev.com^
 @@://localhost/$generichide
 @@||warpwire.com/AD/
 @@||ui.ads.microsoft.com^$~third-party
@@ -1625,6 +1632,7 @@ _160x600_
 ||zendplace.pro^
 ||bngwlt.com^
 ||glssp.net^
+||distinctpiece.pro^
 @@||cdpn.io^$generichide
 ||vntsm.com^
 @@||cbs.com^$generichide
@@ -1645,7 +1653,6 @@ _160x600_
 /plugins/thirstyaffiliates/*$script,stylesheet
 @@||pinterest.de^$generichide
 ||dpmsrv.com^
-||domfehu.com^
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
 ||trafficdok.com^
