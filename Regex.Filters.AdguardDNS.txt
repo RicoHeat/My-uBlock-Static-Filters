@@ -1,5 +1,5 @@
 # Title: Regex list for Adguard DNS
-# Version: 20241202T0930
+# Version: 20241202T1020
 
 # [bogachenko's DNS Blacklist]
 /^(.+[_.-])?ad[sxv]?[_.-]/$denyallow=ad-block.dns.adguard.com
@@ -16,7 +16,7 @@
 /^(.+[_.-])?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
 /^(.+[_.-])?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-])?sentry([\d]+)?[_.-]/
-/^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/
+/^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/$denyallow=incoming.telemetry.mozilla.org
 /^(.+[_.-])?v(ast|paid)([\d]+)?[_.-]/
 /^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
 /^[rt]s?[0-3]?\.mail\.ru$/
