@@ -1,17 +1,17 @@
 [Adblock Plus 3.4]
 ! Title: 🧪 Testing List (Regex Popup)
-! Version: 20250607T1150
+! Version: 20250615T0920
 
-/\.com\/clicks?\/[A-Za-z0-9=]{120,}/$popup
-/\/browser\/show\?i=[a-z0-9]{16}$/$popup
-/\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$popup
-/\/redirect\?tid=\d{6}/$popup
-/\/v2\/a\/pop\/\d{6}\?subid=https?:\/\//$popup
-/\/\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}$/$popup
-/^https?:\/\/syndication\.[a-z]{4,8}srv\.com\/splash\.php\?/$popup
-/^https?:\/\/[a-z0-9]{7,40}\.com\/([^\s]{350,400}|[a-z0-9]{8,10}(\?[a-z]{3,5}=.*)?|[a-z?]{13,}=[^\s]+)[?&]key=[a-f0-9]{32}/$popup
-/^https?:\/\/.*\/([?&][uo]=[a-z0-9]{7}){2}&t=.*/$popup
-/^https?:\/\/[a-z]{7,15}\.top\/[a-zA-Z0-9]{12}$/$popup
-/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$popup
-|http*:*/links/popad|$popup
-|http*:*/ngo.html?lu=$popup
+/\.com\/clicks?\/[A-Za-z0-9=]{120,}/$document,popup
+/\/browser\/show\?i=[a-z0-9]{16}$/$document,popup
+/\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$document,popup
+/\/redirect\?tid=\d{6}/$document,popup
+/\/v2\/a\/pop\/\d{6}\?subid=https?:\/\//$document,popup
+/\/\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}$/$document,popup
+/^https?:\/\/syndication\.[a-z]{4,8}srv\.com\/splash\.php\?/$document,popup
+/^https?:\/\/[a-z0-9]{7,40}\.com\/([^\s]{350,400}|[a-z0-9]{8,10}(\?[a-z]{3,5}=.*)?|[a-z?]{13,}=[^\s]+)[?&]key=[a-f0-9]{32}/$document,popup
+/^https?:\/\/.*\/([?&][uo]=[a-z0-9]{7}){2}&t=.*/$document,popup
+/^https?:\/\/[a-z]{7,15}\.top\/[a-zA-Z0-9]{12}$/$document,popup
+/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$document,popup
+|http*:*/links/popad|$document,popup
+|http*:*/ngo.html?lu=$document,popup
