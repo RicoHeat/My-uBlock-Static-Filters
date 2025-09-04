@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 💋 Cosmetic Filter List
-! Version: 20241230T1440
+! Version: 20250904T1340
 
 ! Test
 ##.adv-cat-
@@ -180,13 +180,9 @@ m.tg777.*##.ng-star-inserted.promotion-game-list > .close.switch
 m.tg777.*##.ng-star-inserted > app-promotion-game
 
 ! 2024-08-30 https://porndish.com
-porndish.com##a[href$="www.porndishcams.com/"]
 porndish.com##a[href$="www.porndudecams.com/"]
-porndish.com##aside[id="adace_ads_widget-60016"][class="widget g1-card g1-card-l g1-card-solid widget_adace_ads_widget"]
-porndish.com##aside[id="adace_ads_widget-60018"][class="widget widget_adace_ads_widget"]
-porndish.com##a[href$="go.rmhfrtnd.com?campaignId=adlink&creativeId=cams&sourceId=banner&action=showTokensGiveawayModalDirectLink&userId=ac3092f464e90cc52e1aa4c8a8e1abcc8b886cf114c64d371cac9b79347c928c"][target="_blank"][rel="nofollow"]
-porndish.com##img[class=" lazyloaded"][src="https://www.porndish.com/wp-content/uploads/button_live-sex-1.png"][data-src="https://www.porndish.com/wp-content/uploads/button_live-sex-1.png"][width="80px"][height="32px"][title="Porndish Live Sex Cams"][alt="Porndish Live Sex Cams"]
-!
+porndish.com##img[alt="HD PornDish Cams"]
+porndish.com##img[alt="Live Sex Cams"]
 packsporn.com,pahaplayers.click,pahe.*,palimas.org,pandafiles.com,papahd.club,papahd1.xyz,password69.com,pastemytxt.com,payskip.org,pctfenix.*,pctnew.*,peeplink.in,peliculas24.*,peliculasmx.net,pelisplus.*,pervertgirlsvideos.com,pervyvideos.com,phim12h.com,picdollar.com,pickteenz.com,pics4you.net,picsxxxporn.com,pinayscandalz.com,pinkueiga.net,piratebay.*,piratefast.xyz,piratehaven.xyz,pirateiro.com,pirlotvonline.org,playtube.co.za,plugintorrent.com,plyjam.*,plylive.*,plyvdo.*,pmvzone.com,porndish.com,pornez.net,pornfetishbdsm.com,pornfits.com,pornhd720p.com,pornhoarder.*,pornobr.club,pornobr.ninja,pornodominicano.net,pornofaps.com,pornoflux.com,pornotorrent.com.br,pornredit.com,pornstarsyfamosas.es,pornstreams.co,porntn.com,pornxbit.com,pornxday.com,portaldasnovinhas.shop,portugues-fcr.blogspot.com,poscishd.online,poscitesch.com,poseyoung.com,pover.org,prbay.*,projectfreetv.*,proxybit.*,proxyninja.org,psarips.*,pubfilmz.com,publicsexamateurs.com,punanihub.com,putlocker5movies.org,pxxbay.com##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP/)
 packsporn.com,pahaplayers.click,pahe.*,palimas.org,pandafiles.com,papahd.club,papahd1.xyz,password69.com,pastemytxt.com,payskip.org,pctfenix.*,pctnew.*,peeplink.in,peliculas24.*,peliculasmx.net,pelisplus.*,pervertgirlsvideos.com,pervyvideos.com,phim12h.com,picdollar.com,pickteenz.com,pics4you.net,picsxxxporn.com,pinayscandalz.com,pinkueiga.net,piratebay.*,piratefast.xyz,piratehaven.xyz,pirateiro.com,pirlotvonline.org,playtube.co.za,plugintorrent.com,plyjam.*,plylive.*,plyvdo.*,pmvzone.com,porndish.com,pornez.net,pornfetishbdsm.com,pornfits.com,pornhd720p.com,pornhoarder.*,pornobr.club,pornobr.ninja,pornodominicano.net,pornofaps.com,pornoflux.com,pornotorrent.com.br,pornredit.com,pornstarsyfamosas.es,pornstreams.co,porntn.com,pornxbit.com,pornxday.com,portaldasnovinhas.shop,portugues-fcr.blogspot.com,poscishd.online,poscitesch.com,poseyoung.com,pover.org,prbay.*,projectfreetv.*,proxybit.*,proxyninja.org,psarips.*,pubfilmz.com,publicsexamateurs.com,punanihub.com,putlocker5movies.org,pxxbay.com##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
 
